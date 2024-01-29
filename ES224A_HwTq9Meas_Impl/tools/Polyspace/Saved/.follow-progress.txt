@@ -1,0 +1,10 @@
+# UTC offset 18000
+# Post Verification
+Compile : 00:00:06.59
+Intermediate : 00:00:08.11
+Level0 : 00:00:18.99
+Level1 : 00:00:10.93
+Level2 : 00:00:01.57
+Level3 : 00:00:01.59
+Level4 : 00:00:01.32
+Post Verification : 00:00:04.2

@@ -1,0 +1,5 @@
+03:57:19,556 [main] INFO  com.vector.cfg.console.app.internal.Log4JConfigurator  - Logfile: C:\Component\SF107A_MotRplCoggCmd_Impl\tools\.\DVCfgCmd.log
+03:57:23,489 [main] INFO  com.vector.cfg.console.app.internal.generator.CfgGeneratorConsoleAppl  - > Loading project.
+03:57:29,147 [main] INFO  com.vector.cfg.console.app.internal.generator.CfgGeneratorConsoleAppl  - > Wait until validation is finished... 
+03:57:30,534 [BackgroundValidation-Thread-0] INFO  com.vector.cfg.console.app.internal.generator.CfgGeneratorConsoleAppl  - Validation finished.
+03:57:30,584 [main] INFO  com.vector.cfg.console.app.internal.generator.CfgGeneratorConsoleAppl  - Validation results:

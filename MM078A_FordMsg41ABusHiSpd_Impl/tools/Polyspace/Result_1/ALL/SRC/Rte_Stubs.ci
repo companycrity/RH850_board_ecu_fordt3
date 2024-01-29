@@ -1,0 +1,4050 @@
+# 1 "C:\\Component\\MM078A_FordMsg41ABusHiSpd_Impl\\tools\\local\\generate\\Rte_Stubs.c"
+# 1 "__polyspace__internal_definitions.h" 1
+/*
+ *
+ * This file and its contents are the property of The MathWorks, Inc.
+ * 
+ * This file contains confidential proprietary information.
+ * The reproduction, distribution, utilization or the communication
+ * of this file or any part thereof is strictly prohibited.
+ * Offenders will be held liable for the payment of damages.
+ *
+ * Copyright 1999-2012 The MathWorks, Inc.
+ *
+ */
+
+/*
+  Polyspace internal definitions.
+
+  __polyspace__internal_definitions.h
+
+  Those declarations will be inserted on front of each preprocessed file, after the preprocessing,
+  to prevent any change (with -D) of the types defined here. (C/8361)
+
+  WARNING: as this file will not be preprocessed, it must not contain any preprocessing directive.
+*/
+
+/* Predeclare errno. Macros that would define errno will be deactivated */
+extern int errno;
+
+/*
+ * Simulate Infinity values : HUGE_VAL/ HUGE_VALF/ HUGE_VALL
+ */
+
+extern volatile long double HUGE_VAL;
+extern volatile long double HUGE_VALF;
+extern volatile long double HUGE_VALL;
+
+/*
+ * FD_ISSET macro defined as stubbed function (see macros_to_deactivate.txt
+ * and __polyspace__stdstubs.c). The 2nd argument is defined with 'void *' 
+ * instead of 'fd_set *' which needs including non-ANSI C specified file 
+ * <sys/time.h> (in fact, the conversion from 'fd_set *' to 'void *' is
+ * implicite for all calls to FD_ISSET).
+ */
+extern int FD_ISSET(int fd, const void *fdset);
+
+/*
+ * Internal polyspace variable declarations.
+*/
+extern void **__polyspace_vararg;
+extern int __polyspace_nb_varargs;
+# 1 "C:\\Program Files\\MATLAB\\R2013b\\polyspace\\verifier\\cxx\\cinclude\\__polyspace__std_decls.h" 1
+/* Copyright 1999-2013 The MathWorks, Inc. */
+
+/* 
+   Polyspace standard declarations.
+
+   polyspace__std_decls.h
+
+   Include those declarations at the beginning of each preprocessed file.
+
+   WARNING: the declarations below must refer only to standard types 
+   as we do not want to include possibly useless standard include files.
+   For example, we do not refer to size_t in declaration of malloc.
+*/
+
+
+
+
+/* Include the macro for assert */
+# 1 "C:\\Program Files\\MATLAB\\R2013b\\polyspace\\verifier\\cxx\\cinclude\\assert.h" 1
+/* Copyright 1999-2013 The MathWorks, Inc. */
+ 
+/*
+  Polyspace include for assert.
+
+  assert.h
+
+  This include prevents the expansion of the assert macro. It is replaced by a call to an extern function.
+*/
+
+
+
+
+# 30 "C:\\Program Files\\MATLAB\\R2013b\\polyspace\\verifier\\cxx\\cinclude\\assert.h"
+
+extern void assert(int);
+
+
+
+
+# 20 "C:\\Program Files\\MATLAB\\R2013b\\polyspace\\verifier\\cxx\\cinclude\\__polyspace__std_decls.h" 2
+
+/* stdarg.h */
+/* Always include Polyspace stdarg.h to override specific OS stdarg.h */
+# 1 "C:\\Program Files\\MATLAB\\R2013b\\polyspace\\verifier\\cxx\\cinclude\\stdarg.h" 1
+/*
+ *
+ * This file and its contents are the property of The MathWorks, Inc.
+ * 
+ * This file contains confidential proprietary information.
+ * The reproduction, distribution, utilization or the communication
+ * of this file or any part thereof is strictly prohibited.
+ * Offenders will be held liable for the payment of damages.
+ *
+ * Copyright 1999-2013 The MathWorks, Inc.
+ *
+ */
+ 
+/*
+  Polyspace include for varargs.
+
+  stdarg.h
+
+  This include is designed for SUIF compilation pass. SUIF will replace the '...' by an argument called __polyspace_vararg of type void**.
+*/
+
+
+/* Prevent other libs from defining the types and macros about varargs */
+# 31 "C:\\Program Files\\MATLAB\\R2013b\\polyspace\\verifier\\cxx\\cinclude\\stdarg.h"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+typedef void *__va_list;
+
+
+
+typedef __va_list va_list;
+typedef __va_list __gnuc_va_list;
+
+# 59 "C:\\Program Files\\MATLAB\\R2013b\\polyspace\\verifier\\cxx\\cinclude\\stdarg.h"
+
+
+
+# 81 "C:\\Program Files\\MATLAB\\R2013b\\polyspace\\verifier\\cxx\\cinclude\\stdarg.h"
+
+extern void **__polyspace_vararg; /* just there to avoid compiling errors */
+extern int _polyspace_vararg_position; extern volatile int _polyspace_vararg_p0;
+extern va_list __polyspace_va_arg_incr(va_list *);
+
+/* __polyspace_vararg will be added by suif in replacement of '...' */
+
+
+
+
+
+
+
+
+
+# 107 "C:\\Program Files\\MATLAB\\R2013b\\polyspace\\verifier\\cxx\\cinclude\\stdarg.h"
+
+
+# 24 "C:\\Program Files\\MATLAB\\R2013b\\polyspace\\verifier\\cxx\\cinclude\\__polyspace__std_decls.h" 2
+
+
+
+
+
+
+/* stdlib.h */
+/* Those are necessary to prevent problems at the link */
+extern void *malloc();
+extern void *calloc();
+extern void *realloc();
+extern void *valloc();
+extern void *alloca();
+extern void *__builtin_alloca();
+
+
+/*
+ * KEIL & IAR DECLARATIONS :
+ */
+
+/* If NOEXTEND is used, there is no need to redefine Keil extensions because */
+/* the Keil specifications indicate that they are deactivated.               */
+# 92 "C:\\Program Files\\MATLAB\\R2013b\\polyspace\\verifier\\cxx\\cinclude\\__polyspace__std_decls.h"
+
+
+# 154 "C:\\Program Files\\MATLAB\\R2013b\\polyspace\\verifier\\cxx\\cinclude\\__polyspace__std_decls.h"
+
+# 329 "C:\\Program Files\\MATLAB\\R2013b\\polyspace\\verifier\\cxx\\cinclude\\__polyspace__std_decls.h"
+
+# 1 "C:\\Component\\MM078A_FordMsg41ABusHiSpd_Impl\\tools\\local\\generate\\Rte_Stubs.c" 2
+# 1 "C:\\Program Files\\MATLAB\\R2013b\\polyspace\\verifier\\cxx\\cinclude\\__polyspace__libc_defs.h" 1
+/* Copyright 2012 The Mathworks, Inc. */
+
+
+/* already defined when running through polyspace-configure to avoid conflict with headers */
+
+
+/*
+ * Polyspace definitions for the LIBC.
+ *
+ * __polyspace__libc_defs.h
+ *
+ * This file aims at doing the necessary defines to prevent most compilation
+ * problems with the LIBC header files.
+ *
+ * The file is automatically included in top of each source file when, either
+ * the option -OS-target linux is set or the option -OS-target no-predefined-OS
+ * is set and the option -no-default-system-includes is not set.
+ */
+
+/*
+ * The list was obtained by running the following commands:
+ * $ gcc -x c -m(32|64) [--std=c89] -dM -E - < /dev/null | sort
+ * $ g++ -x c++ -m(32|64) [--std=c++98] -dM -E - < /dev/null | grep -vw __cplusplus | sort
+ *
+ * The output of the 4 commands was merged using conditional preprocessing that relies on the
+ * following #defines:
+ * -D __cplusplus  : when calling 'g++'
+ * -D __MW_C89__   : when calling 'gcc --std=c89'
+ * -D __MW_CXX98__ : when calling 'g++ -std=c++98'
+ * -D __MW_I386__  : when calling 'gcc' or 'g++' with -m32
+ * -D __MW_X86_64__ : when calling 'gcc' or 'g++' with -m64
+ *
+ * Additional processing was then performed to handle other targets and dialects using the
+ * shipped set of system headers and take into account the macros that are automatically
+ * predefined by the front-end:
+ * -D __MW_GNU__ : when the GNU dialect is enabled
+ * -D __OS_LINUX : when the option -OS-target linux is set
+ */
+
+/* Compiler identification (used in various GLIBC headers). */
+/*
+ * Those are automatically predefined by the front-end when the GNU dialect is enabled:
+#ifdef __MW_GNU__
+# define __GNUC__            4
+# define __GNUC_MINOR__      4
+# define __GNUC_PATCHLEVEL__ 5
+# define __VERSION__         "4.4.5"
+# ifdef __cpluscplus
+#  define __GNUG__           4
+# endif
+#endif / * defined(__MW_GNU__) * /
+ */
+
+/* Used in various GLIBC headers. */
+/*
+ * The following is automatically predefined by the front-end based on various settings (language, dialect...):
+#define __STDC__               1
+#define __STDC_HOSTED__        1
+ */
+
+
+
+
+  /* Only defined with 'gcc --std=c89' or 'g++ --std=c++98' */
+
+
+
+/*
+ * The following is automatically predefined by the front-end based when exceptions handling is enabled. 
+#ifdef __cplusplus
+# define __EXCEPTIONS 1
+#endif
+ */
+
+/* Integer types (used in stddef.h). */
+/*
+ * Those are automatically predefined by the front-end:
+#ifdef __MW_X86_64__
+# define __SIZE_TYPE__    long unsigned int
+# define __PTRDIFF_TYPE__ int
+#else
+# define __SIZE_TYPE__    unsigned int
+# define __PTRDIFF_TYPE__ long int
+#endif
+ * The front-end defines _WCHAR_T when 'wchar_t' is a keyword:
+#ifdef _WCHAR_T
+# define __WCHAR_TYPE__   wchar_t
+#else
+# define __WCHAR_TYPE__   int
+#endif
+ */
+/*
+ * The following is automatically predefined by the front-end:
+#define __WINT_TYPE__    unsigned int
+ */
+
+/* Integer limits (used in limits.h). */
+/*
+ * Those are automatically predefined by the front-end:
+#define __CHAR_BIT__                         8
+#define __SCHAR_MAX__                      127
+#define __SHRT_MAX__                     32767
+#define __INT_MAX__                 2147483647
+#ifdef __MW_X86_64__
+# define __LONG_MAX__      9223372036854775807L
+#else
+# define __LONG_MAX__               2147483647L
+#endif
+/ * The front-end defines __NO_LONG_LONG when 'long long' is disabled. * /
+#ifndef __NO_LONG_LONG
+# define __LONG_LONG_MAX__ 9223372036854775807LL
+#endif
+#define __WCHAR_MAX__               2147483647
+ */
+
+/* float limits (used in float.h). */
+# 127 "C:\\Program Files\\MATLAB\\R2013b\\polyspace\\verifier\\cxx\\cinclude\\__polyspace__libc_defs.h"
+/* float limits (used in libstdc++'s 'limits' file -> shipped as part of STL stubs). */
+
+
+
+
+
+/* double limits (used in float.h). */
+# 143 "C:\\Program Files\\MATLAB\\R2013b\\polyspace\\verifier\\cxx\\cinclude\\__polyspace__libc_defs.h"
+/* double limits (used in libstdc++'s 'limits' file -> shipped as part of STL stubs). */
+
+
+
+
+
+/* long double limits (used in float.h). */
+# 159 "C:\\Program Files\\MATLAB\\R2013b\\polyspace\\verifier\\cxx\\cinclude\\__polyspace__libc_defs.h"
+/* long double limits (used in libstdc++'s 'limits' file -> shipped as part of STL stubs). */
+/*#define __LDBL_DENORM_MIN__    3.64519953188247460253e-4951L*/ /* this constant is too big for a 'long double' when running on Windows */
+
+
+
+
+# 207 "C:\\Program Files\\MATLAB\\R2013b\\polyspace\\verifier\\cxx\\cinclude\\__polyspace__libc_defs.h"
+
+/* Used in sys/cdefs.h */
+
+
+
+
+# 322 "C:\\Program Files\\MATLAB\\R2013b\\polyspace\\verifier\\cxx\\cinclude\\__polyspace__libc_defs.h"
+
+
+  /* If the GNU dialect is not enabled but __GNUC__ is set anyway, disable some 'gcc' extensions
+     that would have been disabled in sys/cdefs.h if __GNUC__ was not set. */
+# 347 "C:\\Program Files\\MATLAB\\R2013b\\polyspace\\verifier\\cxx\\cinclude\\__polyspace__libc_defs.h"
+
+# 1 "C:\\Component\\MM078A_FordMsg41ABusHiSpd_Impl\\tools\\local\\generate\\Rte_Stubs.c" 2
+/******************************************************************************************************************
+* Copyright 2016 Nexteer
+* Nexteer Confidential
+*
+* Module File Name:   Rte_Stubs.c
+* Module Description: Stubs for Polyspace analysis.  Generated from TL109A_SwcSuprt.
+* Project:            CBD
+* Author:             Owen Tosh
+******************************************************************************************************************/
+
+
+# 1 "C:\\Component\\MM078A_FordMsg41ABusHiSpd_Impl\\tools\\local\\generate\\Rte_FordMsg41ABusHiSpd.h" 1
+/**********************************************************************************************************************
+ *  COPYRIGHT
+ *  -------------------------------------------------------------------------------------------------------------------
+ *
+ *                This software is copyright protected and proprietary to Vector Informatik GmbH.
+ *                Vector Informatik GmbH grants to you only those rights as set out in the license conditions.
+ *                All other rights remain with Vector Informatik GmbH.
+ *  -------------------------------------------------------------------------------------------------------------------
+ *  FILE DESCRIPTION
+ *  -------------------------------------------------------------------------------------------------------------------
+ *          File:  Rte_FordMsg41ABusHiSpd.h
+ *        Config:  C:/Component/MM078A_FordMsg41ABusHiSpd_Impl/tools/Component.dpa
+ *     SW-C Type:  FordMsg41ABusHiSpd
+ *  Generated at:  Fri Apr 20 16:09:20 2018
+ *
+ *     Generator:  MICROSAR RTE Generator Version 4.13.0
+ *                 RTE Core Version 1.13.0
+ *       License:  Unlimited license CBD1400351 for Nexteer Automotive Corporation
+ *
+ *   Description:  Application header file for SW-C <FordMsg41ABusHiSpd> (Contract Phase)
+ *********************************************************************************************************************/
+
+/* double include prevention */
+
+
+
+# 34 "C:\\Component\\MM078A_FordMsg41ABusHiSpd_Impl\\tools\\local\\generate\\Rte_FordMsg41ABusHiSpd.h"
+
+
+
+
+
+
+/* include files */
+
+# 1 "C:\\Component\\MM078A_FordMsg41ABusHiSpd_Impl\\tools\\local\\generate\\Rte_FordMsg41ABusHiSpd_Type.h" 1
+/**********************************************************************************************************************
+ *  COPYRIGHT
+ *  -------------------------------------------------------------------------------------------------------------------
+ *
+ *                This software is copyright protected and proprietary to Vector Informatik GmbH.
+ *                Vector Informatik GmbH grants to you only those rights as set out in the license conditions.
+ *                All other rights remain with Vector Informatik GmbH.
+ *  -------------------------------------------------------------------------------------------------------------------
+ *  FILE DESCRIPTION
+ *  -------------------------------------------------------------------------------------------------------------------
+ *          File:  Rte_FordMsg41ABusHiSpd_Type.h
+ *        Config:  C:/Component/MM078A_FordMsg41ABusHiSpd_Impl/tools/Component.dpa
+ *     SW-C Type:  FordMsg41ABusHiSpd
+ *  Generated at:  Fri Apr 20 16:09:20 2018
+ *
+ *     Generator:  MICROSAR RTE Generator Version 4.13.0
+ *                 RTE Core Version 1.13.0
+ *       License:  Unlimited license CBD1400351 for Nexteer Automotive Corporation
+ *
+ *   Description:  Application types header file for SW-C <FordMsg41ABusHiSpd> (Contract Phase)
+ *********************************************************************************************************************/
+
+/* double include prevention */
+
+
+
+
+
+
+
+
+# 1 "C:\\Component\\MM078A_FordMsg41ABusHiSpd_Impl\\tools\\local\\generate\\Rte_Type.h" 1
+/**********************************************************************************************************************
+ *  COPYRIGHT
+ *  -------------------------------------------------------------------------------------------------------------------
+ *
+ *                This software is copyright protected and proprietary to Vector Informatik GmbH.
+ *                Vector Informatik GmbH grants to you only those rights as set out in the license conditions.
+ *                All other rights remain with Vector Informatik GmbH.
+ *  -------------------------------------------------------------------------------------------------------------------
+ *  FILE DESCRIPTION
+ *  -------------------------------------------------------------------------------------------------------------------
+ *          File:  Rte_Type.h
+ *        Config:  C:/Component/MM078A_FordMsg41ABusHiSpd_Impl/tools/Component.dpa
+ *     SW-C Type:  FordMsg41ABusHiSpd
+ *  Generated at:  Fri Apr 20 16:09:20 2018
+ *
+ *     Generator:  MICROSAR RTE Generator Version 4.13.0
+ *                 RTE Core Version 1.13.0
+ *       License:  Unlimited license CBD1400351 for Nexteer Automotive Corporation
+ *
+ *   Description:  Header file containing user defined AUTOSAR types and RTE structures (Contract Phase)
+ *********************************************************************************************************************/
+
+/* double include prevention */
+
+
+
+# 1 "C:\\Component\\MM078A_FordMsg41ABusHiSpd_Impl\\tools\\local\\generate\\Rte.h" 1
+/**********************************************************************************************************************
+ *  COPYRIGHT
+ *  -------------------------------------------------------------------------------------------------------------------
+ *
+ *                This software is copyright protected and proprietary to Vector Informatik GmbH.
+ *                Vector Informatik GmbH grants to you only those rights as set out in the license conditions.
+ *                All other rights remain with Vector Informatik GmbH.
+ *  -------------------------------------------------------------------------------------------------------------------
+ *  FILE DESCRIPTION
+ *  -------------------------------------------------------------------------------------------------------------------
+ *          File:  Rte.h
+ *        Config:  C:/Component/MM078A_FordMsg41ABusHiSpd_Impl/tools/Component.dpa
+ *     SW-C Type:  FordMsg41ABusHiSpd
+ *  Generated at:  Fri Apr 20 16:09:20 2018
+ *
+ *     Generator:  MICROSAR RTE Generator Version 4.13.0
+ *                 RTE Core Version 1.13.0
+ *       License:  Unlimited license CBD1400351 for Nexteer Automotive Corporation
+ *
+ *   Description:  Header file containing RTE types (Contract Phase)
+ *********************************************************************************************************************/
+
+/* double include prevention */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 1 "C:\\Component\\AR200A_ArSuprt_Impl\\include\\ASR4.0.3\\Std_Types.h" 1
+/**********************************************************************************************************************
+ *  COPYRIGHT
+ *  -------------------------------------------------------------------------------------------------------------------
+ *  \verbatim
+ *  Copyright (c) 2013 by Vector Informatik GmbH.                                              All rights reserved.
+ *
+ *                This software is copyright protected and proprietary to Vector Informatik GmbH.
+ *                Vector Informatik GmbH grants to you only those rights as set out in the license conditions.
+ *                All other rights remain with Vector Informatik GmbH.
+ *  \endverbatim
+ *  -------------------------------------------------------------------------------------------------------------------
+ *  FILE DESCRIPTION
+ *  -------------------------------------------------------------------------------------------------------------------
+ *         File:  Std_Types.h
+ *    Component:  -
+ *       Module:  -
+ *    Generator:  -
+ *
+ *  Description:  Provision of Standard Types
+ *  
+ *  -------------------------------------------------------------------------------------------------------------------
+ *  MISRA VIOLATIONS
+ *  -------------------------------------------------------------------------------------------------------------------
+ *      
+ *  
+ *********************************************************************************************************************/
+
+/**********************************************************************************************************************
+ *  AUTHOR IDENTITY
+ *  -------------------------------------------------------------------------------------------------------------------
+ *  Name                          Initials      Company
+ *  -------------------------------------------------------------------------------------------------------------------
+ *  Joachim Kalmbach              Jk            Vector Informatik
+ *  Heike Honert                  visht         Vector Informatik
+ *  Eugen Stripling               visseu        Vector Informatik
+ *  -------------------------------------------------------------------------------------------------------------------
+ *  REVISION HISTORY
+ *  -------------------------------------------------------------------------------------------------------------------
+ *  Version   Date        Author  Change Id     Description
+ *  -------------------------------------------------------------------------------------------------------------------
+ *  01.00.00  2007-08-01  Jk                    Initial creation
+ *  03.00.00  2007-10-10  Jk                    Changes for AUTOSAR 3.0
+ *  03.00.01  2007-11-20  Jk                    Version defines for CFG management added
+ *  03.01.00  2008-03-05  Jk                    Include order changed
+ *  03.02.00  2008-03-18  Jk                    Version defines changed to specification version
+ *  03.03.00  2008-06-03  Jk                    changed ModuleId Type in Std_VersionInfoType from uint8 to uint16
+ *  03.03.01  2009-11-11  visht  ESCAN00038201  Support the Standard Type E_PENDING
+ *  03.04.00  2011-02-15  visht                 support ASR 4.0R1
+ *  03.04.01  2011-02-28  visht  ESCAN00049579  incorrect BSW version scan information
+ *  03.04.02  2012-08-23  visht                 version define corrected - replace PATCH by REVISION - (STD_TYPES_AR_RELEASE_REVISION_VERSION)
+ *            2012-10-23  visseu                Add _VENDOR_ID and _MODULE_ID as specified in "AUTOSAR_TR_BSWModuleList.pdf" (R4.0 Rev 3)
+ *  03.04.03  2013-02-13  visseu                No changes, only SW version corrected
+ *  03.04.04  2013-05-29  visseu ESCAN00067740  Add general defines with prefix: STD
+ *********************************************************************************************************************/
+
+
+
+
+/**********************************************************************************************************************
+ * INCLUDES
+ *********************************************************************************************************************/
+
+# 1 "C:\\Component\\AR201A_ArCplrSuprt_Impl\\include\\ASR4.0.3\\Platform_Types.h" 1
+/**********************************************************************************************************************
+ *  COPYRIGHT
+ *  -------------------------------------------------------------------------------------------------------------------
+ *  \verbatim
+ *  Copyright (c) 2014 by Vector Informatik GmbH.                                              All rights reserved.
+ *
+ *                This software is copyright protected and proprietary to Vector Informatik GmbH.
+ *                Vector Informatik GmbH grants to you only those rights as set out in the license conditions.
+ *                All other rights remain with Vector Informatik GmbH.
+ *  \endverbatim
+ *
+ *  -------------------------------------------------------------------------------------------------------------------
+ *  FILE DESCRIPTION
+ *  -------------------------------------------------------------------------------------------------------------------
+ *         File:  Platform_Types.h
+ *    Component:  -
+ *       Module:  -
+ *    Generator:  -
+ *
+ *  Description:  This file provides the platform types for Rh850
+ *
+ *********************************************************************************************************************/
+
+/**********************************************************************************************************************
+ *  AUTHOR IDENTITY
+ *  -------------------------------------------------------------------------------------------------------------------
+ *  Name                          Initials      Company
+ *  -------------------------------------------------------------------------------------------------------------------
+ *  Torsten Kercher               vistkr        Vector Informatik GmbH
+ *  -------------------------------------------------------------------------------------------------------------------
+ *
+ *  REVISION HISTORY
+ *  -------------------------------------------------------------------------------------------------------------------
+ *  Version   Date        Author  Change Id     Description
+ *  -------------------------------------------------------------------------------------------------------------------
+ *  01.00.00  2012-09-17  vistkr                Initial for Rh850 platform
+ *  01.00.01  2013-11-05  vistkr                Update to template 1.03.01
+ *  01.00.02  2013-12-05  vistkr                Use unsigned suffix for defines
+ *  01.01.00  2014-06-18  vistkr                Omit floating point typedefs if GHS compiler with option -fnone is used
+ *  01.02.00  2014-10-20  vistkr                AR4-667: Support sint64 and uint64 (update to template 01.04.00)
+ *********************************************************************************************************************/
+
+
+
+
+/**********************************************************************************************************************
+ * INCLUDES
+ *********************************************************************************************************************/
+
+/**********************************************************************************************************************
+ *  GLOBAL CONSTANT MACROS
+ *********************************************************************************************************************/
+
+/* ##V_CFG_MANAGEMENT ##CQProject : CommonAsr_Rh850 CQComponent : Impl_PlatformTypes */
+
+
+
+
+
+
+/* AUTOSAR Software Specification Document Version Information */
+
+
+
+
+/* Component Version Information */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**********************************************************************************************************************
+ *  GLOBAL FUNCTION MACROS
+ *********************************************************************************************************************/
+
+/**********************************************************************************************************************
+ *  GLOBAL DATA TYPES AND STRUCTURES
+ *********************************************************************************************************************/
+
+ typedef unsigned char         boolean;       /*        TRUE .. FALSE           */
+
+ typedef signed char           sint8;         /*        -128 .. +127            */
+ typedef unsigned char         uint8;         /*           0 .. 255             */
+ typedef signed short          sint16;        /*      -32768 .. +32767          */
+ typedef unsigned short        uint16;        /*           0 .. 65535           */
+ typedef signed long           sint32;        /* -2147483648 .. +2147483647     */
+ typedef unsigned long         uint32;        /*           0 .. 4294967295      */
+
+ typedef signed int            sint8_least;   /* At least 7 bit + 1 bit sign    */
+ typedef unsigned int          uint8_least;   /* At least 8 bit                 */
+ typedef signed int            sint16_least;  /* At least 15 bit + 1 bit sign   */
+ typedef unsigned int          uint16_least;  /* At least 16 bit                */
+ typedef signed int            sint32_least;  /* At least 31 bit + 1 bit sign   */
+ typedef unsigned int          uint32_least;  /* At least 32 bit                */
+
+# 127 "C:\\Component\\AR201A_ArCplrSuprt_Impl\\include\\ASR4.0.3\\Platform_Types.h"
+ typedef signed long long      sint64;        /* -9223372036854775808 .. 9223372036854775807      */
+ typedef unsigned long long    uint64;        /*                    0 .. 18446744073709551615     */
+
+
+# 138 "C:\\Component\\AR201A_ArCplrSuprt_Impl\\include\\ASR4.0.3\\Platform_Types.h"
+ typedef float                 float32;
+ typedef double                float64;
+
+
+/**********************************************************************************************************************
+ *  GLOBAL DATA PROTOTYPES
+ *********************************************************************************************************************/
+
+/**********************************************************************************************************************
+ *  GLOBAL FUNCTION PROTOTYPES
+ *********************************************************************************************************************/
+
+
+
+/**********************************************************************************************************************
+ *  END OF FILE: Platform_Types.h
+ *********************************************************************************************************************/
+
+# 64 "C:\\Component\\AR200A_ArSuprt_Impl\\include\\ASR4.0.3\\Std_Types.h" 2
+# 1 "C:\\Component\\AR201A_ArCplrSuprt_Impl\\include\\ASR4.0.3\\Compiler.h" 1
+/**********************************************************************************************************************
+ *  COPYRIGHT
+ *  -------------------------------------------------------------------------------------------------------------------
+ *  \verbatim
+ *  Copyright (c) 2014 by Vector Informatik GmbH.                                              All rights reserved.
+ *
+ *                This software is copyright protected and proprietary to Vector Informatik GmbH.
+ *                Vector Informatik GmbH grants to you only those rights as set out in the license conditions.
+ *                All other rights remain with Vector Informatik GmbH.
+ *  \endverbatim
+ *
+ *  -------------------------------------------------------------------------------------------------------------------
+ *  FILE DESCRIPTION
+ *  -------------------------------------------------------------------------------------------------------------------
+ *         File:  Compiler.h
+ *    Component:  -
+ *       Module:  -
+ *    Generator:  -
+ *
+ *  Description:  This file provides the AUTOSAR compiler abstraction for the GreenHills compiler on the Rh850 platform
+ *
+ *********************************************************************************************************************/
+
+/**********************************************************************************************************************
+ *  AUTHOR IDENTITY
+ *  -------------------------------------------------------------------------------------------------------------------
+ *  Name                          Initials      Company
+ *  -------------------------------------------------------------------------------------------------------------------
+ *  Torsten Kercher               vistkr        Vector Informatik GmbH
+ *  -------------------------------------------------------------------------------------------------------------------
+ *
+ *  REVISION HISTORY
+ *  -------------------------------------------------------------------------------------------------------------------
+ *  Version   Date        Author  Change Id     Description
+ *  -------------------------------------------------------------------------------------------------------------------
+ *  01.00.00  2012-09-17  vistkr                Initial for Rh850 platform and GreenHills compiler
+ *  01.00.01  2013-11-05  vistkr                Update to template 1.04.02
+ *  01.00.02  2013-12-05  vistkr                Add MISRA justifications
+ *  01.01.00  2014-01-15  vistkr                AR4-569: Add CONSTP2FUNC macro (update to template 1.05.00)
+ *  01.01.01  2014-10-20  vistkr                Improve comments
+ *********************************************************************************************************************/
+
+
+
+
+/* PRQA S 3453 COMPILER_3453_TAG */ /* MD_MSR_19.7 */
+
+/**********************************************************************************************************************
+ * INCLUDES
+ *********************************************************************************************************************/
+
+# 1 "C:\\Component\\AR201A_ArCplrSuprt_Impl\\tools\\contract\\Compiler_Cfg.h" 1
+/**********************************************************************************************************************
+* Copyright 2014 Nexteer 
+* Nexteer Confidential
+*
+* Module File Name  : Compiler_Cfg.h
+* Module Description: This file contains a stub header for UTP and QAC 
+*                     projects
+* Project           : CBD
+* Author            : Lucas Wendling
+***********************************************************************************************************************
+* Version Control:
+* %version:          1 %
+* %derived_by:       nz4qtt %
+*----------------------------------------------------------------------------
+* Date      Rev      Author         Change Description
+* -------   -------  --------  ----------------------------------------------
+* 12/15/14  1.0      LWW       Initial EA4 version
+**********************************************************************************************************************/
+
+
+
+
+
+
+# 53 "C:\\Component\\AR201A_ArCplrSuprt_Impl\\include\\ASR4.0.3\\Compiler.h" 2
+
+/* START NEXTEER PATCH: LWW 12/18/15 Added include for Renesas MCAL specific Compiler.h content */
+# 1 "C:\\Component\\AR201A_ArCplrSuprt_Impl\\tools\\contract\\Renesas_Compiler.h" 1
+/**********************************************************************************************************************
+* Copyright 2014 Nexteer 
+* Nexteer Confidential
+*
+* Module File Name  : Renesas_Compiler.h
+* Module Description: This file contains a stub header for UTP and QAC 
+*                     projects
+* Project           : CBD
+* Author            : Lucas Wendling
+***********************************************************************************************************************
+* Version Control:
+* %version:          1 %
+* %derived_by:       nz4qtt %
+*----------------------------------------------------------------------------
+* Date      Rev      Author         Change Description
+* -------   -------  --------  ----------------------------------------------
+* 12/18/15  1.0      LWW       Initial EA4 version
+**********************************************************************************************************************/
+
+
+
+
+
+
+# 56 "C:\\Component\\AR201A_ArCplrSuprt_Impl\\include\\ASR4.0.3\\Compiler.h" 2
+/* END NEXTEER PATCH: LWW 12/18/15 Added include for Renesas MCAL specific Compiler.h content */
+
+/**********************************************************************************************************************
+ *  GLOBAL CONSTANT MACROS
+ *********************************************************************************************************************/
+
+/* ##V_CFG_MANAGEMENT ##CQProject : CommonAsr_Rh850 CQComponent : Impl_CompAbstract_GreenHills */
+
+
+
+
+
+
+/* AUTOSAR Software Specification Document Version Information */
+
+
+
+
+/* Component Version Information */
+
+
+
+
+
+
+/* AUTOMATIC used for the declaration of local pointers */
+
+
+/* TYPEDEF shall be used within type definitions, where no memory qualifier can be specified */
+
+
+/* NULL_PTR define with a void pointer to zero (the usage does not lead to compile warnings about implicit casts) */
+
+
+
+
+/* INLINE define for abstraction of the keyword inline */
+
+
+/* LOCAL_INLINE define for abstraction of the keyword inline for functions with static scope */
+
+
+/* FUNC macro for the declaration and definition of functions
+   rettype     return type of the function
+   memclass    classification of the function itself
+ */
+
+
+/* FUNC_P2CONST macro for declaration and definition of functions returning a pointer to a constant
+   rettype     return type of the function
+   ptrclass    defines the classification of the pointer's distance 
+   memclass    classification of the function itself
+ */
+
+
+/* FUNC_P2VAR macro for the declaration and definition of functions returning a pointer to a variable
+   rettype     return type of the function
+   ptrclass    defines the classification of the pointer's distance 
+   memclass    classification of the function itself
+ */
+
+
+/* P2VAR macro for the declaration and definition of pointers in RAM, pointing to variables
+   ptrtype     type of the referenced variable memory class
+   memclass    classification of the pointer's variable itself
+   ptrclass    defines the classification of the pointer's distance
+ */
+
+
+/* P2CONST macro for the declaration and definition of pointers in RAM, pointing to constants
+   ptrtype     type of the referenced data
+   memclass    classification of the pointer's variable itself
+   ptrclass    defines the classification of the pointer's distance
+ */
+
+
+/* CONSTP2VAR macro for the declaration and definition of constant pointers accessing variables
+   ptrtype     type of the referenced data
+   memclass    classification of the pointer's variable itself
+   ptrclass    defines the classification of the pointer's distance
+ */
+
+
+/* CONSTP2CONST macro for the declaration and definition of constant pointers accessing constants
+   ptrtype     type of the referenced data
+   memclass    classification of the pointer's variable itself
+   ptrclass    defines the classification of the pointer's distance
+ */
+
+
+/* P2FUNC macro for the type definition of pointers to functions
+   rettype     return type of the function
+   ptrclass    defines the classification of the pointer's distance
+   fctname     function name respectively name of the defined type
+ */
+
+
+/* CONSTP2FUNC macro for the type definition of constant pointers to functions
+   rettype     return type of the function
+   ptrclass    defines the classification of the pointer's distance
+   fctname     function name respectively name of the defined type
+ */
+
+
+/* CONST macro for the declaration and definition of constants
+   type        type of the constant
+   memclass    classification of the constant itself
+ */
+
+
+/* VAR macro for the declaration and definition of variables
+   vartype     type of the variable
+   memclass    classification of the variable itself
+ */
+
+
+/**********************************************************************************************************************
+ *  GLOBAL FUNCTION MACROS
+ *********************************************************************************************************************/
+
+/**********************************************************************************************************************
+ *  GLOBAL DATA TYPES AND STRUCTURES
+ *********************************************************************************************************************/
+
+/**********************************************************************************************************************
+ *  GLOBAL DATA PROTOTYPES
+ *********************************************************************************************************************/
+
+/**********************************************************************************************************************
+ *  GLOBAL FUNCTION PROTOTYPES
+ *********************************************************************************************************************/
+
+/* PRQA L:COMPILER_3453_TAG */
+
+/**********************************************************************************************************************
+ *  MISRA deviations
+ *********************************************************************************************************************/
+/* Justification for module-specific MISRA deviations:
+
+MD_Compiler_19.10:
+  Reason: The macro is used in a scope that does not allow brackets, e.g. declaration of functions and variables.
+  Risk: Non-atomic parameters lead to compile errors.
+  Prevention: Used parameters are always atomic.
+
+*/
+
+
+
+/**********************************************************************************************************************
+ *  END OF FILE: Compiler.h
+ *********************************************************************************************************************/
+
+# 65 "C:\\Component\\AR200A_ArSuprt_Impl\\include\\ASR4.0.3\\Std_Types.h" 2
+
+/**********************************************************************************************************************
+ *  GLOBAL CONSTANT MACROS
+ *********************************************************************************************************************/
+
+
+
+
+
+/* ESCAN00067740 */
+
+
+
+/* ##V_CFG_MANAGEMENT ##CQProject : CommonAsr__Common CQComponent : Impl_StdTypes */
+
+
+
+/* AUTOSAR Software Specification Version Information */
+/* AUTOSAR release 4.0 R3 */
+
+
+
+
+/* ESCAN00067740 */
+
+
+
+
+/* Component Version Information */
+
+
+
+
+/* ESCAN00067740 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**********************************************************************************************************************
+ *  GLOBAL FUNCTION MACROS
+ *********************************************************************************************************************/
+
+
+/**********************************************************************************************************************
+ *  GLOBAL DATA TYPES AND STRUCTURES
+ *********************************************************************************************************************/
+
+/* This typedef has been added for OSEK compliance */
+
+
+
+typedef unsigned char StatusType; /* OSEK compliance */
+
+
+
+
+
+
+typedef uint8 Std_ReturnType;
+
+typedef struct
+{
+   uint16 vendorID;
+   uint16 moduleID;
+   uint8  sw_major_version;
+   uint8  sw_minor_version;
+   uint8  sw_patch_version;
+} Std_VersionInfoType;
+
+
+/**********************************************************************************************************************
+ *  GLOBAL DATA PROTOTYPES
+ *********************************************************************************************************************/
+
+ 
+/**********************************************************************************************************************
+ *  GLOBAL FUNCTION PROTOTYPES
+ *********************************************************************************************************************/
+
+ 
+
+
+/**********************************************************************************************************************
+ *  END OF FILE: Std_Types.h
+ *********************************************************************************************************************/
+# 40 "C:\\Component\\MM078A_FordMsg41ABusHiSpd_Impl\\tools\\local\\generate\\Rte.h" 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Note: application errors are in the range between 1-63
+         overlayed error (ORed with application errors) is 64
+         structural errors are in the range between 128-256 */
+
+/* common errors */
+
+
+
+/* overlayed errors */
+
+
+
+
+
+/* immediate infrastructure errors */
+# 84 "C:\\Component\\MM078A_FordMsg41ABusHiSpd_Impl\\tools\\local\\generate\\Rte.h"
+
+/* common SchM errors */
+# 92 "C:\\Component\\MM078A_FordMsg41ABusHiSpd_Impl\\tools\\local\\generate\\Rte.h"
+
+
+
+
+# 28 "C:\\Component\\MM078A_FordMsg41ABusHiSpd_Impl\\tools\\local\\generate\\Rte_Type.h" 2
+
+
+/**********************************************************************************************************************
+ * Data type definitions
+ *********************************************************************************************************************/
+
+
+typedef uint8 Ford_Outside_Air_Temp_Stat;
+
+
+typedef uint16 NtcNr1;
+
+
+typedef uint8 NtcSts1;
+
+
+typedef uint16 u16p0;
+
+
+/**********************************************************************************************************************
+ * Per-Instance Memory User Types
+ *********************************************************************************************************************/
+
+# 33 "C:\\Component\\MM078A_FordMsg41ABusHiSpd_Impl\\tools\\local\\generate\\Rte_FordMsg41ABusHiSpd_Type.h" 2
+
+/**********************************************************************************************************************
+ * Range, Invalidation, Enumeration and Bit Field Definitions
+ *********************************************************************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 43 "C:\\Component\\MM078A_FordMsg41ABusHiSpd_Impl\\tools\\local\\generate\\Rte_FordMsg41ABusHiSpd.h" 2
+# 1 "C:\\Component\\MM078A_FordMsg41ABusHiSpd_Impl\\tools\\local\\generate\\Rte_DataHandleType.h" 1
+/**********************************************************************************************************************
+ *  COPYRIGHT
+ *  -------------------------------------------------------------------------------------------------------------------
+ *
+ *                This software is copyright protected and proprietary to Vector Informatik GmbH.
+ *                Vector Informatik GmbH grants to you only those rights as set out in the license conditions.
+ *                All other rights remain with Vector Informatik GmbH.
+ *  -------------------------------------------------------------------------------------------------------------------
+ *  FILE DESCRIPTION
+ *  -------------------------------------------------------------------------------------------------------------------
+ *          File:  Rte_DataHandleType.h
+ *        Config:  C:/Component/MM078A_FordMsg41ABusHiSpd_Impl/tools/Component.dpa
+ *     SW-C Type:  FordMsg41ABusHiSpd
+ *  Generated at:  Fri Apr 20 16:09:20 2018
+ *
+ *     Generator:  MICROSAR RTE Generator Version 4.13.0
+ *                 RTE Core Version 1.13.0
+ *       License:  Unlimited license CBD1400351 for Nexteer Automotive Corporation
+ *
+ *   Description:  Header file containing Data Handle type declarations for component data structures (ContractPhase)
+ *********************************************************************************************************************/
+
+/* double include prevention */
+
+
+
+# 44 "C:\\Component\\MM078A_FordMsg41ABusHiSpd_Impl\\tools\\local\\generate\\Rte_FordMsg41ABusHiSpd.h" 2
+
+
+/**********************************************************************************************************************
+ * Component Data Structures and Port Data Structures
+ *********************************************************************************************************************/
+
+struct Rte_CDS_FordMsg41ABusHiSpd
+{
+  /* PIM Handles section */
+  uint8* Pim_ClrDiagcFlgProxyPrev; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+  boolean* Pim_FordVehMsg41AMiss; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+  float32* Pim_FordVehOutdAirTPrev; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+  uint16* Pim_FordVehOutdAirTRawPrev; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+  uint32* Pim_MissMsgFaildRefTi; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+  uint32* Pim_MissMsgPassdRefTi; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+  /* Vendor specific section */
+};
+
+# 1 "C:\\Component\\AR200A_ArSuprt_Impl\\tools\\contract\\MemMap.h" 1
+/**********************************************************************************************************************
+* Copyright 2014 Nexteer 
+* Nexteer Confidential
+*
+* Module File Name  : MemMap.h
+* Module Description: This file contains a stub header for UTP and QAC 
+*                     projects
+* Project           : CBD
+* Author            : Lucas Wendling
+***********************************************************************************************************************
+* Version Control:
+* %version:          1 %
+* %derived_by:       nz4qtt %
+*----------------------------------------------------------------------------
+* Date      Rev      Author         Change Description
+* -------   -------  --------  ----------------------------------------------
+* 12/15/14  1.0      LWW       Initial EA4 version
+**********************************************************************************************************************/
+
+
+
+
+
+
+
+# 64 "C:\\Component\\MM078A_FordMsg41ABusHiSpd_Impl\\tools\\local\\generate\\Rte_FordMsg41ABusHiSpd.h" 2
+
+extern const struct Rte_CDS_FordMsg41ABusHiSpd *const Rte_Inst_FordMsg41ABusHiSpd; /* PRQA S 0850 */ /* MD_MSR_19.8 */
+
+
+
+
+typedef const struct Rte_CDS_FordMsg41ABusHiSpd* Rte_Instance;
+
+
+/**********************************************************************************************************************
+ * Init Values for unqueued S/R communication (primitive types only)
+ *********************************************************************************************************************/
+
+# 83 "C:\\Component\\MM078A_FordMsg41ABusHiSpd_Impl\\tools\\local\\generate\\Rte_FordMsg41ABusHiSpd.h"
+
+
+
+
+
+/**********************************************************************************************************************
+ * API prototypes
+ *********************************************************************************************************************/
+Std_ReturnType Rte_Read_FordMsg41ABusHiSpd_ClrDiagcFlgProxy_Val(uint8* data); /* PRQA S 0850 */ /* MD_MSR_19.8 */
+Std_ReturnType Rte_Read_FordMsg41ABusHiSpd_FordCanDtcInhb_Logl(boolean* data); /* PRQA S 0850 */ /* MD_MSR_19.8 */
+Std_ReturnType Rte_Read_FordMsg41ABusHiSpd_FordEpsLifeCycMod_Val(uint8* data); /* PRQA S 0850 */ /* MD_MSR_19.8 */
+Std_ReturnType Rte_Read_FordMsg41ABusHiSpd_FordOutdAirTSts_Ford_Outside_Air_Temp_Stat(Ford_Outside_Air_Temp_Stat* data); /* PRQA S 0850 */ /* MD_MSR_19.8 */
+Std_ReturnType Rte_Write_FordMsg41ABusHiSpd_FordVehOutdAirT_Val(float32 data); /* PRQA S 0850 */ /* MD_MSR_19.8 */
+Std_ReturnType Rte_Write_FordMsg41ABusHiSpd_FordVehOutdAirTRaw_Val(uint16 data); /* PRQA S 0850 */ /* MD_MSR_19.8 */
+Std_ReturnType Rte_Call_FordMsg41ABusHiSpd_GetRefTmr100MicroSec32bit_Oper(uint32* RefTmr_Arg); /* PRQA S 0850 */ /* MD_MSR_19.8 */
+Std_ReturnType Rte_Call_FordMsg41ABusHiSpd_GetTiSpan100MicroSec32bit_Oper(uint32 RefTmr_Arg, uint32* TiSpan_Arg); /* PRQA S 0850 */ /* MD_MSR_19.8 */
+Std_ReturnType Rte_Call_FordMsg41ABusHiSpd_SetNtcSts_Oper(NtcNr1 NtcNr_Arg, uint8 NtcStInfo_Arg, NtcSts1 NtcSts_Arg, uint16 DebStep_Arg); /* PRQA S 0850 */ /* MD_MSR_19.8 */
+u16p0 Rte_Prm_FordMsg41ABusHiSpd_FordMsg41ABusHiSpdMissMsgFaildThd_Val(void); /* PRQA S 0850 */ /* MD_MSR_19.8 */
+u16p0 Rte_Prm_FordMsg41ABusHiSpd_FordMsg41ABusHiSpdMissMsgPassdThd_Val(void); /* PRQA S 0850 */ /* MD_MSR_19.8 */
+
+
+
+
+
+
+/**********************************************************************************************************************
+ * Rte_Read_<p>_<d> (explicit S/R communication with isQueued = false)
+ *********************************************************************************************************************/
+
+
+
+
+
+
+/**********************************************************************************************************************
+ * Rte_Write_<p>_<d> (explicit S/R communication with isQueued = false)
+ *********************************************************************************************************************/
+
+
+
+
+/**********************************************************************************************************************
+ * Rte_Call_<p>_<o> (C/S invocation)
+ *********************************************************************************************************************/
+
+
+
+
+
+/**********************************************************************************************************************
+ * Rte_Prm (Calibration component calibration parameters)
+ *********************************************************************************************************************/
+
+
+
+
+
+/**********************************************************************************************************************
+ * Per-Instance Memory User Types
+ *********************************************************************************************************************/
+
+/**********************************************************************************************************************
+ * Rte_Pim (Per-Instance Memory)
+ *********************************************************************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**********************************************************************************************************************
+ *
+ * APIs which are accessible from all runnable entities of the SW-C
+ *
+ **********************************************************************************************************************
+ * Per-Instance Memory:
+ * ====================
+ *   float32 *Rte_Pim_FordVehOutdAirTPrev(void)
+ *   uint32 *Rte_Pim_MissMsgFaildRefTi(void)
+ *   uint32 *Rte_Pim_MissMsgPassdRefTi(void)
+ *   uint16 *Rte_Pim_FordVehOutdAirTRawPrev(void)
+ *   uint8 *Rte_Pim_ClrDiagcFlgProxyPrev(void)
+ *   boolean *Rte_Pim_FordVehMsg41AMiss(void)
+ *
+ * Calibration Parameters:
+ * =======================
+ *   Calibration Component Calibration Parameters:
+ *   ---------------------------------------------
+ *   u16p0 Rte_Prm_FordMsg41ABusHiSpdMissMsgFaildThd_Val(void)
+ *   u16p0 Rte_Prm_FordMsg41ABusHiSpdMissMsgPassdThd_Val(void)
+ *
+ *********************************************************************************************************************/
+
+
+# 1 "C:\\Component\\MM078A_FordMsg41ABusHiSpd_Impl\\tools\\local\\generate\\FordMsg41ABusHiSpd_MemMap.h" 1
+/**********************************************************************************************************************
+ *  COPYRIGHT
+ *  -------------------------------------------------------------------------------------------------------------------
+ *
+ *                This software is copyright protected and proprietary to Vector Informatik GmbH.
+ *                Vector Informatik GmbH grants to you only those rights as set out in the license conditions.
+ *                All other rights remain with Vector Informatik GmbH.
+ *  -------------------------------------------------------------------------------------------------------------------
+ *  FILE DESCRIPTION
+ *  -------------------------------------------------------------------------------------------------------------------
+ *          File:  FordMsg41ABusHiSpd_MemMap.h
+ *        Config:  C:/Component/MM078A_FordMsg41ABusHiSpd_Impl/tools/Component.dpa
+ *     SW-C Type:  FordMsg41ABusHiSpd
+ *  Generated at:  Fri Apr 20 16:09:20 2018
+ *
+ *     Generator:  MICROSAR RTE Generator Version 4.13.0
+ *                 RTE Core Version 1.13.0
+ *       License:  Unlimited license CBD1400351 for Nexteer Automotive Corporation
+ *
+ *   Description:  Memory Mapping header file for SW-C <FordMsg41ABusHiSpd> (Contract Phase)
+ *********************************************************************************************************************/
+
+
+/**********************************************************************************************************************
+ * DO NOT CHANGE THIS COMMENT!           << Start of version logging area >>                DO NOT CHANGE THIS COMMENT!
+ *********************************************************************************************************************/
+
+
+/**********************************************************************************************************************
+ * DO NOT CHANGE THIS COMMENT!           << End of version logging area >>                  DO NOT CHANGE THIS COMMENT!
+ *********************************************************************************************************************/
+
+
+/**********************************************************************************************************************
+ * DO NOT CHANGE THIS COMMENT!           << Start of include and declaration area >>        DO NOT CHANGE THIS COMMENT!
+ *********************************************************************************************************************/
+
+
+/**********************************************************************************************************************
+ * DO NOT CHANGE THIS COMMENT!           << End of include and declaration area >>          DO NOT CHANGE THIS COMMENT!
+ *********************************************************************************************************************/
+
+/**********************************************************************************************************************
+ * FordMsg41ABusHiSpd specific defines
+ *********************************************************************************************************************/
+
+/* open sections */
+/**********************************************************************************************************************
+ * DO NOT CHANGE THIS COMMENT!         << Start of memory mapping implementation >>         DO NOT CHANGE THIS COMMENT!
+ * Symbol: FordMsg41ABusHiSpd_START_SEC_CODE
+ *********************************************************************************************************************/
+
+
+
+
+
+
+
+/**********************************************************************************************************************
+ * DO NOT CHANGE THIS COMMENT!          << End of memory mapping implementation >>          DO NOT CHANGE THIS COMMENT!
+ *********************************************************************************************************************/
+/**********************************************************************************************************************
+ * DO NOT CHANGE THIS COMMENT!         << Start of memory mapping implementation >>         DO NOT CHANGE THIS COMMENT!
+ * Symbol: FordMsg41ABusHiSpd_START_SEC_CONST_UNSPECIFIED
+ *********************************************************************************************************************/
+
+
+
+
+
+
+
+/**********************************************************************************************************************
+ * DO NOT CHANGE THIS COMMENT!          << End of memory mapping implementation >>          DO NOT CHANGE THIS COMMENT!
+ *********************************************************************************************************************/
+/**********************************************************************************************************************
+ * DO NOT CHANGE THIS COMMENT!         << Start of memory mapping implementation >>         DO NOT CHANGE THIS COMMENT!
+ * Symbol: FordMsg41ABusHiSpd_START_SEC_VAR_NOINIT_UNSPECIFIED
+ *********************************************************************************************************************/
+
+
+
+
+
+
+
+/**********************************************************************************************************************
+ * DO NOT CHANGE THIS COMMENT!          << End of memory mapping implementation >>          DO NOT CHANGE THIS COMMENT!
+ *********************************************************************************************************************/
+/**********************************************************************************************************************
+ * DO NOT CHANGE THIS COMMENT!         << Start of memory mapping implementation >>         DO NOT CHANGE THIS COMMENT!
+ * Symbol: FordMsg41ABusHiSpd_START_SEC_VAR_INIT_UNSPECIFIED
+ *********************************************************************************************************************/
+
+
+
+
+
+
+
+/**********************************************************************************************************************
+ * DO NOT CHANGE THIS COMMENT!          << End of memory mapping implementation >>          DO NOT CHANGE THIS COMMENT!
+ *********************************************************************************************************************/
+/**********************************************************************************************************************
+ * DO NOT CHANGE THIS COMMENT!         << Start of memory mapping implementation >>         DO NOT CHANGE THIS COMMENT!
+ * Symbol: FordMsg41ABusHiSpd_START_SEC_VAR_ZERO_INIT_UNSPECIFIED
+ *********************************************************************************************************************/
+
+
+
+
+
+
+
+/**********************************************************************************************************************
+ * DO NOT CHANGE THIS COMMENT!          << End of memory mapping implementation >>          DO NOT CHANGE THIS COMMENT!
+ *********************************************************************************************************************/
+
+/* close sections */
+/**********************************************************************************************************************
+ * DO NOT CHANGE THIS COMMENT!         << Start of memory mapping implementation >>         DO NOT CHANGE THIS COMMENT!
+ * Symbol: FordMsg41ABusHiSpd_STOP_SEC_CODE
+ *********************************************************************************************************************/
+
+
+
+
+
+
+
+/**********************************************************************************************************************
+ * DO NOT CHANGE THIS COMMENT!          << End of memory mapping implementation >>          DO NOT CHANGE THIS COMMENT!
+ *********************************************************************************************************************/
+/**********************************************************************************************************************
+ * DO NOT CHANGE THIS COMMENT!         << Start of memory mapping implementation >>         DO NOT CHANGE THIS COMMENT!
+ * Symbol: FordMsg41ABusHiSpd_STOP_SEC_CONST_UNSPECIFIED
+ *********************************************************************************************************************/
+
+
+
+
+
+
+
+/**********************************************************************************************************************
+ * DO NOT CHANGE THIS COMMENT!          << End of memory mapping implementation >>          DO NOT CHANGE THIS COMMENT!
+ *********************************************************************************************************************/
+/**********************************************************************************************************************
+ * DO NOT CHANGE THIS COMMENT!         << Start of memory mapping implementation >>         DO NOT CHANGE THIS COMMENT!
+ * Symbol: FordMsg41ABusHiSpd_STOP_SEC_VAR_NOINIT_UNSPECIFIED
+ *********************************************************************************************************************/
+
+
+
+
+
+
+
+/**********************************************************************************************************************
+ * DO NOT CHANGE THIS COMMENT!          << End of memory mapping implementation >>          DO NOT CHANGE THIS COMMENT!
+ *********************************************************************************************************************/
+/**********************************************************************************************************************
+ * DO NOT CHANGE THIS COMMENT!         << Start of memory mapping implementation >>         DO NOT CHANGE THIS COMMENT!
+ * Symbol: FordMsg41ABusHiSpd_STOP_SEC_VAR_INIT_UNSPECIFIED
+ *********************************************************************************************************************/
+
+
+
+
+
+
+
+/**********************************************************************************************************************
+ * DO NOT CHANGE THIS COMMENT!          << End of memory mapping implementation >>          DO NOT CHANGE THIS COMMENT!
+ *********************************************************************************************************************/
+/**********************************************************************************************************************
+ * DO NOT CHANGE THIS COMMENT!         << Start of memory mapping implementation >>         DO NOT CHANGE THIS COMMENT!
+ * Symbol: FordMsg41ABusHiSpd_STOP_SEC_VAR_ZERO_INIT_UNSPECIFIED
+ *********************************************************************************************************************/
+
+
+
+
+
+
+
+/**********************************************************************************************************************
+ * DO NOT CHANGE THIS COMMENT!          << End of memory mapping implementation >>          DO NOT CHANGE THIS COMMENT!
+ *********************************************************************************************************************/
+
+/**********************************************************************************************************************
+ * DO NOT CHANGE THIS COMMENT!           << Start of removed code area >>                   DO NOT CHANGE THIS COMMENT!
+ *********************************************************************************************************************/
+
+
+/**********************************************************************************************************************
+ * DO NOT CHANGE THIS COMMENT!           << End of removed code area >>                     DO NOT CHANGE THIS COMMENT!
+ *********************************************************************************************************************/
+# 189 "C:\\Component\\MM078A_FordMsg41ABusHiSpd_Impl\\tools\\local\\generate\\Rte_FordMsg41ABusHiSpd.h" 2
+
+
+/**********************************************************************************************************************
+ *
+ * Runnable Entity Name: FordMsg41ABusHiSpdInit1
+ *
+ *---------------------------------------------------------------------------------------------------------------------
+ *
+ * Executed once after the RTE is started
+ *
+ **********************************************************************************************************************
+ *
+ * Client/Server Interfaces:
+ * =========================
+ *   Server Invocation:
+ *   ------------------
+ *   Std_ReturnType Rte_Call_GetRefTmr100MicroSec32bit_Oper(uint32 *RefTmr_Arg)
+ *     Synchronous Server Invocation. Timeout: None
+ *
+ *********************************************************************************************************************/
+
+
+void FordMsg41ABusHiSpdInit1(void); /* PRQA S 0850 */ /* MD_MSR_19.8 */
+
+/**********************************************************************************************************************
+ *
+ * Runnable Entity Name: FordMsg41ABusHiSpdPer1
+ *
+ *---------------------------------------------------------------------------------------------------------------------
+ *
+ * Executed if at least one of the following trigger conditions occurred:
+ *   - triggered on TimingEvent every 10ms
+ *
+ **********************************************************************************************************************
+ *
+ * Input Interfaces:
+ * =================
+ *   Explicit S/R API:
+ *   -----------------
+ *   Std_ReturnType Rte_Read_ClrDiagcFlgProxy_Val(uint8 *data)
+ *   Std_ReturnType Rte_Read_FordCanDtcInhb_Logl(boolean *data)
+ *   Std_ReturnType Rte_Read_FordEpsLifeCycMod_Val(uint8 *data)
+ *   Std_ReturnType Rte_Read_FordOutdAirTSts_Ford_Outside_Air_Temp_Stat(Ford_Outside_Air_Temp_Stat *data)
+ *
+ * Output Interfaces:
+ * ==================
+ *   Explicit S/R API:
+ *   -----------------
+ *   Std_ReturnType Rte_Write_FordVehOutdAirT_Val(float32 data)
+ *   Std_ReturnType Rte_Write_FordVehOutdAirTRaw_Val(uint16 data)
+ *
+ * Client/Server Interfaces:
+ * =========================
+ *   Server Invocation:
+ *   ------------------
+ *   Std_ReturnType Rte_Call_GetRefTmr100MicroSec32bit_Oper(uint32 *RefTmr_Arg)
+ *     Synchronous Server Invocation. Timeout: None
+ *   Std_ReturnType Rte_Call_GetTiSpan100MicroSec32bit_Oper(uint32 RefTmr_Arg, uint32 *TiSpan_Arg)
+ *     Synchronous Server Invocation. Timeout: None
+ *   Std_ReturnType Rte_Call_SetNtcSts_Oper(NtcNr1 NtcNr_Arg, uint8 NtcStInfo_Arg, NtcSts1 NtcSts_Arg, uint16 DebStep_Arg)
+ *     Synchronous Server Invocation. Timeout: None
+ *     Returned Application Errors: RTE_E_SetNtcSts_PortIf1_E_NOT_OK
+ *
+ *********************************************************************************************************************/
+
+
+void FordMsg41ABusHiSpdPer1(void); /* PRQA S 0850 */ /* MD_MSR_19.8 */
+
+# 1 "C:\\Component\\MM078A_FordMsg41ABusHiSpd_Impl\\tools\\local\\generate\\FordMsg41ABusHiSpd_MemMap.h" 1
+/**********************************************************************************************************************
+ *  COPYRIGHT
+ *  -------------------------------------------------------------------------------------------------------------------
+ *
+ *                This software is copyright protected and proprietary to Vector Informatik GmbH.
+ *                Vector Informatik GmbH grants to you only those rights as set out in the license conditions.
+ *                All other rights remain with Vector Informatik GmbH.
+ *  -------------------------------------------------------------------------------------------------------------------
+ *  FILE DESCRIPTION
+ *  -------------------------------------------------------------------------------------------------------------------
+ *          File:  FordMsg41ABusHiSpd_MemMap.h
+ *        Config:  C:/Component/MM078A_FordMsg41ABusHiSpd_Impl/tools/Component.dpa
+ *     SW-C Type:  FordMsg41ABusHiSpd
+ *  Generated at:  Fri Apr 20 16:09:20 2018
+ *
+ *     Generator:  MICROSAR RTE Generator Version 4.13.0
+ *                 RTE Core Version 1.13.0
+ *       License:  Unlimited license CBD1400351 for Nexteer Automotive Corporation
+ *
+ *   Description:  Memory Mapping header file for SW-C <FordMsg41ABusHiSpd> (Contract Phase)
+ *********************************************************************************************************************/
+
+
+/**********************************************************************************************************************
+ * DO NOT CHANGE THIS COMMENT!           << Start of version logging area >>                DO NOT CHANGE THIS COMMENT!
+ *********************************************************************************************************************/
+
+
+/**********************************************************************************************************************
+ * DO NOT CHANGE THIS COMMENT!           << End of version logging area >>                  DO NOT CHANGE THIS COMMENT!
+ *********************************************************************************************************************/
+
+
+/**********************************************************************************************************************
+ * DO NOT CHANGE THIS COMMENT!           << Start of include and declaration area >>        DO NOT CHANGE THIS COMMENT!
+ *********************************************************************************************************************/
+
+
+/**********************************************************************************************************************
+ * DO NOT CHANGE THIS COMMENT!           << End of include and declaration area >>          DO NOT CHANGE THIS COMMENT!
+ *********************************************************************************************************************/
+
+/**********************************************************************************************************************
+ * FordMsg41ABusHiSpd specific defines
+ *********************************************************************************************************************/
+
+/* open sections */
+/**********************************************************************************************************************
+ * DO NOT CHANGE THIS COMMENT!         << Start of memory mapping implementation >>         DO NOT CHANGE THIS COMMENT!
+ * Symbol: FordMsg41ABusHiSpd_START_SEC_CODE
+ *********************************************************************************************************************/
+
+
+
+
+
+
+
+/**********************************************************************************************************************
+ * DO NOT CHANGE THIS COMMENT!          << End of memory mapping implementation >>          DO NOT CHANGE THIS COMMENT!
+ *********************************************************************************************************************/
+/**********************************************************************************************************************
+ * DO NOT CHANGE THIS COMMENT!         << Start of memory mapping implementation >>         DO NOT CHANGE THIS COMMENT!
+ * Symbol: FordMsg41ABusHiSpd_START_SEC_CONST_UNSPECIFIED
+ *********************************************************************************************************************/
+
+
+
+
+
+
+
+/**********************************************************************************************************************
+ * DO NOT CHANGE THIS COMMENT!          << End of memory mapping implementation >>          DO NOT CHANGE THIS COMMENT!
+ *********************************************************************************************************************/
+/**********************************************************************************************************************
+ * DO NOT CHANGE THIS COMMENT!         << Start of memory mapping implementation >>         DO NOT CHANGE THIS COMMENT!
+ * Symbol: FordMsg41ABusHiSpd_START_SEC_VAR_NOINIT_UNSPECIFIED
+ *********************************************************************************************************************/
+
+
+
+
+
+
+
+/**********************************************************************************************************************
+ * DO NOT CHANGE THIS COMMENT!          << End of memory mapping implementation >>          DO NOT CHANGE THIS COMMENT!
+ *********************************************************************************************************************/
+/**********************************************************************************************************************
+ * DO NOT CHANGE THIS COMMENT!         << Start of memory mapping implementation >>         DO NOT CHANGE THIS COMMENT!
+ * Symbol: FordMsg41ABusHiSpd_START_SEC_VAR_INIT_UNSPECIFIED
+ *********************************************************************************************************************/
+
+
+
+
+
+
+
+/**********************************************************************************************************************
+ * DO NOT CHANGE THIS COMMENT!          << End of memory mapping implementation >>          DO NOT CHANGE THIS COMMENT!
+ *********************************************************************************************************************/
+/**********************************************************************************************************************
+ * DO NOT CHANGE THIS COMMENT!         << Start of memory mapping implementation >>         DO NOT CHANGE THIS COMMENT!
+ * Symbol: FordMsg41ABusHiSpd_START_SEC_VAR_ZERO_INIT_UNSPECIFIED
+ *********************************************************************************************************************/
+
+
+
+
+
+
+
+/**********************************************************************************************************************
+ * DO NOT CHANGE THIS COMMENT!          << End of memory mapping implementation >>          DO NOT CHANGE THIS COMMENT!
+ *********************************************************************************************************************/
+
+/* close sections */
+/**********************************************************************************************************************
+ * DO NOT CHANGE THIS COMMENT!         << Start of memory mapping implementation >>         DO NOT CHANGE THIS COMMENT!
+ * Symbol: FordMsg41ABusHiSpd_STOP_SEC_CODE
+ *********************************************************************************************************************/
+
+
+
+
+
+
+
+/**********************************************************************************************************************
+ * DO NOT CHANGE THIS COMMENT!          << End of memory mapping implementation >>          DO NOT CHANGE THIS COMMENT!
+ *********************************************************************************************************************/
+/**********************************************************************************************************************
+ * DO NOT CHANGE THIS COMMENT!         << Start of memory mapping implementation >>         DO NOT CHANGE THIS COMMENT!
+ * Symbol: FordMsg41ABusHiSpd_STOP_SEC_CONST_UNSPECIFIED
+ *********************************************************************************************************************/
+
+
+
+
+
+
+
+/**********************************************************************************************************************
+ * DO NOT CHANGE THIS COMMENT!          << End of memory mapping implementation >>          DO NOT CHANGE THIS COMMENT!
+ *********************************************************************************************************************/
+/**********************************************************************************************************************
+ * DO NOT CHANGE THIS COMMENT!         << Start of memory mapping implementation >>         DO NOT CHANGE THIS COMMENT!
+ * Symbol: FordMsg41ABusHiSpd_STOP_SEC_VAR_NOINIT_UNSPECIFIED
+ *********************************************************************************************************************/
+
+
+
+
+
+
+
+/**********************************************************************************************************************
+ * DO NOT CHANGE THIS COMMENT!          << End of memory mapping implementation >>          DO NOT CHANGE THIS COMMENT!
+ *********************************************************************************************************************/
+/**********************************************************************************************************************
+ * DO NOT CHANGE THIS COMMENT!         << Start of memory mapping implementation >>         DO NOT CHANGE THIS COMMENT!
+ * Symbol: FordMsg41ABusHiSpd_STOP_SEC_VAR_INIT_UNSPECIFIED
+ *********************************************************************************************************************/
+
+
+
+
+
+
+
+/**********************************************************************************************************************
+ * DO NOT CHANGE THIS COMMENT!          << End of memory mapping implementation >>          DO NOT CHANGE THIS COMMENT!
+ *********************************************************************************************************************/
+/**********************************************************************************************************************
+ * DO NOT CHANGE THIS COMMENT!         << Start of memory mapping implementation >>         DO NOT CHANGE THIS COMMENT!
+ * Symbol: FordMsg41ABusHiSpd_STOP_SEC_VAR_ZERO_INIT_UNSPECIFIED
+ *********************************************************************************************************************/
+
+
+
+
+
+
+
+/**********************************************************************************************************************
+ * DO NOT CHANGE THIS COMMENT!          << End of memory mapping implementation >>          DO NOT CHANGE THIS COMMENT!
+ *********************************************************************************************************************/
+
+/**********************************************************************************************************************
+ * DO NOT CHANGE THIS COMMENT!           << Start of removed code area >>                   DO NOT CHANGE THIS COMMENT!
+ *********************************************************************************************************************/
+
+
+/**********************************************************************************************************************
+ * DO NOT CHANGE THIS COMMENT!           << End of removed code area >>                     DO NOT CHANGE THIS COMMENT!
+ *********************************************************************************************************************/
+# 259 "C:\\Component\\MM078A_FordMsg41ABusHiSpd_Impl\\tools\\local\\generate\\Rte_FordMsg41ABusHiSpd.h" 2
+
+
+/**********************************************************************************************************************
+ * Application errors
+ *********************************************************************************************************************/
+
+
+
+
+
+
+
+
+
+# 1 "C:\\Component\\MM078A_FordMsg41ABusHiSpd_Impl\\tools\\local\\generate\\Rte_Stubs.h" 1
+/******************************************************************************************************************
+* Copyright 2016 Nexteer
+* Nexteer Confidential
+*
+* Module File Name:   Rte_Stubs.h
+* Module Description: Stubs header for Polyspace analysis.  Generated from TL109A_SwcSuprt.
+* Project:            CBD
+* Author:             Owen Tosh
+******************************************************************************************************************/
+
+
+
+
+
+# 1 "C:\\Component\\MM078A_FordMsg41ABusHiSpd_Impl\\tools\\local\\generate\\math_stubs.h" 1
+/******************************************************************************************************************
+* Copyright 2018 Nexteer
+* Nexteer Confidential
+*
+* Module File Name:   math_stubs.c
+* Module Description: Stubs for Polyspace analysis.
+* Project:            CBD
+* Author:             Matthew Leser
+******************************************************************************************************************/
+
+
+
+__inline float32 fabsf(float32 Inp);
+
+/*****************************************************************************
+*  Name:           Abslt_f32_f32()
+*  Description:    Single Precision Float Absolute Value
+*  Inputs:         Inp
+*  Outputs:        Absolute Value of Input
+*  Usage Notes:    None
+*****************************************************************************/
+__inline float32 fabsf(float32 Inp)
+{
+    if(Inp < 0.0f)
+    {
+        Inp = -Inp;
+    }
+    
+    return (Inp);
+}
+# 16 "C:\\Component\\MM078A_FordMsg41ABusHiSpd_Impl\\tools\\local\\generate\\Rte_Stubs.h" 2
+
+/*** Extern Statements ***/
+
+/* Inputs */
+extern uint8 FordMsg41ABusHiSpd_Ip_ClrDiagcFlgProxy;
+extern uint8 FordMsg41ABusHiSpd_Ip_FordEpsLifeCycMod;
+extern uint16 FordMsg41ABusHiSpd_Ip_Ford_Outside_Air_Temp_Stat;
+
+/* Outputs */
+extern float32 FordMsg41ABusHiSpd_Op_FordVehOutdAirT;
+extern uint16 FordMsg41ABusHiSpd_Op_FordVehOutdAirTRaw;
+
+/* Calibrations */
+extern const uint16 FordMsg41ABusHiSpd_Cal_FordMsg41ABusHiSpdMissMsgFaildThd;
+extern const uint16 FordMsg41ABusHiSpd_Cal_FordMsg41ABusHiSpdMissMsgPassdThd;
+
+/* PIMs */
+extern uint8 FordMsg41ABusHiSpd_Pim_ClrDiagcFlgProxyPrev;
+extern boolean FordMsg41ABusHiSpd_Pim_FordVehMsg41AMiss;
+extern float32 FordMsg41ABusHiSpd_Pim_FordVehOutdAirTPrev;
+extern uint16 FordMsg41ABusHiSpd_Pim_FordVehOutdAirTRawPrev;
+extern uint32 FordMsg41ABusHiSpd_Pim_MissMsgFaildRefTi;
+extern uint32 FordMsg41ABusHiSpd_Pim_MissMsgPassdRefTi;
+
+/* Arguments and Returns */
+extern uint32 FordMsg41ABusHiSpd_Srv_GetRefTmr100MicroSec32bit_RefTmr;
+extern uint32 FordMsg41ABusHiSpd_Srv_GetTiSpan100MicroSec32bit_RefTmr;
+extern uint32 FordMsg41ABusHiSpd_Srv_GetTiSpan100MicroSec32bit_TiSpan;
+extern NtcNr1 FordMsg41ABusHiSpd_Srv_SetNtcSts_NtcNr;
+extern uint8 FordMsg41ABusHiSpd_Srv_SetNtcSts_NtcStInfo;
+extern NtcSts1 FordMsg41ABusHiSpd_Srv_SetNtcSts_NtcSts;
+extern uint16 FordMsg41ABusHiSpd_Srv_SetNtcSts_DebStep;
+extern Std_ReturnType FordMsg41ABusHiSpd_Srv_SetNtcSts_Return;
+
+
+/*** Client Stub ***/
+
+extern void Rte_Stub(void);
+
+
+# 274 "C:\\Component\\MM078A_FordMsg41ABusHiSpd_Impl\\tools\\local\\generate\\Rte_FordMsg41ABusHiSpd.h" 2
+# 13 "C:\\Component\\MM078A_FordMsg41ABusHiSpd_Impl\\tools\\local\\generate\\Rte_Stubs.c" 2
+# 1 "C:\\Component\\TL103A_CplrSuprt\\include\\2013.5.5\\ansi\\float.h" 1
+/*
+                        ISO C Runtime Library
+
+        Copyright (c) 1983-2013 Green Hills Software, Inc.
+
+    This program is the property of Green Hills Software, Inc,
+    its contents are proprietary information and no part of it
+    is to be disclosed to anyone except employees of Green Hills
+    Software, Inc., or as agreed in writing signed by the President
+    of Green Hills Software, Inc.
+*/
+
+# 20 "C:\\Component\\TL103A_CplrSuprt\\include\\2013.5.5\\ansi\\float.h"
+/*
+ * R3900 single precision rounds to zero in hardware.
+ * But R3900 double precision rounds to nearest in software.
+ * ANSI lacks this specific case, so use -1 which means indeterminate.
+ */
+
+
+
+
+
+
+# 43 "C:\\Component\\TL103A_CplrSuprt\\include\\2013.5.5\\ansi\\float.h"
+
+# 53 "C:\\Component\\TL103A_CplrSuprt\\include\\2013.5.5\\ansi\\float.h"
+
+# 77 "C:\\Component\\TL103A_CplrSuprt\\include\\2013.5.5\\ansi\\float.h"
+
+
+
+
+
+
+
+
+
+
+
+
+# 116 "C:\\Component\\TL103A_CplrSuprt\\include\\2013.5.5\\ansi\\float.h"
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 14 "C:\\Component\\MM078A_FordMsg41ABusHiSpd_Impl\\tools\\local\\generate\\Rte_Stubs.c" 2
+
+
+/*** Server Port Stubs ***/
+
+Std_ReturnType Rte_Call_FordMsg41ABusHiSpd_GetRefTmr100MicroSec32bit_Oper(uint32 * RefTmr_Arg)
+{
+    *RefTmr_Arg = FordMsg41ABusHiSpd_Srv_GetRefTmr100MicroSec32bit_RefTmr;
+    return (Std_ReturnType)0U;
+}
+
+Std_ReturnType Rte_Call_FordMsg41ABusHiSpd_GetTiSpan100MicroSec32bit_Oper(uint32 RefTmr_Arg, uint32 * TiSpan_Arg)
+{
+    FordMsg41ABusHiSpd_Srv_GetTiSpan100MicroSec32bit_RefTmr = RefTmr_Arg;
+    *TiSpan_Arg = FordMsg41ABusHiSpd_Srv_GetTiSpan100MicroSec32bit_TiSpan;
+    return (Std_ReturnType)0U;
+}
+
+Std_ReturnType Rte_Call_FordMsg41ABusHiSpd_SetNtcSts_Oper(NtcNr1 NtcNr_Arg, uint8 NtcStInfo_Arg, NtcSts1 NtcSts_Arg, uint16 DebStep_Arg)
+{
+    FordMsg41ABusHiSpd_Srv_SetNtcSts_NtcNr = NtcNr_Arg;
+    FordMsg41ABusHiSpd_Srv_SetNtcSts_NtcStInfo = NtcStInfo_Arg;
+    FordMsg41ABusHiSpd_Srv_SetNtcSts_NtcSts = NtcSts_Arg;
+    FordMsg41ABusHiSpd_Srv_SetNtcSts_DebStep = DebStep_Arg;
+    return FordMsg41ABusHiSpd_Srv_SetNtcSts_Return;
+}
+
+
+/*** Client Port Stubs ***/
+
+void Rte_Stub(void)
+{
+    FordMsg41ABusHiSpdInit1();
+    FordMsg41ABusHiSpdPer1();
+}
+

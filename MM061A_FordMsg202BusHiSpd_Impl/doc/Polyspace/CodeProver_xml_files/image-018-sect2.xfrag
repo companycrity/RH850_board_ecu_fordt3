@@ -1,0 +1,892 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect2>
+<?dbhtml filename="CodeProver-020.html"?>
+<title>DRS - Global Variables</title>
+<table colsep="1" frame="all" pgwide="1" rowsep="1">
+    <title>File: C:\Users\nz3541\Documents\SynergyWorkingEA4\MM061A_FordMsg202BusHiSpd_Impl\tools\local\generate\Rte_Stubs.h</title>
+    <tgroup align="left" cols="9">
+        <colspec colname="1" colnum="1" colwidth="1200*"/>
+        <colspec colname="2" colnum="2" colwidth="600*"/>
+        <colspec colname="3" colnum="3" colwidth="600*"/>
+        <colspec colname="4" colnum="4" colwidth="600*"/>
+        <colspec colname="5" colnum="5" colwidth="600*"/>
+        <colspec colname="6" colnum="6" colwidth="600*"/>
+        <colspec colname="7" colnum="7" colwidth="600*"/>
+        <colspec colname="8" colnum="8" colwidth="600*"/>
+        <colspec colname="9" colnum="9" colwidth="600*"/>
+        <thead>
+            <row bgcolor="#6A80BF">
+                <entry>Name</entry>
+                <entry>Type</entry>
+                <entry>Init Mode</entry>
+                <entry>Init Range</entry>
+                <entry>Initialize Pointer</entry>
+                <entry># Allocated Objects</entry>
+                <entry>Init Allocated</entry>
+                <entry>Global Assert</entry>
+                <entry>Assert Range</entry><?dbfo bgcolor="#6A80BF"?>
+            </row>
+        </thead>
+        <tbody>
+            <row bgcolor="#F0F2F9">
+                <entry>FordMsg202BusHiSpd_Cal_FordMsg202BusHiSpdEngModLoQlyVldFaildThd</entry>
+                <entry>extern const uint16</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..6000</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>FordMsg202BusHiSpd_Cal_FordMsg202BusHiSpdEngModLoQlyVldMissThd</entry>
+                <entry>extern const uint16</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..6000</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>FordMsg202BusHiSpd_Cal_FordMsg202BusHiSpdEngModLoQlyVldPassdThd</entry>
+                <entry>extern const uint16</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..6000</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>FordMsg202BusHiSpd_Cal_FordMsg202BusHiSpdEngModlVldFaildThd</entry>
+                <entry>extern const uint16</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..6000</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>FordMsg202BusHiSpd_Cal_FordMsg202BusHiSpdEngModlVldMissThd</entry>
+                <entry>extern const uint16</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..6000</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>FordMsg202BusHiSpd_Cal_FordMsg202BusHiSpdGearRvsStsInvldFaildThd</entry>
+                <entry>extern const uint16</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..6000</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>FordMsg202BusHiSpd_Cal_FordMsg202BusHiSpdGearRvsStsInvldPassdThd</entry>
+                <entry>extern const uint16</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..6000</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>FordMsg202BusHiSpd_Cal_FordMsg202BusHiSpdGearRvsStsVldFaildThd</entry>
+                <entry>extern const uint16</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..6000</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>FordMsg202BusHiSpd_Cal_FordMsg202BusHiSpdGearRvsStsVldMissThd</entry>
+                <entry>extern const uint16</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..6000</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>FordMsg202BusHiSpd_Cal_FordMsg202BusHiSpdGearRvsStsVldPassdThd</entry>
+                <entry>extern const uint16</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..6000</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>FordMsg202BusHiSpd_Cal_FordMsg202BusHiSpdMissMsgFaildAbsPrsntDisadThd</entry>
+                <entry>extern const uint16</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..6000</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>FordMsg202BusHiSpd_Cal_FordMsg202BusHiSpdMissMsgFaildAbsPrsntEnadThd</entry>
+                <entry>extern const uint16</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..6000</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>FordMsg202BusHiSpd_Cal_FordMsg202BusHiSpdMissMsgPassdThd</entry>
+                <entry>extern const uint16</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..6000</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>FordMsg202BusHiSpd_Cal_FordMsg202BusHiSpdQlyFacEngModInvldFaildThd</entry>
+                <entry>extern const uint16</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..6000</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>FordMsg202BusHiSpd_Cal_FordMsg202BusHiSpdQlyFacEngModInvldPassdThd</entry>
+                <entry>extern const uint16</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..6000</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>FordMsg202BusHiSpd_Cal_FordMsg202BusHiSpdTrlrBackupAssiAvlVldMissThd</entry>
+                <entry>extern const uint16</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..6000</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>FordMsg202BusHiSpd_Cal_FordMsg202BusHiSpdTrlrBackupAssiAvlVldPassdThd</entry>
+                <entry>extern const uint16</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..6000</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>FordMsg202BusHiSpd_Ip_ClrDiagcFlgProxy</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..1</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>FordMsg202BusHiSpd_Ip_FordAbsPrsnt</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..1</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>FordMsg202BusHiSpd_Ip_FordBrkOscnRednEnad</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..1</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>FordMsg202BusHiSpd_Ip_FordCanDtcInhb</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..1</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>FordMsg202BusHiSpd_Ip_FordEpsLifeCycMod</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..1</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>FordMsg202BusHiSpd_Ip_FordInvldMsgDiagcInhb</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..1</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>FordMsg202BusHiSpd_Ip_FordMfgDiagcInhb</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..1</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>FordMsg202BusHiSpd_Ip_FordMissMsgDiagcInhb</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..1</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>FordMsg202BusHiSpd_Ip_FordTqSteerCmpEnad</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..1</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>FordMsg202BusHiSpd_Ip_FordTrlrBackupAssiEnad</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..1</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>FordMsg202BusHiSpd_Op_FordVehGearRvsStsRaw</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..7</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>FordMsg202BusHiSpd_Op_FordVehGearRvsStsVld</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..1</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>FordMsg202BusHiSpd_Op_FordVehSpdChksEngModl</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..255</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>FordMsg202BusHiSpd_Op_FordVehSpdCntrEngModl</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..15</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>FordMsg202BusHiSpd_Op_FordVehSpdEngModl</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..655.35</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>FordMsg202BusHiSpd_Op_FordVehSpdEngModLoQlyVld</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..1</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>FordMsg202BusHiSpd_Op_FordVehSpdEngModlRaw</entry>
+                <entry>extern uint16</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..65535</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>FordMsg202BusHiSpd_Op_FordVehSpdEngModlVld</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..1</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>FordMsg202BusHiSpd_Op_FordVehTrlrAidAvlRaw</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..1</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>FordMsg202BusHiSpd_Op_FordVehTrlrBackupAssiAvlVld</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..1</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>FordMsg202BusHiSpd_Pim_ClrDiagcFlgProxyPrev</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..1</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>FordMsg202BusHiSpd_Pim_FirstTranVldFlg</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..1</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>FordMsg202BusHiSpd_Pim_FordVehGearRvsStsInvldFaildRefTi</entry>
+                <entry>extern uint32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..4294967295</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>FordMsg202BusHiSpd_Pim_FordVehGearRvsStsInvldPassdRefTi</entry>
+                <entry>extern uint32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..4294967295</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>FordMsg202BusHiSpd_Pim_FordVehGearRvsStsPrev</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>min..max</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>FordMsg202BusHiSpd_Pim_FordVehGearRvsStsRawPrev</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..7</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>FordMsg202BusHiSpd_Pim_FordVehGearRvsStsVldFaildRefTi</entry>
+                <entry>extern uint32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..4294967295</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>FordMsg202BusHiSpd_Pim_FordVehGearRvsStsVldMissRefTi</entry>
+                <entry>extern uint32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..4294967295</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>FordMsg202BusHiSpd_Pim_FordVehGearRvsStsVldPassdRefTi</entry>
+                <entry>extern uint32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..4294967295</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>FordMsg202BusHiSpd_Pim_FordVehGearRvsStsVldPrev</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..1</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>FordMsg202BusHiSpd_Pim_FordVehMsg202Miss</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..1</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>FordMsg202BusHiSpd_Pim_FordVehMsg202Rxd</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..1</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>FordMsg202BusHiSpd_Pim_FordVehSpdChksEngModlPrev</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..255</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>FordMsg202BusHiSpd_Pim_FordVehSpdCntrEngModlPrev</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..15</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>FordMsg202BusHiSpd_Pim_FordVehSpdEngModLoQlyVldFaildRefTi</entry>
+                <entry>extern uint32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..4294967295</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>FordMsg202BusHiSpd_Pim_FordVehSpdEngModLoQlyVldMissRefTi</entry>
+                <entry>extern uint32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..4294967295</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>FordMsg202BusHiSpd_Pim_FordVehSpdEngModLoQlyVldPassdRefTi</entry>
+                <entry>extern uint32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..4294967295</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>FordMsg202BusHiSpd_Pim_FordVehSpdEngModLoQlyVldPrev</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..1</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>FordMsg202BusHiSpd_Pim_FordVehSpdEngModlPrev</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..655.35</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>FordMsg202BusHiSpd_Pim_FordVehSpdEngModlRawPrev</entry>
+                <entry>extern uint16</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..65535</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>FordMsg202BusHiSpd_Pim_FordVehSpdEngModlVldFaildRefTi</entry>
+                <entry>extern uint32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..4294967295</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>FordMsg202BusHiSpd_Pim_FordVehSpdEngModlVldMissRefTi</entry>
+                <entry>extern uint32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..4294967295</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>FordMsg202BusHiSpd_Pim_FordVehSpdEngModlVldPrev</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..1</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>FordMsg202BusHiSpd_Pim_FordVehSpdQlyFacEngModlInvldFaildRefTi</entry>
+                <entry>extern uint32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..4294967295</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>FordMsg202BusHiSpd_Pim_FordVehSpdQlyFacEngModlInvldPassdRefTi</entry>
+                <entry>extern uint32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..4294967295</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>FordMsg202BusHiSpd_Pim_FordVehSpdQlyFacEngModlPrev</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>min..max</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>FordMsg202BusHiSpd_Pim_FordVehTrlrAidAvlPrev</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>min..max</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>FordMsg202BusHiSpd_Pim_FordVehTrlrAidAvlRawPrev</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..1</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>FordMsg202BusHiSpd_Pim_FordVehTrlrBackupAssiAvlVldMissRefTi</entry>
+                <entry>extern uint32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..4294967295</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>FordMsg202BusHiSpd_Pim_FordVehTrlrBackupAssiAvlVldPassdRefTi</entry>
+                <entry>extern uint32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..4294967295</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>FordMsg202BusHiSpd_Pim_FordVehTrlrBackupAssiAvlVldPrev</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..1</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>FordMsg202BusHiSpd_Pim_MissMsgFaildRefTi</entry>
+                <entry>extern uint32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..4294967295</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>FordMsg202BusHiSpd_Pim_MissMsgPassdRefTi</entry>
+                <entry>extern uint32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..4294967295</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>FordMsg202BusHiSpd_Srv_GetRefTmr100MicroSec32bit_RefTmr</entry>
+                <entry>extern uint32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..4294967295</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>FordMsg202BusHiSpd_Srv_GetTiSpan100MicroSec32bit_RefTmr</entry>
+                <entry>extern uint32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..4294967295</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>FordMsg202BusHiSpd_Srv_GetTiSpan100MicroSec32bit_TiSpan</entry>
+                <entry>extern uint32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..4294967295</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>FordMsg202BusHiSpd_Srv_SetNtcSts_DebStep</entry>
+                <entry>extern uint16</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..65535</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>FordMsg202BusHiSpd_Srv_SetNtcSts_NtcNr</entry>
+                <entry>extern uint16</entry>
+                <entry>PERMANENT</entry>
+                <entry>1..511</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>FordMsg202BusHiSpd_Srv_SetNtcSts_NtcStInfo</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..255</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>FordMsg202BusHiSpd_Srv_SetNtcSts_NtcSts</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..3</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>FordMsg202BusHiSpd_Srv_SetNtcSts_Return</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..1</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+        </tbody>
+    </tgroup>
+</table>
+</sect2>

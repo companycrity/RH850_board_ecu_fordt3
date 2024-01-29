@@ -1,0 +1,547 @@
+<RDEF> I Includes
+<R>I C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c C:/Component/SF107A_MotRplCoggCmd_Impl/tools/contract/Rte_CDD_MotRplCoggCmd.h 33
+<R>I C:/Component/SF107A_MotRplCoggCmd_Impl/tools/contract/Rte_CDD_MotRplCoggCmd.h C:/Component/SF107A_MotRplCoggCmd_Impl/tools/contract/Rte_CDD_MotRplCoggCmd_Type.h 40
+<R>I C:/Component/SF107A_MotRplCoggCmd_Impl/tools/contract/Rte_CDD_MotRplCoggCmd_Type.h C:/Component/SF107A_MotRplCoggCmd_Impl/tools/contract/Rte_Type.h 32
+<R>I C:/Component/SF107A_MotRplCoggCmd_Impl/tools/contract/Rte_Type.h C:/Component/SF107A_MotRplCoggCmd_Impl/tools/contract/Rte.h 27
+<R>I C:/Component/SF107A_MotRplCoggCmd_Impl/tools/contract/Rte.h C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 39
+<R>I C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h C:/Component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Platform_Types.h 63
+<R>I C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h C:/Component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h 64
+<R>I C:/Component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h C:/Component/AR201A_ArCplrSuprt_Impl/tools/contract/Compiler_Cfg.h 52
+<R>I C:/Component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h C:/Component/AR201A_ArCplrSuprt_Impl/tools/contract/Renesas_Compiler.h 55
+<R>I C:/Component/SF107A_MotRplCoggCmd_Impl/tools/contract/Rte_CDD_MotRplCoggCmd.h C:/Component/SF107A_MotRplCoggCmd_Impl/tools/contract/Rte_DataHandleType.h 41
+<R>I C:/Component/SF107A_MotRplCoggCmd_Impl/tools/contract/Rte_CDD_MotRplCoggCmd.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 60
+<R>I C:/Component/SF107A_MotRplCoggCmd_Impl/tools/contract/Rte_CDD_MotRplCoggCmd.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 65
+<R>I C:/Component/SF107A_MotRplCoggCmd_Impl/tools/contract/Rte_CDD_MotRplCoggCmd.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 71
+<R>I C:/Component/SF107A_MotRplCoggCmd_Impl/tools/contract/Rte_CDD_MotRplCoggCmd.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 83
+<R>I C:/Component/SF107A_MotRplCoggCmd_Impl/tools/contract/Rte_CDD_MotRplCoggCmd.h C:/Component/SF107A_MotRplCoggCmd_Impl/tools/contract/CDD_MotRplCoggCmd_MemMap.h 154
+<R>I C:/Component/SF107A_MotRplCoggCmd_Impl/tools/contract/CDD_MotRplCoggCmd_MemMap.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 56
+<R>I C:/Component/SF107A_MotRplCoggCmd_Impl/tools/contract/Rte_CDD_MotRplCoggCmd.h C:/Component/SF107A_MotRplCoggCmd_Impl/tools/contract/CDD_MotRplCoggCmd_MemMap.h 242
+<R>I C:/Component/SF107A_MotRplCoggCmd_Impl/tools/contract/CDD_MotRplCoggCmd_MemMap.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 128
+<R>I C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c C:/Component/SF107A_MotRplCoggCmd_Impl/include/CDD_MotRplCoggCmd.h 34
+<DEFINE> CDD_MOTRPLCOGGCMD_H C:/Component/SF107A_MotRplCoggCmd_Impl/include/CDD_MotRplCoggCmd.h 21 I DF OM - - - O
+<R>I C:/Component/SF107A_MotRplCoggCmd_Impl/include/CDD_MotRplCoggCmd.h C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 24
+<EXTN> MotRplCoggCmdPer1 C:/Component/SF107A_MotRplCoggCmd_Impl/include/CDD_MotRplCoggCmd.h 30
+<DEFINE> MotRplCoggCmdPer1 C:/Component/SF107A_MotRplCoggCmd_Impl/include/CDD_MotRplCoggCmd.h 30 I DC OF F X (.,.) -
+<R>I C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c C:/Component/SF107A_MotRplCoggCmd_Impl/tools/contract/CDD_MotCtrlMgr_Data.h 35
+<R>I C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h 36
+<R>I C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h C:/Component/TL103A_CplrSuprt/include/2015.1.5/ansi/math.h 27
+<R>I C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 28
+<R>I C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h C:/Component/AR999A_ArchGlbPrm_Impl/include/ArchGlbPrm.h 29
+<R>I C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h 37
+<R>I C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 24
+<R>I C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c C:/Component/AR999A_ArchGlbPrm_Impl/include/ArchGlbPrm.h 38
+<DEFINE> COGGIDXCON_CNT_U16 C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 41 N DF OM - - - O
+<LIT> 512 U P C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 41 44 N DN - F M
+<DEFINE> ITRNIDXCON_CNT_U08 C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 42 N DF OM - - - O
+<LIT> 128 U P C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 42 44 N DN - F M
+<DEFINE> MOTCOGGCMDHILIM_MOTNWTMTR_F32 C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 43 N DF OM - - - O
+<LIT> 0.1 F P C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 43 44 N FN - F M
+<DEFINE> MOTCOGGCMDLOLIM_MOTNWTMTR_F32 C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 44 N DF OM - - - O
+<LIT> 0.1 F N C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 44 47 N FN - F M
+<DEFINE> MOTCURRCOGGCMDHILIM_AMPR_F32 C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 45 N DF OM - - - O
+<LIT> 6.0 F P C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 45 44 N FN - F M
+<DEFINE> MOTCURRCOGGCMDLOLIM_AMPR_F32 C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 46 N DF OM - - - O
+<LIT> 6.0 F N C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 46 46 N FN - F M
+<DEFINE> MOTRPLCMDHILIM_AMPR_F32 C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 47 N DF OM - - - O
+<LIT> 29.0 F P C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 47 44 N FN - F M
+<DEFINE> MOTRPLCMDLOLIM_AMPR_F32 C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 48 N DF OM - - - O
+<LIT> 29.0 F N C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 48 46 N FN - F M
+<DEFINE> ONEOVER12_MOTREV_F32 C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 49 N DF OM - - - O
+<LIT> 0.0833333 F P C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 49 45 N FN - F M
+<DEFINE> CDD_MotRplCoggCmd_MotCtrl_START_SEC_CODE C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 61 N DF OM - - - O
+<R>I C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c C:/Component/SF107A_MotRplCoggCmd_Impl/include/CDD_MotRplCoggCmd_MotCtrl_MemMap.h 62
+<DEFINE> MotCtrl_START_SEC_CODE C:/Component/SF107A_MotRplCoggCmd_Impl/include/CDD_MotRplCoggCmd_MotCtrl_MemMap.h 26 I DF OM - - - O
+<R>I C:/Component/SF107A_MotRplCoggCmd_Impl/include/CDD_MotRplCoggCmd_MotCtrl_MemMap.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 27
+<EXTD> MotRplCoggCmdPer1 C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 71
+<DEFINE> MotRplCoggCmdPer1 C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 71 N DR OF F X (.,.) -
+<DEFINE> MotRplCoggCmdPer1 C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 71 N DF OF F X (.,.) -
+<DEFINE> MotCtrlMotTqRplCoggOrder2Mag_MotNwtMtr_T_f32 C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 73 N DC OV B N fs -
+<DEFINE> MotCtrlMotTqRplCoggOrder2Mag_MotNwtMtr_T_f32 C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 73 N DF OV B N fs -
+<DEFINE> MotCtrlMotTqRplCoggOrder1Mag_MotNwtMtr_T_f32 C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 74 N DC OV B N fs -
+<DEFINE> MotCtrlMotTqRplCoggOrder1Mag_MotNwtMtr_T_f32 C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 74 N DF OV B N fs -
+<DEFINE> MotCtrlMotTqRplCoggOrder3Mag_MotNwtMtr_T_f32 C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 75 N DC OV B N fs -
+<DEFINE> MotCtrlMotTqRplCoggOrder3Mag_MotNwtMtr_T_f32 C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 75 N DF OV B N fs -
+<DEFINE> CorrMotPosElec_Rad_T_f32 C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 76 N DC OV B N fs -
+<DEFINE> CorrMotPosElec_Rad_T_f32 C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 76 N DF OV B N fs -
+<DEFINE> CogginTrqCancIndex_T_Cnt_u16 C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 77 N DC OV B N us -
+<DEFINE> CogginTrqCancIndex_T_Cnt_u16 C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 77 N DF OV B N us -
+<DEFINE> CoggingTrqCanc_MotNwtMtr_T_f32 C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 78 N DC OV B N fs -
+<DEFINE> CoggingTrqCanc_MotNwtMtr_T_f32 C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 78 N DF OV B N fs -
+<DEFINE> CoggingTrqCanc_MotNwtMtr_T_s1p14 C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 79 N DC OV B N ns -
+<DEFINE> CoggingTrqCanc_MotNwtMtr_T_s1p14 C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 79 N DF OV B N ns -
+<DEFINE> CogginIqRef_Amp_T_f32 C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 80 N DC OV B N fs -
+<DEFINE> CogginIqRef_Amp_T_f32 C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 80 N DF OV B N fs -
+<DEFINE> MotPosComputDelay_Rad_T_f32 C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 82 N DC OV B N fs -
+<DEFINE> MotPosComputDelay_Rad_T_f32 C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 82 N DF OV B N fs -
+<DEFINE> PosDelayCorrMotPosElec_Rev_T_u0p16 C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 83 N DC OV B N us -
+<DEFINE> PosDelayCorrMotPosElec_Rev_T_u0p16 C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 83 N DF OV B N us -
+<DEFINE> MotTqCoggOrder2Ph_Rad_T_f32 C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 84 N DC OV B N fs -
+<DEFINE> MotTqCoggOrder2Ph_Rad_T_f32 C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 84 N DF OV B N fs -
+<DEFINE> MotTqCoggOrder1Ph_Rad_T_f32 C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 85 N DC OV B N fs -
+<DEFINE> MotTqCoggOrder1Ph_Rad_T_f32 C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 85 N DF OV B N fs -
+<DEFINE> MotTqCoggOrder3Ph_Rad_T_f32 C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 86 N DC OV B N fs -
+<DEFINE> MotTqCoggOrder3Ph_Rad_T_f32 C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 86 N DF OV B N fs -
+<DEFINE> MotTqCoggOrder1Ag_Rad_T_f32 C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 87 N DC OV B N fs -
+<DEFINE> MotTqCoggOrder1Ag_Rad_T_f32 C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 87 N DF OV B N fs -
+<DEFINE> MotTqCoggOrder2Ag_Rad_T_f32 C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 88 N DC OV B N fs -
+<DEFINE> MotTqCoggOrder2Ag_Rad_T_f32 C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 88 N DF OV B N fs -
+<DEFINE> MotElecPol_Cnt_T_s08 C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 89 N DC OV B N nc -
+<DEFINE> MotElecPol_Cnt_T_s08 C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 89 N DF OV B N nc -
+<DEFINE> MotPosElec_Rev_T_u0p16 C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 90 N DC OV B N us -
+<DEFINE> MotPosElec_Rev_T_u0p16 C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 90 N DF OV B N us -
+<DEFINE> MotTqCoggOrder3Ag_Rad_T_f32 C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 91 N DC OV B N fs -
+<DEFINE> MotTqCoggOrder3Ag_Rad_T_f32 C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 91 N DF OV B N fs -
+<DEFINE> MotTrqRpl_MotNwtMtr_T_f32 C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 92 N DC OV B N fs -
+<DEFINE> MotTrqRpl_MotNwtMtr_T_f32 C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 92 N DF OV B N fs -
+<DEFINE> QaxToMotTqGain_VpRadpS_T_f32 C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 93 N DC OV B N fs -
+<DEFINE> QaxToMotTqGain_VpRadpS_T_f32 C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 93 N DF OV B N fs -
+<DEFINE> PosDelayCorrMotPosElec_Rev_T_f32 C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 94 N DC OV B N fs -
+<DEFINE> PosDelayCorrMotPosElec_Rev_T_f32 C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 94 N DF OV B N fs -
+<DEFINE> MotCurrQaxRpl_Amp_T_f32 C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 95 N DC OV B N fs -
+<DEFINE> MotCurrQaxRpl_Amp_T_f32 C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 95 N DF OV B N fs -
+<RDEF> X Refers-to
+<R>X MotRplCoggCmdPer1 MOTCTRLMGR_MotCtrlMotElecMeclPolarity 98 R
+<R>X MotRplCoggCmdPer1 MOTCTRLMGR_MotCtrlMotAgElec 99 R
+<R>X MotRplCoggCmdPer1 MOTCTRLMGR_MotCtrlMotAgElecDlyRpl 100 R
+<R>X MotRplCoggCmdPer1 MOTCTRLMGR_MotCtrlMotTqRplCoggOrder1Mgn 101 R
+<R>X MotRplCoggCmdPer1 MOTCTRLMGR_MotCtrlMotTqRplCoggOrder2Mgn 102 R
+<R>X MotRplCoggCmdPer1 MOTCTRLMGR_MotCtrlMotTqRplCoggOrder1Pha 103 R
+<R>X MotRplCoggCmdPer1 MOTCTRLMGR_MotCtrlMotTqRplCoggOrder2Pha 104 R
+<R>X MotRplCoggCmdPer1 MOTCTRLMGR_MotCtrlMotTqRplCoggOrder3Mgn 105 R
+<R>X MotRplCoggCmdPer1 MOTCTRLMGR_MotCtrlMotTqRplCoggOrder3Pha 106 R
+<R>X MotRplCoggCmdPer1 MOTCTRLMGR_MotCtrlMotCurrQaxToMotTqGain 107 R
+<R>X MotRplCoggCmdPer1 MOTCTRLMGR_MotCtrlMotCurrQaxRplCmd 109 W
+<LIT> 0.0 F P C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 109 47 N FN fs B X
+<R>X MotRplCoggCmdPer1 MOTCTRLMGR_MotCtrlMotCurrQaxCoggCmd 110 W
+<LIT> 0.0 F P C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 110 47 N FN fs B X
+<LIT> 1 - P C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 119 36 N DN ni B X
+<LIT> 0.0 F P C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 128 48 N FN fs B X
+<LIT> 1.0 F P C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 130 87 N FN fs B X
+<RDEF> C Calls
+<R>C MotRplCoggCmdPer1 FloatToFixd_u16_f32 133
+<R>X MotRplCoggCmdPer1 FloatToFixd_u16_f32 133 R
+<LIT> 7 U P C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 137 84 N DN ui B X
+<LIT> 0x1FF U P C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 137 90 N HN ui B X
+<R>X MotRplCoggCmdPer1 Rte_Inst_CDD_MotRplCoggCmd 138 R
+<R>X MotRplCoggCmdPer1 Rte_Inst_CDD_MotRplCoggCmd 139 R
+<R>C MotRplCoggCmdPer1 FixdToFloat_f32_s16 141
+<R>X MotRplCoggCmdPer1 FixdToFloat_f32_s16 141 R
+<R>X MotRplCoggCmdPer1 Rte_Inst_CDD_MotRplCoggCmd 142 R
+<R>C MotRplCoggCmdPer1 Lim_f32 143
+<R>X MotRplCoggCmdPer1 Lim_f32 143 R
+<R>X MotRplCoggCmdPer1 Rte_Inst_CDD_MotRplCoggCmd 147 R
+<R>C MotRplCoggCmdPer1 Lim_f32 148
+<R>X MotRplCoggCmdPer1 Lim_f32 148 R
+<R>X MotRplCoggCmdPer1 MOTCTRLMGR_MotCtrlMotCurrQaxCoggCmd 148 W
+<R>C MotRplCoggCmdPer1 FixdToFloat_f32_u16 152
+<R>X MotRplCoggCmdPer1 FixdToFloat_f32_u16 152 R
+<R>C MotRplCoggCmdPer1 Rte_Prm_CDD_MotRplCoggCmd_MotRplCoggCmdHrmncOrder1Elec_Val 153
+<R>X MotRplCoggCmdPer1 Rte_Prm_CDD_MotRplCoggCmd_MotRplCoggCmdHrmncOrder1Elec_Val 153 R
+<R>C MotRplCoggCmdPer1 Rte_Prm_CDD_MotRplCoggCmd_MotRplCoggCmdHrmncOrder2Elec_Val 154
+<R>X MotRplCoggCmdPer1 Rte_Prm_CDD_MotRplCoggCmd_MotRplCoggCmdHrmncOrder2Elec_Val 154 R
+<R>C MotRplCoggCmdPer1 Rte_Prm_CDD_MotRplCoggCmd_MotRplCoggCmdHrmncOrder3Elec_Val 155
+<R>X MotRplCoggCmdPer1 Rte_Prm_CDD_MotRplCoggCmd_MotRplCoggCmdHrmncOrder3Elec_Val 155 R
+<R>C MotRplCoggCmdPer1 SinLookup 160
+<R>X MotRplCoggCmdPer1 SinLookup 160 R
+<R>C MotRplCoggCmdPer1 SinLookup 160
+<R>X MotRplCoggCmdPer1 SinLookup 160 R
+<R>C MotRplCoggCmdPer1 SinLookup 160
+<R>X MotRplCoggCmdPer1 SinLookup 160 R
+<R>X MotRplCoggCmdPer1 Rte_Inst_CDD_MotRplCoggCmd 165 R
+<R>C MotRplCoggCmdPer1 Lim_f32 166
+<R>X MotRplCoggCmdPer1 Lim_f32 166 R
+<R>X MotRplCoggCmdPer1 MOTCTRLMGR_MotCtrlMotCurrQaxRplCmd 166 W
+<CTLG> MotRplCoggCmdPer1 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 4
+<CTLG> 3 5
+<CTLG> 4 5
+<CTLG> 5 6
+<CTLG> 5 7
+<CTLG> 6 7
+<CTLG> 7 8
+<CTLG> 8 10
+<CTLGN> 72 119 119 119 123 128 128 170 170 170 
+<S>
+<S>STFIL  C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c
+<S>STNAM  MotRplCoggCmdPer1
+<S>STCYC  3
+<S>STMCC  0 (3:3)
+<S>STMIF  1
+<S>STSUB  12
+<S>STAKI  15
+<S>STLIN  97
+<S>STXLN  39
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  22
+<S>STPTH  4
+<S>STPDN  0.10   
+<S>STPBG  1
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  8
+<S>STAV2  8
+<S>STAV3  13
+<S>STST1  61
+<S>STST2  58
+<S>STST3  36
+<S>STPAR  0
+<S>STCAL  8
+<S>STFN1  283
+<S>STFN2  205
+
+<DEFINE> CDD_MotRplCoggCmd_MotCtrl_STOP_SEC_CODE C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c 172 N DF OM - - - O
+<R>I C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c C:/Component/SF107A_MotRplCoggCmd_Impl/include/CDD_MotRplCoggCmd_MotCtrl_MemMap.h 173
+<DEFINE> MotCtrl_STOP_SEC_CODE C:/Component/SF107A_MotRplCoggCmd_Impl/include/CDD_MotRplCoggCmd_MotCtrl_MemMap.h 32 I DF OM - - - O
+<R>I C:/Component/SF107A_MotRplCoggCmd_Impl/include/CDD_MotRplCoggCmd_MotCtrl_MemMap.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 33
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_f32_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_u08_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_u16_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_u32_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Arctan2_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Blnd_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Cos_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Exp_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FixdToFloat_f32_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FixdToFloat_f32_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FixdToFloat_f32_u16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FixdToFloat_f32_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixdWithRound_s16_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixdWithRound_s32_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixdWithRound_u16_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixdWithRound_u32_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixd_s16_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixd_s32_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixd_u16_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixd_u32_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_u08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_u16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_u08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_u16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_u08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_u16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Mod_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  SinLookup
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c
+<S>STNAM  MotRplCoggCmdPer1
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  SinCos_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sin_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sqrt_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c
+<S>STNAM  C:/Component/SF107A_MotRplCoggCmd_Impl/src/CDD_MotRplCoggCmd_MotCtrl.c
+<S>STNTB  NON-TOKEN BASED STATISTICS...
+<S>STSCT  0
+<S>STECT  13
+<S>STFNC  1
+<S>STFCO  19
+<S>STTKB  TOKEN BASED STATISTICS...
+<S>STVAR  67
+<S>STOPT  23
+<S>STOPN  74
+<S>STTOT  562
+<S>STZIP  500
+<S>STHAL  564
+<S>STSHN  1925
+<S>STDIF  8.80   
+<S>STEFF  32641
+<S>STVOL  3709
+<S>STDEV  5.44   
+<S>STBUG  1
+<S>STTPP  187
+<S>STTLN  70
+<S>STM20  207
+<S>STM21  348
+<S>STM22  56
+<S>STM28  44
+<S>STM33  37
+<S>STBCS  BASIC COCOMO STATISTICS...
+<S>STBMO  0.413  
+<S>STBMS  0.459  
+<S>STBME  0.481  
+<S>STTDO  1.786  
+<S>STTDS  1.903  
+<S>STTDE  1.979  
+<S>STCOM  COMMENT BASED STATISTICS...
+<S>STCDN  0.813  
+

@@ -1,0 +1,39 @@
+AUTOSAR XML Text Transformation v2.0.2.0
+    Output folder: C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A_Working\_Ford_T3T6_Eps_Impl_A\generate
+    Descr. file:   C:\Users\gz324f\AppData\Local\Temp\DaVinci\Cfg-5828371\Generation\Cfg_Gen-1523048898159-0\AutosarFiles_ValGen-1523049121124-0\NxtrMfgSrv_ECUC_4384258921421838057.arxml
+    Include file:  C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A_Working\NM001A_CmnMfgSrv_Impl\generate\..\..\TL105A_Artt\tools\include\Helper.tt
+    Template:      C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A_Working\NM001A_CmnMfgSrv_Impl\generate\MfgSrvCfg.c.tt
+    Namespace:     http://autosar.org/schema/r4.0
+    Prefix:        ar
+    File:          C:/Users/gz324f/Desktop/working/_Ford_T3T6_Eps_Impl_A_Working/_Ford_T3T6_Eps_Impl_A/generate\MfgSrvCfg.c. written.
+    Duration:      00:00:02.1216136.
+AUTOSAR XML Text Transformation v2.0.2.0
+    Output folder: C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A_Working\_Ford_T3T6_Eps_Impl_A\generate
+    Descr. file:   C:\Users\gz324f\AppData\Local\Temp\DaVinci\Cfg-5828371\Generation\Cfg_Gen-1523048898159-0\AutosarFiles_ValGen-1523049121124-0\NxtrMfgSrv_ECUC_4384258921421838057.arxml
+    Include file:  C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A_Working\NM001A_CmnMfgSrv_Impl\generate\..\..\TL105A_Artt\tools\include\Helper.tt
+    Template:      C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A_Working\NM001A_CmnMfgSrv_Impl\generate\MfgSrvCfg.h.tt
+    Namespace:     http://autosar.org/schema/r4.0
+    Prefix:        ar
+    File:          C:/Users/gz324f/Desktop/working/_Ford_T3T6_Eps_Impl_A_Working/_Ford_T3T6_Eps_Impl_A/generate\MfgSrvCfg.h. written.
+    Duration:      00:00:01.8096116.
+WARNING:pyxb.binding.basis:Unable to convert DOM node {http://autosar.org/schema/r4.0}INDEX at <unknown>[65535:26] to binding
+Traceback (most recent call last):
+  File "..\..\TL113A_MfgSrvSuprt\tools\OdxTrim.py", line 145, in <module>
+    ecuc = bindings.autosar4.CreateFromDocument(input)
+  File "C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A_Working\TL113A_MfgSrvSuprt\tools\bindings\autosar4.py", line 68, in CreateFromDocument
+    saxer.parse(io.BytesIO(xmld))
+  File "C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A_Working\TL112A_Python\tools\lib\xml\sax\expatreader.py", line 110, in parse
+    xmlreader.IncrementalParser.parse(self, source)
+  File "C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A_Working\TL112A_Python\tools\lib\xml\sax\xmlreader.py", line 123, in parse
+    self.feed(buffer)
+  File "C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A_Working\TL112A_Python\tools\lib\xml\sax\expatreader.py", line 213, in feed
+    self._parser.Parse(data, isFinal)
+  File "C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A_Working\TL112A_Python\tools\lib\xml\sax\expatreader.py", line 365, in end_element_ns
+    self._cont_handler.endElementNS(pair, None)
+  File "C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A_Working\TL112A_Python\include\pyxb\binding\saxer.py", line 388, in endElementNS
+    binding_object = this_state.endBindingElement()
+  File "C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A_Working\TL112A_Python\include\pyxb\binding\saxer.py", line 238, in endBindingElement
+    _location=info.location)
+  File "C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A_Working\TL112A_Python\include\pyxb\binding\basis.py", line 2534, in append
+    raise pyxb.UnrecognizedContentError(self, self.__automatonConfiguration, value, location)
+pyxb.exceptions_.UnrecognizedContentError: Invalid content INDEX at <unknown>[65535:26] (expect {http://autosar.org/schema/r4.0}LONG-NAME or {http://autosar.org/schema/r4.0}DESC or {http://autosar.org/schema/r4.0}CATEGORY or {http://autosar.org/schema/r4.0}ADMIN-DATA or {http://autosar.org/schema/r4.0}INTRODUCTION or {http://autosar.org/schema/r4.0}ANNOTATIONS or {http://autosar.org/schema/r4.0}DEFINITION-REF or {http://autosar.org/schema/r4.0}PARAMETER-VALUES or {http://autosar.org/schema/r4.0}REFERENCE-VALUES or {http://autosar.org/schema/r4.0}SUB-CONTAINERS or {http://autosar.org/schema/r4.0}VARIATION-POINT)

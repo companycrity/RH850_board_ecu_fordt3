@@ -1,0 +1,9 @@
+AUTOSAR XML Text Transformation v2.0.2.0
+    Output folder: C:\myWork\CM321A_Adcf1CfgAndUse_Impl\tools\local\generate
+    Descr. file:   C:\Users\nz3526\AppData\Local\Temp\DaVinci\Cfg-7069168\Generation\Cfg_Gen-1501667073333-0\AutosarFiles_ValGen-1501667080096-0\Adcf1CfgAndUse_ECUC_5516036821080876440.arxml
+    Include file:  C:\myWork\CM321A_Adcf1CfgAndUse_Impl\tools\template\..\..\..\TL105A_Artt\tools\include\Helper.tt
+    Template:      C:\myWork\CM321A_Adcf1CfgAndUse_Impl\tools\template\Adcf1CfgAndUse_Cfg.h.tt
+    Namespace:     http://autosar.org/schema/r4.0
+    Prefix:        ar
+    File:          C:/myWork/CM321A_Adcf1CfgAndUse_Impl/tools/local/generate\Adcf1CfgAndUse_Cfg.h. written.
+    Duration:      00:00:00.8112052.

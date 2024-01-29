@@ -1,0 +1,126 @@
+<RDEF> I Includes
+<R>I C:/Component/ES002A_McuDiagc_Impl/src/CDD_McuDiagc_MotCtrl.c C:/Component/ES002A_McuDiagc_Impl/tools/contract/Rte_CDD_McuDiagc.h 31
+<R>I C:/Component/ES002A_McuDiagc_Impl/tools/contract/Rte_CDD_McuDiagc.h C:/Component/ES002A_McuDiagc_Impl/tools/contract/Rte_CDD_McuDiagc_Type.h 40
+<R>I C:/Component/ES002A_McuDiagc_Impl/tools/contract/Rte_CDD_McuDiagc_Type.h C:/Component/ES002A_McuDiagc_Impl/tools/contract/Rte_Type.h 32
+<R>I C:/Component/ES002A_McuDiagc_Impl/tools/contract/Rte_Type.h C:/Component/ES002A_McuDiagc_Impl/tools/contract/Rte.h 27
+<R>I C:/Component/ES002A_McuDiagc_Impl/tools/contract/Rte.h C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 39
+<R>I C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h C:/Component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Platform_Types.h 63
+<R>I C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h C:/Component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h 64
+<R>I C:/Component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h C:/Component/AR201A_ArCplrSuprt_Impl/tools/contract/Compiler_Cfg.h 52
+<R>I C:/Component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h C:/Component/AR201A_ArCplrSuprt_Impl/tools/contract/Renesas_Compiler.h 55
+<R>I C:/Component/ES002A_McuDiagc_Impl/tools/contract/Rte_CDD_McuDiagc.h C:/Component/ES002A_McuDiagc_Impl/tools/contract/Rte_DataHandleType.h 41
+<R>I C:/Component/ES002A_McuDiagc_Impl/tools/contract/Rte_CDD_McuDiagc.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 62
+<R>I C:/Component/ES002A_McuDiagc_Impl/tools/contract/Rte_CDD_McuDiagc.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 67
+<R>I C:/Component/ES002A_McuDiagc_Impl/tools/contract/Rte_CDD_McuDiagc.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 82
+<R>I C:/Component/ES002A_McuDiagc_Impl/tools/contract/Rte_CDD_McuDiagc.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 96
+<R>I C:/Component/ES002A_McuDiagc_Impl/tools/contract/Rte_CDD_McuDiagc.h C:/Component/ES002A_McuDiagc_Impl/tools/contract/CDD_McuDiagc_MemMap.h 181
+<R>I C:/Component/ES002A_McuDiagc_Impl/tools/contract/CDD_McuDiagc_MemMap.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 56
+<R>I C:/Component/ES002A_McuDiagc_Impl/tools/contract/Rte_CDD_McuDiagc.h C:/Component/ES002A_McuDiagc_Impl/tools/contract/CDD_McuDiagc_MemMap.h 235
+<R>I C:/Component/ES002A_McuDiagc_Impl/tools/contract/CDD_McuDiagc_MemMap.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 128
+<R>I C:/Component/ES002A_McuDiagc_Impl/src/CDD_McuDiagc_MotCtrl.c C:/Component/ES002A_McuDiagc_Impl/include/CDD_McuDiagc.h 32
+<DEFINE> CDD_McuDiagc_H C:/Component/ES002A_McuDiagc_Impl/include/CDD_McuDiagc.h 21 I DF OM - - - O
+<R>I C:/Component/ES002A_McuDiagc_Impl/include/CDD_McuDiagc.h C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 24
+<EXTN> McuDiagcPer1 C:/Component/ES002A_McuDiagc_Impl/include/CDD_McuDiagc.h 30
+<DEFINE> McuDiagcPer1 C:/Component/ES002A_McuDiagc_Impl/include/CDD_McuDiagc.h 30 I DC OF F X (.,.) -
+<R>I C:/Component/ES002A_McuDiagc_Impl/src/CDD_McuDiagc_MotCtrl.c C:/Component/ES002A_McuDiagc_Impl/tools/contract/CDD_MotCtrlMgr_Data.h 33
+<DEFINE> CDD_McuDiagc_MotCtrl_START_SEC_CODE C:/Component/ES002A_McuDiagc_Impl/src/CDD_McuDiagc_MotCtrl.c 43 N DF OM - - - O
+<R>I C:/Component/ES002A_McuDiagc_Impl/src/CDD_McuDiagc_MotCtrl.c C:/Component/ES002A_McuDiagc_Impl/include/CDD_McuDiagc_MotCtrl_MemMap.h 44
+<DEFINE> MotCtrl_START_SEC_CODE C:/Component/ES002A_McuDiagc_Impl/include/CDD_McuDiagc_MotCtrl_MemMap.h 26 I DF OM - - - O
+<R>I C:/Component/ES002A_McuDiagc_Impl/include/CDD_McuDiagc_MotCtrl_MemMap.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 27
+<EXTD> McuDiagcPer1 C:/Component/ES002A_McuDiagc_Impl/src/CDD_McuDiagc_MotCtrl.c 53
+<DEFINE> McuDiagcPer1 C:/Component/ES002A_McuDiagc_Impl/src/CDD_McuDiagc_MotCtrl.c 53 N DR OF F X (.,.) -
+<DEFINE> McuDiagcPer1 C:/Component/ES002A_McuDiagc_Impl/src/CDD_McuDiagc_MotCtrl.c 53 N DF OF F X (.,.) -
+<RDEF> X Refers-to
+<R>X McuDiagcPer1 Rte_Inst_CDD_McuDiagc 55 R
+<R>X McuDiagcPer1 Rte_Inst_CDD_McuDiagc 55 R
+<LIT> 1 U P C:/Component/ES002A_McuDiagc_Impl/src/CDD_McuDiagc_MotCtrl.c 55 65 N DN ui B X
+<R>X McuDiagcPer1 Rte_Inst_CDD_McuDiagc 57 R
+<R>X McuDiagcPer1 MOTCTRLMGR_MotCtrlFastLoopCntr 57 W
+<R>X McuDiagcPer1 MOTCTRLMGR_MotCtrlLoopCntr2MilliSec 59 R
+<R>X McuDiagcPer1 MOTCTRLMGR_MotCtrlSlowLoopCntr 59 W
+<CTLG> McuDiagcPer1 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 54 60 60 60 
+<S>
+<S>STFIL  C:/Component/ES002A_McuDiagc_Impl/src/CDD_McuDiagc_MotCtrl.c
+<S>STNAM  McuDiagcPer1
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  5
+<S>STXLN  3
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  0.33   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  8
+<S>STAV2  8
+<S>STAV3  8
+<S>STST1  3
+<S>STST2  3
+<S>STST3  3
+<S>STPAR  0
+<S>STCAL  0
+<S>STFN1  18
+<S>STFN2  7
+
+<DEFINE> CDD_McuDiagc_MotCtrl_STOP_SEC_CODE C:/Component/ES002A_McuDiagc_Impl/src/CDD_McuDiagc_MotCtrl.c 63 N DF OM - - - O
+<R>I C:/Component/ES002A_McuDiagc_Impl/src/CDD_McuDiagc_MotCtrl.c C:/Component/ES002A_McuDiagc_Impl/include/CDD_McuDiagc_MotCtrl_MemMap.h 64
+<DEFINE> MotCtrl_STOP_SEC_CODE C:/Component/ES002A_McuDiagc_Impl/include/CDD_McuDiagc_MotCtrl_MemMap.h 32 I DF OM - - - O
+<R>I C:/Component/ES002A_McuDiagc_Impl/include/CDD_McuDiagc_MotCtrl_MemMap.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 33
+<S>
+<S>STFIL  C:/Component/ES002A_McuDiagc_Impl/src/CDD_McuDiagc_MotCtrl.c
+<S>STNAM  McuDiagcPer1
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/ES002A_McuDiagc_Impl/src/CDD_McuDiagc_MotCtrl.c
+<S>STNAM  C:/Component/ES002A_McuDiagc_Impl/src/CDD_McuDiagc_MotCtrl.c
+<S>STNTB  NON-TOKEN BASED STATISTICS...
+<S>STSCT  0
+<S>STECT  4
+<S>STFNC  1
+<S>STFCO  0
+<S>STTKB  TOKEN BASED STATISTICS...
+<S>STVAR  7
+<S>STOPT  14
+<S>STOPN  8
+<S>STTOT  66
+<S>STZIP  81
+<S>STHAL  77
+<S>STSHN  240
+<S>STDIF  10.32  
+<S>STEFF  3036
+<S>STVOL  294
+<S>STDEV  0.51   
+<S>STBUG  0
+<S>STTPP  77
+<S>STTLN  6
+<S>STM20  10
+<S>STM21  51
+<S>STM22  3
+<S>STM28  10
+<S>STM33  4
+<S>STBCS  BASIC COCOMO STATISTICS...
+<S>STBMO  0.163  
+<S>STBMS  0.170  
+<S>STBME  0.166  
+<S>STTDO  1.254  
+<S>STTDS  1.344  
+<S>STTDE  1.407  
+<S>STCOM  COMMENT BASED STATISTICS...
+<S>STCDN  6.692  
+

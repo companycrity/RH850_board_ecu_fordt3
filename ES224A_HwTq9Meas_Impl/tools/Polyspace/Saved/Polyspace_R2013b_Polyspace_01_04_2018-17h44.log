@@ -1,0 +1,1452 @@
+PID6284 PGID6284
+
+Polyspace verification of Polyspace project.
+Starting at 01/04/2018, 17h44.
+
+
+Options used with Verifier:
+-polyspace-version=9.0 (R2013b)
+-date=04/01/2018
+-from=scratch
+-main-generator-calls=unused
+-lang=C
+-little-endian=true
+-includes-to-ignore1=C:\Component\TL103A_CplrSuprt\include\2013.5.5\ansi
+-includes-to-ignore2=C:\Component\AR202A_MicroCtrlrSuprt_Impl\include\P1M\R7F701311
+-includes-to-ignore3=C:\Component\AR200A_ArSuprt_Impl\include\ASR4.0.3
+-includes-to-ignore4=C:\Component\AR200A_ArSuprt_Impl\tools\contract
+-includes-to-ignore5=C:\Component\AR201A_ArCplrSuprt_Impl\include\ASR4.0.3
+-includes-to-ignore6=C:\Component\AR201A_ArCplrSuprt_Impl\tools\contract
+-includes-to-ignore7=C:\Component\AR100A_NxtrMath_Impl\include
+-includes-to-ignore8=C:\Component\AR101A_NxtrIntrpn_Impl\include
+-includes-to-ignore9=C:\Component\AR104A_NxtrFil_Impl\include
+-includes-to-ignore10=C:\Component\AR102A_NxtrTi_Impl\include
+-includes-to-ignore11=C:\Component\AR103A_NxtrFixdPt_Impl\include
+-includes-to-ignore12=C:\Component\AR999A_ArchGlbPrm_Impl\include
+-includes-to-ignore13=C:\Component\ES999A_ElecGlbPrm_Impl\include
+-includes-to-ignore14=C:\Component\SF999A_SysGlbPrm_Impl\include
+-includes-to-ignore15=C:\ghs\comp_201517\include\v800
+-includes-to-ignore16=C:\Component\ES224A_HwTq9Meas_Impl\tools\local\generate\HwTq9Meas_MemMap.h
+-includes-to-ignore17=C:\Component\ES224A_HwTq9Meas_Impl\tools\local\generate\Rte.h
+-includes-to-ignore18=C:\Component\ES224A_HwTq9Meas_Impl\tools\local\generate\Rte_Compiler_Cfg.h
+-includes-to-ignore19=C:\Component\ES224A_HwTq9Meas_Impl\tools\local\generate\Rte_DataHandleType.h
+-includes-to-ignore20=C:\Component\ES224A_HwTq9Meas_Impl\tools\local\generate\Rte_HwTq9Meas.h
+-includes-to-ignore21=C:\Component\ES224A_HwTq9Meas_Impl\tools\local\generate\Rte_HwTq9Meas_Type.h
+-includes-to-ignore22=C:\Component\ES224A_HwTq9Meas_Impl\tools\local\generate\Rte_MemMap.h
+-includes-to-ignore23=C:\Component\ES224A_HwTq9Meas_Impl\tools\local\generate\Rte_Type.h
+-includes-to-ignore24=C:\Component\ES224A_HwTq9Meas_Impl\tools\local\include\ElecGlbPrm.h
+-includes-to-ignore25=C:\Component\ES224A_HwTq9Meas_Impl\tools\local\include\ElecGlbPrm_Cfg.h
+-includes-to-ignore26=C:\Component\ES224A_HwTq9Meas_Impl\tools\local\generate\Rte_Stubs.c
+-includes-to-ignore27=C:\Component\ES224A_HwTq9Meas_Impl\tools\local\generate\Rte_Stubs.h
+-author=Nexteer
+-dialect=none
+-results-dir=C:\Component\ES224A_HwTq9Meas_Impl\tools\Polyspace\~CodeProver
+-target=mcpu
+-main-generator-writes-variables=none
+-scalar-overflows-behavior=truncate-on-error
+-data-range-specifications=C:\Component\ES224A_HwTq9Meas_Impl\tools\Polyspace\DRS.txt
+-double-is-64bits=true
+-misra2=C:\Component\ES224A_HwTq9Meas_Impl\tools\Polyspace\MISRASettings.cfg
+-long-long-is-64bits=true
+-verif-version=1.0
+-main-generator=true
+-O=-O2
+-prog=Polyspace
+-scalar-overflows-checks=signed
+-D1=FLTINJENA=STD_OFF
+-D2=STATIC=static
+-D3=__interrupt=
+-D4=__ghs_c_int__=int
+-D5=__CORE_V850E3V5__
+-int-is-32bits=true
+-to=Software Safety Analysis level 4
+-I1=C:\Component\ES224A_HwTq9Meas_Impl\include
+-I2=C:\Component\ES224A_HwTq9Meas_Impl\tools\local\generate
+-I3=C:\Component\ES224A_HwTq9Meas_Impl\tools\local\include
+-I4=C:\Component\TL103A_CplrSuprt\include\2013.5.5\ansi
+-I5=C:\Component\AR202A_MicroCtrlrSuprt_Impl\include\P1M\R7F701311
+-I6=C:\Component\AR200A_ArSuprt_Impl\include\ASR4.0.3
+-I7=C:\Component\AR200A_ArSuprt_Impl\tools\contract
+-I8=C:\Component\AR201A_ArCplrSuprt_Impl\include\ASR4.0.3
+-I9=C:\Component\AR201A_ArCplrSuprt_Impl\tools\contract
+-I10=C:\Component\AR100A_NxtrMath_Impl\include
+-I11=C:\Component\AR101A_NxtrIntrpn_Impl\include
+-I12=C:\Component\AR104A_NxtrFil_Impl\include
+-I13=C:\Component\AR102A_NxtrTi_Impl\include
+-I14=C:\Component\AR103A_NxtrFixdPt_Impl\include
+-I15=C:\Component\AR999A_ArchGlbPrm_Impl\include
+-I16=C:\Component\ES999A_ElecGlbPrm_Impl\include
+-I17=C:\Component\SF999A_SysGlbPrm_Impl\include
+-I18=C:\ghs\comp_201517\include\v800
+-dos=true
+-OS-target=no-predefined-OS
+-pointer-is-32bits=true
+
+
+Verifying host configuration ...
+Number of processors : 2
+Processor type  : amd64
+Processor model : Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz
+Processor frequency  : 2.496 GHz
+Memory > 380MB :                            OK	(15.68 GB)
+Swap > 1GB :                                OK	(31.36 GB)
+Min(4GB,Swap) >= Min(4GB,Memory) :          OK	
+Tmp space available in C:\Temp >= 10MB :    OK	(339.37 GB)
+
+Remark: 2 processors have been detected. Taking advantage of multiprocessor.
+|       You may use the option -max-processes <number of processes> in order to decrease the number of
+|       processors used to perform the verification.
+*** Configuration of the host :	OK
+
+
+Type C:\Component\ES224A_HwTq9Meas_Impl\tools\Polyspace\~CodeProver\kill-rte-kernel.bat on host SAGLGTD1ZF2 to halt Verifier process
+
+
+Polyspace C verification
+Copyright 1999-2013 The MathWorks, Inc.
+All rights reserved.
+
+Starting at: Jan 4, 2018 17:44:35
+Host: MINGW64_7_64-6.1 SAGLGTD1ZF2 0 amd64
+User: nz4qtt
+**********************************************************
+***
+*** Verifying C sources
+***
+**********************************************************
+
+OS-target no-predefined-OS implies: -include
+                                    C:\Program Files\MATLAB\R2013b\polyspace\verifier\cxx\cinclude\__polyspace__libc_defs.h
+                                    -IC:\Program Files\MATLAB\R2013b\polyspace\verifier\cxx\include\include-libc
+
+Verifying sources ...
+Verifying HwTq9Meas.c
+Verifying Rte_Stubs.c
+
+Number of files                  : 2
+Number of lines                  : 1576
+Number of lines without comments : 384
+
+Verifying cross-files ANSI C compliance
+
+Stubbing standard library functions ...
+Stubbing unknown functions ...
+C:\Component\ES224A_HwTq9Meas_Impl\tools\Polyspace\DRS.txt, line 41: Warning: data-range-specifications: global variable/function 'sqrtf' does not exist (or it is not used in the current analysis)
+C:\Component\ES224A_HwTq9Meas_Impl\tools\Polyspace\DRS.txt, line 42: Warning: data-range-specifications: global variable/function 'fabsf' does not exist (or it is not used in the current analysis)
+C:\Component\ES224A_HwTq9Meas_Impl\tools\Polyspace\DRS.txt, line 43: Warning: data-range-specifications: global variable/function 'fmodf' does not exist (or it is not used in the current analysis)
+C:\Component\ES224A_HwTq9Meas_Impl\tools\Polyspace\DRS.txt, line 44: Warning: data-range-specifications: global variable/function 'expf' does not exist (or it is not used in the current analysis)
+C:\Component\ES224A_HwTq9Meas_Impl\tools\Polyspace\DRS.txt, line 45: Warning: data-range-specifications: global variable/function 'sinf' does not exist (or it is not used in the current analysis)
+C:\Component\ES224A_HwTq9Meas_Impl\tools\Polyspace\DRS.txt, line 46: Warning: data-range-specifications: global variable/function 'cosf' does not exist (or it is not used in the current analysis)
+C:\Component\ES224A_HwTq9Meas_Impl\tools\Polyspace\DRS.txt, line 47: Warning: data-range-specifications: global variable/function 'atan2f' does not exist (or it is not used in the current analysis)
+data-range-specifications: 'HwTq9Meas_Cli_HwTq9MeasHwTq9ReadTrim_HwTqReadTrimData' in [-10..10] (permanent)
+data-range-specifications: 'HwTq9Meas_Cli_HwTq9MeasHwTq9TrimPrfmdSts_HwTqOffsTrimPrfmdStsData' in [0..1] (permanent)
+data-range-specifications: 'HwTq9Meas_Cli_HwTq9MeasHwTq9WrTrim_HwTqWrOffsTrimData' in [-10..10] (permanent)
+data-range-specifications: 'HwTq9Meas_Srv_GetNtcQlfrSts_Return' in [0..1] (permanent)
+data-range-specifications: 'HwTq9Meas_Srv_GetNtcQlfrSts_NtcNr' in [1..511] (permanent)
+data-range-specifications: 'HwTq9Meas_Srv_GetNtcQlfrSts_NtcQlfr' in [0..2] (permanent)
+data-range-specifications: 'HwTq9Meas_Srv_GtmGetSent0Data_Return' in [0..1] (permanent)
+data-range-specifications: 'HwTq9Meas_Srv_GtmGetSent0Data_BufStrtAdr' in [0..4294967295] (permanent)
+data-range-specifications: 'HwTq9Meas_Srv_HwTq9Offs_SetRamBlockStatus_Return' in [0..1] (permanent)
+data-range-specifications: 'HwTq9Meas_Srv_HwTq9Offs_SetRamBlockStatus_BlockChanged' in [0..1] (permanent)
+data-range-specifications: 'HwTq9Meas_Srv_SetNtcSts_Return' in [0..1] (permanent)
+data-range-specifications: 'HwTq9Meas_Srv_SetNtcSts_NtcNr' in [1..511] (permanent)
+data-range-specifications: 'HwTq9Meas_Srv_SetNtcSts_NtcStInfo' in [0..255] (permanent)
+data-range-specifications: 'HwTq9Meas_Srv_SetNtcSts_NtcSts' in [0..3] (permanent)
+data-range-specifications: 'HwTq9Meas_Srv_SetNtcSts_DebStep' in [0..65535] (permanent)
+data-range-specifications: 'HwTq9Meas_Srv_SetNtcStsAndSnpshtData_Return' in [0..1] (permanent)
+data-range-specifications: 'HwTq9Meas_Srv_SetNtcStsAndSnpshtData_NtcNr' in [1..511] (permanent)
+data-range-specifications: 'HwTq9Meas_Srv_SetNtcStsAndSnpshtData_NtcStInfo' in [0..255] (permanent)
+data-range-specifications: 'HwTq9Meas_Srv_SetNtcStsAndSnpshtData_NtcSts' in [0..3] (permanent)
+data-range-specifications: 'HwTq9Meas_Srv_SetNtcStsAndSnpshtData_DebStep' in [0..65535] (permanent)
+data-range-specifications: 'HwTq9Meas_Srv_SetNtcStsAndSnpshtData_SpclSnpshtData0' in [0..4294967295] (permanent)
+data-range-specifications: 'HwTq9Meas_Srv_SetNtcStsAndSnpshtData_SpclSnpshtData1' in [0..4294967295] (permanent)
+data-range-specifications: 'HwTq9Meas_Srv_SetNtcStsAndSnpshtData_SpclSnpshtData2' in [0..4294967295] (permanent)
+data-range-specifications: 'HwTq9Meas_Srv_HwTq9Offs_GetErrorStatus_Return' in [0..1] (permanent)
+data-range-specifications: 'HwTq9Meas_Srv_HwTq9Offs_GetErrorStatus_RequestResultPtr' in [0..255] (permanent)
+data-range-specifications: 'HwTq9Meas_Ip_HwTq9Polarity' in [-1..1] (permanent)
+data-range-specifications: 'HwTq9Meas_Op_HwTq9' in [-10..10] (permanent)
+data-range-specifications: 'HwTq9Meas_Op_HwTq9Qlfr' in [0..2] (permanent)
+data-range-specifications: 'HwTq9Meas_Op_HwTq9RollgCntr' in [0..255] (permanent)
+data-range-specifications: 'HwTq9Meas_Pim_HwTq9Offs.OffsTrimPrfmdSts' in [0..1] (permanent)
+data-range-specifications: 'HwTq9Meas_Pim_HwTq9Offs.OffsTrim' in [-10..10] (permanent)
+data-range-specifications: 'HwTq9Meas_Pim_HwTq9DataPlsHiLim' in [0..16777215] (permanent)
+data-range-specifications: 'HwTq9Meas_Pim_HwTq9DataPlsLoLim' in [0..16777215] (permanent)
+data-range-specifications: 'HwTq9Meas_Pim_HwTq9PrevHwTq' in [-10..10] (permanent)
+data-range-specifications: 'HwTq9Meas_Pim_HwTq9RawDataBuf' in [0..65535] (permanent)
+data-range-specifications: 'HwTq9Meas_Pim_HwTq9RollgCntrPrev' in [0..255] (permanent)
+data-range-specifications: 'HwTq9Meas_Pim_HwTq9SyncPlsHiLim' in [0..16777215] (permanent)
+data-range-specifications: 'HwTq9Meas_Pim_HwTq9SyncPlsLoLim' in [0..16777215] (permanent)
+data-range-specifications: 'HwTq9Meas_Pim_HwTq9TiStamp' in [0..16777215] (permanent)
+data-range-specifications: 'HwTq9Meas_Pim_HwTq9TiStampPrev' in [0..16777215] (permanent)
+
+Generating the Main ...
+
+Generating call to function: Rte_Stub
+Remark: The generated default DRS XML file "drs-template.xml" can be found in <result_dir> folder.
+Doing code transformations ...
+
+
+**********************************************************
+MISRA-C Rule checker results
+ The complete XML report MISRA-C-report.xml can be found in the Polyspace-Doc folder.
+**********************************************************
+Summary per file:
+  File C:\Component\ES224A_HwTq9Meas_Impl\src\HwTq9Meas.c: 
+    2 advisory rules violated (0 error 2 warnings)
+**********************************************************
+Summary per rule:
+  rule 19.1 (advisory, user defined warning) violated 2 times (#include statements in a file shall only be preceded by other preprocessor directives or comments.)
+
+
+
+
+Packing compilation data
+done.
+
+**********************************************************
+***
+*** C sources verification done
+***
+**********************************************************
+Ending at: Jan 4, 2018 17:44:42
+User time for compilation: 00:00:06.59 (6.59real, 6.59u + 0s (0.08gc))
+
+Polyspace C verification
+Copyright 1999-2013 The MathWorks, Inc.
+All rights reserved.
+
+Starting at: Jan 4, 2018 17:44:42
+Host: MINGW64_7_64-6.1 SAGLGTD1ZF2 0 amd64
+User: nz4qtt
+**********************************************************
+***
+*** Beginning C to intermediate language translation
+***
+**********************************************************
+**** C to intermediate language translation - 1 (P_SP)
+**** C to intermediate language translation - 1 (P_SP) took 0.21real, 0.21u + 0s (0.05gc)
+**** C to intermediate language translation - 2 (P_RB)
+**** C to intermediate language translation - 2 (P_RB) took 0real, 0u + 0s
+**** C to intermediate language translation - 3 (P_SIA)
+**** C to intermediate language translation - 3 (P_SIA) took 0real, 0u + 0s
+**** C to intermediate language translation - 4 (P_CGA)
+**** C to intermediate language translation - 4 (P_CGA) took 0real, 0u + 0s
+**** C to intermediate language translation - 5 (P_CMS)
+Total complexity = 3652
+**** C to intermediate language translation - 5 (P_CMS) took 0real, 0u + 0s
+**** C to intermediate language translation - 6 (P_SFNPV)
+***** C to intermediate language translation - 6.1 (P_PA)
+****** C to intermediate language translation - 6.1.1 (P_ATA)
+****** C to intermediate language translation - 6.1.1 (P_ATA) took 0real, 0u + 0s
+Topology of the code:
+- number of globals: int=34 (addr_taken=1), float=4, struct=2, array=2, pointer=1
+- number of locals : int=65 (addr_taken=3), float=8, struct=0, array=2, pointer=5
+- number of reads  : scalars=129, floats=19, fields=3, derefs=24, direct_complex_access=2
+- number of writes : scalars=73, floats=11, fields=11, derefs=11, direct_complex_access=1
+****** C to intermediate language translation - 6.1.2 (P_AP)
+****** C to intermediate language translation - 6.1.2 (P_AP) took 0real, 0u + 0s
+****** C to intermediate language translation - 6.1.3 (P_ITFP)
+****** C to intermediate language translation - 6.1.3 (P_ITFP) took 0real, 0u + 0s
+****** C to intermediate language translation - 6.1.4 (P_CA)
+******* C to intermediate language translation - 6.1.4.1 (P_STS)
+******* C to intermediate language translation - 6.1.4.1 (P_STS) took 0real, 0u + 0s
+******* C to intermediate language translation - 6.1.4.2 (P_RR)
+******* C to intermediate language translation - 6.1.4.2 (P_RR) took 0.02real, 0.02u + 0s
+Some stats on aliases computation:
+  Number of aliases sets:       10
+  Number of couples of aliases: 27
+  Number of elements in the biggest alias sets: 1st=5, 2nd=3, 3rd=3, 4th=3, 5th=3
+****** C to intermediate language translation - 6.1.4 (P_CA) took 0.03real, 0.03u + 0s
+***** C to intermediate language translation - 6.1 (P_PA) took 0.04real, 0.04u + 0s
+***** C to intermediate language translation - 6.2 (P_AAA)
+Nb repl: 69
+1 ptr - 1 var: 10
+***** C to intermediate language translation - 6.2 (P_AAA) took 0.04real, 0.04u + 0s
+***** C to intermediate language translation - 6.3 (P_SL)
+Nb params removed: 2
+Nb syms removed: 17
+***** C to intermediate language translation - 6.3 (P_SL) took 0.04real, 0.04u + 0s
+***** C to intermediate language translation - 6.4 (P_SSet)
+***** C to intermediate language translation - 6.4 (P_SSet) took 0.02real, 0.02u + 0s
+***** C to intermediate language translation - 6.5 (P_GA)
+****** C to intermediate language translation - 6.5.1 (P_FPGA)
+(* assert *)
+****** C to intermediate language translation - 6.5.1 (P_FPGA) took 0real, 0u + 0s
+****** C to intermediate language translation - 6.5.2 (P_GCPTS)
+******* C to intermediate language translation - 6.5.2.1 (P_GAA3)
+******** C to intermediate language translation - 6.5.2.1.1 (Loading)
+******** C to intermediate language translation - 6.5.2.1.1 (Loading) took 0real, 0u + 0s
+[224 -> 324]
+****** C to intermediate language translation - 6.5.2 (P_GCPTS) took 0.18real, 0.18u + 0s (0.02gc)
+****** C to intermediate language translation - 6.5.3 (P_MNPV)
+****** C to intermediate language translation - 6.5.3 (P_MNPV) took 0.04real, 0.04u + 0s
+******** C to intermediate language translation - 6.5.2.1.2 (P_GAA_SC)
+********* C to intermediate language translation - 6.5.2.1.2.1 (P_GAA_VI)
+********* C to intermediate language translation - 6.5.2.1.2.1 (P_GAA_VI) took 0real, 0u + 0s
+********* C to intermediate language translation - 6.5.2.1.2.2 (P_GAA_SDC)
+********* C to intermediate language translation - 6.5.2.1.2.2 (P_GAA_SDC) took 0real, 0u + 0s
+********* C to intermediate language translation - 6.5.2.1.2.3 (P_GAA_RS)
+********* C to intermediate language translation - 6.5.2.1.2.3 (P_GAA_RS) took 0real, 0u + 0s
+********* C to intermediate language translation - 6.5.2.1.2.4 (P_GAA_DGS)
+* ovw-n = 0, cut-e = 0
+********* C to intermediate language translation - 6.5.2.1.2.4 (P_GAA_DGS) took 0real, 0u + 0s
+******** C to intermediate language translation - 6.5.2.1.2 (P_GAA_SC) took 0real, 0u + 0s
+***** C to intermediate language translation - 6.5 (P_GA) took 2.32real, 2.32u + 0s (0.05gc)
+***** C to intermediate language translation - 6.6 (P_AA)
+****** C to intermediate language translation - 6.6.1 (P_AC)
+Some stats on points to analysis:
+  Number of optimized point_to edges: 4
+****** C to intermediate language translation - 6.6.1 (P_AC) took 0.01real, 0.01u + 0s (0.02gc)
+***** C to intermediate language translation - 6.6 (P_AA) took 0.01real, 0.01u + 0s (0.02gc)
+***** C to intermediate language translation - 6.7 (P_PFF)
+Found 50 polymorphic functions
+***** C to intermediate language translation - 6.7 (P_PFF) took 0real, 0u + 0s
+***** C to intermediate language translation - 6.8 (P_LGR)
+***** C to intermediate language translation - 6.8 (P_LGR) took 0.72real, 0.72u + 0s (0.08gc)
+**** C to intermediate language translation - 6 (P_SFNPV) took 3.2real, 3.2u + 0s (0.14gc)
+**** C to intermediate language translation - 7 (P_SP)
+**** C to intermediate language translation - 7 (P_SP) took 0.16real, 0.16u + 0s
+**** C to intermediate language translation - 8 (P_RB)
+**** C to intermediate language translation - 8 (P_RB) took 0real, 0u + 0s
+**** C to intermediate language translation - 9 (P_AAA)
+Nb repl: 69
+1 ptr - 1 var: 10
+**** C to intermediate language translation - 9 (P_AAA) took 0.02real, 0.02u + 0s
+**** C to intermediate language translation - 10 (P_SL)
+Nb params removed: 2
+Nb syms removed: 17
+**** C to intermediate language translation - 10 (P_SL) took 0.01real, 0.01u + 0s
+**** C to intermediate language translation - 11 (P_PA)
+***** C to intermediate language translation - 11.1 (P_ATA)
+***** C to intermediate language translation - 11.1 (P_ATA) took 0real, 0u + 0s
+***** C to intermediate language translation - 11.2 (P_AP)
+***** C to intermediate language translation - 11.2 (P_AP) took 0real, 0u + 0s
+***** C to intermediate language translation - 11.3 (P_ITFP)
+***** C to intermediate language translation - 11.3 (P_ITFP) took 0real, 0u + 0s
+***** C to intermediate language translation - 11.4 (P_CA)
+****** C to intermediate language translation - 11.4.1 (P_STS)
+****** C to intermediate language translation - 11.4.1 (P_STS) took 0real, 0u + 0s
+****** C to intermediate language translation - 11.4.2 (P_RR)
+****** C to intermediate language translation - 11.4.2 (P_RR) took 0real, 0u + 0s
+Some stats on aliases computation:
+  Number of aliases sets:       5
+  Number of couples of aliases: 7
+  Number of elements in the biggest alias sets: 1st=3, 2nd=2, 3rd=2, 4th=2, 5th=2
+***** C to intermediate language translation - 11.4 (P_CA) took 0real, 0u + 0s
+**** C to intermediate language translation - 11 (P_PA) took 0.01real, 0.01u + 0s
+**** C to intermediate language translation - 12 (P_SIA)
+**** C to intermediate language translation - 12 (P_SIA) took 0.02real, 0.02u + 0s (0.02gc)
+**** C to intermediate language translation - 13 (P_SSet)
+**** C to intermediate language translation - 13 (P_SSet) took 0.03real, 0.03u + 0s
+**** C to intermediate language translation - 14 (P_O)
+**** C to intermediate language translation - 14 (P_O) took 0.9real, 0.9u + 0s
+**** C to intermediate language translation - 15 (P_CGA)
+**** C to intermediate language translation - 15 (P_CGA) took 0.03real, 0.03u + 0s
+**** C to intermediate language translation - 16 (P_G)
+**** C to intermediate language translation - 16 (P_G) took 0.09real, 0.09u + 0s
+**** C to intermediate language translation - 17 (P_TT)
+**** C to intermediate language translation - 17 (P_TT) took 0real, 0u + 0s
+**** C to intermediate language translation - 18 (P_VT)
+**** C to intermediate language translation - 18 (P_VT) took 0real, 0u + 0s
+**** C to intermediate language translation - 19 (P_PT)
+ - translating procedure Pst_Global_Assert_44 (1 / 104)
+ - translating procedure Pst_Global_Assert_43 (2 / 104)
+ - translating procedure Pst_Global_Assert_42 (3 / 104)
+ - translating procedure Pst_Global_Assert_41 (4 / 104)
+ - translating procedure Pst_Global_Assert_40 (5 / 104)
+ - translating procedure Pst_Global_Assert_39 (6 / 104)
+ - translating procedure Pst_Global_Assert_38 (7 / 104)
+ - translating procedure Pst_Global_Assert_37 (8 / 104)
+ - translating procedure Pst_Global_Assert_36 (9 / 104)
+ - translating procedure Pst_Global_Assert_35 (10 / 104)
+ - translating procedure Pst_Global_Assert_34 (11 / 104)
+ - translating procedure Pst_Global_Assert_33 (12 / 104)
+ - translating procedure Pst_Global_Assert_32 (13 / 104)
+ - translating procedure Pst_Global_Assert_31 (14 / 104)
+ - translating procedure Pst_Global_Assert_30 (15 / 104)
+ - translating procedure Pst_Global_Assert_29 (16 / 104)
+ - translating procedure Pst_Global_Assert_28 (17 / 104)
+ - translating procedure Pst_Global_Assert_27 (18 / 104)
+ - translating procedure Pst_Global_Assert_26 (19 / 104)
+ - translating procedure Pst_Global_Assert_25 (20 / 104)
+ - translating procedure Pst_Global_Assert_24 (21 / 104)
+ - translating procedure Pst_Global_Assert_23 (22 / 104)
+ - translating procedure Pst_Global_Assert_22 (23 / 104)
+ - translating procedure Pst_Global_Assert_21 (24 / 104)
+ - translating procedure Pst_Global_Assert_20 (25 / 104)
+ - translating procedure Pst_Global_Assert_19 (26 / 104)
+ - translating procedure Pst_Global_Assert_18 (27 / 104)
+ - translating procedure Pst_Global_Assert_17 (28 / 104)
+ - translating procedure Pst_Global_Assert_16 (29 / 104)
+ - translating procedure Pst_Global_Assert_15 (30 / 104)
+ - translating procedure Pst_Global_Assert_14 (31 / 104)
+ - translating procedure Pst_Global_Assert_13 (32 / 104)
+ - translating procedure Pst_Global_Assert_12 (33 / 104)
+ - translating procedure Pst_Global_Assert_11 (34 / 104)
+ - translating procedure Pst_Global_Assert_10 (35 / 104)
+ - translating procedure Pst_Global_Assert_9 (36 / 104)
+ - translating procedure Pst_Global_Assert_8 (37 / 104)
+ - translating procedure Pst_Global_Assert_7 (38 / 104)
+ - translating procedure Pst_Global_Assert_6 (39 / 104)
+ - translating procedure Pst_Global_Assert_5 (40 / 104)
+ - translating procedure Pst_Global_Assert_4 (41 / 104)
+ - translating procedure Pst_Global_Assert_3 (42 / 104)
+ - translating procedure Pst_Global_Assert_2 (43 / 104)
+ - translating procedure Pst_Global_Assert_1 (44 / 104)
+ - translating procedure _main_gen_init_sym_HwTq9Meas_Cli_HwTq9MeasHwTq9WrTrim_HwTqWrOffsTrimData (45 / 104)
+ - translating procedure _main_gen_init_sym_HwTq9Meas_Cli_HwTq9MeasHwTq9TrimPrfmdSts_HwTqOffsTrimPrfmdStsData (46 / 104)
+ - translating procedure _main_gen_init_sym_HwTq9Meas_Cli_HwTq9MeasHwTq9ReadTrim_HwTqReadTrimData (47 / 104)
+ - translating procedure _main_gen_init_sym_HwTq9Meas_Srv_HwTq9Offs_GetErrorStatus_Return (48 / 104)
+ - translating procedure _main_gen_init_sym_HwTq9Meas_Srv_HwTq9Offs_GetErrorStatus_RequestResultPtr (49 / 104)
+ - translating procedure _main_gen_init_sym_HwTq9Meas_Srv_SetNtcStsAndSnpshtData_Return (50 / 104)
+ - translating procedure _main_gen_init_sym_HwTq9Meas_Srv_SetNtcSts_Return (51 / 104)
+ - translating procedure _main_gen_init_sym_HwTq9Meas_Srv_HwTq9Offs_SetRamBlockStatus_Return (52 / 104)
+ - translating procedure _main_gen_init_sym_HwTq9Meas_Srv_GtmGetSent0Data_Return (53 / 104)
+ - translating procedure _main_gen_init_sym_HwTq9Meas_Srv_GtmGetSent0Data_BufStrtAdr (54 / 104)
+ - translating procedure _main_gen_init_sym_HwTq9Meas_Srv_GetNtcQlfrSts_Return (55 / 104)
+ - translating procedure _main_gen_init_sym_HwTq9Meas_Srv_GetNtcQlfrSts_NtcQlfr (56 / 104)
+ - translating procedure _main_gen_init_sym_HwTq9Meas_Pim_HwTq9TiStampPrev (57 / 104)
+ - translating procedure _main_gen_init_sym_HwTq9Meas_Pim_HwTq9TiStamp (58 / 104)
+ - translating procedure _main_gen_init_sym_HwTq9Meas_Pim_HwTq9SyncPlsLoLim (59 / 104)
+ - translating procedure _main_gen_init_sym_HwTq9Meas_Pim_HwTq9SyncPlsHiLim (60 / 104)
+ - translating procedure _main_gen_init_sym_HwTq9Meas_Pim_HwTq9RollgCntrPrev (61 / 104)
+ - translating procedure _main_gen_init_sym_HwTq9Meas_Pim_HwTq9RawDataBuf (62 / 104)
+ - translating procedure _main_gen_init_sym_HwTq9Meas_Pim_HwTq9PrevHwTq (63 / 104)
+ - translating procedure _main_gen_init_sym_HwTq9Meas_Pim_HwTq9DataPlsLoLim (64 / 104)
+ - translating procedure _main_gen_init_sym_HwTq9Meas_Pim_HwTq9DataPlsHiLim (65 / 104)
+ - translating procedure _main_gen_init_sym_HwTq9Meas_Pim_HwTq9Offs (66 / 104)
+ - translating procedure _main_gen_init_sym_HwTq9Meas_Ip_HwTq9Polarity (67 / 104)
+ - translating procedure _init_globals_0 (68 / 104)
+ - translating procedure __PST__MAIN__ENTRY__POINT__ (69 / 104)
+ - translating procedure main (70 / 104)
+ - translating procedure _extern_init (71 / 104)
+ - translating procedure Rte_Stub (72 / 104)
+ - translating procedure HwTq9MeasPer2 (73 / 104)
+ - translating procedure Rte_Call_HwTq9Meas_SetNtcSts_Oper (74 / 104)
+ - translating procedure HwTq9MeasPer1 (75 / 104)
+ - translating procedure Lim_f32__inlined_HwTq9Meas (76 / 104)
+ - translating procedure Rte_Call_HwTq9Meas_GetNtcQlfrSts_Oper (77 / 104)
+ - translating procedure Rte_Call_HwTq9Meas_SetNtcStsAndSnpshtData_Oper (78 / 104)
+ - translating procedure CrcChk (79 / 104)
+ - translating procedure StuckNoDataSeln (80 / 104)
+ - translating procedure Abslt_u32_s32__inlined_HwTq9Meas (81 / 104)
+ - translating procedure RngChk (82 / 104)
+ - translating procedure Rte_Call_HwTq9Meas_GtmGetSent0Data_Oper (83 / 104)
+ - translating procedure HwTq9MeasInit1 (84 / 104)
+ - translating procedure Rte_Call_HwTq9Meas_HwTq9Offs_GetErrorStatus (85 / 104)
+ - translating procedure HwTq9MeasHwTq9WrTrim_Oper (86 / 104)
+ - translating procedure HwTq9MeasHwTq9TrimPrfmdSts_Oper (87 / 104)
+ - translating procedure HwTq9MeasHwTq9ReadTrim_Oper (88 / 104)
+ - translating procedure HwTq9MeasHwTq9ClrTrim_Oper (89 / 104)
+ - translating procedure HwTq9MeasHwTq9AutTrim_Oper (90 / 104)
+ - translating procedure Rte_Call_HwTq9Meas_HwTq9Offs_SetRamBlockStatus (91 / 104)
+ - translating unknown procedure assert (92 / 104)
+ - translating procedure _main_gen_init_g8 (93 / 104)
+ - translating procedure _main_gen_init_g36 (94 / 104)
+ - translating procedure _main_gen_init_g6 (95 / 104)
+ - translating procedure _main_gen_init_g10 (96 / 104)
+ - translating procedure _main_gen_init_g2 (97 / 104)
+Some stats on aliases use:
+  Number of alias writes:      4
+  Number of must-alias writes: 4
+  Number of pma writes:        4
+  Number of alias reads:       0
+  Number of invisibles:        4
+Stats about alias writes:
+  biggest sets of alias writes: Rte_Call_HwTq9Meas_GetNtcQlfrSts_Oper:NtcQlfr_Arg (2), 
+                                Rte_Call_HwTq9Meas_GtmGetSent0Data_Oper:BufStrtAdr_Ary1D (1), 
+                                Rte_Call_HwTq9Meas_HwTq9Offs_GetErrorStatus:RequestResultPtr_Arg (1)
+  procedures that write the biggest sets of aliases: Rte_Call_HwTq9Meas_GetNtcQlfrSts_Oper (2), 
+                                                     Rte_Call_HwTq9Meas_HwTq9Offs_GetErrorStatus (1), 
+                                                     Rte_Call_HwTq9Meas_GtmGetSent0Data_Oper (1)
+**** C to intermediate language translation - 19 (P_PT) took 1.44real, 1.44u + 0s (0.06gc)
+******* C to intermediate language translation - 6.5.2.1 (P_GAA3) took 5.66real, 5.66u + 0s (0.02gc)
+**** C to intermediate language translation - 20 (P_CMS)
+**** C to intermediate language translation - 20 (P_CMS) took 0.32real, 0.32u + 0s
+**********************************************************
+***
+*** C to intermediate language translation done
+***
+**********************************************************
+Ending at: Jan 4, 2018 17:44:50
+User time for iabc-c2if: 00:00:08.11 (8.11real, 8.11u + 0s (0.02gc))
+
+Polyspace C verification
+Copyright 1999-2013 The MathWorks, Inc.
+All rights reserved.
+
+Starting at: Jan 4, 2018 17:44:50
+Host: MINGW64_7_64-6.1 SAGLGTD1ZF2 0 amd64
+User: nz4qtt
+**********************************************************
+***
+*** Beginning Software Safety Analysis Level 0
+***
+**********************************************************
+**** Software Safety Analysis Level 0 - 1 (Load Program)
+**** Software Safety Analysis Level 0 - 1 (Load Program) took 0.19real, 0.19u + 0s
+**** Software Safety Analysis Level 0 - 2 (P_NS)
+**** Software Safety Analysis Level 0 - 2 (P_NS) took 0.12real, 0.12u + 0s (0.02gc)
+**** Software Safety Analysis Level 0 - 3 (P_ISP)
+**** Software Safety Analysis Level 0 - 3 (P_ISP) took 0.47real, 0.47u + 0s
+**** Software Safety Analysis Level 0 - 4 (P_DRP)
+**** Software Safety Analysis Level 0 - 4 (P_DRP) took 0real, 0u + 0s
+**** Software Safety Analysis Level 0 - 5 (P_DR)
+**** Software Safety Analysis Level 0 - 5 (P_DR) took 0real, 0u + 0s
+**** Software Safety Analysis Level 0 - 6 (P_AG)
+0 constructions broken due to gotos
+**** Software Safety Analysis Level 0 - 6 (P_AG) took 0.1real, 0.1u + 0s
+**** Software Safety Analysis Level 0 - 7 (P_SENUP)
+47 empty procedure(s) removed
+**** Software Safety Analysis Level 0 - 7 (P_SENUP) took 0real, 0u + 0s
+**** Software Safety Analysis Level 0 - 8 (P_DAL)
+**** Software Safety Analysis Level 0 - 8 (P_DAL) took 0.07real, 0.07u + 0s
+**** Software Safety Analysis Level 0 - 9 (P_SULV)
+239 dv, 37 pr, 214 ad, 0 trfd, 0 dvf
+**** Software Safety Analysis Level 0 - 9 (P_SULV) took 0.09real, 0.09u + 0s
+**** Software Safety Analysis Level 0 - 10 (P_DGL)
+13 unused global variables deleted
+**** Software Safety Analysis Level 0 - 10 (P_DGL) took 0.25real, 0.25u + 0s (0.02gc)
+**** Software Safety Analysis Level 0 - 11 (P_ILA)
+**** Software Safety Analysis Level 0 - 11 (P_ILA) took 0.1real, 0.1u + 0s
+**** Software Safety Analysis Level 0 - 12 (P_PGC)
+* 342 tdl.
+**** Software Safety Analysis Level 0 - 12 (P_PGC) took 0.3real, 0.3u + 0s
+**** Software Safety Analysis Level 0 - 13 (P_NS)
+**** Software Safety Analysis Level 0 - 13 (P_NS) took 0.23real, 0.23u + 0s
+**** Software Safety Analysis Level 0 - 14 (P_R)
+**** Software Safety Analysis Level 0 - 14 (P_R) took 0real, 0u + 0s
+**** Software Safety Analysis Level 0 - 15 (P_CSE)
+* 68 cse
+**** Software Safety Analysis Level 0 - 15 (P_CSE) took 0.04real, 0.04u + 0s
+**** Software Safety Analysis Level 0 - 16 (P_PP)
+* 37 pp, 0 ppp.
+**** Software Safety Analysis Level 0 - 16 (P_PP) took 0.28real, 0.28u + 0s (0.02gc)
+**** Software Safety Analysis Level 0 - 17 (P_RPTR)
+**** Software Safety Analysis Level 0 - 17 (P_RPTR) took 0.32real, 0.32u + 0s
+**** Software Safety Analysis Level 0 - 18 (P_OC)
+* 0 cd, 0 cf, 0 rc.
+**** Software Safety Analysis Level 0 - 18 (P_OC) took 0.51real, 0.51u + 0s (0.02gc)
+**** Software Safety Analysis Level 0 - 19 (P_SENUP)
+0 empty procedure(s) removed
+**** Software Safety Analysis Level 0 - 19 (P_SENUP) took 0real, 0u + 0s
+**** Software Safety Analysis Level 0 - 20 (P_PM)
+**** Software Safety Analysis Level 0 - 20 (P_PM) took 0.25real, 0.25u + 0s (0.02gc)
+**** Software Safety Analysis Level 0 - 21 (P_ICSP)
+* 1697 cd, 761 cf, 0 rc, 0 ed, 0 cd. 
+**** Software Safety Analysis Level 0 - 21 (P_ICSP) took 0.51real, 0.51u + 0s
+**** Software Safety Analysis Level 0 - 22 (P_ISP)
+**** Software Safety Analysis Level 0 - 22 (P_ISP) took 0.13real, 0.13u + 0s (0.02gc)
+**** Software Safety Analysis Level 0 - 23 (P_LP)
+**** Software Safety Analysis Level 0 - 23 (P_LP) took 0.17real, 0.17u + 0s
+**** Software Safety Analysis Level 0 - 24 (P_NIV)
+* i 0/56
+**** Software Safety Analysis Level 0 - 24 (P_NIV) took 0.46real, 0.46u + 0s
+**** Software Safety Analysis Level 0 - 25 (P_REC)
+* nb_cc: 33
+**** Software Safety Analysis Level 0 - 25 (P_REC) took 0.05real, 0.05u + 0s
+**** Software Safety Analysis Level 0 - 26 (P_ILA)
+**** Software Safety Analysis Level 0 - 26 (P_ILA) took 0.01real, 0.01u + 0s
+**** Software Safety Analysis Level 0 - 27 (P_PGC)
+* 640 tdl.
+**** Software Safety Analysis Level 0 - 27 (P_PGC) took 0.45real, 0.45u + 0s
+**** Software Safety Analysis Level 0 - 28 (P_SULV)
+97 dv, 0 pr, 2 ad, 59 trfd, 0 dvf
+**** Software Safety Analysis Level 0 - 28 (P_SULV) took 0.18real, 0.18u + 0s
+**** Software Safety Analysis Level 0 - 29 (P_SENUP)
+19 empty procedure(s) removed
+**** Software Safety Analysis Level 0 - 29 (P_SENUP) took 0.01real, 0.01u + 0s
+**** Software Safety Analysis Level 0 - 30 (P_ISP)
+**** Software Safety Analysis Level 0 - 30 (P_ISP) took 0.04real, 0.04u + 0s
+**** Software Safety Analysis Level 0 - 31 (P_ENVT)
+* g-ap=2, r-ap=0 lp=16 dc=0
+**** Software Safety Analysis Level 0 - 31 (P_ENVT) took 0.23real, 0.23u + 0s
+**** Software Safety Analysis Level 0 - 32 (P_IIP)
+* 1077 cd, 3 cf, 0 rc.
+**** Software Safety Analysis Level 0 - 32 (P_IIP) took 0.4real, 0.4u + 0s
+**** Software Safety Analysis Level 0 - 33 (P_FTI)
+**** Software Safety Analysis Level 0 - 33 (P_FTI) took 0.14real, 0.14u + 0s
+**** Software Safety Analysis Level 0 - 34 (P_ICPP)
+**** Software Safety Analysis Level 0 - 34 (P_ICPP) took 0.08real, 0.08u + 0s
+**** Software Safety Analysis Level 0 - 35 (P_PP)
+* 0 pp, 0 ppp.
+**** Software Safety Analysis Level 0 - 35 (P_PP) took 0.22real, 0.22u + 0s
+**** Software Safety Analysis Level 0 - 36 (P_SRC)
+* 34 rcd, 0 tpd.
+**** Software Safety Analysis Level 0 - 36 (P_SRC) took 0.17real, 0.17u + 0s
+**** Software Safety Analysis Level 0 - 37 (P_NS)
+**** Software Safety Analysis Level 0 - 37 (P_NS) took 0.04real, 0.04u + 0s
+**** Software Safety Analysis Level 0 - 38 (P_ILA)
+**** Software Safety Analysis Level 0 - 38 (P_ILA) took 0real, 0u + 0s
+**** Software Safety Analysis Level 0 - 39 (P_PGC)
+* 87 tdl.
+***** Software Safety Analysis Level 0 - 39.1 (P_RES)
+* nb vres: 18
+***** Software Safety Analysis Level 0 - 39.1 (P_RES) took 0.14real, 0.14u + 0s
+**** Software Safety Analysis Level 0 - 39 (P_PGC) took 0.55real, 0.55u + 0s
+**** Software Safety Analysis Level 0 - 40 (P_RE)
+3 rexp for p
+3 rexp for a0
+**** Software Safety Analysis Level 0 - 40 (P_RE) took 0.27real, 0.27u + 0s (0.02gc)
+**** Software Safety Analysis Level 0 - 41 (P_ICSP)
+* 2103 cd, 7 cf, 0 rc, 0 ed, 0 cd. 
+**** Software Safety Analysis Level 0 - 41 (P_ICSP) took 0.11real, 0.11u + 0s
+**** Software Safety Analysis Level 0 - 42 (P_ISP)
+**** Software Safety Analysis Level 0 - 42 (P_ISP) took 0.19real, 0.19u + 0s (0.02gc)
+**** Software Safety Analysis Level 0 - 43 (P_ICPP)
+**** Software Safety Analysis Level 0 - 43 (P_ICPP) took 0.22real, 0.22u + 0s
+**** Software Safety Analysis Level 0 - 44 (P_ILB)
+**** Software Safety Analysis Level 0 - 44 (P_ILB) took 0.04real, 0.04u + 0s
+**** Software Safety Analysis Level 0 - 45 (P_RE)
+**** Software Safety Analysis Level 0 - 45 (P_RE) took 0.01real, 0.01u + 0s
+**** Software Safety Analysis Level 0 - 46 (P_SULV)
+0 dv, 0 pr, 0 ad, 3 trfd, 0 dvf
+**** Software Safety Analysis Level 0 - 46 (P_SULV) took 0.04real, 0.04u + 0s
+**** Software Safety Analysis Level 0 - 47 (P_SLI)
+* 0 sad
+**** Software Safety Analysis Level 0 - 47 (P_SLI) took 0.04real, 0.04u + 0s
+**** Software Safety Analysis Level 0 - 48 (P_PP)
+* 0 pp, 0 ppp.
+**** Software Safety Analysis Level 0 - 48 (P_PP) took 0.28real, 0.28u + 0s
+**** Software Safety Analysis Level 0 - 49 (P_RE)
+**** Software Safety Analysis Level 0 - 49 (P_RE) took 0.08real, 0.08u + 0s
+**** Software Safety Analysis Level 0 - 50 (P_NIV)
+* i 0/37
+**** Software Safety Analysis Level 0 - 50 (P_NIV) took 0real, 0u + 0s
+**** Software Safety Analysis Level 0 - 51 (P_REC)
+* nb_cc: 0
+**** Software Safety Analysis Level 0 - 51 (P_REC) took 0.04real, 0.04u + 0s
+**** Software Safety Analysis Level 0 - 52 (P_RVA)
+**** Software Safety Analysis Level 0 - 52 (P_RVA) took 0.04real, 0.04u + 0s
+**** Software Safety Analysis Level 0 - 53 (P_ICSP)
+* 2621 cd, 0 cf, 0 rc, 0 ed, 0 cd. 
+**** Software Safety Analysis Level 0 - 53 (P_ICSP) took 0.38real, 0.38u + 0s
+**** Software Safety Analysis Level 0 - 54 (P_ISP)
+**** Software Safety Analysis Level 0 - 54 (P_ISP) took 0.23real, 0.23u + 0s
+**** Software Safety Analysis Level 0 - 55 (P_SULV)
+0 dv, 0 pr, 0 ad, 0 trfd, 0 dvf
+**** Software Safety Analysis Level 0 - 55 (P_SULV) took 0.36real, 0.36u + 0s
+**** Software Safety Analysis Level 0 - 56 (P_DAL)
+**** Software Safety Analysis Level 0 - 56 (P_DAL) took 0.18real, 0.18u + 0s
+**** Software Safety Analysis Level 0 - 57 (P_ILOI)
+**** Software Safety Analysis Level 0 - 57 (P_ILOI) took 0.02real, 0.02u + 0s
+**** Software Safety Analysis Level 0 - 58 (P_ENVT)
+* g-ap=0, r-ap=0 lp=12 dc=0
+**** Software Safety Analysis Level 0 - 58 (P_ENVT) took 3.48real, 3.48u + 0s
+**** Software Safety Analysis Level 0 - 59 (P_IIP)
+* 738 cd, 6 cf, 0 rc.
+**** Software Safety Analysis Level 0 - 59 (P_IIP) took 0.07real, 0.07u + 0s
+**** Software Safety Analysis Level 0 - 60 (P_ICPP)
+**** Software Safety Analysis Level 0 - 60 (P_ICPP) took 0.09real, 0.09u + 0s
+**** Software Safety Analysis Level 0 - 61 (P_ILA)
+**** Software Safety Analysis Level 0 - 61 (P_ILA) took 0real, 0u + 0s
+**** Software Safety Analysis Level 0 - 62 (P_PGC)
+* 8 tdl.
+**** Software Safety Analysis Level 0 - 62 (P_PGC) took 0.1real, 0.1u + 0s
+**** Software Safety Analysis Level 0 - 63 (P_PES)
+ii added: 0
+**** Software Safety Analysis Level 0 - 63 (P_PES) took 0real, 0u + 0s
+**** Software Safety Analysis Level 0 - 64 (P_SRC)
+* 1 rcd, 0 tpd.
+**** Software Safety Analysis Level 0 - 64 (P_SRC) took 0.09real, 0.09u + 0s
+**** Software Safety Analysis Level 0 - 65 (P_ISP)
+**** Software Safety Analysis Level 0 - 65 (P_ISP) took 0.21real, 0.21u + 0s (0.02gc)
+**** Software Safety Analysis Level 0 - 66 (P_MO)
+**** Software Safety Analysis Level 0 - 66 (P_MO) took 0.13real, 0.13u + 0s
+**** Software Safety Analysis Level 0 - 67 (P_DAL)
+**** Software Safety Analysis Level 0 - 67 (P_DAL) took 0.03real, 0.03u + 0s
+**** Software Safety Analysis Level 0 - 68 (P_ICSP)
+* 1425 cd, 6 cf, 0 rc, 0 ed, 0 cd. 
+**** Software Safety Analysis Level 0 - 68 (P_ICSP) took 0.09real, 0.09u + 0s
+**** Software Safety Analysis Level 0 - 69 (P_ICPP)
+**** Software Safety Analysis Level 0 - 69 (P_ICPP) took 0.07real, 0.07u + 0s
+**** Software Safety Analysis Level 0 - 70 (P_ILOI)
+**** Software Safety Analysis Level 0 - 70 (P_ILOI) took 0real, 0u + 0s
+**** Software Safety Analysis Level 0 - 71 (P_SULV)
+1 dv, 0 pr, 1 ad, 0 trfd, 0 dvf
+**** Software Safety Analysis Level 0 - 71 (P_SULV) took 0.04real, 0.04u + 0s
+**** Software Safety Analysis Level 0 - 72 (P_CSE)
+* 0 cse
+**** Software Safety Analysis Level 0 - 72 (P_CSE) took 0real, 0u + 0s
+**** Software Safety Analysis Level 0 - 73 (P_ILA)
+**** Software Safety Analysis Level 0 - 73 (P_ILA) took 0real, 0u + 0s
+**** Software Safety Analysis Level 0 - 74 (P_PGC)
+* 0 tdl.
+***** Software Safety Analysis Level 0 - 74.1 (P_RES)
+* nb vres: 12
+***** Software Safety Analysis Level 0 - 74.1 (P_RES) took 0.03real, 0.03u + 0s
+**** Software Safety Analysis Level 0 - 74 (P_PGC) took 0.12real, 0.12u + 0s
+**** Software Safety Analysis Level 0 - 75 (P_ISP)
+**** Software Safety Analysis Level 0 - 75 (P_ISP) took 0.04real, 0.04u + 0s
+**** Software Safety Analysis Level 0 - 76 (P_SENUP)
+1 empty procedure(s) removed
+**** Software Safety Analysis Level 0 - 76 (P_SENUP) took 0real, 0u + 0s
+**** Software Safety Analysis Level 0 - 77 (P_HB)
+nbc: 0
+**** Software Safety Analysis Level 0 - 77 (P_HB) took 0real, 0u + 0s
+**** Software Safety Analysis Level 0 - 78 (P_ISP)
+**** Software Safety Analysis Level 0 - 78 (P_ISP) took 0.03real, 0.03u + 0s
+**** Software Safety Analysis Level 0 - 79 (P_NS)
+**** Software Safety Analysis Level 0 - 79 (P_NS) took 0.04real, 0.04u + 0s
+**** Software Safety Analysis Level 0 - 80 (P_SULV)
+0 dv, 0 pr, 0 ad, 0 trfd, 0 dvf
+**** Software Safety Analysis Level 0 - 80 (P_SULV) took 0.03real, 0.03u + 0s
+**** Software Safety Analysis Level 0 - 81 (P_R)
+**** Software Safety Analysis Level 0 - 81 (P_R) took 0real, 0u + 0s
+**** Software Safety Analysis Level 0 - 82 (P_DGL)
+54 unused global variables deleted
+**** Software Safety Analysis Level 0 - 82 (P_DGL) took 0.04real, 0.04u + 0s
+**** Software Safety Analysis Level 0 - 83 (P_PP)
+* 0 pp, 0 ppp.
+**** Software Safety Analysis Level 0 - 83 (P_PP) took 0.04real, 0.04u + 0s
+**** Software Safety Analysis Level 0 - 84 (P_IIP)
+* i 0/36
+**** Software Safety Analysis Level 0 - 84 (P_IIP) took 0real, 0u + 0s
+**** Software Safety Analysis Level 0 - 85 (P_DAL)
+**** Software Safety Analysis Level 0 - 85 (P_DAL) took 0.04real, 0.04u + 0s
+**** Software Safety Analysis Level 0 - 86 (P_PI)
+* 1 ps, 0 cf,0 dr
+**** Software Safety Analysis Level 0 - 86 (P_PI) took 0.3real, 0.3u + 0s (0.02gc)
+**** Software Safety Analysis Level 0 - 87 (P_REC)
+* nb_cc: 0
+**** Software Safety Analysis Level 0 - 87 (P_REC) took 0.02real, 0.02u + 0s
+**** Software Safety Analysis Level 0 - 88 (P_ICSP)
+* 1943 cd, 0 cf, 1 rc, 0 ed, 0 cd. 
+**** Software Safety Analysis Level 0 - 88 (P_ICSP) took 0.07real, 0.07u + 0s
+**** Software Safety Analysis Level 0 - 89 (P_SRC)
+* 0 rcd, 0 tpd.
+**** Software Safety Analysis Level 0 - 89 (P_SRC) took 0.06real, 0.06u + 0s
+**** Software Safety Analysis Level 0 - 90 (P_ILA)
+**** Software Safety Analysis Level 0 - 90 (P_ILA) took 0real, 0u + 0s
+**** Software Safety Analysis Level 0 - 91 (P_PGC)
+* 2 tdl.
+**** Software Safety Analysis Level 0 - 91 (P_PGC) took 0.05real, 0.05u + 0s
+**** Software Safety Analysis Level 0 - 92 (P_ISP)
+**** Software Safety Analysis Level 0 - 92 (P_ISP) took 0.03real, 0.03u + 0s
+**** Software Safety Analysis Level 0 - 93 (P_ILOI)
+**** Software Safety Analysis Level 0 - 93 (P_ILOI) took 0real, 0u + 0s
+**** Software Safety Analysis Level 0 - 94 (P_SULV)
+0 dv, 0 pr, 0 ad, 0 trfd, 0 dvf
+**** Software Safety Analysis Level 0 - 94 (P_SULV) took 0.03real, 0.03u + 0s
+**** Software Safety Analysis Level 0 - 95 (P_DGL)
+0 unused global variables deleted
+**** Software Safety Analysis Level 0 - 95 (P_DGL) took 0.02real, 0.02u + 0s
+**** Software Safety Analysis Level 0 - 96 (P_SENUP)
+0 empty procedure(s) removed
+**** Software Safety Analysis Level 0 - 96 (P_SENUP) took 0real, 0u + 0s
+**** Software Safety Analysis Level 0 - 97 (P_NS)
+**** Software Safety Analysis Level 0 - 97 (P_NS) took 0.02real, 0.02u + 0s
+**** Software Safety Analysis Level 0 - 98 (P_C)
+
+* certain error in Software Safety Analysis Level 0 - - <NTC> in file "Rte_Stubs.c"
+
+
+* certain error in Software Safety Analysis Level 0 - - <NTC> in file "HwTq9Meas.c"
+
+
+* certain error in Software Safety Analysis Level 0 - - <NIV> in file "Rte_Stubs.c"
+
+
+* certain error in Software Safety Analysis Level 0 - - <NTL> in file "Rte_Stubs.c"
+
+**** Software Safety Analysis Level 0 - 98 (P_C) took 0.03real, 0.03u + 0s
+**** Software Safety Analysis Level 0 - 99 (P_R)
+**** Software Safety Analysis Level 0 - 99 (P_R) took 0real, 0u + 0s
+
+Generating GUI files
+
+Checks statistics: (including internal files)
+ - IRV      => Green :     0, Orange :     0, Red :     0   (100%)
+ - OVFL     => Green :     0, Orange :     0, Red :     0   (100%)
+ - NIP      => Green :     2, Orange :     0, Red :     0   (100%)
+ - NIVL     => Green :     3, Orange :     0, Red :     0   (100%)
+ - NIV      => Green :     5, Orange :     0, Red :     1   (100%)
+ - OBAI     => Green :     0, Orange :     0, Red :     0   (100%)
+ - ZDV      => Green :     0, Orange :     0, Red :     0   (100%)
+ - SHF      => Green :     0, Orange :     0, Red :     0   (100%)
+ - IDP      => Green :     2, Orange :     0, Red :     0   (100%)
+
+TOTAL:    => Green :    12, Orange :     0, Red :     1   (100%)
+
+Number of NTL : 1
+Number of NTC : 3
+Number of UNR : 13
+Number of unreachable procedures: 51 / 56
+
+
+Certain (Red) errors summary:
+ - certain NTL, the loop is infinite or contains a run-time error in file Rte_Stubs.c
+ - certain NTC, the called function HwTq9Meas.HwTq9MeasPer1 (in the current context) either contains an error or does not terminate in file Rte_Stubs.c
+ - certain NTC, the called function Rte_Stubs.Rte_Stub (in the current context) either contains an error or does not terminate in file __polyspace_main.c
+ - certain NTC, the called function Rte_Stubs.Rte_Call_HwTq9Meas_GtmGetSent0Data_Oper (in the current context) either contains an error or does not terminate in file HwTq9Meas.c
+ - certain NIV, variable is not initialized (type: unsigned int 32) in file Rte_Stubs.c
+
+
+Classification of orange checks:
+  Orange checks not classified        : 0
+  Orange checks from imprecise sources: 0
+
+First orange checks to review:
+  - Number of orange checks that are path-related issues              : 0
+  - Number of orange checks that are bounded input issues             : 0
+  - Number of orange checks that are related to unbounded input values: 0
+
+GUI files generation complete.
+
+Generating results in a spreadsheet format in C:\Component\ES224A_HwTq9Meas_Impl\tools\Polyspace\~CodeProver\Polyspace-Doc
+ 
+Generating Excel files...
+Using existing folder (Polyspace-Doc) to store the excel creation results
+Files will be replaced if already existing.
+
+    Loading results
+    Creating Excel files
+
+Creation terminated
+Generation complete
+
+
+**********************************************************
+***
+*** Software Safety Analysis Level 0 done
+***
+**********************************************************
+Ending at: Jan 4, 2018 17:45:9
+User time for pass0: 00:00:18.99 (19real, 19u + 0s (0.03gc))
+
+Polyspace C verification
+Copyright 1999-2013 The MathWorks, Inc.
+All rights reserved.
+
+Starting at: Jan 4, 2018 17:45:9
+Host: MINGW64_7_64-6.1 SAGLGTD1ZF2 0 amd64
+User: nz4qtt
+**********************************************************
+***
+*** Beginning Software Safety Analysis Level 1
+***
+**********************************************************
+**** Software Safety Analysis Level 1 - 1 (Load Program)
+**** Software Safety Analysis Level 1 - 1 (Load Program) took 0.2real, 0.2u + 0s
+**** Software Safety Analysis Level 1 - 1 (P_IL2AST)
+***** Software Safety Analysis Level 1 - 1.1 (P_SILAST)
+****** Software Safety Analysis Level 1 - 1.1.1 (P_ISP)
+****** Software Safety Analysis Level 1 - 1.1.1 (P_ISP) took 0.27real, 0.27u + 0s (0.02gc)
+****** Software Safety Analysis Level 1 - 1.1.2 (P_MSV)
+****** Software Safety Analysis Level 1 - 1.1.2 (P_MSV) took 0real, 0u + 0s
+****** Software Safety Analysis Level 1 - 1.1.3 (P_IT)
+****** Software Safety Analysis Level 1 - 1.1.3 (P_IT) took 0.14real, 0.14u + 0s
+****** Software Safety Analysis Level 1 - 1.1.4 (P_AE)
+****** Software Safety Analysis Level 1 - 1.1.4 (P_AE) took 0.02real, 0.02u + 0s
+****** Software Safety Analysis Level 1 - 1.1.5 (P_ER)
+****** Software Safety Analysis Level 1 - 1.1.5 (P_ER) took 0.03real, 0.03u + 0s
+****** Software Safety Analysis Level 1 - 1.1.6 (P_NS)
+****** Software Safety Analysis Level 1 - 1.1.6 (P_NS) took 0.02real, 0.02u + 0s
+****** Software Safety Analysis Level 1 - 1.1.7 (P_AM)
+****** Software Safety Analysis Level 1 - 1.1.7 (P_AM) took 0.02real, 0.02u + 0s
+****** Software Safety Analysis Level 1 - 1.1.8 (P_ISP)
+****** Software Safety Analysis Level 1 - 1.1.8 (P_ISP) took 0.02real, 0.02u + 0s
+****** Software Safety Analysis Level 1 - 1.1.9 (P_NS)
+****** Software Safety Analysis Level 1 - 1.1.9 (P_NS) took 0.03real, 0.03u + 0s
+****** Software Safety Analysis Level 1 - 1.1.10 (P_DAL)
+****** Software Safety Analysis Level 1 - 1.1.10 (P_DAL) took 0.02real, 0.02u + 0s
+****** Software Safety Analysis Level 1 - 1.1.11 (P_ILB)
+****** Software Safety Analysis Level 1 - 1.1.11 (P_ILB) took 0.02real, 0.02u + 0s
+****** Software Safety Analysis Level 1 - 1.1.12 (P_SLI)
+* 0 sad
+****** Software Safety Analysis Level 1 - 1.1.12 (P_SLI) took 0.03real, 0.03u + 0s
+****** Software Safety Analysis Level 1 - 1.1.13 (P_SULV)
+0 dv, 0 pr, 0 ad, 82 trfd, 0 dvf
+****** Software Safety Analysis Level 1 - 1.1.13 (P_SULV) took 0.02real, 0.02u + 0s
+****** Software Safety Analysis Level 1 - 1.1.14 (P_ICSP)
+* 1423 cd, 0 cf, 1 rc, 0 ed, 0 cd. 
+****** Software Safety Analysis Level 1 - 1.1.14 (P_ICSP) took 0.06real, 0.06u + 0s
+****** Software Safety Analysis Level 1 - 1.1.15 (P_ICPP)
+****** Software Safety Analysis Level 1 - 1.1.15 (P_ICPP) took 0.05real, 0.05u + 0s
+****** Software Safety Analysis Level 1 - 1.1.16 (P_SULV)
+2 dv, 0 pr, 2 ad, 0 trfd, 0 dvf
+****** Software Safety Analysis Level 1 - 1.1.16 (P_SULV) took 0.03real, 0.03u + 0s
+****** Software Safety Analysis Level 1 - 1.1.17 (P_IIP)
+* 737 cd, 26 cf, 3 rc.
+****** Software Safety Analysis Level 1 - 1.1.17 (P_IIP) took 0.05real, 0.05u + 0s
+****** Software Safety Analysis Level 1 - 1.1.18 (P_ISP)
+****** Software Safety Analysis Level 1 - 1.1.18 (P_ISP) took 0.17real, 0.17u + 0s (0.02gc)
+****** Software Safety Analysis Level 1 - 1.1.19 (P_ILA)
+****** Software Safety Analysis Level 1 - 1.1.19 (P_ILA) took 0.09real, 0.09u + 0s
+****** Software Safety Analysis Level 1 - 1.1.20 (P_PGC)
+* 2 tdl.
+******* Software Safety Analysis Level 1 - 1.1.20.1 (P_RES)
+* nb vres: 3
+******* Software Safety Analysis Level 1 - 1.1.20.1 (P_RES) took 0.02real, 0.02u + 0s
+****** Software Safety Analysis Level 1 - 1.1.20 (P_PGC) took 0.06real, 0.06u + 0s
+****** Software Safety Analysis Level 1 - 1.1.21 (P_SR)
+****** Software Safety Analysis Level 1 - 1.1.21 (P_SR) took 0.31real, 0.31u + 0s
+****** Software Safety Analysis Level 1 - 1.1.22 (P_DAL)
+****** Software Safety Analysis Level 1 - 1.1.22 (P_DAL) took 0.03real, 0.03u + 0s
+****** Software Safety Analysis Level 1 - 1.1.23 (P_SULV)
+0 dv, 0 pr, 0 ad, 0 trfd, 0 dvf
+****** Software Safety Analysis Level 1 - 1.1.23 (P_SULV) took 0.03real, 0.03u + 0s
+****** Software Safety Analysis Level 1 - 1.1.24 (P_DGL)
+1 unused global variables deleted
+****** Software Safety Analysis Level 1 - 1.1.24 (P_DGL) took 0.03real, 0.03u + 0s
+****** Software Safety Analysis Level 1 - 1.1.25 (P_ISP)
+****** Software Safety Analysis Level 1 - 1.1.25 (P_ISP) took 0.06real, 0.06u + 0s
+****** Software Safety Analysis Level 1 - 1.1.26 (P_SENUP)
+0 empty procedure(s) removed
+****** Software Safety Analysis Level 1 - 1.1.26 (P_SENUP) took 0real, 0u + 0s
+***** Software Safety Analysis Level 1 - 1.1 (P_SILAST) took 2.39real, 2.39u + 0s (0.19gc)
+***** Software Safety Analysis Level 1 - 1.2 (P_TILAST)
+***** Software Safety Analysis Level 1 - 1.2 (P_TILAST) took 0.06real, 0.06u + 0s
+**** Software Safety Analysis Level 1 - 1 (P_IL2AST) took 2.48real, 2.48u + 0s (0.19gc)
+
+
+
+**** Software Safety Analysis Level 1 - 2 (Pass1)
+***** Software Safety Analysis Level 1 - 2.1 (P_LF)
+***** Software Safety Analysis Level 1 - 2.1 (P_LF) took 0.02real, 0.02u + 0s
+**** Software Safety Analysis Level 1 - 1 (Analyzing procedure Rte_Call_HwTq9Meas_HwTq9Offs_GetErrorStatus)
+ - 0.7s elapsed (wall clock).
+**** Software Safety Analysis Level 1 - 1 (Analyzing procedure Rte_Call_HwTq9Meas_HwTq9Offs_GetErrorStatus) took 0.69real, 0.69u + 0s (0.02gc)
+**** Software Safety Analysis Level 1 - 1 (Analyzing procedure _main_gen_init_g6)
+ - 0.7s elapsed (wall clock).
+**** Software Safety Analysis Level 1 - 1 (Analyzing procedure _main_gen_init_g6) took 0.72real, 0.72u + 0s
+**** Software Safety Analysis Level 1 - 2 (Analyzing procedure _main_gen_init_g8)
+ - 0.2s elapsed (wall clock).
+**** Software Safety Analysis Level 1 - 2 (Analyzing procedure _main_gen_init_g8) took 0.23real, 0.23u + 0s (0.03gc)
+**** Software Safety Analysis Level 1 - 2 (Analyzing procedure HwTq9MeasInit1)
+ - 0.2s elapsed (wall clock).
+**** Software Safety Analysis Level 1 - 2 (Analyzing procedure HwTq9MeasInit1) took 0.23real, 0.23u + 0s (0.03gc)
+**** Software Safety Analysis Level 1 - 3 (Analyzing procedure _main_gen_init_sym_HwTq9Meas_Srv_HwTq9Offs_GetErrorStatus_Return)
+ - 0.2s elapsed (wall clock).
+**** Software Safety Analysis Level 1 - 3 (Analyzing procedure _main_gen_init_sym_HwTq9Meas_Srv_HwTq9Offs_GetErrorStatus_Return) took 0.25real, 0.25u + 0s (0.03gc)
+**** Software Safety Analysis Level 1 - 3 (Analyzing procedure _main_gen_init_sym_HwTq9Meas_Pim_HwTq9SyncPlsHiLim)
+ - 0.2s elapsed (wall clock).
+**** Software Safety Analysis Level 1 - 3 (Analyzing procedure _main_gen_init_sym_HwTq9Meas_Pim_HwTq9SyncPlsHiLim) took 0.23real, 0.23u + 0s (0.03gc)
+**** Software Safety Analysis Level 1 - 4 (Analyzing procedure _main_gen_init_sym_HwTq9Meas_Pim_HwTq9TiStampPrev)
+ - 0.3s elapsed (wall clock).
+**** Software Safety Analysis Level 1 - 4 (Analyzing procedure _main_gen_init_sym_HwTq9Meas_Pim_HwTq9TiStampPrev) took 0.31real, 0.31u + 0s (0.05gc)
+**** Software Safety Analysis Level 1 - 4 (Analyzing procedure _main_gen_init_sym_HwTq9Meas_Pim_HwTq9DataPlsHiLim)
+ - 0.3s elapsed (wall clock).
+**** Software Safety Analysis Level 1 - 4 (Analyzing procedure _main_gen_init_sym_HwTq9Meas_Pim_HwTq9DataPlsHiLim) took 0.33real, 0.33u + 0s (0.05gc)
+**** Software Safety Analysis Level 1 - 5 (Analyzing procedure _main_gen_init_sym_HwTq9Meas_Pim_HwTq9SyncPlsLoLim)
+ - 0.2s elapsed (wall clock).
+**** Software Safety Analysis Level 1 - 5 (Analyzing procedure _main_gen_init_sym_HwTq9Meas_Pim_HwTq9SyncPlsLoLim) took 0.22real, 0.22u + 0s (0.03gc)
+**** Software Safety Analysis Level 1 - 5 (Analyzing procedure _main_gen_init_sym_HwTq9Meas_Pim_HwTq9DataPlsLoLim)
+ - 0.2s elapsed (wall clock).
+**** Software Safety Analysis Level 1 - 5 (Analyzing procedure _main_gen_init_sym_HwTq9Meas_Pim_HwTq9DataPlsLoLim) took 0.23real, 0.23u + 0s (0.03gc)
+**** Software Safety Analysis Level 1 - 6 (Analyzing procedure _main_gen_init_sym_HwTq9Meas_Pim_HwTq9TiStamp)
+ - 0.2s elapsed (wall clock).
+**** Software Safety Analysis Level 1 - 6 (Analyzing procedure _main_gen_init_sym_HwTq9Meas_Pim_HwTq9TiStamp) took 0.22real, 0.22u + 0s (0.03gc)
+**** Software Safety Analysis Level 1 - 6 (Analyzing procedure _main_gen_init_sym_HwTq9Meas_Srv_HwTq9Offs_SetRamBlockStatus_Return)
+ - 0.2s elapsed (wall clock).
+**** Software Safety Analysis Level 1 - 6 (Analyzing procedure _main_gen_init_sym_HwTq9Meas_Srv_HwTq9Offs_SetRamBlockStatus_Return) took 0.22real, 0.22u + 0s (0.03gc)
+**** Software Safety Analysis Level 1 - 7 (Analyzing procedure _main_gen_init_sym_HwTq9Meas_Srv_GtmGetSent0Data_Return)
+ - 0.2s elapsed (wall clock).
+**** Software Safety Analysis Level 1 - 7 (Analyzing procedure _main_gen_init_sym_HwTq9Meas_Srv_GtmGetSent0Data_Return) took 0.23real, 0.23u + 0s (0.03gc)
+**** Software Safety Analysis Level 1 - 7 (Analyzing procedure _main_gen_init_sym_HwTq9Meas_Srv_SetNtcStsAndSnpshtData_Return)
+ - 0.2s elapsed (wall clock).
+**** Software Safety Analysis Level 1 - 7 (Analyzing procedure _main_gen_init_sym_HwTq9Meas_Srv_SetNtcStsAndSnpshtData_Return) took 0.22real, 0.22u + 0s (0.05gc)
+**** Software Safety Analysis Level 1 - 8 (Analyzing procedure _main_gen_init_sym_HwTq9Meas_Srv_SetNtcSts_Return)
+ - 0.2s elapsed (wall clock).
+**** Software Safety Analysis Level 1 - 8 (Analyzing procedure _main_gen_init_sym_HwTq9Meas_Srv_SetNtcSts_Return) took 0.22real, 0.22u + 0s (0.03gc)
+**** Software Safety Analysis Level 1 - 8 (Analyzing procedure _main_gen_init_sym_HwTq9Meas_Srv_HwTq9Offs_GetErrorStatus_RequestResultPtr)
+ - 0.2s elapsed (wall clock).
+**** Software Safety Analysis Level 1 - 8 (Analyzing procedure _main_gen_init_sym_HwTq9Meas_Srv_HwTq9Offs_GetErrorStatus_RequestResultPtr) took 0.25real, 0.25u + 0s (0.05gc)
+**** Software Safety Analysis Level 1 - 9 (Analyzing procedure _main_gen_init_sym_HwTq9Meas_Srv_GetNtcQlfrSts_NtcQlfr)
+ - 0.3s elapsed (wall clock).
+**** Software Safety Analysis Level 1 - 9 (Analyzing procedure _main_gen_init_sym_HwTq9Meas_Srv_GetNtcQlfrSts_NtcQlfr) took 0.28real, 0.28u + 0s (0.05gc)
+**** Software Safety Analysis Level 1 - 9 (Analyzing procedure _main_gen_init_sym_HwTq9Meas_Pim_HwTq9RollgCntrPrev)
+ - 0.3s elapsed (wall clock).
+**** Software Safety Analysis Level 1 - 9 (Analyzing procedure _main_gen_init_sym_HwTq9Meas_Pim_HwTq9RollgCntrPrev) took 0.26real, 0.26u + 0s (0.05gc)
+**** Software Safety Analysis Level 1 - 10 (Analyzing procedure _main_gen_init_sym_HwTq9Meas_Cli_HwTq9MeasHwTq9TrimPrfmdSts_HwTqOffsTrimPrfmdStsData)
+ - 0.2s elapsed (wall clock).
+**** Software Safety Analysis Level 1 - 10 (Analyzing procedure _main_gen_init_sym_HwTq9Meas_Cli_HwTq9MeasHwTq9TrimPrfmdSts_HwTqOffsTrimPrfmdStsData) took 0.23real, 0.23u + 0s (0.05gc)
+**** Software Safety Analysis Level 1 - 10 (Analyzing procedure _main_gen_init_sym_HwTq9Meas_Srv_GetNtcQlfrSts_Return)
+ - 0.2s elapsed (wall clock).
+**** Software Safety Analysis Level 1 - 10 (Analyzing procedure _main_gen_init_sym_HwTq9Meas_Srv_GetNtcQlfrSts_Return) took 0.23real, 0.23u + 0s (0.05gc)
+**** Software Safety Analysis Level 1 - 11 (Analyzing procedure Rte_Call_HwTq9Meas_GtmGetSent0Data_Oper)
+ - 0.2s elapsed (wall clock).
+**** Software Safety Analysis Level 1 - 11 (Analyzing procedure Rte_Call_HwTq9Meas_GtmGetSent0Data_Oper) took 0.27real, 0.27u + 0s (0.05gc)
+
+* certain error in Software Safety Analysis Level 1 - - <NIV> in file "Rte_Stubs.c"
+
+
+* certain error in Software Safety Analysis Level 1 - - <NTL> in file "Rte_Stubs.c"
+
+**** Software Safety Analysis Level 1 - 11 (Analyzing procedure _main_gen_init_sym_HwTq9Meas_Pim_HwTq9RawDataBuf)
+ - 0.3s elapsed (wall clock).
+**** Software Safety Analysis Level 1 - 11 (Analyzing procedure _main_gen_init_sym_HwTq9Meas_Pim_HwTq9RawDataBuf) took 0.26real, 0.26u + 0s (0.05gc)
+**** Software Safety Analysis Level 1 - 12 (Analyzing procedure _main_gen_init_g2)
+ - 0.2s elapsed (wall clock).
+**** Software Safety Analysis Level 1 - 12 (Analyzing procedure _main_gen_init_g2) took 0.23real, 0.23u + 0s (0.05gc)
+**** Software Safety Analysis Level 1 - 12 (Analyzing procedure HwTq9MeasPer1)
+ - 0.2s elapsed (wall clock).
+**** Software Safety Analysis Level 1 - 12 (Analyzing procedure HwTq9MeasPer1) took 0.25real, 0.25u + 0s (0.05gc)
+
+* certain error in Software Safety Analysis Level 1 - - <NTC> in file "HwTq9Meas.c"
+
+**** Software Safety Analysis Level 1 - 13 (Analyzing procedure _main_gen_init_sym_HwTq9Meas_Srv_GtmGetSent0Data_BufStrtAdr)
+ - 0.3s elapsed (wall clock).
+**** Software Safety Analysis Level 1 - 13 (Analyzing procedure _main_gen_init_sym_HwTq9Meas_Srv_GtmGetSent0Data_BufStrtAdr) took 0.28real, 0.28u + 0s (0.05gc)
+**** Software Safety Analysis Level 1 - 13 (Analyzing procedure _main_gen_init_sym_HwTq9Meas_Ip_HwTq9Polarity)
+ - 0.2s elapsed (wall clock).
+**** Software Safety Analysis Level 1 - 13 (Analyzing procedure _main_gen_init_sym_HwTq9Meas_Ip_HwTq9Polarity) took 0.26real, 0.26u + 0s (0.05gc)
+**** Software Safety Analysis Level 1 - 14 (Analyzing procedure Rte_Stub)
+ - 0.2s elapsed (wall clock).
+**** Software Safety Analysis Level 1 - 14 (Analyzing procedure Rte_Stub) took 0.25real, 0.25u + 0s (0.05gc)
+
+* certain error in Software Safety Analysis Level 1 - - <NTC> in file "Rte_Stubs.c"
+
+**** Software Safety Analysis Level 1 - 14 (Analyzing procedure _main_gen_init_g10)
+ - 0.2s elapsed (wall clock).
+**** Software Safety Analysis Level 1 - 14 (Analyzing procedure _main_gen_init_g10) took 0.23real, 0.23u + 0s (0.05gc)
+**** Software Safety Analysis Level 1 - 15 (Analyzing procedure _main_gen_init_sym_HwTq9Meas_Pim_HwTq9PrevHwTq)
+ - 0.2s elapsed (wall clock).
+**** Software Safety Analysis Level 1 - 15 (Analyzing procedure _main_gen_init_sym_HwTq9Meas_Pim_HwTq9PrevHwTq) took 0.22real, 0.22u + 0s (0.05gc)
+**** Software Safety Analysis Level 1 - 15 (Analyzing procedure _main_gen_init_sym_HwTq9Meas_Cli_HwTq9MeasHwTq9WrTrim_HwTqWrOffsTrimData)
+ - 0.2s elapsed (wall clock).
+**** Software Safety Analysis Level 1 - 15 (Analyzing procedure _main_gen_init_sym_HwTq9Meas_Cli_HwTq9MeasHwTq9WrTrim_HwTqWrOffsTrimData) took 0.22real, 0.22u + 0s (0.05gc)
+**** Software Safety Analysis Level 1 - 16 (Analyzing procedure _main_gen_init_sym_HwTq9Meas_Cli_HwTq9MeasHwTq9ReadTrim_HwTqReadTrimData)
+ - 0.2s elapsed (wall clock).
+**** Software Safety Analysis Level 1 - 16 (Analyzing procedure _main_gen_init_sym_HwTq9Meas_Cli_HwTq9MeasHwTq9ReadTrim_HwTqReadTrimData) took 0.22real, 0.22u + 0s (0.03gc)
+**** Software Safety Analysis Level 1 - 16 (Analyzing procedure _main_gen_init_g36)
+ - 0.2s elapsed (wall clock).
+**** Software Safety Analysis Level 1 - 16 (Analyzing procedure _main_gen_init_g36) took 0.23real, 0.23u + 0s (0.03gc)
+**** Software Safety Analysis Level 1 - 17 (Analyzing procedure _main_gen_init_sym_HwTq9Meas_Pim_HwTq9Offs)
+ - 0.2s elapsed (wall clock).
+**** Software Safety Analysis Level 1 - 17 (Analyzing procedure _main_gen_init_sym_HwTq9Meas_Pim_HwTq9Offs) took 0.19real, 0.19u + 0s (0.03gc)
+**** Software Safety Analysis Level 1 - 18 (Analyzing procedure _extern_init)
+ - 0.2s elapsed (wall clock).
+**** Software Safety Analysis Level 1 - 18 (Analyzing procedure _extern_init) took 0.22real, 0.22u + 0s (0.03gc)
+**** Software Safety Analysis Level 1 - 19 (Analyzing procedure main)
+ - 0.3s elapsed (wall clock).
+**** Software Safety Analysis Level 1 - 19 (Analyzing procedure main) took 0.3real, 0.3u + 0s (0.03gc)
+**** Software Safety Analysis Level 1 - 20 (Analyzing procedure __PST__MAIN__ENTRY__POINT__)
+ - 0.2s elapsed (wall clock).
+**** Software Safety Analysis Level 1 - 20 (Analyzing procedure __PST__MAIN__ENTRY__POINT__) took 0.2real, 0.2u + 0s (0.05gc)
+**** Software Safety Analysis Level 1 - 2 (Pass1) took 5.66real, 5.66u + 0s
+**** Software Safety Analysis Level 1 - 3 (Saving files)
+**** Software Safety Analysis Level 1 - 3 (Saving files) took 0real, 0u + 0s
+
+Generating GUI files
+
+Checks statistics: (including internal files)
+ - IRV      => Green :     0, Orange :     0, Red :     0   (100%)
+ - OVFL     => Green :     0, Orange :     0, Red :     0   (100%)
+ - NIP      => Green :     2, Orange :     0, Red :     0   (100%)
+ - NIVL     => Green :     3, Orange :     0, Red :     0   (100%)
+ - NIV      => Green :     5, Orange :     0, Red :     1   (100%)
+ - OBAI     => Green :     0, Orange :     0, Red :     0   (100%)
+ - ZDV      => Green :     0, Orange :     0, Red :     0   (100%)
+ - SHF      => Green :     0, Orange :     0, Red :     0   (100%)
+ - IDP      => Green :     2, Orange :     0, Red :     0   (100%)
+
+TOTAL:    => Green :    12, Orange :     0, Red :     1   (100%)
+
+Number of NTL : 1
+Number of NTC : 3
+Number of UNR : 13
+Number of unreachable procedures: 51 / 56
+
+
+Certain (Red) errors summary:
+ - certain NTL, the loop is infinite or contains a run-time error in file Rte_Stubs.c
+ - certain NTC, the called function HwTq9Meas.HwTq9MeasPer1 (in the current context) either contains an error or does not terminate in file Rte_Stubs.c
+ - certain NTC, the called function Rte_Stubs.Rte_Stub (in the current context) either contains an error or does not terminate in file __polyspace_main.c
+ - certain NTC, the called function Rte_Stubs.Rte_Call_HwTq9Meas_GtmGetSent0Data_Oper (in the current context) either contains an error or does not terminate in file HwTq9Meas.c
+ - certain NIV, variable is not initialized (type: unsigned int 32) in file Rte_Stubs.c
+
+
+Classification of orange checks:
+  Orange checks not classified        : 0
+  Orange checks from imprecise sources: 0
+
+First orange checks to review:
+  - Number of orange checks that are path-related issues              : 0
+  - Number of orange checks that are bounded input issues             : 0
+  - Number of orange checks that are related to unbounded input values: 0
+
+GUI files generation complete.
+
+Generating results in a spreadsheet format in C:\Component\ES224A_HwTq9Meas_Impl\tools\Polyspace\~CodeProver\Polyspace-Doc
+ 
+Generating Excel files...
+Using existing folder (Polyspace-Doc) to store the excel creation results
+Files will be replaced if already existing.
+
+    Loading results
+    Creating Excel files
+
+Creation terminated
+Generation complete
+
+
+**********************************************************
+***
+*** Software Safety Analysis Level 1 done
+***
+**********************************************************
+Ending at: Jan 4, 2018 17:45:20
+User time for pass1: 00:00:10.93 (10.93real, 10.93u + 0s (0.06gc))
+
+Polyspace C verification
+Copyright 1999-2013 The MathWorks, Inc.
+All rights reserved.
+
+Starting at: Jan 4, 2018 17:45:20
+Host: MINGW64_7_64-6.1 SAGLGTD1ZF2 0 amd64
+User: nz4qtt
+**********************************************************
+***
+*** Beginning Software Safety Analysis Level 2
+***
+**********************************************************
+
+**** Software Safety Analysis Level 2 - 1 (P_LF)
+**** Software Safety Analysis Level 2 - 1 (P_LF) took 0real, 0u + 0s
+**** Software Safety Analysis Level 2 - 2 (Saving files)
+**** Software Safety Analysis Level 2 - 2 (Saving files) took 0.02real, 0.02u + 0s
+
+Generating GUI files
+
+Checks statistics: (including internal files)
+ - IRV      => Green :     0, Orange :     0, Red :     0   (100%)
+ - OVFL     => Green :     0, Orange :     0, Red :     0   (100%)
+ - NIP      => Green :     2, Orange :     0, Red :     0   (100%)
+ - NIVL     => Green :     3, Orange :     0, Red :     0   (100%)
+ - NIV      => Green :     5, Orange :     0, Red :     1   (100%)
+ - OBAI     => Green :     0, Orange :     0, Red :     0   (100%)
+ - ZDV      => Green :     0, Orange :     0, Red :     0   (100%)
+ - SHF      => Green :     0, Orange :     0, Red :     0   (100%)
+ - IDP      => Green :     2, Orange :     0, Red :     0   (100%)
+
+TOTAL:    => Green :    12, Orange :     0, Red :     1   (100%)
+
+Number of NTL : 1
+Number of NTC : 3
+Number of UNR : 13
+Number of unreachable procedures: 51 / 56
+
+
+Certain (Red) errors summary:
+ - certain NTL, the loop is infinite or contains a run-time error in file Rte_Stubs.c
+ - certain NTC, the called function HwTq9Meas.HwTq9MeasPer1 (in the current context) either contains an error or does not terminate in file Rte_Stubs.c
+ - certain NTC, the called function Rte_Stubs.Rte_Stub (in the current context) either contains an error or does not terminate in file __polyspace_main.c
+ - certain NTC, the called function Rte_Stubs.Rte_Call_HwTq9Meas_GtmGetSent0Data_Oper (in the current context) either contains an error or does not terminate in file HwTq9Meas.c
+ - certain NIV, variable is not initialized (type: unsigned int 32) in file Rte_Stubs.c
+
+
+Classification of orange checks:
+  Orange checks not classified        : 0
+  Orange checks from imprecise sources: 0
+
+First orange checks to review:
+  - Number of orange checks that are path-related issues              : 0
+  - Number of orange checks that are bounded input issues             : 0
+  - Number of orange checks that are related to unbounded input values: 0
+
+GUI files generation complete.
+
+Generating results in a spreadsheet format in C:\Component\ES224A_HwTq9Meas_Impl\tools\Polyspace\~CodeProver\Polyspace-Doc
+ 
+Generating Excel files...
+Using existing folder (Polyspace-Doc) to store the excel creation results
+Files will be replaced if already existing.
+
+    Loading results
+    Creating Excel files
+
+Creation terminated
+Generation complete
+
+
+**********************************************************
+***
+*** Software Safety Analysis Level 2 done
+***
+**********************************************************
+Ending at: Jan 4, 2018 17:45:21
+User time for pass2: 00:00:01.57 (1.58real, 1.58u + 0s (0.06gc))
+
+Polyspace C verification
+Copyright 1999-2013 The MathWorks, Inc.
+All rights reserved.
+
+Starting at: Jan 4, 2018 17:45:21
+Host: MINGW64_7_64-6.1 SAGLGTD1ZF2 0 amd64
+User: nz4qtt
+**********************************************************
+***
+*** Beginning Software Safety Analysis Level 3
+***
+**********************************************************
+
+**** Software Safety Analysis Level 3 - 1 (P_LF)
+**** Software Safety Analysis Level 3 - 1 (P_LF) took 0.02real, 0.02u + 0s
+**** Software Safety Analysis Level 3 - 2 (Saving files)
+**** Software Safety Analysis Level 3 - 2 (Saving files) took 0real, 0u + 0s
+
+Generating GUI files
+
+Checks statistics: (including internal files)
+ - IRV      => Green :     0, Orange :     0, Red :     0   (100%)
+ - OVFL     => Green :     0, Orange :     0, Red :     0   (100%)
+ - NIP      => Green :     2, Orange :     0, Red :     0   (100%)
+ - NIVL     => Green :     3, Orange :     0, Red :     0   (100%)
+ - NIV      => Green :     5, Orange :     0, Red :     1   (100%)
+ - OBAI     => Green :     0, Orange :     0, Red :     0   (100%)
+ - ZDV      => Green :     0, Orange :     0, Red :     0   (100%)
+ - SHF      => Green :     0, Orange :     0, Red :     0   (100%)
+ - IDP      => Green :     2, Orange :     0, Red :     0   (100%)
+
+TOTAL:    => Green :    12, Orange :     0, Red :     1   (100%)
+
+Number of NTL : 1
+Number of NTC : 3
+Number of UNR : 13
+Number of unreachable procedures: 51 / 56
+
+
+Certain (Red) errors summary:
+ - certain NTL, the loop is infinite or contains a run-time error in file Rte_Stubs.c
+ - certain NTC, the called function HwTq9Meas.HwTq9MeasPer1 (in the current context) either contains an error or does not terminate in file Rte_Stubs.c
+ - certain NTC, the called function Rte_Stubs.Rte_Stub (in the current context) either contains an error or does not terminate in file __polyspace_main.c
+ - certain NTC, the called function Rte_Stubs.Rte_Call_HwTq9Meas_GtmGetSent0Data_Oper (in the current context) either contains an error or does not terminate in file HwTq9Meas.c
+ - certain NIV, variable is not initialized (type: unsigned int 32) in file Rte_Stubs.c
+
+
+Classification of orange checks:
+  Orange checks not classified        : 0
+  Orange checks from imprecise sources: 0
+
+First orange checks to review:
+  - Number of orange checks that are path-related issues              : 0
+  - Number of orange checks that are bounded input issues             : 0
+  - Number of orange checks that are related to unbounded input values: 0
+
+GUI files generation complete.
+
+Generating results in a spreadsheet format in C:\Component\ES224A_HwTq9Meas_Impl\tools\Polyspace\~CodeProver\Polyspace-Doc
+ 
+Generating Excel files...
+Using existing folder (Polyspace-Doc) to store the excel creation results
+Files will be replaced if already existing.
+
+    Loading results
+    Creating Excel files
+
+Creation terminated
+Generation complete
+
+
+**********************************************************
+***
+*** Software Safety Analysis Level 3 done
+***
+**********************************************************
+Ending at: Jan 4, 2018 17:45:23
+User time for pass3: 00:00:01.59 (1.59real, 1.59u + 0s (0.03gc))
+
+Polyspace C verification
+Copyright 1999-2013 The MathWorks, Inc.
+All rights reserved.
+
+Starting at: Jan 4, 2018 17:45:23
+Host: MINGW64_7_64-6.1 SAGLGTD1ZF2 0 amd64
+User: nz4qtt
+**********************************************************
+***
+*** Beginning Software Safety Analysis Level 4
+***
+**********************************************************
+
+**** Software Safety Analysis Level 4 - 1 (P_LF)
+**** Software Safety Analysis Level 4 - 1 (P_LF) took 0real, 0u + 0s
+**** Software Safety Analysis Level 4 - 2 (Saving files)
+**** Software Safety Analysis Level 4 - 2 (Saving files) took 0.02real, 0.02u + 0s
+
+Generating GUI files
+
+Checks statistics: (including internal files)
+ - IRV      => Green :     0, Orange :     0, Red :     0   (100%)
+ - OVFL     => Green :     0, Orange :     0, Red :     0   (100%)
+ - NIP      => Green :     2, Orange :     0, Red :     0   (100%)
+ - NIVL     => Green :     3, Orange :     0, Red :     0   (100%)
+ - NIV      => Green :     5, Orange :     0, Red :     1   (100%)
+ - OBAI     => Green :     0, Orange :     0, Red :     0   (100%)
+ - ZDV      => Green :     0, Orange :     0, Red :     0   (100%)
+ - SHF      => Green :     0, Orange :     0, Red :     0   (100%)
+ - IDP      => Green :     2, Orange :     0, Red :     0   (100%)
+
+TOTAL:    => Green :    12, Orange :     0, Red :     1   (100%)
+
+Number of NTL : 1
+Number of NTC : 3
+Number of UNR : 13
+Number of unreachable procedures: 51 / 56
+
+
+Certain (Red) errors summary:
+ - certain NTL, the loop is infinite or contains a run-time error in file Rte_Stubs.c
+ - certain NTC, the called function HwTq9Meas.HwTq9MeasPer1 (in the current context) either contains an error or does not terminate in file Rte_Stubs.c
+ - certain NTC, the called function Rte_Stubs.Rte_Stub (in the current context) either contains an error or does not terminate in file __polyspace_main.c
+ - certain NTC, the called function Rte_Stubs.Rte_Call_HwTq9Meas_GtmGetSent0Data_Oper (in the current context) either contains an error or does not terminate in file HwTq9Meas.c
+ - certain NIV, variable is not initialized (type: unsigned int 32) in file Rte_Stubs.c
+
+
+Classification of orange checks:
+  Orange checks not classified        : 0
+  Orange checks from imprecise sources: 0
+
+First orange checks to review:
+  - Number of orange checks that are path-related issues              : 0
+  - Number of orange checks that are bounded input issues             : 0
+  - Number of orange checks that are related to unbounded input values: 0
+
+GUI files generation complete.
+
+Generating results in a spreadsheet format in C:\Component\ES224A_HwTq9Meas_Impl\tools\Polyspace\~CodeProver\Polyspace-Doc
+ 
+Generating Excel files...
+Using existing folder (Polyspace-Doc) to store the excel creation results
+Files will be replaced if already existing.
+
+    Loading results
+    Creating Excel files
+
+Creation terminated
+Generation complete
+
+
+**********************************************************
+***
+*** Software Safety Analysis Level 4 done
+***
+**********************************************************
+Ending at: Jan 4, 2018 17:45:24
+User time for pass4: 00:00:01.32 (1.33real, 1.33u + 0s (0.03gc))
+
+Polyspace C verification
+Copyright 1999-2013 The MathWorks, Inc.
+All rights reserved.
+
+Starting at: Jan 4, 2018 17:45:24
+Host: MINGW64_7_64-6.1 SAGLGTD1ZF2 0 amd64
+User: nz4qtt
+**********************************************************
+***
+*** Beginning Verification Post Analysis
+***
+**********************************************************
+**** Verification Post Analysis - 1 (Load Program)
+**** Verification Post Analysis - 1 (Load Program) took 0.25real, 0.25u + 0s
+**** Verification Post Analysis - 2 (P_ISP)
+**** Verification Post Analysis - 2 (P_ISP) took 0.2real, 0.2u + 0s
+**** Verification Post Analysis - 3 (P_FTI)
+**** Verification Post Analysis - 3 (P_FTI) took 0.31real, 0.31u + 0s
+**** Verification Post Analysis - 4 (P_REC)
+**** Verification Post Analysis - 4 (P_REC) took 0.05real, 0.05u + 0s
+**** Verification Post Analysis - 5 (P_ICSP)
+* 3248 cd, 142 cf, 0 rc, 0 ed, 0 cd. 
+**** Verification Post Analysis - 5 (P_ICSP) took 0.3real, 0.3u + 0s (0.02gc)
+**** Verification Post Analysis - 6 (P_IIP)
+* 1220 cd, 3 cf, 0 rc.
+**** Verification Post Analysis - 6 (P_IIP) took 0.33real, 0.33u + 0s (0.02gc)
+**** Verification Post Analysis - 7 (P_ICPP)
+**** Verification Post Analysis - 7 (P_ICPP) took 0.2real, 0.2u + 0s
+**** Verification Post Analysis - 8 (P_PP)
+* 0 pp, 0 ppp.
+**** Verification Post Analysis - 8 (P_PP) took 0.03real, 0.03u + 0s
+**** Verification Post Analysis - 9 (P_SULV)
+554 dv, 0 pr, 27 ad, 85 trfd, 0 dvf
+**** Verification Post Analysis - 9 (P_SULV) took 0.17real, 0.17u + 0s
+**** Verification Post Analysis - 10 (P_SLI)
+* 6 sad
+**** Verification Post Analysis - 10 (P_SLI) took 0.03real, 0.03u + 0s
+**** Verification Post Analysis - 11 (P_ISP)
+**** Verification Post Analysis - 11 (P_ISP) took 0.08real, 0.08u + 0s
+**** Verification Post Analysis - 12 (P_SENUP)
+19 empty procedure(s) removed
+**** Verification Post Analysis - 12 (P_SENUP) took 0real, 0u + 0s
+**** Verification Post Analysis - 13 (P_BCK)
+nc=1
+**** Verification Post Analysis - 13 (P_BCK) took 0.09real, 0.09u + 0s
+**** Verification Post Analysis - 14 (P_EMP)
+nemp=0
+**** Verification Post Analysis - 14 (P_EMP) took 0real, 0u + 0s
+**** Verification Post Analysis - 15 (P_C)
+
+* certain error in Verification Post Analysis - - <NTC> in file "Rte_Stubs.c"
+
+
+* certain error in Verification Post Analysis - - <NTC> in file "HwTq9Meas.c"
+
+
+* certain error in Verification Post Analysis - - <NIV> in file "Rte_Stubs.c"
+
+
+* certain error in Verification Post Analysis - - <NTL> in file "Rte_Stubs.c"
+
+**** Verification Post Analysis - 15 (P_C) took 0.03real, 0.03u + 0s
+
+Generating GUI files
+
+Checks statistics: (including internal files)
+ - IRV      => Green :     0, Orange :     0, Red :     0   (100%)
+ - OVFL     => Green :     0, Orange :     0, Red :     0   (100%)
+ - NIP      => Green :     2, Orange :     0, Red :     0   (100%)
+ - NIVL     => Green :     3, Orange :     0, Red :     0   (100%)
+ - NIV      => Green :     5, Orange :     0, Red :     1   (100%)
+ - OBAI     => Green :     0, Orange :     0, Red :     0   (100%)
+ - ZDV      => Green :     0, Orange :     0, Red :     0   (100%)
+ - SHF      => Green :     0, Orange :     0, Red :     0   (100%)
+ - IDP      => Green :     2, Orange :     0, Red :     0   (100%)
+
+TOTAL:    => Green :    12, Orange :     0, Red :     1   (100%)
+
+Number of NTL : 0
+Number of NTC : 0
+Number of UNR : 0
+Number of unreachable procedures: 51 / 56
+
+
+Certain (Red) errors summary:
+ - certain NIV, variable is not initialized (type: unsigned int 32) in file Rte_Stubs.c
+
+
+Classification of orange checks:
+  Orange checks not classified        : 0
+  Orange checks from imprecise sources: 0
+
+First orange checks to review:
+  - Number of orange checks that are path-related issues              : 0
+  - Number of orange checks that are bounded input issues             : 0
+  - Number of orange checks that are related to unbounded input values: 0
+
+GUI files generation complete.
+
+Generating results in a spreadsheet format in C:\Component\ES224A_HwTq9Meas_Impl\tools\Polyspace\~CodeProver\Polyspace-Doc
+ 
+Generating Excel files...
+Using existing folder (Polyspace-Doc) to store the excel creation results
+Files will be replaced if already existing.
+
+    Loading results
+    Creating Excel files
+
+Creation terminated
+Generation complete
+
+
+**********************************************************
+***
+*** Verification Post Analysis done
+***
+**********************************************************
+Ending at: Jan 4, 2018 17:45:28
+User time for post-analysis: 00:00:04.2 (4.03real, 4.03u + 0s (0.02gc))
+User time for polyspace-code-prover-nodesktop: 00:00:54.7 (54.08real, 54.08u + 0s (0.41gc))
+
+***
+*** End of Polyspace verification
+***

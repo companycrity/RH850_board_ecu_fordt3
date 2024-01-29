@@ -1,0 +1,847 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1>
+<?dbhtml filename="CodeProver-010.html"?>
+<title>MISRA-C  Warnings</title>
+<table colsep="1" frame="all" pgwide="1" rowsep="1">
+    <title>C:\Users\NZ5334\Documents\Synergy\Working\ses_dev_ea4\MM070A_FordMsg414BusHiSpd_Impl\src\FordMsg414BusHiSpd.c</title>
+    <tgroup align="left" cols="10">
+        <colspec colname="1" colnum="1" colwidth="360*"/>
+        <colspec colname="2" colnum="2" colwidth="2520*"/>
+        <colspec colname="3" colnum="3" colwidth="360*"/>
+        <colspec colname="4" colnum="4" colwidth="1200*"/>
+        <colspec colname="5" colnum="5" colwidth="360*"/>
+        <colspec colname="6" colnum="6" colwidth="360*"/>
+        <colspec colname="7" colnum="7" colwidth="360*"/>
+        <colspec colname="8" colnum="8" colwidth="600*"/>
+        <colspec colname="9" colnum="9" colwidth="720*"/>
+        <colspec colname="10" colnum="10" colwidth="900*"/>
+        <thead>
+            <row bgcolor="#6A80BF">
+                <entry>Rule</entry>
+                <entry>Message</entry>
+                <entry>ID</entry>
+                <entry>Function</entry>
+                <entry>Line</entry>
+                <entry>Col</entry>
+                <entry>Jus</entry>
+                <entry>Class</entry>
+                <entry>Status</entry>
+                <entry>Comment</entry><?dbfo bgcolor="#6A80BF"?>
+            </row>
+        </thead>
+        <tbody>
+            <row bgcolor="#F0F2F9">
+                <entry>5.1</entry>
+                <entry>Identifiers "AgOffsVldFaildElpdTi_Cnt_T_logl" (FordMsg414BusHiSpd.c line 636 column 112) and "AgOffsVldFaildElpdTi_Cnt_T_logl" (FordMsg414BusHiSpd.c line 287 column 49) have the same first 31 characters. (required)</entry>
+                <entry>103</entry>
+                <entry>FordMsg414BusHiSpdPer1</entry>
+                <entry>636</entry>
+                <entry>112</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>5.1</entry>
+                <entry>Identifiers "AgOffsVldFaildElpdTi_Cnt_T_logl" (FordMsg414BusHiSpd.c line 636 column 112) and "AgOffsVldFaildElpdTi_Cnt_T_logl" (FordMsg414BusHiSpd.c line 91 column 113) have the same first 31 characters. (required)</entry>
+                <entry>56</entry>
+                <entry/>
+                <entry>636</entry>
+                <entry>112</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>5.1</entry>
+                <entry>Identifiers "AgOffsVldFaildElpdTi_Cnt_T_logl" (FordMsg414BusHiSpd.c line 91 column 113) and "AgOffsVldFaildElpdTi_Cnt_T_logl" (FordMsg414BusHiSpd.c line 287 column 49) have the same first 31 characters. (required)</entry>
+                <entry>61</entry>
+                <entry>FordMsg414BusHiSpdPer1</entry>
+                <entry>287</entry>
+                <entry>49</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>5.1</entry>
+                <entry>Identifiers "AgOffsVldPassdElpdTi_Cnt_T_logl" (FordMsg414BusHiSpd.c line 635 column 30) and "AgOffsVldPassdElpdTi_Cnt_T_logl" (FordMsg414BusHiSpd.c line 286 column 49) have the same first 31 characters. (required)</entry>
+                <entry>102</entry>
+                <entry>FordMsg414BusHiSpdPer1</entry>
+                <entry>635</entry>
+                <entry>30</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>5.1</entry>
+                <entry>Identifiers "AgOffsVldPassdElpdTi_Cnt_T_logl" (FordMsg414BusHiSpd.c line 635 column 30) and "AgOffsVldPassdElpdTi_Cnt_T_logl" (FordMsg414BusHiSpd.c line 90 column 30) have the same first 31 characters. (required)</entry>
+                <entry>55</entry>
+                <entry/>
+                <entry>635</entry>
+                <entry>30</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>5.1</entry>
+                <entry>Identifiers "AgOffsVldPassdElpdTi_Cnt_T_logl" (FordMsg414BusHiSpd.c line 90 column 30) and "AgOffsVldPassdElpdTi_Cnt_T_logl" (FordMsg414BusHiSpd.c line 286 column 49) have the same first 31 characters. (required)</entry>
+                <entry>60</entry>
+                <entry>FordMsg414BusHiSpdPer1</entry>
+                <entry>286</entry>
+                <entry>49</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>5.1</entry>
+                <entry>Identifiers "CalcFordVehSteerPinionOffsChks_Cnt_T_u08" (FordMsg414BusHiSpd.c line 564 column 158) and "CalcFordVehSteerPinionOffsChks_Cnt_T_u08" (FordMsg414BusHiSpd.c line 306 column 49) have the same first 40 characters. (required)</entry>
+                <entry>101</entry>
+                <entry>FordMsg414BusHiSpdPer1</entry>
+                <entry>564</entry>
+                <entry>158</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>5.1</entry>
+                <entry>Identifiers "CalcFordVehSteerPinionOffsChks_Cnt_T_u08" (FordMsg414BusHiSpd.c line 564 column 158) and "CalcFordVehSteerPinionOffsChks_Cnt_T_u08" (FordMsg414BusHiSpd.c line 86 column 158) have the same first 40 characters. (required)</entry>
+                <entry>54</entry>
+                <entry/>
+                <entry>564</entry>
+                <entry>158</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>5.1</entry>
+                <entry>Identifiers "CalcFordVehSteerPinionOffsChks_Cnt_T_u08" (FordMsg414BusHiSpd.c line 86 column 158) and "CalcFordVehSteerPinionOffsChks_Cnt_T_u08" (FordMsg414BusHiSpd.c line 306 column 49) have the same first 40 characters. (required)</entry>
+                <entry>66</entry>
+                <entry>FordMsg414BusHiSpdPer1</entry>
+                <entry>306</entry>
+                <entry>49</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>5.1</entry>
+                <entry>Identifiers "FordVehSteerPinionAgOffsRaw_Cnt_T_u16" (FordMsg414BusHiSpd.c line 560 column 52) and "FordVehSteerPinionAgOffsRaw_Cnt_T_u16" (FordMsg414BusHiSpd.c line 295 column 49) have the same first 37 characters. (required)</entry>
+                <entry>97</entry>
+                <entry>FordMsg414BusHiSpdPer1</entry>
+                <entry>560</entry>
+                <entry>52</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>5.1</entry>
+                <entry>Identifiers "FordVehSteerPinionAgOffsRaw_Cnt_T_u16" (FordMsg414BusHiSpd.c line 560 column 52) and "FordVehSteerPinionAgOffsRaw_Cnt_T_u16" (FordMsg414BusHiSpd.c line 82 column 52) have the same first 37 characters. (required)</entry>
+                <entry>50</entry>
+                <entry/>
+                <entry>560</entry>
+                <entry>52</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>5.1</entry>
+                <entry>Identifiers "FordVehSteerPinionAgOffsRaw_Cnt_T_u16" (FordMsg414BusHiSpd.c line 82 column 52) and "FordVehSteerPinionAgOffsRaw_Cnt_T_u16" (FordMsg414BusHiSpd.c line 295 column 49) have the same first 37 characters. (required)</entry>
+                <entry>62</entry>
+                <entry>FordMsg414BusHiSpdPer1</entry>
+                <entry>295</entry>
+                <entry>49</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>5.1</entry>
+                <entry>Identifiers "FordVehSteerPinionOffsChks_Cnt_T_u08" (FordMsg414BusHiSpd.c line 563 column 158) and "FordVehSteerPinionOffsChks_Cnt_T_u08" (FordMsg414BusHiSpd.c line 304 column 49) have the same first 36 characters. (required)</entry>
+                <entry>100</entry>
+                <entry>FordMsg414BusHiSpdPer1</entry>
+                <entry>563</entry>
+                <entry>158</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>5.1</entry>
+                <entry>Identifiers "FordVehSteerPinionOffsChks_Cnt_T_u08" (FordMsg414BusHiSpd.c line 563 column 158) and "FordVehSteerPinionOffsChks_Cnt_T_u08" (FordMsg414BusHiSpd.c line 85 column 158) have the same first 36 characters. (required)</entry>
+                <entry>53</entry>
+                <entry/>
+                <entry>563</entry>
+                <entry>158</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>5.1</entry>
+                <entry>Identifiers "FordVehSteerPinionOffsChks_Cnt_T_u08" (FordMsg414BusHiSpd.c line 85 column 158) and "FordVehSteerPinionOffsChks_Cnt_T_u08" (FordMsg414BusHiSpd.c line 304 column 49) have the same first 36 characters. (required)</entry>
+                <entry>65</entry>
+                <entry>FordMsg414BusHiSpdPer1</entry>
+                <entry>304</entry>
+                <entry>49</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>5.1</entry>
+                <entry>Identifiers "FordVehSteerPinionOffsCnt_Cnt_T_u08" (FordMsg414BusHiSpd.c line 562 column 158) and "FordVehSteerPinionOffsCnt_Cnt_T_u08" (FordMsg414BusHiSpd.c line 303 column 49) have the same first 35 characters. (required)</entry>
+                <entry>99</entry>
+                <entry>FordMsg414BusHiSpdPer1</entry>
+                <entry>562</entry>
+                <entry>158</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>5.1</entry>
+                <entry>Identifiers "FordVehSteerPinionOffsCnt_Cnt_T_u08" (FordMsg414BusHiSpd.c line 562 column 158) and "FordVehSteerPinionOffsCnt_Cnt_T_u08" (FordMsg414BusHiSpd.c line 84 column 158) have the same first 35 characters. (required)</entry>
+                <entry>52</entry>
+                <entry/>
+                <entry>562</entry>
+                <entry>158</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>5.1</entry>
+                <entry>Identifiers "FordVehSteerPinionOffsCnt_Cnt_T_u08" (FordMsg414BusHiSpd.c line 84 column 158) and "FordVehSteerPinionOffsCnt_Cnt_T_u08" (FordMsg414BusHiSpd.c line 303 column 49) have the same first 35 characters. (required)</entry>
+                <entry>64</entry>
+                <entry>FordMsg414BusHiSpdPer1</entry>
+                <entry>303</entry>
+                <entry>49</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>5.1</entry>
+                <entry>Identifiers "FordVehSteerPinionOffsSts_Cnt_T_enum" (FordMsg414BusHiSpd.c line 561 column 176) and "FordVehSteerPinionOffsSts_Cnt_T_enum" (FordMsg414BusHiSpd.c line 299 column 33) have the same first 36 characters. (required)</entry>
+                <entry>98</entry>
+                <entry>FordMsg414BusHiSpdPer1</entry>
+                <entry>561</entry>
+                <entry>176</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>5.1</entry>
+                <entry>Identifiers "FordVehSteerPinionOffsSts_Cnt_T_enum" (FordMsg414BusHiSpd.c line 561 column 176) and "FordVehSteerPinionOffsSts_Cnt_T_enum" (FordMsg414BusHiSpd.c line 83 column 176) have the same first 36 characters. (required)</entry>
+                <entry>51</entry>
+                <entry/>
+                <entry>561</entry>
+                <entry>176</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>5.1</entry>
+                <entry>Identifiers "FordVehSteerPinionOffsSts_Cnt_T_enum" (FordMsg414BusHiSpd.c line 83 column 176) and "FordVehSteerPinionOffsSts_Cnt_T_enum" (FordMsg414BusHiSpd.c line 299 column 33) have the same first 36 characters. (required)</entry>
+                <entry>63</entry>
+                <entry>FordMsg414BusHiSpdPer1</entry>
+                <entry>299</entry>
+                <entry>33</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>9.1</entry>
+                <entry>All automatic variables shall have been assigned a value before being used. (required)</entry>
+                <entry>80</entry>
+                <entry>FordMsg414BusHiSpdPer1</entry>
+                <entry>382</entry>
+                <entry>64</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>9.1</entry>
+                <entry>All automatic variables shall have been assigned a value before being used. (required)</entry>
+                <entry>81</entry>
+                <entry>FordMsg414BusHiSpdPer1</entry>
+                <entry>387</entry>
+                <entry>64</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>9.1</entry>
+                <entry>All automatic variables shall have been assigned a value before being used. (required)</entry>
+                <entry>82</entry>
+                <entry>FordMsg414BusHiSpdPer1</entry>
+                <entry>392</entry>
+                <entry>62</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>9.1</entry>
+                <entry>All automatic variables shall have been assigned a value before being used. (required)</entry>
+                <entry>83</entry>
+                <entry>FordMsg414BusHiSpdPer1</entry>
+                <entry>404</entry>
+                <entry>63</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>19.1</entry>
+                <entry>#include statements in a file shall only be preceded by other preprocessor directives or comments. (advisory)</entry>
+                <entry>48</entry>
+                <entry/>
+                <entry>171</entry>
+                <entry>0</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>19.1</entry>
+                <entry>#include statements in a file shall only be preceded by other preprocessor directives or comments. (advisory)</entry>
+                <entry>49</entry>
+                <entry/>
+                <entry>540</entry>
+                <entry>0</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>21.1</entry>
+                <entry>Minimisation of run-time failures. (required)</entry>
+                <entry>57</entry>
+                <entry>FordMsg414BusHiSpdInit1</entry>
+                <entry>207</entry>
+                <entry>0</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>21.1</entry>
+                <entry>Minimisation of run-time failures. (required)</entry>
+                <entry>58</entry>
+                <entry>FordMsg414BusHiSpdInit1</entry>
+                <entry>207</entry>
+                <entry>29</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>21.1</entry>
+                <entry>Minimisation of run-time failures. (required)</entry>
+                <entry>59</entry>
+                <entry>FordMsg414BusHiSpdInit1</entry>
+                <entry>214</entry>
+                <entry>0</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>21.1</entry>
+                <entry>Minimisation of run-time failures. (required)</entry>
+                <entry>67</entry>
+                <entry>FordMsg414BusHiSpdPer1</entry>
+                <entry>327</entry>
+                <entry>10</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>21.1</entry>
+                <entry>Minimisation of run-time failures. (required)</entry>
+                <entry>68</entry>
+                <entry>FordMsg414BusHiSpdPer1</entry>
+                <entry>331</entry>
+                <entry>81</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>21.1</entry>
+                <entry>Minimisation of run-time failures. (required)</entry>
+                <entry>69</entry>
+                <entry>FordMsg414BusHiSpdPer1</entry>
+                <entry>339</entry>
+                <entry>65</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>21.1</entry>
+                <entry>Minimisation of run-time failures. (required)</entry>
+                <entry>70</entry>
+                <entry>FordMsg414BusHiSpdPer1</entry>
+                <entry>342</entry>
+                <entry>81</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>21.1</entry>
+                <entry>Minimisation of run-time failures. (required)</entry>
+                <entry>71</entry>
+                <entry>FordMsg414BusHiSpdPer1</entry>
+                <entry>350</entry>
+                <entry>63</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>21.1</entry>
+                <entry>Minimisation of run-time failures. (required)</entry>
+                <entry>72</entry>
+                <entry>FordMsg414BusHiSpdPer1</entry>
+                <entry>353</entry>
+                <entry>81</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>21.1</entry>
+                <entry>Minimisation of run-time failures. (required)</entry>
+                <entry>73</entry>
+                <entry>FordMsg414BusHiSpdPer1</entry>
+                <entry>361</entry>
+                <entry>63</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>21.1</entry>
+                <entry>Minimisation of run-time failures. (required)</entry>
+                <entry>74</entry>
+                <entry>FordMsg414BusHiSpdPer1</entry>
+                <entry>367</entry>
+                <entry>56</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>21.1</entry>
+                <entry>Minimisation of run-time failures. (required)</entry>
+                <entry>75</entry>
+                <entry>FordMsg414BusHiSpdPer1</entry>
+                <entry>368</entry>
+                <entry>53</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>21.1</entry>
+                <entry>Minimisation of run-time failures. (required)</entry>
+                <entry>76</entry>
+                <entry>FordMsg414BusHiSpdPer1</entry>
+                <entry>369</entry>
+                <entry>55</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>21.1</entry>
+                <entry>Minimisation of run-time failures. (required)</entry>
+                <entry>77</entry>
+                <entry>FordMsg414BusHiSpdPer1</entry>
+                <entry>370</entry>
+                <entry>57</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>21.1</entry>
+                <entry>Minimisation of run-time failures. (required)</entry>
+                <entry>78</entry>
+                <entry>FordMsg414BusHiSpdPer1</entry>
+                <entry>371</entry>
+                <entry>54</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>21.1</entry>
+                <entry>Minimisation of run-time failures. (required)</entry>
+                <entry>79</entry>
+                <entry>FordMsg414BusHiSpdPer1</entry>
+                <entry>372</entry>
+                <entry>55</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>21.1</entry>
+                <entry>Minimisation of run-time failures. (required)</entry>
+                <entry>84</entry>
+                <entry>FordMsg414BusHiSpdPer1</entry>
+                <entry>423</entry>
+                <entry>33</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>21.1</entry>
+                <entry>Minimisation of run-time failures. (required)</entry>
+                <entry>85</entry>
+                <entry>FordMsg414BusHiSpdPer1</entry>
+                <entry>442</entry>
+                <entry>81</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>21.1</entry>
+                <entry>Minimisation of run-time failures. (required)</entry>
+                <entry>86</entry>
+                <entry>FordMsg414BusHiSpdPer1</entry>
+                <entry>454</entry>
+                <entry>89</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>21.1</entry>
+                <entry>Minimisation of run-time failures. (required)</entry>
+                <entry>87</entry>
+                <entry>FordMsg414BusHiSpdPer1</entry>
+                <entry>475</entry>
+                <entry>79</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>21.1</entry>
+                <entry>Minimisation of run-time failures. (required)</entry>
+                <entry>88</entry>
+                <entry>FordMsg414BusHiSpdPer1</entry>
+                <entry>500</entry>
+                <entry>8</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>21.1</entry>
+                <entry>Minimisation of run-time failures. (required)</entry>
+                <entry>89</entry>
+                <entry>FordMsg414BusHiSpdPer1</entry>
+                <entry>503</entry>
+                <entry>8</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>21.1</entry>
+                <entry>Minimisation of run-time failures. (required)</entry>
+                <entry>90</entry>
+                <entry>FordMsg414BusHiSpdPer1</entry>
+                <entry>505</entry>
+                <entry>8</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>21.1</entry>
+                <entry>Minimisation of run-time failures. (required)</entry>
+                <entry>91</entry>
+                <entry>FordMsg414BusHiSpdPer1</entry>
+                <entry>508</entry>
+                <entry>8</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>21.1</entry>
+                <entry>Minimisation of run-time failures. (required)</entry>
+                <entry>92</entry>
+                <entry>FordMsg414BusHiSpdPer1</entry>
+                <entry>511</entry>
+                <entry>8</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>21.1</entry>
+                <entry>Minimisation of run-time failures. (required)</entry>
+                <entry>93</entry>
+                <entry>FordMsg414BusHiSpdPer1</entry>
+                <entry>514</entry>
+                <entry>8</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>21.1</entry>
+                <entry>Minimisation of run-time failures. (required)</entry>
+                <entry>94</entry>
+                <entry>FordMsg414BusHiSpdPer1</entry>
+                <entry>516</entry>
+                <entry>8</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>21.1</entry>
+                <entry>Minimisation of run-time failures. (required)</entry>
+                <entry>95</entry>
+                <entry>FordMsg414BusHiSpdPer1</entry>
+                <entry>517</entry>
+                <entry>8</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>21.1</entry>
+                <entry>Minimisation of run-time failures. (required)</entry>
+                <entry>96</entry>
+                <entry>FordMsg414BusHiSpdPer1</entry>
+                <entry>518</entry>
+                <entry>8</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>21.1</entry>
+                <entry>Minimisation of run-time failures. (required)</entry>
+                <entry>104</entry>
+                <entry>FordVehSteerPinionOffsVldCovn</entry>
+                <entry>592</entry>
+                <entry>50</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>21.1</entry>
+                <entry>Minimisation of run-time failures. (required)</entry>
+                <entry>105</entry>
+                <entry>VldElpdTi</entry>
+                <entry>641</entry>
+                <entry>73</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>21.1</entry>
+                <entry>Minimisation of run-time failures. (required)</entry>
+                <entry>106</entry>
+                <entry>VldElpdTi</entry>
+                <entry>653</entry>
+                <entry>73</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>21.1</entry>
+                <entry>Minimisation of run-time failures. (required)</entry>
+                <entry>107</entry>
+                <entry>VldElpdTi</entry>
+                <entry>663</entry>
+                <entry>73</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+        </tbody>
+    </tgroup>
+</table>
+<table colsep="1" frame="all" pgwide="1" rowsep="1">
+    <title>C:\Users\NZ5334\Documents\Synergy\Working\ses_dev_ea4\MM070A_FordMsg414BusHiSpd_Impl\src\FordMsg414BusHiSpdNonRte.c</title>
+    <tgroup align="left" cols="10">
+        <colspec colname="1" colnum="1" colwidth="360*"/>
+        <colspec colname="2" colnum="2" colwidth="2520*"/>
+        <colspec colname="3" colnum="3" colwidth="360*"/>
+        <colspec colname="4" colnum="4" colwidth="1200*"/>
+        <colspec colname="5" colnum="5" colwidth="360*"/>
+        <colspec colname="6" colnum="6" colwidth="360*"/>
+        <colspec colname="7" colnum="7" colwidth="360*"/>
+        <colspec colname="8" colnum="8" colwidth="600*"/>
+        <colspec colname="9" colnum="9" colwidth="720*"/>
+        <colspec colname="10" colnum="10" colwidth="900*"/>
+        <thead>
+            <row bgcolor="#6A80BF">
+                <entry>Rule</entry>
+                <entry>Message</entry>
+                <entry>ID</entry>
+                <entry>Function</entry>
+                <entry>Line</entry>
+                <entry>Col</entry>
+                <entry>Jus</entry>
+                <entry>Class</entry>
+                <entry>Status</entry>
+                <entry>Comment</entry><?dbfo bgcolor="#6A80BF"?>
+            </row>
+        </thead>
+        <tbody>
+            <row bgcolor="#F0F2F9">
+                <entry>19.1</entry>
+                <entry>#include statements in a file shall only be preceded by other preprocessor directives or comments. (advisory)</entry>
+                <entry>43</entry>
+                <entry/>
+                <entry>77</entry>
+                <entry>0</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>21.1</entry>
+                <entry>Minimisation of run-time failures. (required)</entry>
+                <entry>44</entry>
+                <entry>ComIPduCallout_BrakeSnData_6_FD1_Oper</entry>
+                <entry>54</entry>
+                <entry>1</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>21.1</entry>
+                <entry>Minimisation of run-time failures. (required)</entry>
+                <entry>45</entry>
+                <entry>ComIPduCallout_BrakeSnData_6_FD1_Oper</entry>
+                <entry>54</entry>
+                <entry>30</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>21.1</entry>
+                <entry>Minimisation of run-time failures. (required)</entry>
+                <entry>46</entry>
+                <entry>ComTimeoutNotification_Ford_StePinOffst_D_Stat_Oper</entry>
+                <entry>68</entry>
+                <entry>1</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>21.1</entry>
+                <entry>Minimisation of run-time failures. (required)</entry>
+                <entry>47</entry>
+                <entry>ComTimeoutNotification_Ford_StePinOffst_D_Stat_Oper</entry>
+                <entry>68</entry>
+                <entry>30</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+        </tbody>
+    </tgroup>
+</table>
+</sect1>

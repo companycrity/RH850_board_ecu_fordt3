@@ -1,0 +1,171 @@
+PID9480 PGID9480
+
+Polyspace verification of Polyspace project.
+Starting at 01/04/2018, 17h41.
+
+
+Options used with Verifier:
+-polyspace-version=9.0 (R2013b)
+-date=04/01/2018
+-from=scratch
+-main-generator-calls=unused
+-lang=C
+-little-endian=true
+-includes-to-ignore1=C:\Component\TL103A_CplrSuprt\include\2013.5.5\ansi
+-includes-to-ignore2=C:\Component\AR202A_MicroCtrlrSuprt_Impl\include\P1M\R7F701311
+-includes-to-ignore3=C:\Component\AR200A_ArSuprt_Impl\include\ASR4.0.3
+-includes-to-ignore4=C:\Component\AR200A_ArSuprt_Impl\tools\contract
+-includes-to-ignore5=C:\Component\AR201A_ArCplrSuprt_Impl\include\ASR4.0.3
+-includes-to-ignore6=C:\Component\AR201A_ArCplrSuprt_Impl\tools\contract
+-includes-to-ignore7=C:\Component\AR100A_NxtrMath_Impl\include
+-includes-to-ignore8=C:\Component\AR101A_NxtrIntrpn_Impl\include
+-includes-to-ignore9=C:\Component\AR104A_NxtrFil_Impl\include
+-includes-to-ignore10=C:\Component\AR102A_NxtrTi_Impl\include
+-includes-to-ignore11=C:\Component\AR103A_NxtrFixdPt_Impl\include
+-includes-to-ignore12=C:\Component\AR999A_ArchGlbPrm_Impl\include
+-includes-to-ignore13=C:\Component\ES999A_ElecGlbPrm_Impl\include
+-includes-to-ignore14=C:\Component\SF999A_SysGlbPrm_Impl\include
+-includes-to-ignore15=C:\ghs\comp_201517\include\v800
+-includes-to-ignore16=C:\Component\ES224A_HwTq9Meas_Impl\tools\local\generate\HwTq9Meas_MemMap.h
+-includes-to-ignore17=C:\Component\ES224A_HwTq9Meas_Impl\tools\local\generate\Rte.h
+-includes-to-ignore18=C:\Component\ES224A_HwTq9Meas_Impl\tools\local\generate\Rte_Compiler_Cfg.h
+-includes-to-ignore19=C:\Component\ES224A_HwTq9Meas_Impl\tools\local\generate\Rte_DataHandleType.h
+-includes-to-ignore20=C:\Component\ES224A_HwTq9Meas_Impl\tools\local\generate\Rte_HwTq9Meas.h
+-includes-to-ignore21=C:\Component\ES224A_HwTq9Meas_Impl\tools\local\generate\Rte_HwTq9Meas_Type.h
+-includes-to-ignore22=C:\Component\ES224A_HwTq9Meas_Impl\tools\local\generate\Rte_MemMap.h
+-includes-to-ignore23=C:\Component\ES224A_HwTq9Meas_Impl\tools\local\generate\Rte_Type.h
+-includes-to-ignore24=C:\Component\ES224A_HwTq9Meas_Impl\tools\local\include\ElecGlbPrm.h
+-includes-to-ignore25=C:\Component\ES224A_HwTq9Meas_Impl\tools\local\include\ElecGlbPrm_Cfg.h
+-includes-to-ignore26=C:\Component\ES224A_HwTq9Meas_Impl\tools\local\generate\Rte_Stubs.c
+-includes-to-ignore27=C:\Component\ES224A_HwTq9Meas_Impl\tools\local\generate\Rte_Stubs.h
+-author=Nexteer
+-dialect=none
+-results-dir=C:\Component\ES224A_HwTq9Meas_Impl\tools\Polyspace\~CodeProver
+-target=mcpu
+-main-generator-writes-variables=none
+-scalar-overflows-behavior=truncate-on-error
+-data-range-specifications=C:\Component\ES224A_HwTq9Meas_Impl\tools\Polyspace\DRS.txt
+-double-is-64bits=true
+-misra2=C:\Component\ES224A_HwTq9Meas_Impl\tools\Polyspace\MISRASettings.cfg
+-long-long-is-64bits=true
+-verif-version=1.0
+-main-generator=true
+-O=-O2
+-prog=Polyspace
+-scalar-overflows-checks=signed
+-D1=FLTINJENA=STD_OFF
+-D2=STATIC=static
+-D3=__interrupt=
+-D4=__ghs_c_int__=int
+-D5=__CORE_V850E3V5__
+-int-is-32bits=true
+-to=Software Safety Analysis level 4
+-I1=C:\Component\ES224A_HwTq9Meas_Impl\include
+-I2=C:\Component\ES224A_HwTq9Meas_Impl\tools\local\generate
+-I3=C:\Component\ES224A_HwTq9Meas_Impl\tools\local\include
+-I4=C:\Component\TL103A_CplrSuprt\include\2013.5.5\ansi
+-I5=C:\Component\AR202A_MicroCtrlrSuprt_Impl\include\P1M\R7F701311
+-I6=C:\Component\AR200A_ArSuprt_Impl\include\ASR4.0.3
+-I7=C:\Component\AR200A_ArSuprt_Impl\tools\contract
+-I8=C:\Component\AR201A_ArCplrSuprt_Impl\include\ASR4.0.3
+-I9=C:\Component\AR201A_ArCplrSuprt_Impl\tools\contract
+-I10=C:\Component\AR100A_NxtrMath_Impl\include
+-I11=C:\Component\AR101A_NxtrIntrpn_Impl\include
+-I12=C:\Component\AR104A_NxtrFil_Impl\include
+-I13=C:\Component\AR102A_NxtrTi_Impl\include
+-I14=C:\Component\AR103A_NxtrFixdPt_Impl\include
+-I15=C:\Component\AR999A_ArchGlbPrm_Impl\include
+-I16=C:\Component\ES999A_ElecGlbPrm_Impl\include
+-I17=C:\Component\SF999A_SysGlbPrm_Impl\include
+-I18=C:\ghs\comp_201517\include\v800
+-dos=true
+-OS-target=no-predefined-OS
+-pointer-is-32bits=true
+
+
+Verifying host configuration ...
+Number of processors : 2
+Processor type  : amd64
+Processor model : Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz
+Processor frequency  : 2.496 GHz
+Memory > 380MB :                            OK	(15.68 GB)
+Swap > 1GB :                                OK	(31.36 GB)
+Min(4GB,Swap) >= Min(4GB,Memory) :          OK	
+Tmp space available in C:\Temp >= 10MB :    OK	(339.37 GB)
+
+Remark: 2 processors have been detected. Taking advantage of multiprocessor.
+|       You may use the option -max-processes <number of processes> in order to decrease the number of
+|       processors used to perform the verification.
+*** Configuration of the host :	OK
+
+
+Type C:\Component\ES224A_HwTq9Meas_Impl\tools\Polyspace\~CodeProver\kill-rte-kernel.bat on host SAGLGTD1ZF2 to halt Verifier process
+
+
+Polyspace C verification
+Copyright 1999-2013 The MathWorks, Inc.
+All rights reserved.
+
+Starting at: Jan 4, 2018 17:41:4
+Host: MINGW64_7_64-6.1 SAGLGTD1ZF2 0 amd64
+User: nz4qtt
+**********************************************************
+***
+*** Verifying C sources
+***
+**********************************************************
+
+OS-target no-predefined-OS implies: -include
+                                    C:\Program Files\MATLAB\R2013b\polyspace\verifier\cxx\cinclude\__polyspace__libc_defs.h
+                                    -IC:\Program Files\MATLAB\R2013b\polyspace\verifier\cxx\include\include-libc
+
+Verifying sources ...
+Verifying HwTq9Meas.c
+Verifying Rte_Stubs.c
+C:\Component\ES224A_HwTq9Meas_Impl\tools\local\generate\Rte_Stubs.c, line 30: error: expression must have pointer-to-object type
+|          HwTq9Meas_Srv_GtmGetSent0Data_BufStrtAdr[i] = (*BufStrtAdr_Ary1D)[i];
+|                                                                            ^
+
+C:\Component\ES224A_HwTq9Meas_Impl\tools\local\generate\Rte_Stubs.c, line 34: error: expression must have pointer-to-object type
+|          (*BufStrtAdr_Ary1D)[i] = HwTq9Meas_Srv_GtmGetSent0Data_BufStrtAdr[i];
+|                              ^
+
+2 errors detected in the compilation of "Rte_Stubs.c".
+C:\Component\ES224A_HwTq9Meas_Impl\tools\local\generate\Rte_Stubs.c, line : warning: Failed compilation.
+Warning: MISRA-C rules checking might be incomplete because of preprocessing or compilation errors.
+
+**********************************************************
+MISRA-C Rule checker results
+ The complete XML report MISRA-C-report.xml can be found in the Polyspace-Doc folder.
+**********************************************************
+Summary per file:
+  File C:\Component\ES224A_HwTq9Meas_Impl\src\HwTq9Meas.c: 
+    2 advisory rules violated (0 error 2 warnings)
+**********************************************************
+Summary per rule:
+  rule 19.1 (advisory, user defined warning) violated 2 times (#include statements in a file shall only be preceded by other preprocessor directives or comments.)
+
+
+Packing compilation data
+done.
+
+**********************************************************
+***
+*** C sources verification done
+***
+**********************************************************
+Ending at: Jan 4, 2018 17:41:8
+User time for compilation: 00:00:03.67 (3.67real, 3.67u + 0s (0.02gc))
+
+
+-------------------------------------------------------------------
+---                                                             ---
+---  Verifier has detected compilation error(s) in the code.    ---
+---  Please correct them and launch the analysis again.         ---
+---                                                             ---
+-------------------------------------------------------------------
+
+
+Failure at: Jan 4, 2018 17:41:8
+User time for polyspace-code-prover-nodesktop: 00:00:03.86 (3.87real, 3.87u + 0s (0.02gc))
+Error: Exiting because of previous error

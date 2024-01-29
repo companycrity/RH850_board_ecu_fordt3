@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1>
+<?dbhtml filename="CodeProver-010.html"?>
+<title>MISRA-C  Warnings</title>
+<table colsep="1" frame="all" pgwide="1" rowsep="1">
+    <title>C:\Users\NZ5334\Documents\Synergy\Working\ses_dev_ea4\MM531A_FordMsg07EBusHiSpd_Impl\src\FordMsg07EBusHiSpd.c</title>
+    <tgroup align="left" cols="10">
+        <colspec colname="1" colnum="1" colwidth="360*"/>
+        <colspec colname="2" colnum="2" colwidth="2520*"/>
+        <colspec colname="3" colnum="3" colwidth="360*"/>
+        <colspec colname="4" colnum="4" colwidth="1200*"/>
+        <colspec colname="5" colnum="5" colwidth="360*"/>
+        <colspec colname="6" colnum="6" colwidth="360*"/>
+        <colspec colname="7" colnum="7" colwidth="360*"/>
+        <colspec colname="8" colnum="8" colwidth="600*"/>
+        <colspec colname="9" colnum="9" colwidth="720*"/>
+        <colspec colname="10" colnum="10" colwidth="900*"/>
+        <thead>
+            <row bgcolor="#6A80BF">
+                <entry>Rule</entry>
+                <entry>Message</entry>
+                <entry>ID</entry>
+                <entry>Function</entry>
+                <entry>Line</entry>
+                <entry>Col</entry>
+                <entry>Jus</entry>
+                <entry>Class</entry>
+                <entry>Status</entry>
+                <entry>Comment</entry><?dbfo bgcolor="#6A80BF"?>
+            </row>
+        </thead>
+        <tbody>
+            <row bgcolor="#F0F2F9">
+                <entry>5.1</entry>
+                <entry>Identifiers "Ford_StePinRelInit_An_Sns_Cnt_T_enum" (FordMsg07EBusHiSpd.c line 249 column 29) and "Ford_StePinRelInit_An_Sns_Cnt_T_u16" (FordMsg07EBusHiSpd.c line 252 column 10) have the same first 32 characters. (required)</entry>
+                <entry>8</entry>
+                <entry>FordMsg07EBusHiSpdPer1</entry>
+                <entry>252</entry>
+                <entry>10</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>9.1</entry>
+                <entry>All automatic variables shall have been assigned a value before being used. (required)</entry>
+                <entry>9</entry>
+                <entry>FordMsg07EBusHiSpdPer1</entry>
+                <entry>271</entry>
+                <entry>50</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>9.1</entry>
+                <entry>All automatic variables shall have been assigned a value before being used. (required)</entry>
+                <entry>12</entry>
+                <entry>FordMsg07EBusHiSpdPer1</entry>
+                <entry>290</entry>
+                <entry>51</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>9.1</entry>
+                <entry>All automatic variables shall have been assigned a value before being used. (required)</entry>
+                <entry>13</entry>
+                <entry>FordMsg07EBusHiSpdPer1</entry>
+                <entry>305</entry>
+                <entry>75</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>9.1</entry>
+                <entry>All automatic variables shall have been assigned a value before being used. (required)</entry>
+                <entry>14</entry>
+                <entry>FordMsg07EBusHiSpdPer1</entry>
+                <entry>306</entry>
+                <entry>95</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>19.1</entry>
+                <entry>#include statements in a file shall only be preceded by other preprocessor directives or comments. (advisory)</entry>
+                <entry>7</entry>
+                <entry/>
+                <entry>319</entry>
+                <entry>0</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>21.1</entry>
+                <entry>Minimisation of run-time failures. (required)</entry>
+                <entry>10</entry>
+                <entry>FordMsg07EBusHiSpdPer1</entry>
+                <entry>277</entry>
+                <entry>12</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>21.1</entry>
+                <entry>Minimisation of run-time failures. (required)</entry>
+                <entry>11</entry>
+                <entry>FordMsg07EBusHiSpdPer1</entry>
+                <entry>277</entry>
+                <entry>41</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+        </tbody>
+    </tgroup>
+</table>
+</sect1>

@@ -1,0 +1,295 @@
+Verification of CM012A_FordT3McuCfg_DataDict
+08-Mar-2018 11:00:32
+Tool Release:  3.1.0
+
+
+
+--------------------------------
+DATA CLASS VIOLATION CHECKS
+--------------------------------
+(errors: 0)
+
+---------------------------------------------------------------
+FDD DEFINITION VARIABLE:	<Type><Number><Variant>  e.g. SF099A
+--------------------------------------------------------------
+(variable: 1, errors: 0)
+
+----------------------------
+DATA DICTIONARY FILENAME:
+----------------------------
+(errors:  0)
+
+------------------------------------------------------------
+RUNNABLE:	<ShoName>Per<Number>  or  <ShoName>Init<Number>
+------------------------------------------------------------
+FordT3McuCfgInit1           	.Runnnable:	TimeStep should be a either 'ISR' or 'MotorControl' or 'MotorControlx2' when Context is 'NonRte'.
+(variables: 8, errors: 1)
+
+-------------------------------
+SrvRunnable:	<TriggerName>
+---------------------------------
+(variables: 0, errors: 0)
+
+-----------------------
+Client:	<TriggerName>
+-------------------------
+(variables: 2, errors: 0)
+
+----------------------------
+INPUT SIGNALS:	<Identity>
+----------------------------
+EcuId                       	Cannot match name to list of known Nexteer signals.
+(variables: 5, errors: 1)
+
+-----------------------------
+OUTPUT SIGNALS:	<Identity>
+-----------------------------
+ChrgPmpDiag                 	Cannot match name to list of known Nexteer signals.
+ChrgPmpDiagAdcFaild         	Cannot match name to list of known Nexteer signals.
+HwAg1SnsrNr                 	Cannot match name to list of known Nexteer signals.
+HwAg1SnsrTyp                	Cannot match name to list of known Nexteer signals.
+MotAg2CosAdcFaild           	Cannot match name to list of known Nexteer signals.
+MotAg2MeasOffs              	Cannot match name to list of known Nexteer signals.
+MotAg2SinAdcFaild           	Cannot match name to list of known Nexteer signals.
+MotAg5CosAdcFaild           	Cannot match name to list of known Nexteer signals.
+MotAg5SinAdcFaild           	Cannot match name to list of known Nexteer signals.
+MotAg6CosAdcFaild           	Cannot match name to list of known Nexteer signals.
+MotAg6SinAdcFaild           	Cannot match name to list of known Nexteer signals.
+MotCtrlMotAg5Cos            	Cannot match name to list of known Nexteer signals.
+MotCtrlMotAg5Sin            	Cannot match name to list of known Nexteer signals.
+MotCtrlMotAg6Cos            	Cannot match name to list of known Nexteer signals.
+MotCtrlMotAg6Sin            	Cannot match name to list of known Nexteer signals.
+MotDrvr1IninTestCmpl        	Cannot match name to list of known Nexteer signals.
+PwrDiscnctSwtDiag           	Cannot match name to list of known Nexteer signals.
+PwrDiscnctSwtDiagAdcFaild   	Cannot match name to list of known Nexteer signals.
+(variables: 56, errors: 18)
+
+---------------------------------------
+INTER-RUNNABLE VARIABLES:	<Identity>
+---------------------------------------
+(variables: 0, errors: 0)
+
+------------------------------------
+CALIBRATIONS:	<ShoName><Identity>
+------------------------------------
+(variables: 0, errors: 0)
+
+----------------------------------------------
+IMPORTED CALIBRATIONS:	<ShoName><Identity>
+---------------------------------------------
+(variables: 0, errors: 0)
+
+-------------------------------------------
+NON-VOLATILE MEMORY:	<Identity>
+-------------------------------------------
+(variables: 0, errors: 0)
+
+------------------------------------------
+DISPLAY VARIABLES:	d<ShoName><Identity>
+------------------------------------------
+(variables: 0, errors: 0)
+
+-----------------------------------------------
+PER-INSTANCE MEMORY:	<Identity>
+-----------------------------------------------
+(variables: 0, errors: 0)
+
+--------------------------------------------------------------------------------------------
+CONSTANTS:	(ALL CAPS) required: 
+						 For "Global" CONSTANTS --- <SHONAME>_<IDENTITY>_<UNITS>_<DATATYPE>
+						 For "Local" CONSTANTS  --- <IDENTITY>_<UNITS>_<DATATYPE>
+-------------------------------------------------------------------------------------------
+ADCDIAGC_DYNDIAGFAILSTEP_CNT_U16 	Name does not match required pattern.
+ADCDIAGC_DYNDIAGPASSSTEP_CNT_U16 	Name does not match required pattern.
+ADCF0CFGANDUSE_ADCF0SGVCEP2_CNT_U08	Name does not match required pattern.
+ADCF0CFGANDUSE_ADCF0SGVCEP3_CNT_U08	Name does not match required pattern.
+ADCF0CFGANDUSE_ADCF0SGVCSP2_CNT_U08	Name does not match required pattern.
+ADCF0CFGANDUSE_ADCF0SGVCSP3_CNT_U08	Name does not match required pattern.
+ADCF0CFGANDUSE_ADCF0VCR00_CNT_U32	Name does not match required pattern.
+ADCF0CFGANDUSE_ADCF0VCR01_CNT_U32	Name does not match required pattern.
+ADCF0CFGANDUSE_ADCF0VCR02_CNT_U32	Name does not match required pattern.
+ADCF0CFGANDUSE_ADCF0VCR03_CNT_U32	Name does not match required pattern.
+ADCF0CFGANDUSE_ADCF0VCR04_CNT_U32	Name does not match required pattern.
+ADCF0CFGANDUSE_ADCF0VCR05_CNT_U32	Name does not match required pattern.
+ADCF0CFGANDUSE_ADCF0VCR06_CNT_U32	Name does not match required pattern.
+ADCF0CFGANDUSE_ADCF0VCR07_CNT_U32	Name does not match required pattern.
+ADCF0CFGANDUSE_ADCF0VCR08_CNT_U32	Name does not match required pattern.
+ADCF0CFGANDUSE_ADCF0VCR09_CNT_U32	Name does not match required pattern.
+ADCF0CFGANDUSE_ADCF0VCR10_CNT_U32	Name does not match required pattern.
+ADCF0CFGANDUSE_ADCF0VCR11_CNT_U32	Name does not match required pattern.
+ADCF0CFGANDUSE_ADCF0VCR12_CNT_U32	Name does not match required pattern.
+ADCF0CFGANDUSE_ADCF0VCR13_CNT_U32	Name does not match required pattern.
+ADCF0CFGANDUSE_ADCF0VCR14_CNT_U32	Name does not match required pattern.
+ADCF0CFGANDUSE_ADCF0VCR15_CNT_U32	Name does not match required pattern.
+ADCF0CFGANDUSE_ADCF0VCR16_CNT_U32	Name does not match required pattern.
+ADCF0CFGANDUSE_ADCF0VCR17_CNT_U32	Name does not match required pattern.
+ADCF0CFGANDUSE_ADCF0VCR18_CNT_U32	Name does not match required pattern.
+ADCF0CFGANDUSE_ADCF0VCR19_CNT_U32	Name does not match required pattern.
+ADCF0CFGANDUSE_ADCF0VCR20_CNT_U32	Name does not match required pattern.
+ADCF0CFGANDUSE_ADCSCAGFAC_VOLTPERCNT_F32	Name does not match required pattern.
+ADCF1CFGANDUSE_ADCF1SGVCEP2_CNT_U08	Name does not match required pattern.
+ADCF1CFGANDUSE_ADCF1SGVCEP3_CNT_U08	Name does not match required pattern.
+ADCF1CFGANDUSE_ADCF1SGVCSP2_CNT_U08	Name does not match required pattern.
+ADCF1CFGANDUSE_ADCF1SGVCSP3_CNT_U08	Name does not match required pattern.
+ADCF1CFGANDUSE_ADCF1VCR00_CNT_U32	Name does not match required pattern.
+ADCF1CFGANDUSE_ADCF1VCR01_CNT_U32	Name does not match required pattern.
+ADCF1CFGANDUSE_ADCF1VCR02_CNT_U32	Name does not match required pattern.
+ADCF1CFGANDUSE_ADCF1VCR03_CNT_U32	Name does not match required pattern.
+ADCF1CFGANDUSE_ADCF1VCR04_CNT_U32	Name does not match required pattern.
+ADCF1CFGANDUSE_ADCF1VCR05_CNT_U32	Name does not match required pattern.
+ADCF1CFGANDUSE_ADCF1VCR06_CNT_U32	Name does not match required pattern.
+ADCF1CFGANDUSE_ADCF1VCR07_CNT_U32	Name does not match required pattern.
+ADCF1CFGANDUSE_ADCF1VCR08_CNT_U32	Name does not match required pattern.
+ADCF1CFGANDUSE_ADCF1VCR09_CNT_U32	Name does not match required pattern.
+ADCF1CFGANDUSE_ADCF1VCR10_CNT_U32	Name does not match required pattern.
+ADCF1CFGANDUSE_ADCF1VCR11_CNT_U32	Name does not match required pattern.
+ADCF1CFGANDUSE_ADCF1VCR12_CNT_U32	Name does not match required pattern.
+ADCF1CFGANDUSE_ADCF1VCR13_CNT_U32	Name does not match required pattern.
+ADCF1CFGANDUSE_ADCF1VCR14_CNT_U32	Name does not match required pattern.
+ADCF1CFGANDUSE_ADCF1VCR15_CNT_U32	Name does not match required pattern.
+ADCF1CFGANDUSE_ADCF1VCR16_CNT_U32	Name does not match required pattern.
+ADCF1CFGANDUSE_ADCF1VCR17_CNT_U32	Name does not match required pattern.
+ADCF1CFGANDUSE_ADCF1VCR18_CNT_U32	Name does not match required pattern.
+ADCF1CFGANDUSE_ADCF1VCR19_CNT_U32	Name does not match required pattern.
+ADCF1CFGANDUSE_ADCF1VCR20_CNT_U32	Name does not match required pattern.
+MCUDIAGCERRINJ                   	Name does not match required pattern.
+MCUDIAGCERRINJ                   	.DocUnits:	Does not match variable name.
+SWPENA                           	Name does not match required pattern.
+SWPENA                           	.DocUnits:	Does not match variable name.
+ADCDIAGC_DYNDIAGFAILSTEP_CNT_U16	Found in data dictionary but not in model.
+ADCDIAGC_DYNDIAGPASSSTEP_CNT_U16	Found in data dictionary but not in model.
+ADCF0CFGANDUSE_ADCF0SGVCEP2_CNT_U08	Found in data dictionary but not in model.
+ADCF0CFGANDUSE_ADCF0SGVCEP3_CNT_U08	Found in data dictionary but not in model.
+ADCF0CFGANDUSE_ADCF0SGVCSP2_CNT_U08	Found in data dictionary but not in model.
+ADCF0CFGANDUSE_ADCF0SGVCSP3_CNT_U08	Found in data dictionary but not in model.
+ADCF0CFGANDUSE_ADCF0VCR00_CNT_U32	Found in data dictionary but not in model.
+ADCF0CFGANDUSE_ADCF0VCR01_CNT_U32	Found in data dictionary but not in model.
+ADCF0CFGANDUSE_ADCF0VCR02_CNT_U32	Found in data dictionary but not in model.
+ADCF0CFGANDUSE_ADCF0VCR03_CNT_U32	Found in data dictionary but not in model.
+ADCF0CFGANDUSE_ADCF0VCR04_CNT_U32	Found in data dictionary but not in model.
+ADCF0CFGANDUSE_ADCF0VCR05_CNT_U32	Found in data dictionary but not in model.
+ADCF0CFGANDUSE_ADCF0VCR06_CNT_U32	Found in data dictionary but not in model.
+ADCF0CFGANDUSE_ADCF0VCR07_CNT_U32	Found in data dictionary but not in model.
+ADCF0CFGANDUSE_ADCF0VCR08_CNT_U32	Found in data dictionary but not in model.
+ADCF0CFGANDUSE_ADCF0VCR09_CNT_U32	Found in data dictionary but not in model.
+ADCF0CFGANDUSE_ADCF0VCR10_CNT_U32	Found in data dictionary but not in model.
+ADCF0CFGANDUSE_ADCF0VCR11_CNT_U32	Found in data dictionary but not in model.
+ADCF0CFGANDUSE_ADCF0VCR12_CNT_U32	Found in data dictionary but not in model.
+ADCF0CFGANDUSE_ADCF0VCR13_CNT_U32	Found in data dictionary but not in model.
+ADCF0CFGANDUSE_ADCF0VCR14_CNT_U32	Found in data dictionary but not in model.
+ADCF0CFGANDUSE_ADCF0VCR15_CNT_U32	Found in data dictionary but not in model.
+ADCF0CFGANDUSE_ADCF0VCR16_CNT_U32	Found in data dictionary but not in model.
+ADCF0CFGANDUSE_ADCF0VCR17_CNT_U32	Found in data dictionary but not in model.
+ADCF0CFGANDUSE_ADCF0VCR18_CNT_U32	Found in data dictionary but not in model.
+ADCF0CFGANDUSE_ADCF0VCR19_CNT_U32	Found in data dictionary but not in model.
+ADCF0CFGANDUSE_ADCF0VCR20_CNT_U32	Found in data dictionary but not in model.
+ADCF0CFGANDUSE_ADCSCAGFAC_VOLTPERCNT_F32	Found in data dictionary but not in model.
+ADCF1CFGANDUSE_ADCF1SGVCEP2_CNT_U08	Found in data dictionary but not in model.
+ADCF1CFGANDUSE_ADCF1SGVCEP3_CNT_U08	Found in data dictionary but not in model.
+ADCF1CFGANDUSE_ADCF1SGVCSP2_CNT_U08	Found in data dictionary but not in model.
+ADCF1CFGANDUSE_ADCF1SGVCSP3_CNT_U08	Found in data dictionary but not in model.
+ADCF1CFGANDUSE_ADCF1VCR00_CNT_U32	Found in data dictionary but not in model.
+ADCF1CFGANDUSE_ADCF1VCR01_CNT_U32	Found in data dictionary but not in model.
+ADCF1CFGANDUSE_ADCF1VCR02_CNT_U32	Found in data dictionary but not in model.
+ADCF1CFGANDUSE_ADCF1VCR03_CNT_U32	Found in data dictionary but not in model.
+ADCF1CFGANDUSE_ADCF1VCR04_CNT_U32	Found in data dictionary but not in model.
+ADCF1CFGANDUSE_ADCF1VCR05_CNT_U32	Found in data dictionary but not in model.
+ADCF1CFGANDUSE_ADCF1VCR06_CNT_U32	Found in data dictionary but not in model.
+ADCF1CFGANDUSE_ADCF1VCR07_CNT_U32	Found in data dictionary but not in model.
+ADCF1CFGANDUSE_ADCF1VCR08_CNT_U32	Found in data dictionary but not in model.
+ADCF1CFGANDUSE_ADCF1VCR09_CNT_U32	Found in data dictionary but not in model.
+ADCF1CFGANDUSE_ADCF1VCR10_CNT_U32	Found in data dictionary but not in model.
+ADCF1CFGANDUSE_ADCF1VCR11_CNT_U32	Found in data dictionary but not in model.
+ADCF1CFGANDUSE_ADCF1VCR12_CNT_U32	Found in data dictionary but not in model.
+ADCF1CFGANDUSE_ADCF1VCR13_CNT_U32	Found in data dictionary but not in model.
+ADCF1CFGANDUSE_ADCF1VCR14_CNT_U32	Found in data dictionary but not in model.
+ADCF1CFGANDUSE_ADCF1VCR15_CNT_U32	Found in data dictionary but not in model.
+ADCF1CFGANDUSE_ADCF1VCR16_CNT_U32	Found in data dictionary but not in model.
+ADCF1CFGANDUSE_ADCF1VCR17_CNT_U32	Found in data dictionary but not in model.
+ADCF1CFGANDUSE_ADCF1VCR18_CNT_U32	Found in data dictionary but not in model.
+ADCF1CFGANDUSE_ADCF1VCR19_CNT_U32	Found in data dictionary but not in model.
+ADCF1CFGANDUSE_ADCF1VCR20_CNT_U32	Found in data dictionary but not in model.
+APPLCRCREGNNR_CNT_U08       	Found in data dictionary but not in model.
+BATTRTCNCURR_FAILSTEP_CNT_U16	Found in data dictionary but not in model.
+BATTRTCNCURR_PASSSTEP_CNT_U16	Found in data dictionary but not in model.
+BATTRTNCURR_FASTLOOPPROC_CNT_LOGL	Found in data dictionary but not in model.
+BATTRTNCURR_GAIN_AMPRPERVOLT_F32	Found in data dictionary but not in model.
+BATTRTNCURR_LOWRTHD_AMPR_F32	Found in data dictionary but not in model.
+BATTRTNCURR_OFFSET_VOLT_F32 	Found in data dictionary but not in model.
+BATTRTNCURR_OUTPMAX_AMPR_F32	Found in data dictionary but not in model.
+BATTRTNCURR_OUTPMIN_AMPR_F32	Found in data dictionary but not in model.
+BATTRTNCURR_UPPRTHD_AMPR_F32	Found in data dictionary but not in model.
+ECUTMEAS_DFTT_DEGCGRD_F32   	Found in data dictionary but not in model.
+ECUTMEAS_NTC0X045FAILSTEP_CNT_U16	Found in data dictionary but not in model.
+ECUTMEAS_NTC0X045PASSSTEP_CNT_U16	Found in data dictionary but not in model.
+ELECGLBPRM_HWAGIFFLTLTCHENA_CNT_LGC	Found in data dictionary but not in model.
+ELECGLBPRM_HWTQSNSRTICKCNT_CNT_U08	Found in data dictionary but not in model.
+ELECGLBPRM_MISSUPDCNTRTHD_NANOSEC_U32	Found in data dictionary but not in model.
+ELECGLBPRM_PWMFRQMAX_HZ_U32 	Found in data dictionary but not in model.
+ELECGLBPRM_PWMFRQMIN_HZ_U32 	Found in data dictionary but not in model.
+ELECGLBPRM_PWMPERDMAX_NANOSEC_U32	Found in data dictionary but not in model.
+ELECGLBPRM_PWMPERDMIN_NANOSEC_U32	Found in data dictionary but not in model.
+ELECGLBPRM_PWMPERDNOMX2_SEC_F32	Found in data dictionary but not in model.
+ELECGLBPRM_PWMPERDNOM_MICROSEC_U7P9	Found in data dictionary but not in model.
+FLTINJENA                   	Found in data dictionary but not in model.
+GATEDRV0FETFLTMTGTNENA_ULS_LOGL	Found in data dictionary but not in model.
+HWAG10THTOOTHTRIG_CNT_U08   	Found in data dictionary but not in model.
+HWAG11THTOOTHTRIG_CNT_U08   	Found in data dictionary but not in model.
+HWAG1MEAS_HWAG1IFNTCNR_CNT_ENUM	Found in data dictionary but not in model.
+HWAG1MEAS_HWAG1MFGNTCNR_CNT_ENUM	Found in data dictionary but not in model.
+HWAG1MEAS_HWAG1SNSR0PRTCLNTCNR_CNT_ENUM	Found in data dictionary but not in model.
+HWAG1MEAS_HWAG1SNSR1PRTCLNTCNR_CNT_ENUM	Found in data dictionary but not in model.
+HWTQ1MEAS_HWTQ1MFGNTCNR_ULS_U16	Found in data dictionary but not in model.
+HWTQ1MEAS_HWTQ1PRTCLNTCNR_ULS_U16	Found in data dictionary but not in model.
+HWTQ8MEAS_HWTQ8MFGNTCNR_CNT_ENUM	Found in data dictionary but not in model.
+HWTQ8MEAS_HWTQ8PRTCLNTCNR_CNT_ENUM	Found in data dictionary but not in model.
+HWTQ9MEAS_HWTQ9MFGNTCNR_CNT_ENUM	Found in data dictionary but not in model.
+HWTQ9MEAS_HWTQ9PRTCLNTCNR_CNT_ENUM	Found in data dictionary but not in model.
+HWTQ10MEAS_HWTQ10MFGNTCNR_CNT_ENUM	Found in data dictionary but not in model.
+HWTQ10MEAS_HWTQ10PRTCLNTCNR_CNT_ENUM	Found in data dictionary but not in model.
+HWTQCORRLN_HWTQACORRLNFLTNTCNR_CNT_ENUM	Found in data dictionary but not in model.
+HWTQCORRLN_HWTQBCORRLNFLTNTCNR_CNT_ENUM	Found in data dictionary but not in model.
+HWTQCORRLN_HWTQCCORRLNFLTNTCNR_CNT_ENUM	Found in data dictionary but not in model.
+HWTQCORRLN_HWTQDCORRLNFLTNTCNR_CNT_ENUM	Found in data dictionary but not in model.
+MCUDIAGCERRINJ              	Found in data dictionary but not in model.
+MOTAG2ANSINCOSFLTNTCNR_CNT_ENUM	Found in data dictionary but not in model.
+MOTAG5MEAS_MOTAG5PRTCLFLTNTCNR_CNT_ENUM	Found in data dictionary but not in model.
+MOTAG6MEAS_MOTAG6PRTCLFLTNTCNR_CNT_ENUM	Found in data dictionary but not in model.
+NROFININCRITREG32BIT_CNT_U16	Found in data dictionary but not in model.
+NROFININCRITREG8BIT_CNT_U16 	Found in data dictionary but not in model.
+NROFPERCRITREG16BIT_CNT_U16 	Found in data dictionary but not in model.
+NROFPERCRITREG32BIT_CNT_U16 	Found in data dictionary but not in model.
+NROFPERCRITREG8BIT_CNT_U16  	Found in data dictionary but not in model.
+SWPENA                      	Found in data dictionary but not in model.
+TUNSELNAUTHY_XCPVEHSPDTHD_KPH_F32	Found in data dictionary but not in model.
+VRFYCRITREG_MCUDIAGCERRINJ_CNT_LGC	Found in data dictionary but not in model.
+(variables: 231, errors: 164)
+
+-------------------------
+CSArguments:	<IDENTITY>
+---------------------------
+(variables: 0, errors: 0)
+
+--------------------------------------------------------------------------------------------
+CONFIGPARAM:	(ALL CAPS) required: 
+						 For "Global" CONSTANTS --- <SHONAME>_<IDENTITY>_<UNITS>_<DATATYPE>
+						 For "Local" CONSTANTS  --- <IDENTITY>_<UNITS>_<DATATYPE>
+-------------------------------------------------------------------------------------------
+(variables: 1, errors: 0)
+
+----------------------------
+NTC SIGNALS:	<Identity>
+----------------------------
+(variables: 0, errors: 0)
+
+------
+OTHER:
+------
+(variables: 0, errors: 0)
+ 
+************************
+Grand Totals:
+304 variables,  184 issues to fix.
+
+
+End of Report

@@ -1,0 +1,2 @@
+C:\Component\ES224A_HwTq9Meas_Impl\src\HwTq9Meas.c
+C:\Component\ES224A_HwTq9Meas_Impl\tools\local\generate\Rte_Stubs.c

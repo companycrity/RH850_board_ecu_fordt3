@@ -1,0 +1,27 @@
+AUTOSAR XML Text Transformation v2.0.2.0
+    Output folder: C:\_EA4SynWrkgCpy\ES242A_MotAg5Meas_Impl\tools\local\generate
+    Descr. file:   C:\Users\nz2554\AppData\Local\Temp\DaVinci\Cfg-7948935\Generation\Cfg_Gen-1501607969593-0\AutosarFiles_ValGen-1501607986160-0\MotAg5Meas_ECUC_88189198821425612.arxml
+    Include file:  C:\_EA4SynWrkgCpy\ES242A_MotAg5Meas_Impl\tools\template\..\..\..\TL105A_Artt\tools\include\Helper.tt
+    Template:      C:\_EA4SynWrkgCpy\ES242A_MotAg5Meas_Impl\tools\template\CDD_MotAg5Meas_Cfg_private.h.tt
+    Namespace:     http://autosar.org/schema/r4.0
+    Prefix:        ar
+    File:          C:/_EA4SynWrkgCpy/ES242A_MotAg5Meas_Impl/tools/local/generate\CDD_MotAg5Meas_Cfg_private.h. written.
+    Duration:      00:00:02.6832172.
+AUTOSAR XML Text Transformation v2.0.2.0
+    Output folder: C:\_EA4SynWrkgCpy\ES242A_MotAg5Meas_Impl\tools\local\generate
+    Descr. file:   C:\Users\nz2554\AppData\Local\Temp\DaVinci\Cfg-1196450\Generation\Cfg_Gen-1508161219675-0\AutosarFiles_ValGen-1508161229136-0\MotAg5Meas_ECUC_2768584713502184991.arxml
+    Include file:  C:\_EA4SynWrkgCpy\ES242A_MotAg5Meas_Impl\tools\template\..\..\..\TL105A_Artt\tools\include\Helper.tt
+    Template:      C:\_EA4SynWrkgCpy\ES242A_MotAg5Meas_Impl\tools\template\CDD_MotAg5Meas_Cfg_private.h.tt
+    Namespace:     http://autosar.org/schema/r4.0
+    Prefix:        ar
+    File:          C:/_EA4SynWrkgCpy/ES242A_MotAg5Meas_Impl/tools/local/generate\CDD_MotAg5Meas_Cfg_private.h. written.
+    Duration:      00:00:00.8268053.
+AUTOSAR XML Text Transformation v2.0.2.0
+    Output folder: C:\_EA4SynWrkgCpy\ES242A_MotAg5Meas_Impl\tools\local\generate
+    Descr. file:   C:\Users\nz2554\AppData\Local\Temp\DaVinci\Cfg-6196738\Generation\Cfg_Gen-1508166203509-0\AutosarFiles_ValGen-1508166209805-0\MotAg5Meas_ECUC_1839128822296687344.arxml
+    Include file:  C:\_EA4SynWrkgCpy\ES242A_MotAg5Meas_Impl\tools\template\..\..\..\TL105A_Artt\tools\include\Helper.tt
+    Template:      C:\_EA4SynWrkgCpy\ES242A_MotAg5Meas_Impl\tools\template\CDD_MotAg5Meas_Cfg_private.h.tt
+    Namespace:     http://autosar.org/schema/r4.0
+    Prefix:        ar
+    File:          C:/_EA4SynWrkgCpy/ES242A_MotAg5Meas_Impl/tools/local/generate\CDD_MotAg5Meas_Cfg_private.h. written.
+    Duration:      00:00:00.6864044.

@@ -1,0 +1,39 @@
+Vector Legacy Database Converter
+Version: 1.8.10.0
+Copyright (c) 2017 Vector Informatik GmbH.
+License is restricted to the usage with CBD1601056 (D00) for MSR_Ford_SLP1.
+
+[info] Command line: "C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A_Working\_Ford_T3T6_Eps_Impl_A\tools\SIP\Generators\LegacyDb2SystemDescrConverter\LegacyDb2SystemDescrConverter.exe" "C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A_Working\_Ford_T3T6_Eps_Impl_A\tools\DatabaseFiles\FD1_CAN_P702_GASD_MY21_V05.dbc" -o "C:\Users\gz324f\AppData\Local\Temp\DaVinci\Cfg-7032048\Workflow\1515617148229-0\ConvertedLegacy.arxml" -r 42 -e
+[info] Converting DBC file C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A_Working\_Ford_T3T6_Eps_Impl_A\tools\DatabaseFiles\FD1_CAN_P702_GASD_MY21_V05.dbc
+[warning] ECU IPMA_ADAS is both sending and receiving DBC message SuspensionRoad_Data_FD1
+[warning] ECU GWM_ECG is both sending and receiving DBC message LateralMotionControl_FD1
+[warning] ECU GWM_ECG is both sending and receiving DBC message ACCDATA_FD1
+[error] ECU PSCM_FD without CAN NM is sending 1 NM messages
+[warning] DBC diagnostic request message TesterPhysicalReqGWM_FD1 has no response message
+      ==> Cannot create CAN TP connection between ECUs TSTR and GWM_ECG
+[warning] DBC diagnostic request message TesterPhysicalReqGWM_FD1 has no response message
+      ==> Cannot create CAN TP connection between ECUs TSTR and GWM_ECG
+[warning] DBC diagnostic request message TesterPhysicalReqPCM_FD1 has 2 possible response message
+      ==> Cannot create CAN TP connection between ECUs TSTR and ECM_Diesel
+[warning] DBC diagnostic request message TesterPhysicalReqPCM_FD1 has 2 possible response message
+      ==> Cannot create CAN TP connection between ECUs TSTR and ECM_Diesel
+[info] Writing System Description...
+[info] Writing 13 ECU Extracts...
+
+C:\Users\gz324f\AppData\Local\Temp\DaVinci\Cfg-7032048\Workflow\1515617148229-0\ConvertedLegacy.arxml
+C:\Users\gz324f\AppData\Local\Temp\DaVinci\Cfg-7032048\Workflow\1515617148229-0\ConvertedLegacy__delete.arxml
+C:\Users\gz324f\AppData\Local\Temp\DaVinci\Cfg-7032048\Workflow\1515617148229-0\ConvertedLegacy_ABS_ESC.arxml
+C:\Users\gz324f\AppData\Local\Temp\DaVinci\Cfg-7032048\Workflow\1515617148229-0\ConvertedLegacy_ECM_Diesel.arxml
+C:\Users\gz324f\AppData\Local\Temp\DaVinci\Cfg-7032048\Workflow\1515617148229-0\ConvertedLegacy_GENERIC_GWMWakeup.arxml
+C:\Users\gz324f\AppData\Local\Temp\DaVinci\Cfg-7032048\Workflow\1515617148229-0\ConvertedLegacy_GWM_ECG.arxml
+C:\Users\gz324f\AppData\Local\Temp\DaVinci\Cfg-7032048\Workflow\1515617148229-0\ConvertedLegacy_HCM_FD.arxml
+C:\Users\gz324f\AppData\Local\Temp\DaVinci\Cfg-7032048\Workflow\1515617148229-0\ConvertedLegacy_IPMA_ADAS.arxml
+C:\Users\gz324f\AppData\Local\Temp\DaVinci\Cfg-7032048\Workflow\1515617148229-0\ConvertedLegacy_PCM_FD.arxml
+C:\Users\gz324f\AppData\Local\Temp\DaVinci\Cfg-7032048\Workflow\1515617148229-0\ConvertedLegacy_PCM_HEV_FD.arxml
+C:\Users\gz324f\AppData\Local\Temp\DaVinci\Cfg-7032048\Workflow\1515617148229-0\ConvertedLegacy_PSCM_FD.arxml
+C:\Users\gz324f\AppData\Local\Temp\DaVinci\Cfg-7032048\Workflow\1515617148229-0\ConvertedLegacy_TCCM_FD.arxml
+C:\Users\gz324f\AppData\Local\Temp\DaVinci\Cfg-7032048\Workflow\1515617148229-0\ConvertedLegacy_TCM_DSL_FD.arxml
+C:\Users\gz324f\AppData\Local\Temp\DaVinci\Cfg-7032048\Workflow\1515617148229-0\ConvertedLegacy_TSTR.arxml
+Elapsed time: 1.836 seconds
+1 Errors
+7 Warnings

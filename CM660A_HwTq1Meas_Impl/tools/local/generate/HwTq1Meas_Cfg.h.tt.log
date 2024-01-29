@@ -1,0 +1,84 @@
+AUTOSAR XML Text Transformation v2.1.2.0
+    Output folder: C:\Users\nz3541\Documents\SynergyWorkingEA4\CM660A_HwTq1Meas_Impl\tools\local\generate
+    Descr. file:   C:\Users\nz3541\AppData\Local\Temp\DaVinci\Cfg-0944308\Generation\Cfg_Gen-1523550950714-0\AutosarFiles_ValGen-1523553657960-0\HwTq1Meas_ECUC_3481891768926630936.arxml
+    Include file:  C:\Users\nz3541\Documents\SynergyWorkingEA4\CM660A_HwTq1Meas_Impl\tools\template\..\..\..\TL105A_Artt\tools\include\Helper.tt
+    Template:      C:\Users\nz3541\Documents\SynergyWorkingEA4\CM660A_HwTq1Meas_Impl\tools\template\HwTq1Meas_Cfg.h.tt
+    Namespace:     http://autosar.org/schema/r4.0
+    Prefix:        ar
+    File:          C:/Users/nz3541/Documents/SynergyWorkingEA4/CM660A_HwTq1Meas_Impl/tools/local/generate\HwTq1Meas_Cfg.h. written.
+    Duration:      00:00:00.8580055.
+AUTOSAR XML Text Transformation v2.1.2.0
+    Output folder: C:\Users\nz3541\Documents\SynergyWorkingEA4\CM660A_HwTq1Meas_Impl\tools\local\generate
+    Descr. file:   C:\Users\nz3541\AppData\Local\Temp\DaVinci\Cfg-0944308\Generation\Cfg_Gen-1523550950714-0\AutosarFiles_ValGen-1523555324402-0\HwTq1Meas_ECUC_4574068376418193176.arxml
+A fatal error occurred during execution of the application:
+System.IO.FileNotFoundException: Could not find file 'C:\Users\nz3541\Documents\SynergyWorkingEA4\CM660A_HwTq1Meas_Impl\tools\template\HwTq1Meas_Cfg.h.tt'.
+File name: 'C:\Users\nz3541\Documents\SynergyWorkingEA4\CM660A_HwTq1Meas_Impl\tools\template\HwTq1Meas_Cfg.h.tt'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding)
+   at System.IO.File.ReadAllText(String path, Encoding encoding)
+   at Bmw.Artt.Generator.Generate(List`1 descriptionFiles, String templateFile, String outFolder, String outFile, String autosarNamespace, String includePath)
+   at Bmw.Artt.Program.DeferredMain()
+AUTOSAR XML Text Transformation v2.1.2.0
+    Output folder: C:\Users\nz3541\Documents\SynergyWorkingEA4\CM660A_HwTq1Meas_Impl\tools\local\generate
+    Descr. file:   C:\Users\nz3541\AppData\Local\Temp\DaVinci\Cfg-0944308\Generation\Cfg_Gen-1523550950714-0\AutosarFiles_ValGen-1523555337530-0\HwTq1Meas_ECUC_7857306160239443061.arxml
+A fatal error occurred during execution of the application:
+System.IO.FileNotFoundException: Could not find file 'C:\Users\nz3541\Documents\SynergyWorkingEA4\CM660A_HwTq1Meas_Impl\tools\template\HwTq1Meas_Cfg.h.tt'.
+File name: 'C:\Users\nz3541\Documents\SynergyWorkingEA4\CM660A_HwTq1Meas_Impl\tools\template\HwTq1Meas_Cfg.h.tt'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding)
+   at System.IO.File.ReadAllText(String path, Encoding encoding)
+   at Bmw.Artt.Generator.Generate(List`1 descriptionFiles, String templateFile, String outFolder, String outFile, String autosarNamespace, String includePath)
+   at Bmw.Artt.Program.DeferredMain()
+AUTOSAR XML Text Transformation v2.1.2.0
+    Output folder: C:\Users\nz3541\Documents\SynergyWorkingEA4\CM660A_HwTq1Meas_Impl\tools\local\generate
+    Descr. file:   C:\Users\nz3541\AppData\Local\Temp\DaVinci\Cfg-0944308\Generation\Cfg_Gen-1523550950714-0\AutosarFiles_ValGen-1523555464997-0\HwTq1Meas_ECUC_4575307477189833991.arxml
+A fatal error occurred during execution of the application:
+System.IO.FileNotFoundException: Could not find file 'C:\Users\nz3541\Documents\SynergyWorkingEA4\CM660A_HwTq1Meas_Impl\tools\template\HwTq1Meas_Cfg.h.tt'.
+File name: 'C:\Users\nz3541\Documents\SynergyWorkingEA4\CM660A_HwTq1Meas_Impl\tools\template\HwTq1Meas_Cfg.h.tt'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding)
+   at System.IO.File.ReadAllText(String path, Encoding encoding)
+   at Bmw.Artt.Generator.Generate(List`1 descriptionFiles, String templateFile, String outFolder, String outFile, String autosarNamespace, String includePath)
+   at Bmw.Artt.Program.DeferredMain()
+AUTOSAR XML Text Transformation v2.1.2.0
+    Output folder: C:\Users\nz3541\Documents\SynergyWorkingEA4\CM660A_HwTq1Meas_Impl\tools\local\generate
+    Descr. file:   C:\Users\nz3541\AppData\Local\Temp\DaVinci\Cfg-0944308\Generation\Cfg_Gen-1523550950714-0\AutosarFiles_ValGen-1523555485230-0\HwTq1Meas_ECUC_2258521478924114462.arxml
+A fatal error occurred during execution of the application:
+System.IO.FileNotFoundException: Could not find file 'C:\Users\nz3541\Documents\SynergyWorkingEA4\CM660A_HwTq1Meas_Impl\tools\template\HwTq1Meas_Cfg.h.tt'.
+File name: 'C:\Users\nz3541\Documents\SynergyWorkingEA4\CM660A_HwTq1Meas_Impl\tools\template\HwTq1Meas_Cfg.h.tt'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding)
+   at System.IO.File.ReadAllText(String path, Encoding encoding)
+   at Bmw.Artt.Generator.Generate(List`1 descriptionFiles, String templateFile, String outFolder, String outFile, String autosarNamespace, String includePath)
+   at Bmw.Artt.Program.DeferredMain()
+AUTOSAR XML Text Transformation v2.1.2.0
+    Output folder: C:\Users\nz3541\Documents\SynergyWorkingEA4\CM660A_HwTq1Meas_Impl\tools\local\generate
+    Descr. file:   C:\Users\nz3541\AppData\Local\Temp\DaVinci\Cfg-5537806\Generation\Cfg_Gen-1523555544079-0\AutosarFiles_ValGen-1523555590809-0\HwTq1Meas_ECUC_6608399670247809375.arxml
+A fatal error occurred during execution of the application:
+System.IO.FileNotFoundException: Could not find file 'C:\Users\nz3541\Documents\SynergyWorkingEA4\CM660A_HwTq1Meas_Impl\tools\template\HwTq1Meas_Cfg.h.tt'.
+File name: 'C:\Users\nz3541\Documents\SynergyWorkingEA4\CM660A_HwTq1Meas_Impl\tools\template\HwTq1Meas_Cfg.h.tt'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding)
+   at System.IO.File.ReadAllText(String path, Encoding encoding)
+   at Bmw.Artt.Generator.Generate(List`1 descriptionFiles, String templateFile, String outFolder, String outFile, String autosarNamespace, String includePath)
+   at Bmw.Artt.Program.DeferredMain()

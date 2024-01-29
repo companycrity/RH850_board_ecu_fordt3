@@ -1,0 +1,224 @@
+<RDEF> I Includes
+<R>I C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.h 21
+<R>I C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.h C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/Rte_Type.h 26
+<R>I C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/Rte_Type.h C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/Rte.h 27
+<R>I C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/Rte.h C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 39
+<R>I C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Platform_Types.h 63
+<R>I C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h 64
+<R>I C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/AR201A_ArCplrSuprt_Impl/tools/contract/Compiler_Cfg.h 56
+<R>I C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/Rte.h C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/Rte_UserTypes.h 41
+<R>I C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/Rte_UserTypes.h C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/ComStack_Types.h 40
+<R>I C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/Rte_UserTypes.h C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/include/TunSelnMngt.h 41
+<DEFINE> TUNSELNMNGT_H C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/include/TunSelnMngt.h 21 I DF OM - - - O
+<R>I C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/include/TunSelnMngt.h C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/CDD_XcpIf.h 24
+<DEFINE> PageAcs C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/include/TunSelnMngt.h 32 I DC MB F N uc -
+<DEFINE> OnlineCalPageInfoRec1 C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/include/TunSelnMngt.h 33 I DC OT F N {s} -
+<LIT> 2 - P C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/include/TunSelnMngt.h 35 61 I DN ni F D
+<DEFINE> Ary1D_OnlineCalPageInfoRec1_2 C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/include/TunSelnMngt.h 35 I DC OT F N [2,{sOnlineCalPageInfoRec1}] -
+<DEFINE> Page C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/include/TunSelnMngt.h 39 I DC MB F N [2,{sOnlineCalPageInfoRec1}] -
+<DEFINE> OnlineCalSegInfoRec1 C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/include/TunSelnMngt.h 40 I DC OT F N {s} -
+<DEFINE> Ary1D_OnlineCalSegInfoRec1_TunSelnMngt1 C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/include/TunSelnMngt.h 42 I DC OT F N [3,{sOnlineCalSegInfoRec1}] -
+<R>I C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.h C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/CDD_XcpIf.h 27
+<EXTD> ININCALCFGTBL_REC C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 34
+<LIT> 0x00 U P C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 35 152 N HN ui F A
+<LIT> 0x00 U P C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 36 164 N HN ui F A
+<LIT> 0x00 U P C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 37 164 N HN ui F A
+<LIT> 0x00 U P C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 38 164 N HN ui F A
+<LIT> 0x00 U P C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 39 152 N HN ui F A
+<LIT> 0x00 U P C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 40 164 N HN ui F A
+<LIT> 0x00 U P C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 41 164 N HN ui F A
+<LIT> 0x00 U P C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 42 164 N HN ui F A
+<LIT> 0x00 U P C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 43 152 N HN ui F A
+<DEFINE> ININCALCFGTBL_REC C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 34 N DR OV F X [9,={sTunSelnIdxTblRec1}] S
+<DEFINE> ININCALCFGTBL_REC C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 34 N DF OV F X [9,={sTunSelnIdxTblRec1}] S
+<EXTD> RTCALCFGTBL_REC C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 46
+<LIT> 0x00 U P C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 47 148 N HN ui F A
+<LIT> 0x00 U P C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 48 160 N HN ui F A
+<LIT> 0x00 U P C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 49 160 N HN ui F A
+<LIT> 0x00 U P C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 50 160 N HN ui F A
+<LIT> 0x00 U P C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 51 160 N HN ui F A
+<LIT> 0x00 U P C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 52 160 N HN ui F A
+<LIT> 0x01 U P C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 54 148 N HN ui F A
+<LIT> 0x01 U P C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 55 160 N HN ui F A
+<LIT> 0x01 U P C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 56 160 N HN ui F A
+<LIT> 0x01 U P C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 57 160 N HN ui F A
+<LIT> 0x01 U P C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 58 160 N HN ui F A
+<LIT> 0x01 U P C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 59 160 N HN ui F A
+<LIT> 0x02 U P C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 61 148 N HN ui F A
+<LIT> 0x02 U P C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 62 160 N HN ui F A
+<LIT> 0x02 U P C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 63 160 N HN ui F A
+<LIT> 0x02 U P C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 64 160 N HN ui F A
+<LIT> 0x02 U P C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 65 160 N HN ui F A
+<LIT> 0x02 U P C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 66 160 N HN ui F A
+<LIT> 0x03 U P C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 68 148 N HN ui F A
+<LIT> 0x03 U P C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 69 160 N HN ui F A
+<LIT> 0x03 U P C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 70 160 N HN ui F A
+<LIT> 0x03 U P C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 71 160 N HN ui F A
+<LIT> 0x03 U P C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 72 160 N HN ui F A
+<LIT> 0x03 U P C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 73 160 N HN ui F A
+<LIT> 0x04 U P C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 75 148 N HN ui F A
+<LIT> 0x04 U P C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 76 160 N HN ui F A
+<LIT> 0x04 U P C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 77 160 N HN ui F A
+<LIT> 0x04 U P C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 78 160 N HN ui F A
+<LIT> 0x04 U P C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 79 160 N HN ui F A
+<LIT> 0x04 U P C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 80 160 N HN ui F A
+<DEFINE> RTCALCFGTBL_REC C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 46 N DR OV F X [30,={sTunSelnIdxTblRec1}] S
+<DEFINE> RTCALCFGTBL_REC C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 46 N DF OV F X [30,={sTunSelnIdxTblRec1}] S
+<EXTD> ONLINECALCFGTBL_REC C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 83
+<LIT> 0x00 U P C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 84 192 N HN ui F A
+<LIT> 0x00 U P C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 85 192 N HN ui F A
+<LIT> 0x00 U P C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 86 201 N HN ui F A
+<LIT> 0x00 U P C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 87 201 N HN ui F A
+<LIT> 0x00 U P C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 88 195 N HN ui F A
+<LIT> 0x00 U P C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 89 195 N HN ui F A
+<LIT> 0x01 U P C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 90 192 N HN ui F A
+<LIT> 0x01 U P C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 91 192 N HN ui F A
+<LIT> 0x01 U P C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 92 192 N HN ui F A
+<LIT> 0x01 U P C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 93 201 N HN ui F A
+<LIT> 0x01 U P C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 94 201 N HN ui F A
+<LIT> 0x01 U P C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 95 195 N HN ui F A
+<LIT> 0x01 U P C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 96 195 N HN ui F A
+<LIT> 0x02 U P C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 97 192 N HN ui F A
+<LIT> 0x02 U P C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 98 192 N HN ui F A
+<LIT> 0x02 U P C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 99 201 N HN ui F A
+<LIT> 0x02 U P C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 100 201 N HN ui F A
+<LIT> 0x02 U P C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 101 195 N HN ui F A
+<DEFINE> ONLINECALCFGTBL_REC C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 83 N DR OV F X [18,={sTunSelnOnlineCalIdxTblRec1}] S
+<DEFINE> ONLINECALCFGTBL_REC C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 83 N DF OV F X [18,={sTunSelnOnlineCalIdxTblRec1}] S
+<EXTV> ONLINECALCFGTBL_REC OnlineRamCalTbl_C 84
+<EXTV> ONLINECALCFGTBL_REC OnlineRamCalTbl_C 84
+<EXTV> ONLINECALCFGTBL_REC OnlineRamCalTbl_C 85
+<EXTV> ONLINECALCFGTBL_REC OnlineRamCalTbl_C 85
+<EXTV> ONLINECALCFGTBL_REC OnlineRamCalTbl_C 86
+<EXTV> ONLINECALCFGTBL_REC OnlineRamCalTbl_C 86
+<EXTV> ONLINECALCFGTBL_REC OnlineRamCalTbl_C 87
+<EXTV> ONLINECALCFGTBL_REC OnlineRamCalTbl_C 87
+<EXTV> ONLINECALCFGTBL_REC OnlineRamCalTbl_C 88
+<EXTV> ONLINECALCFGTBL_REC OnlineRamCalTbl_C 88
+<EXTV> ONLINECALCFGTBL_REC OnlineRamCalTbl_C 89
+<EXTV> ONLINECALCFGTBL_REC OnlineRamCalTbl_C 89
+<EXTV> ONLINECALCFGTBL_REC OnlineRamCalTbl_C 90
+<EXTV> ONLINECALCFGTBL_REC OnlineRamCalTbl_C 90
+<EXTV> ONLINECALCFGTBL_REC OnlineRamCalTbl_C 91
+<EXTV> ONLINECALCFGTBL_REC OnlineRamCalTbl_C 91
+<EXTV> ONLINECALCFGTBL_REC OnlineRamCalTbl_C 92
+<EXTV> ONLINECALCFGTBL_REC OnlineRamCalTbl_C 92
+<EXTV> ONLINECALCFGTBL_REC OnlineRamCalTbl_C 93
+<EXTV> ONLINECALCFGTBL_REC OnlineRamCalTbl_C 93
+<EXTV> ONLINECALCFGTBL_REC OnlineRamCalTbl_C 94
+<EXTV> ONLINECALCFGTBL_REC OnlineRamCalTbl_C 94
+<EXTV> ONLINECALCFGTBL_REC OnlineRamCalTbl_C 95
+<EXTV> ONLINECALCFGTBL_REC OnlineRamCalTbl_C 95
+<EXTV> ONLINECALCFGTBL_REC OnlineRamCalTbl_C 96
+<EXTV> ONLINECALCFGTBL_REC OnlineRamCalTbl_C 96
+<EXTV> ONLINECALCFGTBL_REC OnlineRamCalTbl_C 97
+<EXTV> ONLINECALCFGTBL_REC OnlineRamCalTbl_C 97
+<EXTV> ONLINECALCFGTBL_REC OnlineRamCalTbl_C 98
+<EXTV> ONLINECALCFGTBL_REC OnlineRamCalTbl_C 98
+<EXTV> ONLINECALCFGTBL_REC OnlineRamCalTbl_C 99
+<EXTV> ONLINECALCFGTBL_REC OnlineRamCalTbl_C 99
+<EXTV> ONLINECALCFGTBL_REC OnlineRamCalTbl_C 100
+<EXTV> ONLINECALCFGTBL_REC OnlineRamCalTbl_C 100
+<EXTV> ONLINECALCFGTBL_REC OnlineRamCalTbl_C 101
+<EXTV> ONLINECALCFGTBL_REC OnlineRamCalTbl_C 101
+<EXTD> ONLINECALSEGINFOTBL_U32 C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 104
+<DEFINE> ONLINECALSEGINFOTBL_U32 C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 104 N DR OV F X [3,=ul] S
+<DEFINE> ONLINECALSEGINFOTBL_U32 C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 104 N DF OV F X [3,=ul] S
+<EXTV> ONLINECALSEGINFOTBL_U32 OnlineRamCalTbl_C 105
+<EXTV> ONLINECALSEGINFOTBL_U32 OnlineRamCalTbl_C 106
+<EXTV> ONLINECALSEGINFOTBL_U32 OnlineRamCalTbl_C 107
+<EXTD> TunSelnMngt_ChkXcpWrAcs C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 127
+<DEFINE> ReqAdr_Cnt_T_u32 C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 127 N DC OV B N ul R
+<DEFINE> TunSelnMngt_ChkXcpWrAcs C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 127 N DR OF F X (uc,ul) -
+<DEFINE> TunSelnMngt_ChkXcpWrAcs C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 127 N DF OF F X (uc,ul) -
+<DEFINE> Rtn_Cnt_T_logl C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 129 N DC OV B N uc -
+<DEFINE> Rtn_Cnt_T_logl C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 129 N DF OV B N uc -
+<LIT> 0 - P C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 137 65 N ON ni B X
+<LIT> 1 U P C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c 137 152 N DN ui B X
+<RDEF> X Refers-to
+<R>X TunSelnMngt_ChkXcpWrAcs OnlineRamCalTbl_C 137 R
+<R>X TunSelnMngt_ChkXcpWrAcs OnlineRamCalTbl_C 137 R
+<CTLG> TunSelnMngt_ChkXcpWrAcs 1
+<CTLG> 1 2
+<CTLG> 1 3
+<CTLG> 2 3
+<CTLG> 3 5
+<CTLGN> 128 137 137 143 143 
+<S>
+<S>STFIL  C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c
+<S>STNAM  TunSelnMngt_ChkXcpWrAcs
+<S>STCYC  2
+<S>STMCC  1 (2:3)
+<S>STMIF  1
+<S>STSUB  0
+<S>STAKI  2
+<S>STLIN  15
+<S>STXLN  4
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  1
+<S>STPTH  2
+<S>STPDN  0.50   
+<S>STPBG  0
+<S>STLOP  1
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  14
+<S>STAV2  18
+<S>STAV3  24
+<S>STST1  5
+<S>STST2  4
+<S>STST3  3
+<S>STPAR  1
+<S>STCAL  0
+<S>STFN1  53
+<S>STFN2  21
+
+<S>
+<S>STFIL  C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c
+<S>STNAM  TunSelnMngt_ChkXcpWrAcs
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c
+<S>STNAM  C:/Component/ES400A_TunSelnMngt_Impl-cz7lt6/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.c
+<S>STNTB  NON-TOKEN BASED STATISTICS...
+<S>STSCT  0
+<S>STECT  5
+<S>STFNC  1
+<S>STFCO  0
+<S>STTKB  TOKEN BASED STATISTICS...
+<S>STVAR  95
+<S>STOPT  25
+<S>STOPN  154
+<S>STTOT  1277
+<S>STZIP  1032
+<S>STHAL  1235
+<S>STSHN  4349
+<S>STDIF  14.93  
+<S>STEFF  142665
+<S>STVOL  9557
+<S>STDEV  23.78  
+<S>STBUG  3
+<S>STTPP  145
+<S>STTLN  77
+<S>STM20  428
+<S>STM21  848
+<S>STM22  7
+<S>STM28  69
+<S>STM33  59
+<S>STBCS  BASIC COCOMO STATISTICS...
+<S>STBMO  0.316  
+<S>STBMS  0.345  
+<S>STBME  0.355  
+<S>STTDO  1.614  
+<S>STTDS  1.723  
+<S>STTDE  1.794  
+<S>STCOM  COMMENT BASED STATISTICS...
+<S>STCDN  0.306  
+

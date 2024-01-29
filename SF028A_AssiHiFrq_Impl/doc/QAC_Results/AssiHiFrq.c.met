@@ -1,0 +1,632 @@
+<RDEF> I Includes
+<R>I C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c C:/component/SF028A_AssiHiFrq_Impl/tools/contract/Rte_AssiHiFrq.h 110
+<R>I C:/component/SF028A_AssiHiFrq_Impl/tools/contract/Rte_AssiHiFrq.h C:/component/SF028A_AssiHiFrq_Impl/tools/contract/Rte_AssiHiFrq_Type.h 40
+<R>I C:/component/SF028A_AssiHiFrq_Impl/tools/contract/Rte_AssiHiFrq_Type.h C:/component/SF028A_AssiHiFrq_Impl/tools/contract/Rte_Type.h 32
+<R>I C:/component/SF028A_AssiHiFrq_Impl/tools/contract/Rte_Type.h C:/component/SF028A_AssiHiFrq_Impl/tools/contract/Rte.h 27
+<R>I C:/component/SF028A_AssiHiFrq_Impl/tools/contract/Rte.h C:/component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 39
+<R>I C:/component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h C:/component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Platform_Types.h 63
+<R>I C:/component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h C:/component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h 64
+<R>I C:/component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h C:/component/AR201A_ArCplrSuprt_Impl/tools/contract/Compiler_Cfg.h 56
+<R>I C:/component/SF028A_AssiHiFrq_Impl/tools/contract/Rte.h C:/component/SF028A_AssiHiFrq_Impl/tools/contract/Rte_UserTypes.h 41
+<R>I C:/component/SF028A_AssiHiFrq_Impl/tools/contract/Rte_UserTypes.h C:/component/AR104A_NxtrFil_Impl/include/NxtrFil.h 40
+<R>I C:/component/AR104A_NxtrFil_Impl/include/NxtrFil.h C:/component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 23
+<R>I C:/component/AR104A_NxtrFil_Impl/include/NxtrFil.h C:/component/AR999A_ArchGlbPrm_Impl/include/ArchGlbPrm.h 24
+<R>I C:/component/AR104A_NxtrFil_Impl/include/NxtrFil.h C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 25
+<R>I C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h C:/component/TL103A_CplrSuprt/include/2015.1.5/ansi/math.h 26
+<R>I C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h C:/component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 27
+<R>I C:/component/SF028A_AssiHiFrq_Impl/tools/contract/Rte_AssiHiFrq.h C:/component/SF028A_AssiHiFrq_Impl/tools/contract/Rte_DataHandleType.h 41
+<R>I C:/component/SF028A_AssiHiFrq_Impl/tools/contract/Rte_AssiHiFrq.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 59
+<R>I C:/component/SF028A_AssiHiFrq_Impl/tools/contract/Rte_AssiHiFrq.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 64
+<R>I C:/component/SF028A_AssiHiFrq_Impl/tools/contract/Rte_AssiHiFrq.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 80
+<R>I C:/component/SF028A_AssiHiFrq_Impl/tools/contract/Rte_AssiHiFrq.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 132
+<R>I C:/component/SF028A_AssiHiFrq_Impl/tools/contract/Rte_AssiHiFrq.h C:/component/SF028A_AssiHiFrq_Impl/tools/contract/AssiHiFrq_MemMap.h 221
+<R>I C:/component/SF028A_AssiHiFrq_Impl/tools/contract/AssiHiFrq_MemMap.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 56
+<R>I C:/component/SF028A_AssiHiFrq_Impl/tools/contract/Rte_AssiHiFrq.h C:/component/SF028A_AssiHiFrq_Impl/tools/contract/AssiHiFrq_MemMap.h 268
+<R>I C:/component/SF028A_AssiHiFrq_Impl/tools/contract/AssiHiFrq_MemMap.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 128
+<R>I C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 117
+<R>I C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c C:/component/AR101A_NxtrIntrpn_Impl/include/NxtrIntrpn.h 118
+<R>I C:/component/AR101A_NxtrIntrpn_Impl/include/NxtrIntrpn.h C:/component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 23
+<R>I C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c C:/component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h 119
+<R>I C:/component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h C:/component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 24
+<R>I C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c C:/component/AR104A_NxtrFil_Impl/include/NxtrFil.h 120
+<R>I C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c C:/component/SF999A_SysGlbPrm_Impl/include/SysGlbPrm.h 121
+<R>I C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c C:/component/AR999A_ArchGlbPrm_Impl/include/ArchGlbPrm.h 122
+<DEFINE> PrmAssiHiFrqGainY_u3p13 C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c 131 N DF OM - - - O
+<DEFINE> PrmAssiHiFrqHpFilFrqY_u7p9 C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c 132 N DF OM - - - O
+<DEFINE> PrmAssiHiFrqTqWhlImbRejctnTqX_u5p11 C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c 133 N DF OM - - - O
+<DEFINE> PrmAssiHiFrqTqX_u5p11 C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c 134 N DF OM - - - O
+<DEFINE> PrmAssiHiFrqWhlImbRejctnGainY_u3p13 C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c 135 N DF OM - - - O
+<DEFINE> PrmAssiHiFrqWhlImbRejtcnBlndX_u4p12 C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c 136 N DF OM - - - O
+<DEFINE> PrmAssiHiFrqWhlImbRejtcnBlndY_u1p15 C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c 137 N DF OM - - - O
+<DEFINE> PrmSysGlbPrmVehSpdBilnrSeln_u9p7 C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c 138 N DF OM - - - O
+<DEFINE> AssiHiFrq_START_SEC_CODE C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c 206 N DF OM - - - O
+<R>I C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c C:/component/SF028A_AssiHiFrq_Impl/tools/contract/AssiHiFrq_MemMap.h 207
+<R>I C:/component/SF028A_AssiHiFrq_Impl/tools/contract/AssiHiFrq_MemMap.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 56
+<EXTD> AssiHiFrqInit1 C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c 219
+<DEFINE> AssiHiFrqInit1 C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c 219 N DR OF F X (.,.) -
+<DEFINE> AssiHiFrqInit1 C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c 219 N DF OF F X (.,.) -
+<RDEF> C Calls
+<R>C AssiHiFrqInit1 FilHpInit 226
+<RDEF> X Refers-to
+<R>X AssiHiFrqInit1 FilHpInit 226 R
+<R>C AssiHiFrqInit1 Rte_Prm_AssiHiFrq_AssiHiFrqHpFilFrq_Val 226
+<R>X AssiHiFrqInit1 Rte_Prm_AssiHiFrq_AssiHiFrqHpFilFrq_Val 226 R
+<R>X AssiHiFrqInit1 Rte_Inst_AssiHiFrq 226 R
+<LIT> 0.0 F P C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c 226 12 N FN fs B X
+<CTLG> AssiHiFrqInit1 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 220 231 231 231 
+<S>
+<S>STFIL  C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c
+<S>STNAM  AssiHiFrqInit1
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  2
+<S>STAKI  3
+<S>STLIN  10
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  17
+<S>STAV2  17
+<S>STAV3  17
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  0
+<S>STCAL  2
+<S>STFN1  12
+<S>STFN2  5
+
+<EXTD> AssiHiFrqPer1 C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c 260
+<DEFINE> AssiHiFrqPer1 C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c 260 N DR OF F X (.,.) -
+<DEFINE> AssiHiFrqPer1 C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c 260 N DF OF F X (.,.) -
+<DEFINE> HwTq_HwNwtMtr_T_f32 C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c 266 N DC OV B N fs -
+<DEFINE> HwTq_HwNwtMtr_T_f32 C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c 266 N DF OV B N fs -
+<DEFINE> VehSpd_Kph_T_f32 C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c 267 N DC OV B N fs -
+<DEFINE> VehSpd_Kph_T_f32 C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c 267 N DF OV B N fs -
+<DEFINE> WhlImbRejctnAmp_MotNwtMtr_T_f32 C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c 268 N DC OV B N fs -
+<DEFINE> WhlImbRejctnAmp_MotNwtMtr_T_f32 C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c 268 N DF OV B N fs -
+<DEFINE> AssiHiFrqCmd_MotNwtMtr_T_f32 C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c 269 N DC OV B N fs -
+<DEFINE> AssiHiFrqCmd_MotNwtMtr_T_f32 C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c 269 N DF OV B N fs -
+<DEFINE> AbsltHwTq_HwNwtMtr_T_f32 C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c 270 N DC OV B N fs -
+<DEFINE> AbsltHwTq_HwNwtMtr_T_f32 C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c 270 N DF OV B N fs -
+<DEFINE> VehSpd_Kph_T_u9p7 C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c 271 N DC OV B N us -
+<DEFINE> VehSpd_Kph_T_u9p7 C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c 271 N DF OV B N us -
+<DEFINE> FilHpFreq_Hz_T_u7p9 C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c 272 N DC OV B N us -
+<DEFINE> FilHpFreq_Hz_T_u7p9 C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c 272 N DF OV B N us -
+<DEFINE> FilHpFreq_Hz_T_f32 C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c 273 N DC OV B N fs -
+<DEFINE> FilHpFreq_Hz_T_f32 C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c 273 N DF OV B N fs -
+<DEFINE> FilHwTq_HwNwtMtr_T_f32 C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c 274 N DC OV B N fs -
+<DEFINE> FilHwTq_HwNwtMtr_T_f32 C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c 274 N DF OV B N fs -
+<DEFINE> WhlImbRejctnAmp_MotNwtMtr_T_u4p12 C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c 275 N DC OV B N us -
+<DEFINE> WhlImbRejctnAmp_MotNwtMtr_T_u4p12 C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c 275 N DF OV B N us -
+<DEFINE> GainBlnd_Uls_T_f32 C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c 276 N DC OV B N fs -
+<DEFINE> GainBlnd_Uls_T_f32 C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c 276 N DF OV B N fs -
+<DEFINE> GainBlnd_Uls_T_u1p15 C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c 277 N DC OV B N us -
+<DEFINE> GainBlnd_Uls_T_u1p15 C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c 277 N DF OV B N us -
+<DEFINE> GainWhlImbRejctnZero_MotNwtMtrPerHwNwtMtr_T_f32 C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c 278 N DC OV B N fs -
+<DEFINE> GainWhlImbRejctnZero_MotNwtMtrPerHwNwtMtr_T_f32 C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c 278 N DF OV B N fs -
+<DEFINE> GainWhlImbRejctnMax_MotNwtMtrPerHwNwtMtr_T_f32 C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c 279 N DC OV B N fs -
+<DEFINE> GainWhlImbRejctnMax_MotNwtMtrPerHwNwtMtr_T_f32 C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c 279 N DF OV B N fs -
+<DEFINE> GainVal_MotNwtMtrPerHwNwtMtr_T_f32 C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c 280 N DC OV B N fs -
+<DEFINE> GainVal_MotNwtMtrPerHwNwtMtr_T_f32 C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c 280 N DF OV B N fs -
+<DEFINE> AbsltHwTq_HwNwtMtr_T_u5p11 C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c 281 N DC OV B N us -
+<DEFINE> AbsltHwTq_HwNwtMtr_T_u5p11 C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c 281 N DF OV B N us -
+<DEFINE> GainWhlImbRejctnZero_MotNwtMtrPerHwNwtMtr_T_u3p13 C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c 282 N DC OV B N us -
+<DEFINE> GainWhlImbRejctnZero_MotNwtMtrPerHwNwtMtr_T_u3p13 C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c 282 N DF OV B N us -
+<DEFINE> GainWhlImbRejctnMax_MotNwtMtrPerHwNwtMtr_T_u3p13 C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c 283 N DC OV B N us -
+<DEFINE> GainWhlImbRejctnMax_MotNwtMtrPerHwNwtMtr_T_u3p13 C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c 283 N DF OV B N us -
+<R>C AssiHiFrqPer1 Rte_Read_AssiHiFrq_HwTq_Val 286
+<R>X AssiHiFrqPer1 Rte_Read_AssiHiFrq_HwTq_Val 286 R
+<R>C AssiHiFrqPer1 Rte_Read_AssiHiFrq_VehSpd_Val 287
+<R>X AssiHiFrqPer1 Rte_Read_AssiHiFrq_VehSpd_Val 287 R
+<R>C AssiHiFrqPer1 Rte_Read_AssiHiFrq_WhlImbRejctnAmp_Val 288
+<R>X AssiHiFrqPer1 Rte_Read_AssiHiFrq_WhlImbRejctnAmp_Val 288 R
+<R>C AssiHiFrqPer1 Abslt_f32_f32 290
+<R>X AssiHiFrqPer1 Abslt_f32_f32 290 R
+<R>C AssiHiFrqPer1 FloatToFixd_u16_f32 293
+<R>X AssiHiFrqPer1 FloatToFixd_u16_f32 293 R
+<R>C AssiHiFrqPer1 LnrIntrpn_u16_u16VariXu16VariY 297
+<R>X AssiHiFrqPer1 LnrIntrpn_u16_u16VariXu16VariY 297 R
+<R>C AssiHiFrqPer1 Rte_Prm_AssiHiFrq_SysGlbPrmVehSpdBilnrSeln_Ary1D 297
+<R>X AssiHiFrqPer1 Rte_Prm_AssiHiFrq_SysGlbPrmVehSpdBilnrSeln_Ary1D 297 R
+<R>C AssiHiFrqPer1 Rte_Prm_AssiHiFrq_AssiHiFrqHpFilFrqY_Ary1D 297
+<R>X AssiHiFrqPer1 Rte_Prm_AssiHiFrq_AssiHiFrqHpFilFrqY_Ary1D 297 R
+<R>C AssiHiFrqPer1 FixdToFloat_f32_u16 298
+<R>X AssiHiFrqPer1 FixdToFloat_f32_u16 298 R
+<R>C AssiHiFrqPer1 FilHpUpdGain 301
+<R>X AssiHiFrqPer1 FilHpUpdGain 301 R
+<R>X AssiHiFrqPer1 Rte_Inst_AssiHiFrq 301 R
+<R>C AssiHiFrqPer1 FilHpUpdOutp_f32 302
+<R>X AssiHiFrqPer1 FilHpUpdOutp_f32 302 R
+<R>X AssiHiFrqPer1 Rte_Inst_AssiHiFrq 302 R
+<R>C AssiHiFrqPer1 FloatToFixd_u16_f32 305
+<R>X AssiHiFrqPer1 FloatToFixd_u16_f32 305 R
+<R>C AssiHiFrqPer1 BilnrIntrpnWithRound_u16_u16MplXu16MplY 312
+<R>X AssiHiFrqPer1 BilnrIntrpnWithRound_u16_u16MplXu16MplY 312 R
+<R>C AssiHiFrqPer1 Rte_Prm_AssiHiFrq_SysGlbPrmVehSpdBilnrSeln_Ary1D 312
+<R>X AssiHiFrqPer1 Rte_Prm_AssiHiFrq_SysGlbPrmVehSpdBilnrSeln_Ary1D 312 R
+<R>C AssiHiFrqPer1 Rte_Prm_AssiHiFrq_AssiHiFrqWhlImbRejctnBlndX_Ary2D 312
+<R>X AssiHiFrqPer1 Rte_Prm_AssiHiFrq_AssiHiFrqWhlImbRejctnBlndX_Ary2D 312 R
+<R>C AssiHiFrqPer1 Rte_Prm_AssiHiFrq_AssiHiFrqWhlImbRejctnBlndY_Ary2D 312
+<R>X AssiHiFrqPer1 Rte_Prm_AssiHiFrq_AssiHiFrqWhlImbRejctnBlndY_Ary2D 312 R
+<LIT> 0 - P C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c 312 105 N ON ni B X
+<LIT> 0 - P C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c 312 105 N ON ni B X
+<R>C AssiHiFrqPer1 FixdToFloat_f32_u16 313
+<R>X AssiHiFrqPer1 FixdToFloat_f32_u16 313 R
+<R>X AssiHiFrqPer1 Rte_Inst_AssiHiFrq 314 R
+<R>C AssiHiFrqPer1 FloatToFixd_u16_f32 316
+<R>X AssiHiFrqPer1 FloatToFixd_u16_f32 316 R
+<R>C AssiHiFrqPer1 BilnrIntrpnWithRound_u16_u16MplXu16MplY 323
+<R>X AssiHiFrqPer1 BilnrIntrpnWithRound_u16_u16MplXu16MplY 323 R
+<R>C AssiHiFrqPer1 Rte_Prm_AssiHiFrq_SysGlbPrmVehSpdBilnrSeln_Ary1D 323
+<R>X AssiHiFrqPer1 Rte_Prm_AssiHiFrq_SysGlbPrmVehSpdBilnrSeln_Ary1D 323 R
+<R>C AssiHiFrqPer1 Rte_Prm_AssiHiFrq_AssiHiFrqTqX_Ary2D 323
+<R>X AssiHiFrqPer1 Rte_Prm_AssiHiFrq_AssiHiFrqTqX_Ary2D 323 R
+<R>C AssiHiFrqPer1 Rte_Prm_AssiHiFrq_AssiHiFrqGainY_Ary2D 323
+<R>X AssiHiFrqPer1 Rte_Prm_AssiHiFrq_AssiHiFrqGainY_Ary2D 323 R
+<LIT> 0 - P C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c 323 185 N ON ni B X
+<LIT> 0 - P C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c 323 185 N ON ni B X
+<R>C AssiHiFrqPer1 FixdToFloat_f32_u16 324
+<R>X AssiHiFrqPer1 FixdToFloat_f32_u16 324 R
+<R>X AssiHiFrqPer1 Rte_Inst_AssiHiFrq 325 R
+<R>C AssiHiFrqPer1 BilnrIntrpnWithRound_u16_u16MplXu16MplY 333
+<R>X AssiHiFrqPer1 BilnrIntrpnWithRound_u16_u16MplXu16MplY 333 R
+<R>C AssiHiFrqPer1 Rte_Prm_AssiHiFrq_SysGlbPrmVehSpdBilnrSeln_Ary1D 333
+<R>X AssiHiFrqPer1 Rte_Prm_AssiHiFrq_SysGlbPrmVehSpdBilnrSeln_Ary1D 333 R
+<R>C AssiHiFrqPer1 Rte_Prm_AssiHiFrq_AssiHiFrqTqWhlImbRejctnTqX_Ary2D 333
+<R>X AssiHiFrqPer1 Rte_Prm_AssiHiFrq_AssiHiFrqTqWhlImbRejctnTqX_Ary2D 333 R
+<R>C AssiHiFrqPer1 Rte_Prm_AssiHiFrq_AssiHiFrqWhlImbRejctnGainY_Ary2D 333
+<R>X AssiHiFrqPer1 Rte_Prm_AssiHiFrq_AssiHiFrqWhlImbRejctnGainY_Ary2D 333 R
+<LIT> 0 - P C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c 333 185 N ON ni B X
+<LIT> 0 - P C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c 333 185 N ON ni B X
+<R>C AssiHiFrqPer1 FixdToFloat_f32_u16 334
+<R>X AssiHiFrqPer1 FixdToFloat_f32_u16 334 R
+<R>C AssiHiFrqPer1 Blnd_f32 336
+<R>X AssiHiFrqPer1 Blnd_f32 336 R
+<R>X AssiHiFrqPer1 Rte_Inst_AssiHiFrq 337 R
+<R>C AssiHiFrqPer1 Lim_f32 342
+<R>X AssiHiFrqPer1 Lim_f32 342 R
+<R>C AssiHiFrqPer1 Rte_Write_AssiHiFrq_AssiHiFrqCmd_Val 344
+<R>X AssiHiFrqPer1 Rte_Write_AssiHiFrq_AssiHiFrqCmd_Val 344 R
+<CTLG> AssiHiFrqPer1 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 261 349 349 349 
+<S>
+<S>STFIL  C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c
+<S>STNAM  AssiHiFrqPer1
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  31
+<S>STAKI  32
+<S>STLIN  87
+<S>STXLN  45
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  18
+<S>STPTH  1
+<S>STPDN  0.02   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  10
+<S>STAV2  10
+<S>STAV3  18
+<S>STST1  42
+<S>STST2  42
+<S>STST3  24
+<S>STPAR  0
+<S>STCAL  21
+<S>STFN1  267
+<S>STFN2  188
+
+<DEFINE> AssiHiFrq_STOP_SEC_CODE C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c 352 N DF OM - - - O
+<R>I C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c C:/component/SF028A_AssiHiFrq_Impl/tools/contract/AssiHiFrq_MemMap.h 353
+<R>I C:/component/SF028A_AssiHiFrq_Impl/tools/contract/AssiHiFrq_MemMap.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 128
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_f32_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_u08_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_u16_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_u32_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Arctan2_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Exp_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR104A_NxtrFil_Impl/include/NxtrFil.h
+<S>STNAM  FilLpUpdGain
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR104A_NxtrFil_Impl/include/NxtrFil.h
+<S>STNAM  FilLpInit
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sqrt_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR104A_NxtrFil_Impl/include/NxtrFil.h
+<S>STNAM  FilHpUpdGain
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR104A_NxtrFil_Impl/include/NxtrFil.h
+<S>STNAM  FilHpInit
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c
+<S>STNAM  AssiHiFrqInit1
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Blnd_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR104A_NxtrFil_Impl/include/NxtrFil.h
+<S>STNAM  FilLpUpdOutp_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR104A_NxtrFil_Impl/include/NxtrFil.h
+<S>STNAM  FilHpUpdOutp_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixd_u16_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FixdToFloat_f32_u16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c
+<S>STNAM  AssiHiFrqPer1
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Cos_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FixdToFloat_f32_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FixdToFloat_f32_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FixdToFloat_f32_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixdWithRound_s16_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixdWithRound_s32_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixdWithRound_u16_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixdWithRound_u32_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixd_s16_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixd_s32_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixd_u32_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_u08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_u16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_u08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_u16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_u08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_u16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Mod_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  SinCos_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  SinLookup
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sin_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c
+<S>STNAM  C:/component/SF028A_AssiHiFrq_Impl/src/AssiHiFrq.c
+<S>STNTB  NON-TOKEN BASED STATISTICS...
+<S>STSCT  0
+<S>STECT  1
+<S>STFNC  2
+<S>STFCO  47
+<S>STTKB  TOKEN BASED STATISTICS...
+<S>STVAR  67
+<S>STOPT  17
+<S>STOPN  71
+<S>STTOT  572
+<S>STZIP  445
+<S>STHAL  506
+<S>STSHN  1688
+<S>STDIF  8.77   
+<S>STEFF  32389
+<S>STVOL  3695
+<S>STDEV  5.40   
+<S>STBUG  1
+<S>STTPP  373
+<S>STTLN  70
+<S>STM20  200
+<S>STM21  366
+<S>STM22  43
+<S>STM28  29
+<S>STM33  16
+<S>STBCS  BASIC COCOMO STATISTICS...
+<S>STBMO  0.852  
+<S>STBMS  0.994  
+<S>STBME  1.102  
+<S>STTDO  2.353  
+<S>STTDS  2.495  
+<S>STTDE  2.579  
+<S>STCOM  COMMENT BASED STATISTICS...
+<S>STCDN  2.249  
+

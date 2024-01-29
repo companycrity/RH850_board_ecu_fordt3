@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1>
+<?dbhtml filename="CodeProver-010.html"?>
+<title>MISRA-C  Warnings</title>
+<table colsep="1" frame="all" pgwide="1" rowsep="1">
+    <title>E:\EA4NewTemplate\AR350A_ImcArbn_Impl\src\ImcArbn.c</title>
+    <tgroup align="left" cols="10">
+        <colspec colname="1" colnum="1" colwidth="360*"/>
+        <colspec colname="2" colnum="2" colwidth="2520*"/>
+        <colspec colname="3" colnum="3" colwidth="360*"/>
+        <colspec colname="4" colnum="4" colwidth="1200*"/>
+        <colspec colname="5" colnum="5" colwidth="360*"/>
+        <colspec colname="6" colnum="6" colwidth="360*"/>
+        <colspec colname="7" colnum="7" colwidth="360*"/>
+        <colspec colname="8" colnum="8" colwidth="600*"/>
+        <colspec colname="9" colnum="9" colwidth="720*"/>
+        <colspec colname="10" colnum="10" colwidth="900*"/>
+        <thead>
+            <row bgcolor="#6A80BF">
+                <entry>Rule</entry>
+                <entry>Message</entry>
+                <entry>ID</entry>
+                <entry>Function</entry>
+                <entry>Line</entry>
+                <entry>Col</entry>
+                <entry>Jus</entry>
+                <entry>Class</entry>
+                <entry>Status</entry>
+                <entry>Comment</entry><?dbfo bgcolor="#6A80BF"?>
+            </row>
+        </thead>
+        <tbody>
+            <row bgcolor="#F0F2F9">
+                <entry>9.1</entry>
+                <entry>All automatic variables shall have been assigned a value before being used. (required)</entry>
+                <entry>51</entry>
+                <entry>ImcArbnPer6</entry>
+                <entry>2738</entry>
+                <entry>11</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>11.4</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>A cast should not be performed between a pointer to object type and a different</member>
+                        <member>pointer to object type. (advisory)</member>
+                    </simplelist>
+                </entry>
+                <entry>57</entry>
+                <entry>GetSigImcDataExtdSts_f32_Oper</entry>
+                <entry>952</entry>
+                <entry>89</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>11.4</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>A cast should not be performed between a pointer to object type and a different</member>
+                        <member>pointer to object type. (advisory)</member>
+                    </simplelist>
+                </entry>
+                <entry>53</entry>
+                <entry>GetSigImcData_f32_Oper</entry>
+                <entry>1598</entry>
+                <entry>89</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>12.12</entry>
+                <entry>The underlying bit representations of floating-point values shall not be used. (required)</entry>
+                <entry>58</entry>
+                <entry>GetSigImcDataExtdSts_f32_Oper</entry>
+                <entry>952</entry>
+                <entry>89</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>12.12</entry>
+                <entry>The underlying bit representations of floating-point values shall not be used. (required)</entry>
+                <entry>54</entry>
+                <entry>GetSigImcData_f32_Oper</entry>
+                <entry>1598</entry>
+                <entry>89</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>19.1</entry>
+                <entry>#include statements in a file shall only be preceded by other preprocessor directives or comments. (advisory)</entry>
+                <entry>39</entry>
+                <entry/>
+                <entry>2884</entry>
+                <entry>0</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>19.1</entry>
+                <entry>#include statements in a file shall only be preceded by other preprocessor directives or comments. (advisory)</entry>
+                <entry>38</entry>
+                <entry/>
+                <entry>894</entry>
+                <entry>0</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>21.1</entry>
+                <entry>Minimisation of run-time failures. (required)</entry>
+                <entry>45</entry>
+                <entry>CreatSigGroupData</entry>
+                <entry>3723</entry>
+                <entry>49</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>21.1</entry>
+                <entry>Minimisation of run-time failures. (required)</entry>
+                <entry>42</entry>
+                <entry>DecodSigGroupData</entry>
+                <entry>3748</entry>
+                <entry>84</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>21.1</entry>
+                <entry>Minimisation of run-time failures. (required)</entry>
+                <entry>50</entry>
+                <entry>GetTxRateGroup_Oper</entry>
+                <entry>2242</entry>
+                <entry>23</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>21.1</entry>
+                <entry>Minimisation of run-time failures. (required)</entry>
+                <entry>43</entry>
+                <entry>NoDataHndlg</entry>
+                <entry>3201</entry>
+                <entry>135</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>21.1</entry>
+                <entry>Minimisation of run-time failures. (required)</entry>
+                <entry>41</entry>
+                <entry>OvrdSigStsDurgStrtUp</entry>
+                <entry>3223</entry>
+                <entry>135</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+        </tbody>
+    </tgroup>
+</table>
+<table colsep="1" frame="all" pgwide="1" rowsep="1">
+    <title>E:\EA4NewTemplate\AR350A_ImcArbn_Impl\tools\local\generate\ImcArbn_Cfg.h</title>
+    <tgroup align="left" cols="10">
+        <colspec colname="1" colnum="1" colwidth="360*"/>
+        <colspec colname="2" colnum="2" colwidth="2520*"/>
+        <colspec colname="3" colnum="3" colwidth="360*"/>
+        <colspec colname="4" colnum="4" colwidth="1200*"/>
+        <colspec colname="5" colnum="5" colwidth="360*"/>
+        <colspec colname="6" colnum="6" colwidth="360*"/>
+        <colspec colname="7" colnum="7" colwidth="360*"/>
+        <colspec colname="8" colnum="8" colwidth="600*"/>
+        <colspec colname="9" colnum="9" colwidth="720*"/>
+        <colspec colname="10" colnum="10" colwidth="900*"/>
+        <thead>
+            <row bgcolor="#6A80BF">
+                <entry>Rule</entry>
+                <entry>Message</entry>
+                <entry>ID</entry>
+                <entry>Function</entry>
+                <entry>Line</entry>
+                <entry>Col</entry>
+                <entry>Jus</entry>
+                <entry>Class</entry>
+                <entry>Status</entry>
+                <entry>Comment</entry><?dbfo bgcolor="#6A80BF"?>
+            </row>
+        </thead>
+        <tbody>
+            <row bgcolor="#F0F2F9">
+                <entry>19.4</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>Macro 'IMCARBN_NROF100MILLISECRATEGROUP_CNT_U08' does not expand to compliant construct.</member>
+                        <member>Not compliant expansion in file E:\EA4NewTemplate\AR350A_ImcArbn_Impl\tools\local\generate\ImcArbn_Private_Cfg.h at line 76. (required)</member>
+                    </simplelist>
+                </entry>
+                <entry>37</entry>
+                <entry/>
+                <entry>100</entry>
+                <entry>8</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>19.4</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>Macro 'IMCARBN_NROF10MILLISECRATEGROUP_CNT_U08' does not expand to compliant construct.</member>
+                        <member>Not compliant expansion in file E:\EA4NewTemplate\AR350A_ImcArbn_Impl\tools\local\generate\ImcArbn_Private_Cfg.h at line 75. (required)</member>
+                    </simplelist>
+                </entry>
+                <entry>36</entry>
+                <entry/>
+                <entry>97</entry>
+                <entry>8</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>19.4</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>Macro 'IMCARBN_NROF2MILLISECRATEGROUP_CNT_U08' does not expand to compliant construct.</member>
+                        <member>Not compliant expansion in file E:\EA4NewTemplate\AR350A_ImcArbn_Impl\tools\local\generate\ImcArbn_Private_Cfg.h at line 64. (required)</member>
+                    </simplelist>
+                </entry>
+                <entry>35</entry>
+                <entry/>
+                <entry>94</entry>
+                <entry>8</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>19.4</entry>
+                <entry>Macro `IMCARBN_FDD1OPTIONALSIGNAME1_CNT_U16' does not expand to compliant construct. (required)</entry>
+                <entry>19</entry>
+                <entry/>
+                <entry>29</entry>
+                <entry>0</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>19.4</entry>
+                <entry>Macro `IMCARBN_FDD1OPTIONALSIGNAME2_CNT_U16' does not expand to compliant construct. (required)</entry>
+                <entry>21</entry>
+                <entry/>
+                <entry>34</entry>
+                <entry>0</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>19.4</entry>
+                <entry>Macro `IMCARBN_FDD1OPTIONALSIGNAME3_CNT_U16' does not expand to compliant construct. (required)</entry>
+                <entry>23</entry>
+                <entry/>
+                <entry>39</entry>
+                <entry>0</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>19.4</entry>
+                <entry>Macro `IMCARBN_FDD1OPTIONALSIGNAME4_CNT_U16' does not expand to compliant construct. (required)</entry>
+                <entry>25</entry>
+                <entry/>
+                <entry>44</entry>
+                <entry>0</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>19.4</entry>
+                <entry>Macro `IMCARBN_FDD1OPTIONALSIGNAME5_CNT_U16' does not expand to compliant construct. (required)</entry>
+                <entry>27</entry>
+                <entry/>
+                <entry>49</entry>
+                <entry>0</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>19.4</entry>
+                <entry>Macro `IMCARBN_FDD1OPTIONALSIGNAME6_CNT_U16' does not expand to compliant construct. (required)</entry>
+                <entry>29</entry>
+                <entry/>
+                <entry>54</entry>
+                <entry>0</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>19.4</entry>
+                <entry>Macro `IMCARBN_FDD1OPTIONALSIGNAME7_CNT_U16' does not expand to compliant construct. (required)</entry>
+                <entry>31</entry>
+                <entry/>
+                <entry>59</entry>
+                <entry>0</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>19.4</entry>
+                <entry>Macro `IMCARBN_FDD1OPTIONALSIGNAME8_CNT_U16' does not expand to compliant construct. (required)</entry>
+                <entry>34</entry>
+                <entry/>
+                <entry>66</entry>
+                <entry>0</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>19.4</entry>
+                <entry>Macro `IMCARBN_FDD2OPTIONALSIGNAME1_CNT_U16' does not expand to compliant construct. (required)</entry>
+                <entry>20</entry>
+                <entry/>
+                <entry>31</entry>
+                <entry>0</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>19.4</entry>
+                <entry>Macro `IMCARBN_FDD2OPTIONALSIGNAME2_CNT_U16' does not expand to compliant construct. (required)</entry>
+                <entry>22</entry>
+                <entry/>
+                <entry>36</entry>
+                <entry>0</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>19.4</entry>
+                <entry>Macro `IMCARBN_FDD2OPTIONALSIGNAME3_CNT_U16' does not expand to compliant construct. (required)</entry>
+                <entry>24</entry>
+                <entry/>
+                <entry>41</entry>
+                <entry>0</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>19.4</entry>
+                <entry>Macro `IMCARBN_FDD2OPTIONALSIGNAME4_CNT_U16' does not expand to compliant construct. (required)</entry>
+                <entry>26</entry>
+                <entry/>
+                <entry>46</entry>
+                <entry>0</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>19.4</entry>
+                <entry>Macro `IMCARBN_FDD2OPTIONALSIGNAME5_CNT_U16' does not expand to compliant construct. (required)</entry>
+                <entry>28</entry>
+                <entry/>
+                <entry>51</entry>
+                <entry>0</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>19.4</entry>
+                <entry>Macro `IMCARBN_FDD2OPTIONALSIGNAME6_CNT_U16' does not expand to compliant construct. (required)</entry>
+                <entry>30</entry>
+                <entry/>
+                <entry>56</entry>
+                <entry>0</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>19.4</entry>
+                <entry>Macro `IMCARBN_FDD2OPTIONALSIGNAME7_CNT_U16' does not expand to compliant construct. (required)</entry>
+                <entry>32</entry>
+                <entry/>
+                <entry>61</entry>
+                <entry>0</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>19.4</entry>
+                <entry>Macro `IMCARBN_FDD2OPTIONALSIGNAME8_CNT_U16' does not expand to compliant construct. (required)</entry>
+                <entry>33</entry>
+                <entry/>
+                <entry>64</entry>
+                <entry>0</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+        </tbody>
+    </tgroup>
+</table>
+<table colsep="1" frame="all" pgwide="1" rowsep="1">
+    <title>E:\EA4NewTemplate\AR350A_ImcArbn_Impl\tools\local\generate\ImcArbn_Private_Cfg.c</title>
+    <tgroup align="left" cols="10">
+        <colspec colname="1" colnum="1" colwidth="360*"/>
+        <colspec colname="2" colnum="2" colwidth="2520*"/>
+        <colspec colname="3" colnum="3" colwidth="360*"/>
+        <colspec colname="4" colnum="4" colwidth="1200*"/>
+        <colspec colname="5" colnum="5" colwidth="360*"/>
+        <colspec colname="6" colnum="6" colwidth="360*"/>
+        <colspec colname="7" colnum="7" colwidth="360*"/>
+        <colspec colname="8" colnum="8" colwidth="600*"/>
+        <colspec colname="9" colnum="9" colwidth="720*"/>
+        <colspec colname="10" colnum="10" colwidth="900*"/>
+        <thead>
+            <row bgcolor="#6A80BF">
+                <entry>Rule</entry>
+                <entry>Message</entry>
+                <entry>ID</entry>
+                <entry>Function</entry>
+                <entry>Line</entry>
+                <entry>Col</entry>
+                <entry>Jus</entry>
+                <entry>Class</entry>
+                <entry>Status</entry>
+                <entry>Comment</entry><?dbfo bgcolor="#6A80BF"?>
+            </row>
+        </thead>
+        <tbody>
+            <row bgcolor="#F0F2F9">
+                <entry>9.1</entry>
+                <entry>All automatic variables shall have been assigned a value before being used. (required)</entry>
+                <entry>47</entry>
+                <entry>GetImcTestSig1</entry>
+                <entry>172</entry>
+                <entry>24</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>9.1</entry>
+                <entry>All automatic variables shall have been assigned a value before being used. (required)</entry>
+                <entry>56</entry>
+                <entry>GetImcTestSig2</entry>
+                <entry>181</entry>
+                <entry>11</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>9.1</entry>
+                <entry>All automatic variables shall have been assigned a value before being used. (required)</entry>
+                <entry>60</entry>
+                <entry>GetImcTestSig3</entry>
+                <entry>189</entry>
+                <entry>32</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>9.1</entry>
+                <entry>All automatic variables shall have been assigned a value before being used. (required)</entry>
+                <entry>46</entry>
+                <entry>GetImcTestSig4</entry>
+                <entry>198</entry>
+                <entry>32</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>9.1</entry>
+                <entry>All automatic variables shall have been assigned a value before being used. (required)</entry>
+                <entry>55</entry>
+                <entry>GetImcTestSig5</entry>
+                <entry>207</entry>
+                <entry>32</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>9.1</entry>
+                <entry>All automatic variables shall have been assigned a value before being used. (required)</entry>
+                <entry>59</entry>
+                <entry>GetImcTestSig6</entry>
+                <entry>216</entry>
+                <entry>32</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>9.1</entry>
+                <entry>All automatic variables shall have been assigned a value before being used. (required)</entry>
+                <entry>44</entry>
+                <entry>GetImcTestSig7</entry>
+                <entry>225</entry>
+                <entry>32</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>9.1</entry>
+                <entry>All automatic variables shall have been assigned a value before being used. (required)</entry>
+                <entry>52</entry>
+                <entry>GetImcTestSig8</entry>
+                <entry>234</entry>
+                <entry>32</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>11.4</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>A cast should not be performed between a pointer to object type and a different</member>
+                        <member>pointer to object type. (advisory)</member>
+                    </simplelist>
+                </entry>
+                <entry>48</entry>
+                <entry>GetImcTestSig1</entry>
+                <entry>172</entry>
+                <entry>36</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>12.12</entry>
+                <entry>The underlying bit representations of floating-point values shall not be used. (required)</entry>
+                <entry>49</entry>
+                <entry>GetImcTestSig1</entry>
+                <entry>172</entry>
+                <entry>36</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+        </tbody>
+    </tgroup>
+</table>
+<table colsep="1" frame="all" pgwide="1" rowsep="1">
+    <title>E:\EA4NewTemplate\AR350A_ImcArbn_Impl\tools\local\generate\ImcArbn_Private_Cfg.h</title>
+    <tgroup align="left" cols="10">
+        <colspec colname="1" colnum="1" colwidth="360*"/>
+        <colspec colname="2" colnum="2" colwidth="2520*"/>
+        <colspec colname="3" colnum="3" colwidth="360*"/>
+        <colspec colname="4" colnum="4" colwidth="1200*"/>
+        <colspec colname="5" colnum="5" colwidth="360*"/>
+        <colspec colname="6" colnum="6" colwidth="360*"/>
+        <colspec colname="7" colnum="7" colwidth="360*"/>
+        <colspec colname="8" colnum="8" colwidth="600*"/>
+        <colspec colname="9" colnum="9" colwidth="720*"/>
+        <colspec colname="10" colnum="10" colwidth="900*"/>
+        <thead>
+            <row bgcolor="#6A80BF">
+                <entry>Rule</entry>
+                <entry>Message</entry>
+                <entry>ID</entry>
+                <entry>Function</entry>
+                <entry>Line</entry>
+                <entry>Col</entry>
+                <entry>Jus</entry>
+                <entry>Class</entry>
+                <entry>Status</entry>
+                <entry>Comment</entry><?dbfo bgcolor="#6A80BF"?>
+            </row>
+        </thead>
+        <tbody>
+            <row bgcolor="#F0F2F9">
+                <entry>5.1</entry>
+                <entry>Identifiers "Ary1D_ImcArbnRxDataSrc2_ImcArbnA" (ImcArbn_Private_Cfg.h line 76 column 26) and "Ary1D_ImcArbnRxDataSrc2_ImcArbnB" (ImcArbn_Private_Cfg.h line 79 column 26) have the same first 31 characters. (required)</entry>
+                <entry>40</entry>
+                <entry/>
+                <entry>79</entry>
+                <entry>26</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+        </tbody>
+    </tgroup>
+</table>
+</sect1>

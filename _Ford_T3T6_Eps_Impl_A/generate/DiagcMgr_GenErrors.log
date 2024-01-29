@@ -1,0 +1,20 @@
+AUTOSAR XML Text Transformation v2.0.2.0
+    Output folder: C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A_Working\_Ford_T3T6_Eps_Impl_A\generate
+    Descr. file:   C:\Users\gz324f\AppData\Local\Temp\DaVinci\Cfg-5926581\Generation\Cfg_Gen-1517437210888-0\AutosarFiles_ValGen-1517437603641-0\DiagcMgr_ECUC_4044794222268086203.arxml
+    Include file:  C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A_Working\ES101A_DiagcMgr_Impl\generate\..\..\TL105A_Artt\tools\include\Helper.tt
+    Template:      C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A_Working\ES101A_DiagcMgr_Impl\generate\DiagcMgr_Cfg.h.tt
+    Namespace:     http://autosar.org/schema/r4.0
+    Prefix:        ar
+    File:          C:/Users/gz324f/Desktop/working/_Ford_T3T6_Eps_Impl_A_Working/_Ford_T3T6_Eps_Impl_A/generate\DiagcMgr_Cfg.h. written.
+    Duration:      00:00:01.0920070.
+AUTOSAR XML Text Transformation v2.0.2.0
+    Output folder: C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A_Working\_Ford_T3T6_Eps_Impl_A\generate
+    Descr. file:   C:\Users\gz324f\AppData\Local\Temp\DaVinci\Cfg-5926581\Generation\Cfg_Gen-1517437210888-0\AutosarFiles_ValGen-1517437603641-0\DiagcMgr_ECUC_4044794222268086203.arxml
+    Include file:  C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A_Working\ES101A_DiagcMgr_Impl\generate\..\..\TL105A_Artt\tools\include\Helper.tt
+    Template:      C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A_Working\ES101A_DiagcMgr_Impl\generate\DiagcMgr_Cfg.c.tt
+    Namespace:     http://autosar.org/schema/r4.0
+    Prefix:        ar
+The transformation produced the following errors and warnings:
+c:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A_Working\ES101A_DiagcMgr_Impl\generate\DiagcMgr_Cfg.c.tt(274,9) : warning CS0168: Compiling transformation: The variable 'curr_ntcnum' is declared but never used
+    File:          C:/Users/gz324f/Desktop/working/_Ford_T3T6_Eps_Impl_A_Working/_Ford_T3T6_Eps_Impl_A/generate\DiagcMgr_Cfg.c. written.
+    Duration:      00:00:05.4444349.

@@ -1,0 +1,63 @@
+AUTOSAR XML Text Transformation v2.0.2.0
+    Output folder: C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A\_Ford_T3T6_Eps_Impl_A\generate
+    Descr. file:   C:\Users\gz324f\AppData\Local\Temp\DaVinci\Cfg-1123033\Generation\Cfg_Gen-1524851133060-0\AutosarFiles_ValGen-1525206362845-0\NvMProxy_ECUC_1433934973311079254.arxml
+    Include file:  C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A\ES006A_NvM_Impl\generate\..\..\TL105A_Artt\tools\include\Helper.tt
+    Template:      C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A\ES006A_NvM_Impl\generate\CDD_NvMProxy_Cfg_private.h.tt
+    Namespace:     http://autosar.org/schema/r4.0
+    Prefix:        ar
+    File:          C:/Users/gz324f/Desktop/working/_Ford_T3T6_Eps_Impl_A/_Ford_T3T6_Eps_Impl_A/generate\CDD_NvMProxy_Cfg_private.h. written.
+    Duration:      00:00:01.1232072.
+AUTOSAR XML Text Transformation v2.0.2.0
+    Output folder: C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A\_Ford_T3T6_Eps_Impl_A\generate\ServiceComponents
+    Descr. file:   C:\Users\gz324f\AppData\Local\Temp\DaVinci\Cfg-1123033\Generation\Cfg_Gen-1524851133060-0\AutosarFiles_ValGen-1525206362845-0\NvMProxy_ECUC_1433934973311079254.arxml
+    Include file:  C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A\ES006A_NvM_Impl\generate\..\..\TL105A_Artt\tools\include\Helper.tt
+    Template:      C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A\ES006A_NvM_Impl\generate\NvMProxy_swc.arxml.tt
+    Namespace:     http://autosar.org/schema/r4.0
+    Prefix:        ar
+    File:          C:/Users/gz324f/Desktop/working/_Ford_T3T6_Eps_Impl_A/_Ford_T3T6_Eps_Impl_A/generate/ServiceComponents\NvMProxy_swc.arxml. written.
+    Duration:      00:00:01.0764069.
+AUTOSAR XML Text Transformation v2.0.2.0
+    Output folder: C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A\_Ford_T3T6_Eps_Impl_A\generate
+    Descr. file:   C:\Users\gz324f\AppData\Local\Temp\DaVinci\Cfg-1123033\Generation\Cfg_Gen-1524851133060-0\AutosarFiles_ValGen-1525206362845-0\NvMProxy_ECUC_1433934973311079254.arxml
+    Include file:  C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A\ES006A_NvM_Impl\generate\..\..\TL105A_Artt\tools\include\Helper.tt
+    Template:      C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A\ES006A_NvM_Impl\generate\CDD_NvMProxy_Cfg.c.tt
+    Namespace:     http://autosar.org/schema/r4.0
+    Prefix:        ar
+    File:          C:/Users/gz324f/Desktop/working/_Ford_T3T6_Eps_Impl_A/_Ford_T3T6_Eps_Impl_A/generate\CDD_NvMProxy_Cfg.c. written.
+    Duration:      00:00:01.9344124.
+AUTOSAR XML Text Transformation v2.0.2.0
+    Output folder: C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A\_Ford_T3T6_Eps_Impl_A\generate
+    Descr. file:   C:\Users\gz324f\AppData\Local\Temp\DaVinci\Cfg-1123033\Generation\Cfg_Gen-1524851133060-0\AutosarFiles_ValGen-1525206362845-0\NvMProxy_ECUC_1433934973311079254.arxml
+    Include file:  C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A\ES006A_NvM_Impl\generate\..\..\TL105A_Artt\tools\include\Helper.tt
+    Template:      C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A\ES006A_NvM_Impl\generate\CDD_NvMProxy_Cbk.c.tt
+    Namespace:     http://autosar.org/schema/r4.0
+    Prefix:        ar
+    File:          C:/Users/gz324f/Desktop/working/_Ford_T3T6_Eps_Impl_A/_Ford_T3T6_Eps_Impl_A/generate\CDD_NvMProxy_Cbk.c. written.
+    Duration:      00:00:01.0140065.
+AUTOSAR XML Text Transformation v2.0.2.0
+    Output folder: C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A\_Ford_T3T6_Eps_Impl_A\generate
+    Descr. file:   C:\Users\gz324f\AppData\Local\Temp\DaVinci\Cfg-1123033\Generation\Cfg_Gen-1524851133060-0\AutosarFiles_ValGen-1525206362845-0\NvMProxy_ECUC_1433934973311079254.arxml
+    Include file:  C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A\ES006A_NvM_Impl\generate\..\..\TL105A_Artt\tools\include\Helper.tt
+    Template:      C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A\ES006A_NvM_Impl\generate\CDD_NvMProxy_Cbk.h.tt
+    Namespace:     http://autosar.org/schema/r4.0
+    Prefix:        ar
+    File:          C:/Users/gz324f/Desktop/working/_Ford_T3T6_Eps_Impl_A/_Ford_T3T6_Eps_Impl_A/generate\CDD_NvMProxy_Cbk.h. written.
+    Duration:      00:00:01.0296066.
+AUTOSAR XML Text Transformation v2.0.2.0
+    Output folder: C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A\_Ford_T3T6_Eps_Impl_A\generate
+    Descr. file:   C:\Users\gz324f\AppData\Local\Temp\DaVinci\Cfg-1123033\Generation\Cfg_Gen-1524851133060-0\AutosarFiles_ValGen-1525206362845-0\NvMProxy_ECUC_1433934973311079254.arxml
+    Include file:  C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A\ES006A_NvM_Impl\generate\..\..\TL105A_Artt\tools\include\Helper.tt
+    Template:      C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A\ES006A_NvM_Impl\generate\CDD_NvMProxyDftDataGroup.h.tt
+    Namespace:     http://autosar.org/schema/r4.0
+    Prefix:        ar
+    File:          C:/Users/gz324f/Desktop/working/_Ford_T3T6_Eps_Impl_A/_Ford_T3T6_Eps_Impl_A/generate\CDD_NvMProxyDftDataGroup.h. written.
+    Duration:      00:00:02.2308143.
+AUTOSAR XML Text Transformation v2.0.2.0
+    Output folder: C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A\_Ford_T3T6_Eps_Impl_A\generate
+    Descr. file:   C:\Users\gz324f\AppData\Local\Temp\DaVinci\Cfg-1123033\Generation\Cfg_Gen-1524851133060-0\AutosarFiles_ValGen-1525206362845-0\NvMProxy_ECUC_1433934973311079254.arxml
+    Include file:  C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A\ES006A_NvM_Impl\generate\..\..\TL105A_Artt\tools\include\Helper.tt
+    Template:      C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A\ES006A_NvM_Impl\generate\CDD_NvMProxy_Cfg.h.tt
+    Namespace:     http://autosar.org/schema/r4.0
+    Prefix:        ar
+    File:          C:/Users/gz324f/Desktop/working/_Ford_T3T6_Eps_Impl_A/_Ford_T3T6_Eps_Impl_A/generate\CDD_NvMProxy_Cfg.h. written.
+    Duration:      00:00:00.9048058.

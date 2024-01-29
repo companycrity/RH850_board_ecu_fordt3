@@ -1,0 +1,1359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1>
+<?dbhtml filename="BugFinder-007.html"?>
+<title>MISRA-C  Warnings</title>
+<table colsep="1" frame="all" pgwide="1" rowsep="1">
+    <title>C:\Users\NZ5334\Documents\Synergy\Working\ses_dev_ea4\MM073A_FordMsg3CABusHiSpd_Impl\src\FordMsg3CABusHiSpd.c</title>
+    <tgroup align="left" cols="8">
+        <colspec colname="1" colnum="1" colwidth="300*"/>
+        <colspec colname="2" colnum="2" colwidth="2520*"/>
+        <colspec colname="3" colnum="3" colwidth="300*"/>
+        <colspec colname="4" colnum="4" colwidth="1200*"/>
+        <colspec colname="5" colnum="5" colwidth="360*"/>
+        <colspec colname="6" colnum="6" colwidth="600*"/>
+        <colspec colname="7" colnum="7" colwidth="720*"/>
+        <colspec colname="8" colnum="8" colwidth="900*"/>
+        <thead>
+            <row bgcolor="#6A80BF">
+                <entry>Rule</entry>
+                <entry>Message</entry>
+                <entry>ID</entry>
+                <entry>Function</entry>
+                <entry>Jus</entry>
+                <entry>Class</entry>
+                <entry>Status</entry>
+                <entry>Comment</entry><?dbfo bgcolor="#6A80BF"?>
+            </row>
+        </thead>
+        <tbody>
+            <row bgcolor="#F0F2F9">
+                <entry>5.1</entry>
+                <entry>Identifiers "BusHiSpdLaneKeepSysCrvInvldTiThd_MilliSec_T_u16" (FordMsg3CABusHiSpd.c line 1380 column 112) and "BusHiSpdLaneKeepSysCrvInvldTiThd_MilliSec_T_u16" (FordMsg3CABusHiSpd.c line 1082 column 16) have the same first 47 characters. (required)</entry>
+                <entry>81</entry>
+                <entry>FordMsg3CABusHiSpdPer1</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>5.1</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>Identifiers "BusHiSpdLaneKeepSysCrvInvldTiThd_MilliSec_T_u16" (FordMsg3CABusHiSpd.c line 1380 column 112) and "BusHiSpdLaneKeepSysCrvInvldTiThd_MilliSec_T_u16" (FordMsg3CABusHiSpd.c line 281 column 48) have the same first 47 characters.</member>
+                        <member>Identifiers "BusHiSpdLaneKeepSysCrvInvldTiThd_MilliSec_T_u16" (FordMsg3CABusHiSpd.c line 1380 column 112) and "BusHiSpdLaneKeepSysCrvInvldTiThd_MilliSec_T_u16" (FordMsg3CABusHiSpd.c line 276 column 112) have the same first 47 characters. (required)</member>
+                    </simplelist>
+                </entry>
+                <entry>23</entry>
+                <entry/>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>5.1</entry>
+                <entry>Identifiers "BusHiSpdLaneKeepSysCrvInvldTiThd_MilliSec_T_u16" (FordMsg3CABusHiSpd.c line 1447 column 47) and "BusHiSpdLaneKeepSysCrvInvldTiThd_MilliSec_T_u16" (FordMsg3CABusHiSpd.c line 1082 column 16) have the same first 47 characters. (required)</entry>
+                <entry>83</entry>
+                <entry>FordMsg3CABusHiSpdPer1</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>5.1</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>Identifiers "BusHiSpdLaneKeepSysCrvInvldTiThd_MilliSec_T_u16" (FordMsg3CABusHiSpd.c line 1447 column 47) and "BusHiSpdLaneKeepSysCrvInvldTiThd_MilliSec_T_u16" (FordMsg3CABusHiSpd.c line 281 column 48) have the same first 47 characters.</member>
+                        <member>Identifiers "BusHiSpdLaneKeepSysCrvInvldTiThd_MilliSec_T_u16" (FordMsg3CABusHiSpd.c line 1380 column 112) and "BusHiSpdLaneKeepSysCrvInvldTiThd_MilliSec_T_u16" (FordMsg3CABusHiSpd.c line 1447 column 47) have the same first 47 characters.</member>
+                        <member>Identifiers "BusHiSpdLaneKeepSysCrvInvldTiThd_MilliSec_T_u16" (FordMsg3CABusHiSpd.c line 1447 column 47) and "BusHiSpdLaneKeepSysCrvInvldTiThd_MilliSec_T_u16" (FordMsg3CABusHiSpd.c line 276 column 112) have the same first 47 characters. (required)</member>
+                    </simplelist>
+                </entry>
+                <entry>25</entry>
+                <entry/>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>5.1</entry>
+                <entry>Identifiers "BusHiSpdLaneKeepSysCrvInvldTiThd_MilliSec_T_u16" (FordMsg3CABusHiSpd.c line 276 column 112) and "BusHiSpdLaneKeepSysCrvInvldTiThd_MilliSec_T_u16" (FordMsg3CABusHiSpd.c line 281 column 48) have the same first 47 characters. (required)</entry>
+                <entry>5</entry>
+                <entry/>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>5.1</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>Identifiers "BusHiSpdLaneKeepSysCrvInvldTiThd_MilliSec_T_u16" (FordMsg3CABusHiSpd.c line 281 column 48) and "BusHiSpdLaneKeepSysCrvInvldTiThd_MilliSec_T_u16" (FordMsg3CABusHiSpd.c line 1082 column 16) have the same first 47 characters.</member>
+                        <member>Identifiers "BusHiSpdLaneKeepSysCrvInvldTiThd_MilliSec_T_u16" (FordMsg3CABusHiSpd.c line 276 column 112) and "BusHiSpdLaneKeepSysCrvInvldTiThd_MilliSec_T_u16" (FordMsg3CABusHiSpd.c line 1082 column 16) have the same first 47 characters. (required)</member>
+                    </simplelist>
+                </entry>
+                <entry>61</entry>
+                <entry>FordMsg3CABusHiSpdPer1</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>5.1</entry>
+                <entry>Identifiers "BusHiSpdLaneKeepSysReqdAgInvldTiThd_MilliSec_T_u16" (FordMsg3CABusHiSpd.c line 1379 column 112) and "BusHiSpdLaneKeepSysReqdAgInvldTiThd_MilliSec_T_u16" (FordMsg3CABusHiSpd.c line 1081 column 16) have the same first 50 characters. (required)</entry>
+                <entry>80</entry>
+                <entry>FordMsg3CABusHiSpdPer1</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>5.1</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>Identifiers "BusHiSpdLaneKeepSysReqdAgInvldTiThd_MilliSec_T_u16" (FordMsg3CABusHiSpd.c line 1379 column 112) and "BusHiSpdLaneKeepSysReqdAgInvldTiThd_MilliSec_T_u16" (FordMsg3CABusHiSpd.c line 1449 column 151) have the same first 50 characters.</member>
+                        <member>Identifiers "BusHiSpdLaneKeepSysReqdAgInvldTiThd_MilliSec_T_u16" (FordMsg3CABusHiSpd.c line 1449 column 151) and "BusHiSpdLaneKeepSysReqdAgInvldTiThd_MilliSec_T_u16" (FordMsg3CABusHiSpd.c line 283 column 151) have the same first 50 characters.</member>
+                        <member>Identifiers "BusHiSpdLaneKeepSysReqdAgInvldTiThd_MilliSec_T_u16" (FordMsg3CABusHiSpd.c line 1449 column 151) and "BusHiSpdLaneKeepSysReqdAgInvldTiThd_MilliSec_T_u16" (FordMsg3CABusHiSpd.c line 275 column 112) have the same first 50 characters. (required)</member>
+                    </simplelist>
+                </entry>
+                <entry>27</entry>
+                <entry/>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>5.1</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>Identifiers "BusHiSpdLaneKeepSysReqdAgInvldTiThd_MilliSec_T_u16" (FordMsg3CABusHiSpd.c line 1379 column 112) and "BusHiSpdLaneKeepSysReqdAgInvldTiThd_MilliSec_T_u16" (FordMsg3CABusHiSpd.c line 275 column 112) have the same first 50 characters.</member>
+                        <member>Identifiers "BusHiSpdLaneKeepSysReqdAgInvldTiThd_MilliSec_T_u16" (FordMsg3CABusHiSpd.c line 1379 column 112) and "BusHiSpdLaneKeepSysReqdAgInvldTiThd_MilliSec_T_u16" (FordMsg3CABusHiSpd.c line 283 column 151) have the same first 50 characters. (required)</member>
+                    </simplelist>
+                </entry>
+                <entry>22</entry>
+                <entry/>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>5.1</entry>
+                <entry>Identifiers "BusHiSpdLaneKeepSysReqdAgInvldTiThd_MilliSec_T_u16" (FordMsg3CABusHiSpd.c line 1449 column 151) and "BusHiSpdLaneKeepSysReqdAgInvldTiThd_MilliSec_T_u16" (FordMsg3CABusHiSpd.c line 1081 column 16) have the same first 50 characters. (required)</entry>
+                <entry>85</entry>
+                <entry>FordMsg3CABusHiSpdPer1</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>5.1</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>Identifiers "BusHiSpdLaneKeepSysReqdAgInvldTiThd_MilliSec_T_u16" (FordMsg3CABusHiSpd.c line 275 column 112) and "BusHiSpdLaneKeepSysReqdAgInvldTiThd_MilliSec_T_u16" (FordMsg3CABusHiSpd.c line 1081 column 16) have the same first 50 characters.</member>
+                        <member>Identifiers "BusHiSpdLaneKeepSysReqdAgInvldTiThd_MilliSec_T_u16" (FordMsg3CABusHiSpd.c line 283 column 151) and "BusHiSpdLaneKeepSysReqdAgInvldTiThd_MilliSec_T_u16" (FordMsg3CABusHiSpd.c line 1081 column 16) have the same first 50 characters. (required)</member>
+                    </simplelist>
+                </entry>
+                <entry>60</entry>
+                <entry>FordMsg3CABusHiSpdPer1</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>5.1</entry>
+                <entry>Identifiers "BusHiSpdLaneKeepSysReqdAgInvldTiThd_MilliSec_T_u16" (FordMsg3CABusHiSpd.c line 275 column 112) and "BusHiSpdLaneKeepSysReqdAgInvldTiThd_MilliSec_T_u16" (FordMsg3CABusHiSpd.c line 283 column 151) have the same first 50 characters. (required)</entry>
+                <entry>6</entry>
+                <entry/>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>5.1</entry>
+                <entry>Identifiers "BusHiSpdMissTiThd_MilliSec_T_u16" (FordMsg3CABusHiSpd.c line 1378 column 60) and "BusHiSpdMissTiThd_MilliSec_T_u16" (FordMsg3CABusHiSpd.c line 1080 column 16) have the same first 32 characters. (required)</entry>
+                <entry>79</entry>
+                <entry>FordMsg3CABusHiSpdPer1</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>5.1</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>Identifiers "BusHiSpdMissTiThd_MilliSec_T_u16" (FordMsg3CABusHiSpd.c line 1378 column 60) and "BusHiSpdMissTiThd_MilliSec_T_u16" (FordMsg3CABusHiSpd.c line 1410 column 69) have the same first 32 characters.</member>
+                        <member>Identifiers "BusHiSpdMissTiThd_MilliSec_T_u16" (FordMsg3CABusHiSpd.c line 1410 column 69) and "BusHiSpdMissTiThd_MilliSec_T_u16" (FordMsg3CABusHiSpd.c line 274 column 60) have the same first 32 characters.</member>
+                        <member>Identifiers "BusHiSpdMissTiThd_MilliSec_T_u16" (FordMsg3CABusHiSpd.c line 1410 column 69) and "BusHiSpdMissTiThd_MilliSec_T_u16" (FordMsg3CABusHiSpd.c line 279 column 69) have the same first 32 characters. (required)</member>
+                    </simplelist>
+                </entry>
+                <entry>24</entry>
+                <entry/>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>5.1</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>Identifiers "BusHiSpdMissTiThd_MilliSec_T_u16" (FordMsg3CABusHiSpd.c line 1378 column 60) and "BusHiSpdMissTiThd_MilliSec_T_u16" (FordMsg3CABusHiSpd.c line 274 column 60) have the same first 32 characters.</member>
+                        <member>Identifiers "BusHiSpdMissTiThd_MilliSec_T_u16" (FordMsg3CABusHiSpd.c line 1378 column 60) and "BusHiSpdMissTiThd_MilliSec_T_u16" (FordMsg3CABusHiSpd.c line 279 column 69) have the same first 32 characters. (required)</member>
+                    </simplelist>
+                </entry>
+                <entry>21</entry>
+                <entry/>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>5.1</entry>
+                <entry>Identifiers "BusHiSpdMissTiThd_MilliSec_T_u16" (FordMsg3CABusHiSpd.c line 1410 column 69) and "BusHiSpdMissTiThd_MilliSec_T_u16" (FordMsg3CABusHiSpd.c line 1080 column 16) have the same first 32 characters. (required)</entry>
+                <entry>82</entry>
+                <entry>FordMsg3CABusHiSpdPer1</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>5.1</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>Identifiers "BusHiSpdMissTiThd_MilliSec_T_u16" (FordMsg3CABusHiSpd.c line 274 column 60) and "BusHiSpdMissTiThd_MilliSec_T_u16" (FordMsg3CABusHiSpd.c line 1080 column 16) have the same first 32 characters.</member>
+                        <member>Identifiers "BusHiSpdMissTiThd_MilliSec_T_u16" (FordMsg3CABusHiSpd.c line 279 column 69) and "BusHiSpdMissTiThd_MilliSec_T_u16" (FordMsg3CABusHiSpd.c line 1080 column 16) have the same first 32 characters. (required)</member>
+                    </simplelist>
+                </entry>
+                <entry>59</entry>
+                <entry>FordMsg3CABusHiSpdPer1</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>5.1</entry>
+                <entry>Identifiers "BusHiSpdMissTiThd_MilliSec_T_u16" (FordMsg3CABusHiSpd.c line 274 column 60) and "BusHiSpdMissTiThd_MilliSec_T_u16" (FordMsg3CABusHiSpd.c line 279 column 69) have the same first 32 characters. (required)</entry>
+                <entry>4</entry>
+                <entry/>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>5.1</entry>
+                <entry>Identifiers "ClrDiagcFlgProxyDiagEna_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1331 column 113) and "ClrDiagcFlgProxyDiagEna_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1095 column 16) have the same first 34 characters. (required)</entry>
+                <entry>78</entry>
+                <entry>FordMsg3CABusHiSpdPer1</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>5.1</entry>
+                <entry>Identifiers "ClrDiagcFlgProxyDiagEna_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1331 column 113) and "ClrDiagcFlgProxyDiagEna_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 270 column 113) have the same first 34 characters. (required)</entry>
+                <entry>20</entry>
+                <entry/>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>5.1</entry>
+                <entry>Identifiers "ClrDiagcFlgProxyDiagEna_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 270 column 113) and "ClrDiagcFlgProxyDiagEna_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1095 column 16) have the same first 34 characters. (required)</entry>
+                <entry>67</entry>
+                <entry>FordMsg3CABusHiSpdPer1</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>5.1</entry>
+                <entry>Identifiers "FordLaneDetnWarnEnad_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1326 column 28) and "FordLaneDetnWarnEnad_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1091 column 16) have the same first 31 characters. (required)</entry>
+                <entry>76</entry>
+                <entry>FordMsg3CABusHiSpdPer1</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>5.1</entry>
+                <entry>Identifiers "FordLaneDetnWarnEnad_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1326 column 28) and "FordLaneDetnWarnEnad_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 265 column 29) have the same first 31 characters. (required)</entry>
+                <entry>18</entry>
+                <entry/>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>5.1</entry>
+                <entry>Identifiers "FordLaneDetnWarnEnad_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 265 column 29) and "FordLaneDetnWarnEnad_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1091 column 16) have the same first 31 characters. (required)</entry>
+                <entry>64</entry>
+                <entry>FordMsg3CABusHiSpdPer1</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>5.1</entry>
+                <entry>Identifiers "FordLaneKeepAssiEnad_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1327 column 60) and "FordLaneKeepAssiEnad_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1092 column 16) have the same first 31 characters. (required)</entry>
+                <entry>77</entry>
+                <entry>FordMsg3CABusHiSpdPer1</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>5.1</entry>
+                <entry>Identifiers "FordLaneKeepAssiEnad_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1327 column 60) and "FordLaneKeepAssiEnad_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 266 column 60) have the same first 31 characters. (required)</entry>
+                <entry>19</entry>
+                <entry/>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>5.1</entry>
+                <entry>Identifiers "FordLaneKeepAssiEnad_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 266 column 60) and "FordLaneKeepAssiEnad_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1092 column 16) have the same first 31 characters. (required)</entry>
+                <entry>65</entry>
+                <entry>FordMsg3CABusHiSpdPer1</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>5.1</entry>
+                <entry>Identifiers "FordVehLaneAssiImgProcgModlAVld_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1551 column 115) and "FordVehLaneAssiImgProcgModlAVld_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1093 column 16) have the same first 42 characters. (required)</entry>
+                <entry>101</entry>
+                <entry>FordMsg3CABusHiSpdPer1</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>5.1</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>Identifiers "FordVehLaneAssiImgProcgModlAVld_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1551 column 115) and "FordVehLaneAssiImgProcgModlAVld_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 320 column 115) have the same first 42 characters.</member>
+                        <member>Identifiers "FordVehLaneAssiImgProcgModlAVld_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1551 column 115) and "FordVehLaneAssiImgProcgModlAVld_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 300 column 115) have the same first 42 characters. (required)</member>
+                    </simplelist>
+                </entry>
+                <entry>43</entry>
+                <entry/>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>5.1</entry>
+                <entry>Identifiers "FordVehLaneAssiImgProcgModlAVld_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1729 column 115) and "FordVehLaneAssiImgProcgModlAVld_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1093 column 16) have the same first 42 characters. (required)</entry>
+                <entry>110</entry>
+                <entry>FordMsg3CABusHiSpdPer1</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>5.1</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>Identifiers "FordVehLaneAssiImgProcgModlAVld_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1729 column 115) and "FordVehLaneAssiImgProcgModlAVld_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 320 column 115) have the same first 42 characters.</member>
+                        <member>Identifiers "FordVehLaneAssiImgProcgModlAVld_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1551 column 115) and "FordVehLaneAssiImgProcgModlAVld_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1729 column 115) have the same first 42 characters.</member>
+                        <member>Identifiers "FordVehLaneAssiImgProcgModlAVld_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1729 column 115) and "FordVehLaneAssiImgProcgModlAVld_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 300 column 115) have the same first 42 characters. (required)</member>
+                    </simplelist>
+                </entry>
+                <entry>52</entry>
+                <entry/>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>5.1</entry>
+                <entry>Identifiers "FordVehLaneAssiImgProcgModlAVld_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 300 column 115) and "FordVehLaneAssiImgProcgModlAVld_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 320 column 115) have the same first 42 characters. (required)</entry>
+                <entry>15</entry>
+                <entry/>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>5.1</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>Identifiers "FordVehLaneAssiImgProcgModlAVld_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 320 column 115) and "FordVehLaneAssiImgProcgModlAVld_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1093 column 16) have the same first 42 characters.</member>
+                        <member>Identifiers "FordVehLaneAssiImgProcgModlAVld_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 300 column 115) and "FordVehLaneAssiImgProcgModlAVld_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1093 column 16) have the same first 42 characters. (required)</member>
+                    </simplelist>
+                </entry>
+                <entry>66</entry>
+                <entry>FordMsg3CABusHiSpdPer1</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>5.1</entry>
+                <entry>Identifiers "FordVehLaneDetnWarnInten_Cnt_T_u08" (FordMsg3CABusHiSpd.c line 1548 column 113) and "FordVehLaneDetnWarnInten_Cnt_T_u08" (FordMsg3CABusHiSpd.c line 1073 column 16) have the same first 34 characters. (required)</entry>
+                <entry>98</entry>
+                <entry>FordMsg3CABusHiSpdPer1</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>5.1</entry>
+                <entry>Identifiers "FordVehLaneDetnWarnInten_Cnt_T_u08" (FordMsg3CABusHiSpd.c line 1548 column 113) and "FordVehLaneDetnWarnInten_Cnt_T_u08" (FordMsg3CABusHiSpd.c line 297 column 113) have the same first 34 characters. (required)</entry>
+                <entry>40</entry>
+                <entry/>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>5.1</entry>
+                <entry>Identifiers "FordVehLaneDetnWarnInten_Cnt_T_u08" (FordMsg3CABusHiSpd.c line 297 column 113) and "FordVehLaneDetnWarnInten_Cnt_T_u08" (FordMsg3CABusHiSpd.c line 1073 column 16) have the same first 34 characters. (required)</entry>
+                <entry>53</entry>
+                <entry>FordMsg3CABusHiSpdPer1</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>5.1</entry>
+                <entry>Identifiers "FordVehLaneDetnWarnSts_Cnt_T_u08" (FordMsg3CABusHiSpd.c line 1549 column 113) and "FordVehLaneDetnWarnSts_Cnt_T_u08" (FordMsg3CABusHiSpd.c line 1074 column 16) have the same first 32 characters. (required)</entry>
+                <entry>99</entry>
+                <entry>FordMsg3CABusHiSpdPer1</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>5.1</entry>
+                <entry>Identifiers "FordVehLaneDetnWarnSts_Cnt_T_u08" (FordMsg3CABusHiSpd.c line 1549 column 113) and "FordVehLaneDetnWarnSts_Cnt_T_u08" (FordMsg3CABusHiSpd.c line 298 column 113) have the same first 32 characters. (required)</entry>
+                <entry>41</entry>
+                <entry/>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>5.1</entry>
+                <entry>Identifiers "FordVehLaneDetnWarnSts_Cnt_T_u08" (FordMsg3CABusHiSpd.c line 298 column 113) and "FordVehLaneDetnWarnSts_Cnt_T_u08" (FordMsg3CABusHiSpd.c line 1074 column 16) have the same first 32 characters. (required)</entry>
+                <entry>54</entry>
+                <entry>FordMsg3CABusHiSpdPer1</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>5.1</entry>
+                <entry>Identifiers "FordVehLaneKeepSysCrvtRaw_Cnt_T_u16" (FordMsg3CABusHiSpd.c line 1543 column 114) and "FordVehLaneKeepSysCrvtRaw_Cnt_T_u16" (FordMsg3CABusHiSpd.c line 1078 column 16) have the same first 35 characters. (required)</entry>
+                <entry>93</entry>
+                <entry>FordMsg3CABusHiSpdPer1</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>5.1</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>Identifiers "FordVehLaneKeepSysCrvtRaw_Cnt_T_u16" (FordMsg3CABusHiSpd.c line 1543 column 114) and "FordVehLaneKeepSysCrvtRaw_Cnt_T_u16" (FordMsg3CABusHiSpd.c line 292 column 114) have the same first 35 characters.</member>
+                        <member>Identifiers "FordVehLaneKeepSysCrvtRaw_Cnt_T_u16" (FordMsg3CABusHiSpd.c line 1543 column 114) and "FordVehLaneKeepSysCrvtRaw_Cnt_T_u16" (FordMsg3CABusHiSpd.c line 304 column 29) have the same first 35 characters. (required)</member>
+                    </simplelist>
+                </entry>
+                <entry>35</entry>
+                <entry/>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>5.1</entry>
+                <entry>Identifiers "FordVehLaneKeepSysCrvtRaw_Cnt_T_u16" (FordMsg3CABusHiSpd.c line 1627 column 28) and "FordVehLaneKeepSysCrvtRaw_Cnt_T_u16" (FordMsg3CABusHiSpd.c line 1078 column 16) have the same first 35 characters. (required)</entry>
+                <entry>104</entry>
+                <entry>FordMsg3CABusHiSpdPer1</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>5.1</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>Identifiers "FordVehLaneKeepSysCrvtRaw_Cnt_T_u16" (FordMsg3CABusHiSpd.c line 1627 column 28) and "FordVehLaneKeepSysCrvtRaw_Cnt_T_u16" (FordMsg3CABusHiSpd.c line 304 column 29) have the same first 35 characters.</member>
+                        <member>Identifiers "FordVehLaneKeepSysCrvtRaw_Cnt_T_u16" (FordMsg3CABusHiSpd.c line 1627 column 28) and "FordVehLaneKeepSysCrvtRaw_Cnt_T_u16" (FordMsg3CABusHiSpd.c line 292 column 114) have the same first 35 characters.</member>
+                        <member>Identifiers "FordVehLaneKeepSysCrvtRaw_Cnt_T_u16" (FordMsg3CABusHiSpd.c line 1543 column 114) and "FordVehLaneKeepSysCrvtRaw_Cnt_T_u16" (FordMsg3CABusHiSpd.c line 1627 column 28) have the same first 35 characters. (required)</member>
+                    </simplelist>
+                </entry>
+                <entry>46</entry>
+                <entry/>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>5.1</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>Identifiers "FordVehLaneKeepSysCrvtRaw_Cnt_T_u16" (FordMsg3CABusHiSpd.c line 292 column 114) and "FordVehLaneKeepSysCrvtRaw_Cnt_T_u16" (FordMsg3CABusHiSpd.c line 1078 column 16) have the same first 35 characters.</member>
+                        <member>Identifiers "FordVehLaneKeepSysCrvtRaw_Cnt_T_u16" (FordMsg3CABusHiSpd.c line 304 column 29) and "FordVehLaneKeepSysCrvtRaw_Cnt_T_u16" (FordMsg3CABusHiSpd.c line 1078 column 16) have the same first 35 characters. (required)</member>
+                    </simplelist>
+                </entry>
+                <entry>57</entry>
+                <entry>FordMsg3CABusHiSpdPer1</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>5.1</entry>
+                <entry>Identifiers "FordVehLaneKeepSysCrvtRaw_Cnt_T_u16" (FordMsg3CABusHiSpd.c line 292 column 114) and "FordVehLaneKeepSysCrvtRaw_Cnt_T_u16" (FordMsg3CABusHiSpd.c line 304 column 29) have the same first 35 characters. (required)</entry>
+                <entry>9</entry>
+                <entry/>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>5.1</entry>
+                <entry>Identifiers "FordVehLaneKeepSysCrvt_IvsMtr_T_f32" (FordMsg3CABusHiSpd.c line 1544 column 115) and "FordVehLaneKeepSysCrvt_IvsMtr_T_f32" (FordMsg3CABusHiSpd.c line 1088 column 16) have the same first 35 characters. (required)</entry>
+                <entry>94</entry>
+                <entry>FordMsg3CABusHiSpdPer1</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>5.1</entry>
+                <entry>Identifiers "FordVehLaneKeepSysCrvt_IvsMtr_T_f32" (FordMsg3CABusHiSpd.c line 1544 column 115) and "FordVehLaneKeepSysCrvt_IvsMtr_T_f32" (FordMsg3CABusHiSpd.c line 293 column 115) have the same first 35 characters. (required)</entry>
+                <entry>36</entry>
+                <entry/>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>5.1</entry>
+                <entry>Identifiers "FordVehLaneKeepSysCrvt_IvsMtr_T_f32" (FordMsg3CABusHiSpd.c line 293 column 115) and "FordVehLaneKeepSysCrvt_IvsMtr_T_f32" (FordMsg3CABusHiSpd.c line 1088 column 16) have the same first 35 characters. (required)</entry>
+                <entry>63</entry>
+                <entry>FordMsg3CABusHiSpdPer1</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>5.1</entry>
+                <entry>Identifiers "FordVehLaneKeepSysRampTyp_Cnt_T_u08" (FordMsg3CABusHiSpd.c line 1545 column 113) and "FordVehLaneKeepSysRampTyp_Cnt_T_u08" (FordMsg3CABusHiSpd.c line 1075 column 16) have the same first 35 characters. (required)</entry>
+                <entry>95</entry>
+                <entry>FordMsg3CABusHiSpdPer1</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>5.1</entry>
+                <entry>Identifiers "FordVehLaneKeepSysRampTyp_Cnt_T_u08" (FordMsg3CABusHiSpd.c line 1545 column 113) and "FordVehLaneKeepSysRampTyp_Cnt_T_u08" (FordMsg3CABusHiSpd.c line 294 column 113) have the same first 35 characters. (required)</entry>
+                <entry>37</entry>
+                <entry/>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>5.1</entry>
+                <entry>Identifiers "FordVehLaneKeepSysRampTyp_Cnt_T_u08" (FordMsg3CABusHiSpd.c line 294 column 113) and "FordVehLaneKeepSysRampTyp_Cnt_T_u08" (FordMsg3CABusHiSpd.c line 1075 column 16) have the same first 35 characters. (required)</entry>
+                <entry>55</entry>
+                <entry>FordMsg3CABusHiSpdPer1</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>5.1</entry>
+                <entry>Identifiers "FordVehLaneKeepSysReqdAgRaw_Cnt_T_u16" (FordMsg3CABusHiSpd.c line 1546 column 114) and "FordVehLaneKeepSysReqdAgRaw_Cnt_T_u16" (FordMsg3CABusHiSpd.c line 1079 column 16) have the same first 37 characters. (required)</entry>
+                <entry>96</entry>
+                <entry>FordMsg3CABusHiSpdPer1</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>5.1</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>Identifiers "FordVehLaneKeepSysReqdAgRaw_Cnt_T_u16" (FordMsg3CABusHiSpd.c line 1546 column 114) and "FordVehLaneKeepSysReqdAgRaw_Cnt_T_u16" (FordMsg3CABusHiSpd.c line 295 column 114) have the same first 37 characters.</member>
+                        <member>Identifiers "FordVehLaneKeepSysReqdAgRaw_Cnt_T_u16" (FordMsg3CABusHiSpd.c line 1546 column 114) and "FordVehLaneKeepSysReqdAgRaw_Cnt_T_u16" (FordMsg3CABusHiSpd.c line 305 column 60) have the same first 37 characters. (required)</member>
+                    </simplelist>
+                </entry>
+                <entry>38</entry>
+                <entry/>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>5.1</entry>
+                <entry>Identifiers "FordVehLaneKeepSysReqdAgRaw_Cnt_T_u16" (FordMsg3CABusHiSpd.c line 1628 column 60) and "FordVehLaneKeepSysReqdAgRaw_Cnt_T_u16" (FordMsg3CABusHiSpd.c line 1079 column 16) have the same first 37 characters. (required)</entry>
+                <entry>105</entry>
+                <entry>FordMsg3CABusHiSpdPer1</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>5.1</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>Identifiers "FordVehLaneKeepSysReqdAgRaw_Cnt_T_u16" (FordMsg3CABusHiSpd.c line 1628 column 60) and "FordVehLaneKeepSysReqdAgRaw_Cnt_T_u16" (FordMsg3CABusHiSpd.c line 295 column 114) have the same first 37 characters.</member>
+                        <member>Identifiers "FordVehLaneKeepSysReqdAgRaw_Cnt_T_u16" (FordMsg3CABusHiSpd.c line 1546 column 114) and "FordVehLaneKeepSysReqdAgRaw_Cnt_T_u16" (FordMsg3CABusHiSpd.c line 1628 column 60) have the same first 37 characters.</member>
+                        <member>Identifiers "FordVehLaneKeepSysReqdAgRaw_Cnt_T_u16" (FordMsg3CABusHiSpd.c line 1628 column 60) and "FordVehLaneKeepSysReqdAgRaw_Cnt_T_u16" (FordMsg3CABusHiSpd.c line 305 column 60) have the same first 37 characters. (required)</member>
+                    </simplelist>
+                </entry>
+                <entry>47</entry>
+                <entry/>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>5.1</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>Identifiers "FordVehLaneKeepSysReqdAgRaw_Cnt_T_u16" (FordMsg3CABusHiSpd.c line 295 column 114) and "FordVehLaneKeepSysReqdAgRaw_Cnt_T_u16" (FordMsg3CABusHiSpd.c line 1079 column 16) have the same first 37 characters.</member>
+                        <member>Identifiers "FordVehLaneKeepSysReqdAgRaw_Cnt_T_u16" (FordMsg3CABusHiSpd.c line 305 column 60) and "FordVehLaneKeepSysReqdAgRaw_Cnt_T_u16" (FordMsg3CABusHiSpd.c line 1079 column 16) have the same first 37 characters. (required)</member>
+                    </simplelist>
+                </entry>
+                <entry>58</entry>
+                <entry>FordMsg3CABusHiSpdPer1</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>5.1</entry>
+                <entry>Identifiers "FordVehLaneKeepSysReqdAgRaw_Cnt_T_u16" (FordMsg3CABusHiSpd.c line 295 column 114) and "FordVehLaneKeepSysReqdAgRaw_Cnt_T_u16" (FordMsg3CABusHiSpd.c line 305 column 60) have the same first 37 characters. (required)</entry>
+                <entry>10</entry>
+                <entry/>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>5.1</entry>
+                <entry>Identifiers "FordVehLaneKeepSysReqdAg_MilliRad_T_f32" (FordMsg3CABusHiSpd.c line 1547 column 115) and "FordVehLaneKeepSysReqdAg_MilliRad_T_f32" (FordMsg3CABusHiSpd.c line 1087 column 16) have the same first 39 characters. (required)</entry>
+                <entry>97</entry>
+                <entry>FordMsg3CABusHiSpdPer1</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>5.1</entry>
+                <entry>Identifiers "FordVehLaneKeepSysReqdAg_MilliRad_T_f32" (FordMsg3CABusHiSpd.c line 1547 column 115) and "FordVehLaneKeepSysReqdAg_MilliRad_T_f32" (FordMsg3CABusHiSpd.c line 296 column 115) have the same first 39 characters. (required)</entry>
+                <entry>39</entry>
+                <entry/>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>5.1</entry>
+                <entry>Identifiers "FordVehLaneKeepSysReqdAg_MilliRad_T_f32" (FordMsg3CABusHiSpd.c line 296 column 115) and "FordVehLaneKeepSysReqdAg_MilliRad_T_f32" (FordMsg3CABusHiSpd.c line 1087 column 16) have the same first 39 characters. (required)</entry>
+                <entry>62</entry>
+                <entry>FordMsg3CABusHiSpdPer1</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>5.1</entry>
+                <entry>Identifiers "FordVehLaneKeepSysSts_Cnt_T_u08" (FordMsg3CABusHiSpd.c line 1550 column 113) and "FordVehLaneKeepSysSts_Cnt_T_u08" (FordMsg3CABusHiSpd.c line 1076 column 16) have the same first 31 characters. (required)</entry>
+                <entry>100</entry>
+                <entry>FordMsg3CABusHiSpdPer1</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>5.1</entry>
+                <entry>Identifiers "FordVehLaneKeepSysSts_Cnt_T_u08" (FordMsg3CABusHiSpd.c line 1550 column 113) and "FordVehLaneKeepSysSts_Cnt_T_u08" (FordMsg3CABusHiSpd.c line 299 column 113) have the same first 31 characters. (required)</entry>
+                <entry>42</entry>
+                <entry/>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>5.1</entry>
+                <entry>Identifiers "FordVehLaneKeepSysSts_Cnt_T_u08" (FordMsg3CABusHiSpd.c line 299 column 113) and "FordVehLaneKeepSysSts_Cnt_T_u08" (FordMsg3CABusHiSpd.c line 1076 column 16) have the same first 31 characters. (required)</entry>
+                <entry>56</entry>
+                <entry>FordMsg3CABusHiSpdPer1</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>5.1</entry>
+                <entry>Identifiers "Ford_LaCurvature_No_Calc_Cnt_T_enum" (FordMsg3CABusHiSpd.c line 1537 column 47) and "Ford_LaCurvature_No_Calc_Cnt_T_enum" (FordMsg3CABusHiSpd.c line 1100 column 33) have the same first 35 characters. (required)</entry>
+                <entry>87</entry>
+                <entry>FordMsg3CABusHiSpdPer1</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>5.1</entry>
+                <entry>Identifiers "Ford_LaCurvature_No_Calc_Cnt_T_enum" (FordMsg3CABusHiSpd.c line 1537 column 47) and "Ford_LaCurvature_No_Calc_Cnt_T_enum" (FordMsg3CABusHiSpd.c line 286 column 48) have the same first 35 characters. (required)</entry>
+                <entry>29</entry>
+                <entry/>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>5.1</entry>
+                <entry>Identifiers "Ford_LaCurvature_No_Calc_Cnt_T_enum" (FordMsg3CABusHiSpd.c line 286 column 48) and "Ford_LaCurvature_No_Calc_Cnt_T_enum" (FordMsg3CABusHiSpd.c line 1100 column 33) have the same first 35 characters. (required)</entry>
+                <entry>70</entry>
+                <entry>FordMsg3CABusHiSpdPer1</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>5.1</entry>
+                <entry>Identifiers "Ford_LaRampType_B_Req_Cnt_T_enum" (FordMsg3CABusHiSpd.c line 1538 column 76) and "Ford_LaRampType_B_Req_Cnt_T_enum" (FordMsg3CABusHiSpd.c line 1102 column 33) have the same first 32 characters. (required)</entry>
+                <entry>88</entry>
+                <entry>FordMsg3CABusHiSpdPer1</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>5.1</entry>
+                <entry>Identifiers "Ford_LaRampType_B_Req_Cnt_T_enum" (FordMsg3CABusHiSpd.c line 1538 column 76) and "Ford_LaRampType_B_Req_Cnt_T_enum" (FordMsg3CABusHiSpd.c line 287 column 76) have the same first 32 characters. (required)</entry>
+                <entry>30</entry>
+                <entry/>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>5.1</entry>
+                <entry>Identifiers "Ford_LaRampType_B_Req_Cnt_T_enum" (FordMsg3CABusHiSpd.c line 287 column 76) and "Ford_LaRampType_B_Req_Cnt_T_enum" (FordMsg3CABusHiSpd.c line 1102 column 33) have the same first 32 characters. (required)</entry>
+                <entry>72</entry>
+                <entry>FordMsg3CABusHiSpdPer1</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>5.1</entry>
+                <entry>Identifiers "Ford_LaRefAng_No_Req_Cnt_T_enum" (FordMsg3CABusHiSpd.c line 1539 column 127) and "Ford_LaRefAng_No_Req_Cnt_T_enum" (FordMsg3CABusHiSpd.c line 1101 column 33) have the same first 31 characters. (required)</entry>
+                <entry>89</entry>
+                <entry>FordMsg3CABusHiSpdPer1</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>5.1</entry>
+                <entry>Identifiers "Ford_LaRefAng_No_Req_Cnt_T_enum" (FordMsg3CABusHiSpd.c line 1539 column 127) and "Ford_LaRefAng_No_Req_Cnt_T_enum" (FordMsg3CABusHiSpd.c line 288 column 127) have the same first 31 characters. (required)</entry>
+                <entry>31</entry>
+                <entry/>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>5.1</entry>
+                <entry>Identifiers "Ford_LaRefAng_No_Req_Cnt_T_enum" (FordMsg3CABusHiSpd.c line 288 column 127) and "Ford_LaRefAng_No_Req_Cnt_T_enum" (FordMsg3CABusHiSpd.c line 1101 column 33) have the same first 31 characters. (required)</entry>
+                <entry>71</entry>
+                <entry>FordMsg3CABusHiSpdPer1</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>5.1</entry>
+                <entry>Identifiers "Ford_LdwActvIntns_D_Req_Cnt_T_enum" (FordMsg3CABusHiSpd.c line 1540 column 130) and "Ford_LdwActvIntns_D_Req_Cnt_T_enum" (FordMsg3CABusHiSpd.c line 1103 column 33) have the same first 34 characters. (required)</entry>
+                <entry>90</entry>
+                <entry>FordMsg3CABusHiSpdPer1</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>5.1</entry>
+                <entry>Identifiers "Ford_LdwActvIntns_D_Req_Cnt_T_enum" (FordMsg3CABusHiSpd.c line 1540 column 130) and "Ford_LdwActvIntns_D_Req_Cnt_T_enum" (FordMsg3CABusHiSpd.c line 289 column 130) have the same first 34 characters. (required)</entry>
+                <entry>32</entry>
+                <entry/>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>5.1</entry>
+                <entry>Identifiers "Ford_LdwActvIntns_D_Req_Cnt_T_enum" (FordMsg3CABusHiSpd.c line 289 column 130) and "Ford_LdwActvIntns_D_Req_Cnt_T_enum" (FordMsg3CABusHiSpd.c line 1103 column 33) have the same first 34 characters. (required)</entry>
+                <entry>73</entry>
+                <entry>FordMsg3CABusHiSpdPer1</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>5.1</entry>
+                <entry>Identifiers "Ford_LdwActvStats_D_Req_Cnt_T_enum" (FordMsg3CABusHiSpd.c line 1541 column 130) and "Ford_LdwActvStats_D_Req_Cnt_T_enum" (FordMsg3CABusHiSpd.c line 1104 column 33) have the same first 34 characters. (required)</entry>
+                <entry>91</entry>
+                <entry>FordMsg3CABusHiSpdPer1</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>5.1</entry>
+                <entry>Identifiers "Ford_LdwActvStats_D_Req_Cnt_T_enum" (FordMsg3CABusHiSpd.c line 1541 column 130) and "Ford_LdwActvStats_D_Req_Cnt_T_enum" (FordMsg3CABusHiSpd.c line 290 column 130) have the same first 34 characters. (required)</entry>
+                <entry>33</entry>
+                <entry/>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>5.1</entry>
+                <entry>Identifiers "Ford_LdwActvStats_D_Req_Cnt_T_enum" (FordMsg3CABusHiSpd.c line 290 column 130) and "Ford_LdwActvStats_D_Req_Cnt_T_enum" (FordMsg3CABusHiSpd.c line 1104 column 33) have the same first 34 characters. (required)</entry>
+                <entry>74</entry>
+                <entry>FordMsg3CABusHiSpdPer1</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>5.1</entry>
+                <entry>Identifiers "Ford_LkaActvStats_D2_Req_Cnt_T_enum" (FordMsg3CABusHiSpd.c line 1542 column 131) and "Ford_LkaActvStats_D2_Req_Cnt_T_enum" (FordMsg3CABusHiSpd.c line 1105 column 33) have the same first 35 characters. (required)</entry>
+                <entry>92</entry>
+                <entry>FordMsg3CABusHiSpdPer1</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>5.1</entry>
+                <entry>Identifiers "Ford_LkaActvStats_D2_Req_Cnt_T_enum" (FordMsg3CABusHiSpd.c line 1542 column 131) and "Ford_LkaActvStats_D2_Req_Cnt_T_enum" (FordMsg3CABusHiSpd.c line 291 column 131) have the same first 35 characters. (required)</entry>
+                <entry>34</entry>
+                <entry/>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>5.1</entry>
+                <entry>Identifiers "Ford_LkaActvStats_D2_Req_Cnt_T_enum" (FordMsg3CABusHiSpd.c line 291 column 131) and "Ford_LkaActvStats_D2_Req_Cnt_T_enum" (FordMsg3CABusHiSpd.c line 1105 column 33) have the same first 35 characters. (required)</entry>
+                <entry>75</entry>
+                <entry>FordMsg3CABusHiSpdPer1</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>5.1</entry>
+                <entry>Identifiers "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1448 column 80) and "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1097 column 16) have the same first 35 characters. (required)</entry>
+                <entry>84</entry>
+                <entry>FordMsg3CABusHiSpdPer1</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>5.1</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>Identifiers "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1448 column 80) and "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 318 column 114) have the same first 35 characters.</member>
+                        <member>Identifiers "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1448 column 80) and "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 301 column 115) have the same first 35 characters.</member>
+                        <member>Identifiers "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1448 column 80) and "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 282 column 80) have the same first 35 characters.</member>
+                        <member>Identifiers "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1448 column 80) and "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 306 column 113) have the same first 35 characters. (required)</member>
+                    </simplelist>
+                </entry>
+                <entry>26</entry>
+                <entry/>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>5.1</entry>
+                <entry>Identifiers "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1552 column 115) and "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1097 column 16) have the same first 35 characters. (required)</entry>
+                <entry>102</entry>
+                <entry>FordMsg3CABusHiSpdPer1</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>5.1</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>Identifiers "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1552 column 115) and "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 282 column 80) have the same first 35 characters.</member>
+                        <member>Identifiers "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1552 column 115) and "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 306 column 113) have the same first 35 characters.</member>
+                        <member>Identifiers "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1552 column 115) and "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 301 column 115) have the same first 35 characters.</member>
+                        <member>Identifiers "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1448 column 80) and "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1552 column 115) have the same first 35 characters.</member>
+                        <member>Identifiers "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1552 column 115) and "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 318 column 114) have the same first 35 characters. (required)</member>
+                    </simplelist>
+                </entry>
+                <entry>44</entry>
+                <entry/>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>5.1</entry>
+                <entry>Identifiers "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1629 column 113) and "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1097 column 16) have the same first 35 characters. (required)</entry>
+                <entry>106</entry>
+                <entry>FordMsg3CABusHiSpdPer1</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>5.1</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>Identifiers "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1629 column 113) and "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 318 column 114) have the same first 35 characters.</member>
+                        <member>Identifiers "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1629 column 113) and "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 282 column 80) have the same first 35 characters.</member>
+                        <member>Identifiers "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1552 column 115) and "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1629 column 113) have the same first 35 characters.</member>
+                        <member>Identifiers "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1448 column 80) and "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1629 column 113) have the same first 35 characters.</member>
+                        <member>Identifiers "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1629 column 113) and "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 306 column 113) have the same first 35 characters.</member>
+                        <member>Identifiers "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1629 column 113) and "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 301 column 115) have the same first 35 characters. (required)</member>
+                    </simplelist>
+                </entry>
+                <entry>48</entry>
+                <entry/>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>5.1</entry>
+                <entry>Identifiers "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1727 column 114) and "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1097 column 16) have the same first 35 characters. (required)</entry>
+                <entry>108</entry>
+                <entry>FordMsg3CABusHiSpdPer1</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>5.1</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>Identifiers "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1727 column 114) and "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 282 column 80) have the same first 35 characters.</member>
+                        <member>Identifiers "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1727 column 114) and "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 306 column 113) have the same first 35 characters.</member>
+                        <member>Identifiers "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1629 column 113) and "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1727 column 114) have the same first 35 characters.</member>
+                        <member>Identifiers "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1727 column 114) and "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 301 column 115) have the same first 35 characters.</member>
+                        <member>Identifiers "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1727 column 114) and "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 318 column 114) have the same first 35 characters.</member>
+                        <member>Identifiers "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1448 column 80) and "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1727 column 114) have the same first 35 characters.</member>
+                        <member>Identifiers "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1552 column 115) and "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1727 column 114) have the same first 35 characters. (required)</member>
+                    </simplelist>
+                </entry>
+                <entry>50</entry>
+                <entry/>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>5.1</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>Identifiers "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 282 column 80) and "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1097 column 16) have the same first 35 characters.</member>
+                        <member>Identifiers "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 318 column 114) and "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1097 column 16) have the same first 35 characters.</member>
+                        <member>Identifiers "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 306 column 113) and "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1097 column 16) have the same first 35 characters.</member>
+                        <member>Identifiers "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 301 column 115) and "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1097 column 16) have the same first 35 characters. (required)</member>
+                    </simplelist>
+                </entry>
+                <entry>68</entry>
+                <entry>FordMsg3CABusHiSpdPer1</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>5.1</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>Identifiers "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 282 column 80) and "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 318 column 114) have the same first 35 characters.</member>
+                        <member>Identifiers "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 306 column 113) and "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 318 column 114) have the same first 35 characters.</member>
+                        <member>Identifiers "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 301 column 115) and "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 318 column 114) have the same first 35 characters. (required)</member>
+                    </simplelist>
+                </entry>
+                <entry>13</entry>
+                <entry/>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>5.1</entry>
+                <entry>Identifiers "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 301 column 115) and "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 282 column 80) have the same first 35 characters. (required)</entry>
+                <entry>7</entry>
+                <entry/>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>5.1</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>Identifiers "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 301 column 115) and "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 306 column 113) have the same first 35 characters.</member>
+                        <member>Identifiers "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 282 column 80) and "LaneKeepSysCrvtRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 306 column 113) have the same first 35 characters. (required)</member>
+                    </simplelist>
+                </entry>
+                <entry>11</entry>
+                <entry/>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>5.1</entry>
+                <entry>Identifiers "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1450 column 152) and "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1098 column 16) have the same first 37 characters. (required)</entry>
+                <entry>86</entry>
+                <entry>FordMsg3CABusHiSpdPer1</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>5.1</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>Identifiers "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1450 column 152) and "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 307 column 113) have the same first 37 characters.</member>
+                        <member>Identifiers "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1450 column 152) and "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 302 column 115) have the same first 37 characters.</member>
+                        <member>Identifiers "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1450 column 152) and "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 319 column 114) have the same first 37 characters.</member>
+                        <member>Identifiers "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1450 column 152) and "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 284 column 152) have the same first 37 characters. (required)</member>
+                    </simplelist>
+                </entry>
+                <entry>28</entry>
+                <entry/>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>5.1</entry>
+                <entry>Identifiers "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1553 column 115) and "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1098 column 16) have the same first 37 characters. (required)</entry>
+                <entry>103</entry>
+                <entry>FordMsg3CABusHiSpdPer1</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>5.1</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>Identifiers "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1553 column 115) and "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1630 column 113) have the same first 37 characters.</member>
+                        <member>Identifiers "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1630 column 113) and "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 307 column 113) have the same first 37 characters.</member>
+                        <member>Identifiers "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1630 column 113) and "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 302 column 115) have the same first 37 characters.</member>
+                        <member>Identifiers "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1630 column 113) and "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 319 column 114) have the same first 37 characters.</member>
+                        <member>Identifiers "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1630 column 113) and "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 284 column 152) have the same first 37 characters.</member>
+                        <member>Identifiers "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1450 column 152) and "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1630 column 113) have the same first 37 characters. (required)</member>
+                    </simplelist>
+                </entry>
+                <entry>49</entry>
+                <entry/>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>5.1</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>Identifiers "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1553 column 115) and "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 307 column 113) have the same first 37 characters.</member>
+                        <member>Identifiers "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1450 column 152) and "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1553 column 115) have the same first 37 characters.</member>
+                        <member>Identifiers "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1553 column 115) and "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 302 column 115) have the same first 37 characters.</member>
+                        <member>Identifiers "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1553 column 115) and "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 319 column 114) have the same first 37 characters.</member>
+                        <member>Identifiers "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1553 column 115) and "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 284 column 152) have the same first 37 characters. (required)</member>
+                    </simplelist>
+                </entry>
+                <entry>45</entry>
+                <entry/>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>5.1</entry>
+                <entry>Identifiers "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1630 column 113) and "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1098 column 16) have the same first 37 characters. (required)</entry>
+                <entry>107</entry>
+                <entry>FordMsg3CABusHiSpdPer1</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>5.1</entry>
+                <entry>Identifiers "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1728 column 114) and "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1098 column 16) have the same first 37 characters. (required)</entry>
+                <entry>109</entry>
+                <entry>FordMsg3CABusHiSpdPer1</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>5.1</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>Identifiers "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1728 column 114) and "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 302 column 115) have the same first 37 characters.</member>
+                        <member>Identifiers "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1630 column 113) and "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1728 column 114) have the same first 37 characters.</member>
+                        <member>Identifiers "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1553 column 115) and "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1728 column 114) have the same first 37 characters.</member>
+                        <member>Identifiers "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1728 column 114) and "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 319 column 114) have the same first 37 characters.</member>
+                        <member>Identifiers "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1728 column 114) and "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 284 column 152) have the same first 37 characters.</member>
+                        <member>Identifiers "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1728 column 114) and "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 307 column 113) have the same first 37 characters.</member>
+                        <member>Identifiers "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1450 column 152) and "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1728 column 114) have the same first 37 characters. (required)</member>
+                    </simplelist>
+                </entry>
+                <entry>51</entry>
+                <entry/>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>5.1</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>Identifiers "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 284 column 152) and "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1098 column 16) have the same first 37 characters.</member>
+                        <member>Identifiers "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 302 column 115) and "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1098 column 16) have the same first 37 characters.</member>
+                        <member>Identifiers "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 319 column 114) and "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1098 column 16) have the same first 37 characters.</member>
+                        <member>Identifiers "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 307 column 113) and "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 1098 column 16) have the same first 37 characters. (required)</member>
+                    </simplelist>
+                </entry>
+                <entry>69</entry>
+                <entry>FordMsg3CABusHiSpdPer1</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>5.1</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>Identifiers "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 284 column 152) and "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 307 column 113) have the same first 37 characters.</member>
+                        <member>Identifiers "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 302 column 115) and "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 307 column 113) have the same first 37 characters. (required)</member>
+                    </simplelist>
+                </entry>
+                <entry>12</entry>
+                <entry/>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>5.1</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>Identifiers "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 284 column 152) and "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 319 column 114) have the same first 37 characters.</member>
+                        <member>Identifiers "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 302 column 115) and "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 319 column 114) have the same first 37 characters.</member>
+                        <member>Identifiers "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 307 column 113) and "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 319 column 114) have the same first 37 characters. (required)</member>
+                    </simplelist>
+                </entry>
+                <entry>14</entry>
+                <entry/>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>5.1</entry>
+                <entry>Identifiers "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 302 column 115) and "LaneKeepSysReqdAgRawVldInp_Cnt_T_logl" (FordMsg3CABusHiSpd.c line 284 column 152) have the same first 37 characters. (required)</entry>
+                <entry>8</entry>
+                <entry/>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>19.1</entry>
+                <entry>#include statements in a file shall only be preceded by other preprocessor directives or comments. (advisory)</entry>
+                <entry>17</entry>
+                <entry/>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>19.1</entry>
+                <entry>#include statements in a file shall only be preceded by other preprocessor directives or comments. (advisory)</entry>
+                <entry>16</entry>
+                <entry/>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+        </tbody>
+    </tgroup>
+</table>
+<table colsep="1" frame="all" pgwide="1" rowsep="1">
+    <title>C:\Users\NZ5334\Documents\Synergy\Working\ses_dev_ea4\MM073A_FordMsg3CABusHiSpd_Impl\src\FordMsg3CABusHiSpdNonRte.c</title>
+    <tgroup align="left" cols="8">
+        <colspec colname="1" colnum="1" colwidth="300*"/>
+        <colspec colname="2" colnum="2" colwidth="2520*"/>
+        <colspec colname="3" colnum="3" colwidth="300*"/>
+        <colspec colname="4" colnum="4" colwidth="1200*"/>
+        <colspec colname="5" colnum="5" colwidth="360*"/>
+        <colspec colname="6" colnum="6" colwidth="600*"/>
+        <colspec colname="7" colnum="7" colwidth="720*"/>
+        <colspec colname="8" colnum="8" colwidth="900*"/>
+        <thead>
+            <row bgcolor="#6A80BF">
+                <entry>Rule</entry>
+                <entry>Message</entry>
+                <entry>ID</entry>
+                <entry>Function</entry>
+                <entry>Jus</entry>
+                <entry>Class</entry>
+                <entry>Status</entry>
+                <entry>Comment</entry><?dbfo bgcolor="#6A80BF"?>
+            </row>
+        </thead>
+        <tbody>
+            <row bgcolor="#F0F2F9">
+                <entry>8.10</entry>
+                <entry>Function 'ComIPduCallout_Lane_Assist_Data1_FD1_Oper' should have internal linkage. (required)</entry>
+                <entry>1</entry>
+                <entry/>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>8.10</entry>
+                <entry>Function 'ComTimeoutNotification_LaCurvature_No_Calc_Oper' should have internal linkage. (required)</entry>
+                <entry>2</entry>
+                <entry/>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>19.1</entry>
+                <entry>#include statements in a file shall only be preceded by other preprocessor directives or comments. (advisory)</entry>
+                <entry>3</entry>
+                <entry/>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+        </tbody>
+    </tgroup>
+</table>
+</sect1>

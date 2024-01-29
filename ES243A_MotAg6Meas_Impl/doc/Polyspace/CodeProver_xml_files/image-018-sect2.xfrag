@@ -1,0 +1,1537 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect2>
+<?dbhtml filename="CodeProver-020.html"?>
+<title>DRS - Global Variables</title>
+<table colsep="1" frame="all" pgwide="1" rowsep="1">
+    <title>File: C:\_EA4SynWrkgCpy\ES243A_MotAg6Meas_Impl\tools\local\generate\Rte_Stubs.h</title>
+    <tgroup align="left" cols="9">
+        <colspec colname="1" colnum="1" colwidth="1200*"/>
+        <colspec colname="2" colnum="2" colwidth="600*"/>
+        <colspec colname="3" colnum="3" colwidth="600*"/>
+        <colspec colname="4" colnum="4" colwidth="600*"/>
+        <colspec colname="5" colnum="5" colwidth="600*"/>
+        <colspec colname="6" colnum="6" colwidth="600*"/>
+        <colspec colname="7" colnum="7" colwidth="600*"/>
+        <colspec colname="8" colnum="8" colwidth="600*"/>
+        <colspec colname="9" colnum="9" colwidth="600*"/>
+        <thead>
+            <row bgcolor="#6A80BF">
+                <entry>Name</entry>
+                <entry>Type</entry>
+                <entry>Init Mode</entry>
+                <entry>Init Range</entry>
+                <entry>Initialize Pointer</entry>
+                <entry># Allocated Objects</entry>
+                <entry>Init Allocated</entry>
+                <entry>Global Assert</entry>
+                <entry>Assert Range</entry><?dbfo bgcolor="#6A80BF"?>
+            </row>
+        </thead>
+        <tbody>
+            <row bgcolor="#F0F2F9">
+                <entry>MotAg6Meas_Cal_MotAg6MeasAmpSqdMaxThd</entry>
+                <entry>extern const float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>1e-06..6.25</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>MotAg6Meas_Cal_MotAg6MeasAmpSqdMinThd</entry>
+                <entry>extern const float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>1e-06..6.25</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>MotAg6Meas_Cal_MotAg6MeasLpFilFrq</entry>
+                <entry>extern const float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..10</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>MotAg6Meas_Cal_MotAg6MeasOffs</entry>
+                <entry>extern const uint16</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..65534</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>MotAg6Meas_Cal_MotAg6MeasRtAmpRecprLim</entry>
+                <entry>extern const float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..0.25</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>MotAg6Meas_Cal_MotAg6MeasRtFilEnaThd</entry>
+                <entry>extern const float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0.8..1</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>MotAg6Meas_Cal_MotAg6MeasRtMotVelFilEnaThd</entry>
+                <entry>extern const float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..1000</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>MotAg6Meas_Cal_MotAg6MeasRtOffsLim</entry>
+                <entry>extern const float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..0.5</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>MotAg6Meas_Cal_MotAg6MeasRtToNomRatLim</entry>
+                <entry>extern const float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..0.2</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>MotAg6Meas_Cli_MotAg6EolPrmRead_MotAg6EolPrmData.CosAmpRecpr</entry>
+                <entry>extern uint16</entry>
+                <entry>PERMANENT</entry>
+                <entry>3276..32768</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>MotAg6Meas_Cli_MotAg6EolPrmRead_MotAg6EolPrmData.CosDeltaRecpr</entry>
+                <entry>extern uint16</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..8192</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>MotAg6Meas_Cli_MotAg6EolPrmRead_MotAg6EolPrmData.CosGainCorrd</entry>
+                <entry>extern uint16</entry>
+                <entry>PERMANENT</entry>
+                <entry>26214..39321</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>MotAg6Meas_Cli_MotAg6EolPrmRead_MotAg6EolPrmData.CosHrmncTbl[]</entry>
+                <entry>extern int8</entry>
+                <entry>PERMANENT</entry>
+                <entry>-128..127</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>MotAg6Meas_Cli_MotAg6EolPrmRead_MotAg6EolPrmData.CosOffs</entry>
+                <entry>extern uint16</entry>
+                <entry>PERMANENT</entry>
+                <entry>8192..24576</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>MotAg6Meas_Cli_MotAg6EolPrmRead_MotAg6EolPrmData.CosOffsCorrd</entry>
+                <entry>extern int16</entry>
+                <entry>PERMANENT</entry>
+                <entry>-2048..2048</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>MotAg6Meas_Cli_MotAg6EolPrmRead_MotAg6EolPrmData.SinAmpRecpr</entry>
+                <entry>extern uint16</entry>
+                <entry>PERMANENT</entry>
+                <entry>3276..32768</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>MotAg6Meas_Cli_MotAg6EolPrmRead_MotAg6EolPrmData.SinDelta</entry>
+                <entry>extern int16</entry>
+                <entry>PERMANENT</entry>
+                <entry>-1422..1422</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>MotAg6Meas_Cli_MotAg6EolPrmRead_MotAg6EolPrmData.SinGainCorrd</entry>
+                <entry>extern uint16</entry>
+                <entry>PERMANENT</entry>
+                <entry>26214..39321</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>MotAg6Meas_Cli_MotAg6EolPrmRead_MotAg6EolPrmData.SinHrmncTbl[]</entry>
+                <entry>extern int8</entry>
+                <entry>PERMANENT</entry>
+                <entry>-128..127</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>MotAg6Meas_Cli_MotAg6EolPrmRead_MotAg6EolPrmData.SinOffs</entry>
+                <entry>extern uint16</entry>
+                <entry>PERMANENT</entry>
+                <entry>8192..24576</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>MotAg6Meas_Cli_MotAg6EolPrmRead_MotAg6EolPrmData.SinOffsCorrd</entry>
+                <entry>extern int16</entry>
+                <entry>PERMANENT</entry>
+                <entry>-2048..2048</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>MotAg6Meas_Cli_MotAg6EolPrmWr_MotAg6EolPrmData.CosAmpRecpr</entry>
+                <entry>extern uint16</entry>
+                <entry>PERMANENT</entry>
+                <entry>3276..32768</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>MotAg6Meas_Cli_MotAg6EolPrmWr_MotAg6EolPrmData.CosDeltaRecpr</entry>
+                <entry>extern uint16</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..8192</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>MotAg6Meas_Cli_MotAg6EolPrmWr_MotAg6EolPrmData.CosGainCorrd</entry>
+                <entry>extern uint16</entry>
+                <entry>PERMANENT</entry>
+                <entry>26214..39321</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>MotAg6Meas_Cli_MotAg6EolPrmWr_MotAg6EolPrmData.CosHrmncTbl[]</entry>
+                <entry>extern int8</entry>
+                <entry>PERMANENT</entry>
+                <entry>-128..127</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>MotAg6Meas_Cli_MotAg6EolPrmWr_MotAg6EolPrmData.CosOffs</entry>
+                <entry>extern uint16</entry>
+                <entry>PERMANENT</entry>
+                <entry>8192..24576</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>MotAg6Meas_Cli_MotAg6EolPrmWr_MotAg6EolPrmData.CosOffsCorrd</entry>
+                <entry>extern int16</entry>
+                <entry>PERMANENT</entry>
+                <entry>-2048..2048</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>MotAg6Meas_Cli_MotAg6EolPrmWr_MotAg6EolPrmData.SinAmpRecpr</entry>
+                <entry>extern uint16</entry>
+                <entry>PERMANENT</entry>
+                <entry>3276..32768</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>MotAg6Meas_Cli_MotAg6EolPrmWr_MotAg6EolPrmData.SinDelta</entry>
+                <entry>extern int16</entry>
+                <entry>PERMANENT</entry>
+                <entry>-1422..1422</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>MotAg6Meas_Cli_MotAg6EolPrmWr_MotAg6EolPrmData.SinGainCorrd</entry>
+                <entry>extern uint16</entry>
+                <entry>PERMANENT</entry>
+                <entry>26214..39321</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>MotAg6Meas_Cli_MotAg6EolPrmWr_MotAg6EolPrmData.SinHrmncTbl[]</entry>
+                <entry>extern int8</entry>
+                <entry>PERMANENT</entry>
+                <entry>-128..127</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>MotAg6Meas_Cli_MotAg6EolPrmWr_MotAg6EolPrmData.SinOffs</entry>
+                <entry>extern uint16</entry>
+                <entry>PERMANENT</entry>
+                <entry>8192..24576</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>MotAg6Meas_Cli_MotAg6EolPrmWr_MotAg6EolPrmData.SinOffsCorrd</entry>
+                <entry>extern int16</entry>
+                <entry>PERMANENT</entry>
+                <entry>-2048..2048</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>MotAg6Meas_Ip_MotAg6Cos</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..5</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>MotAg6Meas_Ip_MotAg6CosAdcFaild</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..1</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>MotAg6Meas_Ip_MotAg6RawMecl</entry>
+                <entry>extern uint16</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..65534</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>MotAg6Meas_Ip_MotAg6Sin</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..5</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>MotAg6Meas_Ip_MotAg6SinAdcFaild</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..1</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>MotAg6Meas_Ip_MotVelMrf</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>-1350..1350</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>MotAg6Meas_Irv_MotAg6PrtclOk</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..1</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>MotAg6Meas_Irv_MotAg6RtVari[].CosGainCorrd</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0.8..1.2</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>MotAg6Meas_Irv_MotAg6RtVari[].CosOffsCorrd</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>-0.25..0.25</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>MotAg6Meas_Irv_MotAg6RtVari[].CosRtAmpRecpr</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0.32..5.1</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>MotAg6Meas_Irv_MotAg6RtVari[].CosRtOffs</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0.25..3.75</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>MotAg6Meas_Irv_MotAg6RtVari[].CosSinNomRatio</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0.1..10</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>MotAg6Meas_Irv_MotAg6RtVari[].PrevCosRtOffs</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0.25..3.75</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>MotAg6Meas_Irv_MotAg6RtVari[].PrevSinRtOffs</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0.25..3.75</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>MotAg6Meas_Irv_MotAg6RtVari[].RtToNomRatioHiLim</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>1..1.2</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>MotAg6Meas_Irv_MotAg6RtVari[].RtToNomRatioLoLim</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0.8..1</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>MotAg6Meas_Irv_MotAg6RtVari[].SinCosNomRatio</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0.1..10</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>MotAg6Meas_Irv_MotAg6RtVari[].SinGainCorrd</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0.8..1.2</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>MotAg6Meas_Irv_MotAg6RtVari[].SinOffsCorrd</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>-0.25..0.25</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>MotAg6Meas_Irv_MotAg6RtVari[].SinRtAmpRecpr</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0.32..5.1</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>MotAg6Meas_Irv_MotAg6RtVari[].SinRtOffs</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0.25..3.75</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>MotAg6Meas_Op_MotAg6CosRtAmpRecpr</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0.32..5.1</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>MotAg6Meas_Op_MotAg6CosRtOffs</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0.25..3.75</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>MotAg6Meas_Op_MotAg6MeclQlfr</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..2</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>MotAg6Meas_Op_MotAg6MeclRollgCntr</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..255</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>MotAg6Meas_Op_MotAg6SinRtAmpRecpr</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0.32..5.1</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>MotAg6Meas_Op_MotAg6SinRtOffs</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0.25..3.75</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>MotAg6Meas_Pim_dMotAg6MeasAmpVal</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..5.76</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>MotAg6Meas_Pim_MotAg6CosMaxLpFil.FilGain</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..1</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>MotAg6Meas_Pim_MotAg6CosMaxLpFil.FilSt</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..2.5</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>MotAg6Meas_Pim_MotAg6CosMinLpFil.FilGain</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..1</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>MotAg6Meas_Pim_MotAg6CosMinLpFil.FilSt</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>-2.5..0</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>MotAg6Meas_Pim_MotAg6EolPrm.CosAmpRecpr</entry>
+                <entry>extern uint16</entry>
+                <entry>PERMANENT</entry>
+                <entry>3276..32768</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>MotAg6Meas_Pim_MotAg6EolPrm.CosDeltaRecpr</entry>
+                <entry>extern uint16</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..8192</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>MotAg6Meas_Pim_MotAg6EolPrm.CosGainCorrd</entry>
+                <entry>extern uint16</entry>
+                <entry>PERMANENT</entry>
+                <entry>26214..39321</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>MotAg6Meas_Pim_MotAg6EolPrm.CosHrmncTbl[]</entry>
+                <entry>extern int8</entry>
+                <entry>PERMANENT</entry>
+                <entry>-128..127</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>MotAg6Meas_Pim_MotAg6EolPrm.CosOffs</entry>
+                <entry>extern uint16</entry>
+                <entry>PERMANENT</entry>
+                <entry>8192..16384</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>MotAg6Meas_Pim_MotAg6EolPrm.CosOffsCorrd</entry>
+                <entry>extern int16</entry>
+                <entry>PERMANENT</entry>
+                <entry>-2048..2048</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>MotAg6Meas_Pim_MotAg6EolPrm.SinAmpRecpr</entry>
+                <entry>extern uint16</entry>
+                <entry>PERMANENT</entry>
+                <entry>3276..32768</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>MotAg6Meas_Pim_MotAg6EolPrm.SinDelta</entry>
+                <entry>extern int16</entry>
+                <entry>PERMANENT</entry>
+                <entry>-1422..1422</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>MotAg6Meas_Pim_MotAg6EolPrm.SinGainCorrd</entry>
+                <entry>extern uint16</entry>
+                <entry>PERMANENT</entry>
+                <entry>26214..39321</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>MotAg6Meas_Pim_MotAg6EolPrm.SinHrmncTbl[]</entry>
+                <entry>extern int8</entry>
+                <entry>PERMANENT</entry>
+                <entry>-128..127</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>MotAg6Meas_Pim_MotAg6EolPrm.SinOffs</entry>
+                <entry>extern uint16</entry>
+                <entry>PERMANENT</entry>
+                <entry>8192..24576</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>MotAg6Meas_Pim_MotAg6EolPrm.SinOffsCorrd</entry>
+                <entry>extern int16</entry>
+                <entry>PERMANENT</entry>
+                <entry>-2048..2048</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>MotAg6Meas_Pim_MotAg6NvmFltEna</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..1</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>MotAg6Meas_Pim_MotAg6PrevRollgCntr</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..255</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>MotAg6Meas_Pim_MotAg6RtPrm.CosGainCorrd</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0.8..1.2</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>MotAg6Meas_Pim_MotAg6RtPrm.CosOffsCorrd</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>-0.25..0.25</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>MotAg6Meas_Pim_MotAg6RtPrm.CosRtAmpRecpr</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0.32..4</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>MotAg6Meas_Pim_MotAg6RtPrm.CosRtOffs</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>1..3</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>MotAg6Meas_Pim_MotAg6RtPrm.CosSinNomRatio</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0.1..10</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>MotAg6Meas_Pim_MotAg6RtPrm.PrevCosRtOffs</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>1..3</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>MotAg6Meas_Pim_MotAg6RtPrm.PrevSinRtOffs</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>1..3</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>MotAg6Meas_Pim_MotAg6RtPrm.RtToNomRatioHiLim</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>1..1.2</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>MotAg6Meas_Pim_MotAg6RtPrm.RtToNomRatioLoLim</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0.8..1</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>MotAg6Meas_Pim_MotAg6RtPrm.SinCosNomRatio</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0.1..10</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>MotAg6Meas_Pim_MotAg6RtPrm.SinGainCorrd</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0.8..1.2</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>MotAg6Meas_Pim_MotAg6RtPrm.SinOffsCorrd</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>-0.25..0.25</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>MotAg6Meas_Pim_MotAg6RtPrm.SinRtAmpRecpr</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0.32..4</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>MotAg6Meas_Pim_MotAg6RtPrm.SinRtOffs</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>1..3</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>MotAg6Meas_Pim_MotAg6SinMaxLpFil.FilGain</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..1</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>MotAg6Meas_Pim_MotAg6SinMaxLpFil.FilSt</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..2.5</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>MotAg6Meas_Pim_MotAg6SinMinLpFil.FilGain</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..1</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>MotAg6Meas_Pim_MotAg6SinMinLpFil.FilSt</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>-2.5..0</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>MotAg6Meas_Pim_MotAg6StVari.MotAgCosMax</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0.25..2.5</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>MotAg6Meas_Pim_MotAg6StVari.MotAgCosMin</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>-2.5..-0.25</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>MotAg6Meas_Pim_MotAg6StVari.MotAgSinMax</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0.25..2.5</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>MotAg6Meas_Pim_MotAg6StVari.MotAgSinMin</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>-2.5..-0.25</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>MotAg6Meas_Pim_PrevMotAg6Mecl</entry>
+                <entry>extern uint16</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..65534</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>MotAg6Meas_Srv_CnvSnpshtData_f32_SnpshtData</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>-3.402823466e+38..3.402823466e+38</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>MotAg6Meas_Srv_CnvSnpshtData_f32_SnpshtDataCnvd</entry>
+                <entry>extern uint32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..4294967295</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>MotAg6Meas_Srv_CnvSnpshtData_logl_SnpshtData</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..1</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>MotAg6Meas_Srv_CnvSnpshtData_logl_SnpshtDataCnvd</entry>
+                <entry>extern uint32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..1</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>MotAg6Meas_Srv_GetNtcQlfrSts_NtcNr</entry>
+                <entry>extern uint16</entry>
+                <entry>PERMANENT</entry>
+                <entry>1..511</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>MotAg6Meas_Srv_GetNtcQlfrSts_NtcQlfr</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..2</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>MotAg6Meas_Srv_GetNtcQlfrSts_Return</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..1</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>MotAg6Meas_Srv_MotAg6EolPrm_GetErrorStatus_RequestResultPtr</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..255</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>MotAg6Meas_Srv_MotAg6EolPrm_GetErrorStatus_Return</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..1</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>MotAg6Meas_Srv_MotAg6EolPrm_SetRamBlockStatus_BlockChanged</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..1</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>MotAg6Meas_Srv_MotAg6EolPrm_SetRamBlockStatus_Return</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..1</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>MotAg6Meas_Srv_MotAg6StVari_GetErrorStatus_RequestResultPtr</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..255</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>MotAg6Meas_Srv_MotAg6StVari_GetErrorStatus_Return</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..1</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>MotAg6Meas_Srv_MotAg6StVari_SetRamBlockStatus_BlockChanged</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..1</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>MotAg6Meas_Srv_MotAg6StVari_SetRamBlockStatus_Return</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..1</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>MotAg6Meas_Srv_SetNtcStsAndSnpshtData_DebStep</entry>
+                <entry>extern uint16</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..65535</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>MotAg6Meas_Srv_SetNtcStsAndSnpshtData_NtcNr</entry>
+                <entry>extern uint16</entry>
+                <entry>PERMANENT</entry>
+                <entry>1..511</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>MotAg6Meas_Srv_SetNtcStsAndSnpshtData_NtcStInfo</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..255</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>MotAg6Meas_Srv_SetNtcStsAndSnpshtData_NtcSts</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..3</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>MotAg6Meas_Srv_SetNtcStsAndSnpshtData_Return</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..1</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>MotAg6Meas_Srv_SetNtcStsAndSnpshtData_SpclSnpshtData0</entry>
+                <entry>extern uint32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..4294967295</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>MotAg6Meas_Srv_SetNtcStsAndSnpshtData_SpclSnpshtData1</entry>
+                <entry>extern uint32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..4294967295</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>MotAg6Meas_Srv_SetNtcStsAndSnpshtData_SpclSnpshtData2</entry>
+                <entry>extern uint32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..4294967295</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+        </tbody>
+    </tgroup>
+</table>
+<table colsep="1" frame="all" pgwide="1" rowsep="1">
+    <title>File: C:\_EA4SynWrkgCpy\ES243A_MotAg6Meas_Impl\tools\local\include\CDD_MotCtrlMgr_Data.h</title>
+    <tgroup align="left" cols="9">
+        <colspec colname="1" colnum="1" colwidth="1200*"/>
+        <colspec colname="2" colnum="2" colwidth="600*"/>
+        <colspec colname="3" colnum="3" colwidth="600*"/>
+        <colspec colname="4" colnum="4" colwidth="600*"/>
+        <colspec colname="5" colnum="5" colwidth="600*"/>
+        <colspec colname="6" colnum="6" colwidth="600*"/>
+        <colspec colname="7" colnum="7" colwidth="600*"/>
+        <colspec colname="8" colnum="8" colwidth="600*"/>
+        <colspec colname="9" colnum="9" colwidth="600*"/>
+        <thead>
+            <row bgcolor="#6A80BF">
+                <entry>Name</entry>
+                <entry>Type</entry>
+                <entry>Init Mode</entry>
+                <entry>Init Range</entry>
+                <entry>Initialize Pointer</entry>
+                <entry># Allocated Objects</entry>
+                <entry>Init Allocated</entry>
+                <entry>Global Assert</entry>
+                <entry>Assert Range</entry><?dbfo bgcolor="#6A80BF"?>
+            </row>
+        </thead>
+        <tbody>
+            <row bgcolor="#F0F2F9">
+                <entry>MOTCTRLMGR_MotCtrlMotAg6Cos</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..5</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>MOTCTRLMGR_MotCtrlMotAg6CosRtAmpRecpr</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0.32..5.1</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>MOTCTRLMGR_MotCtrlMotAg6CosRtOffs</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0.25..3.75</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>MOTCTRLMGR_MotCtrlMotAg6Mecl</entry>
+                <entry>extern uint16</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..65534</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>MOTCTRLMGR_MotCtrlMotAg6Polarity</entry>
+                <entry>extern int8</entry>
+                <entry>PERMANENT</entry>
+                <entry>-1..1</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>MOTCTRLMGR_MotCtrlMotAg6RawMecl</entry>
+                <entry>extern uint16</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..65534</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>MOTCTRLMGR_MotCtrlMotAg6Sin</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..5</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>MOTCTRLMGR_MotCtrlMotAg6SinRtAmpRecpr</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0.32..5.1</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>MOTCTRLMGR_MotCtrlMotAg6SinRtOffs</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0.25..3.75</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+        </tbody>
+    </tgroup>
+</table>
+</sect2>

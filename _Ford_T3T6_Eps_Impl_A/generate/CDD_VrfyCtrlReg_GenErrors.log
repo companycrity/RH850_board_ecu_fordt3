@@ -1,0 +1,15 @@
+AUTOSAR XML Text Transformation v2.0.2.0
+    Output folder: C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A_Working\_Ford_T3T6_Eps_Impl_A\generate
+    Descr. file:   C:\Users\gz324f\AppData\Local\Temp\DaVinci\Cfg-3675359\Generation\Cfg_Gen-1502832382579-0\AutosarFiles_ValGen-1502832819103-0\VrfyCtrlReg_ECUC_4829587173439816261.arxml
+A fatal error occurred during execution of the application:
+System.IO.FileNotFoundException: Could not find file 'C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A_Working\CM111A_VrfyCritReg_Impl\generate\CDD_VrfyCtrlReg_Cfg.c.tt'.
+File name: 'C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A_Working\CM111A_VrfyCritReg_Impl\generate\CDD_VrfyCtrlReg_Cfg.c.tt'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding)
+   at System.IO.File.ReadAllText(String path, Encoding encoding)
+   at Bmw.Artt.Generator.Generate(List`1 descriptionFiles, String templateFile, String outFolder, String outFile, String autosarNamespace, String includePath)
+   at Bmw.Artt.Program.DeferredMain()

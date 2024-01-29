@@ -1,0 +1,22 @@
+AUTOSAR XML Text Transformation v2.0.2.0
+    Output folder: C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A_Working\_Ford_T3T6_Eps_Impl_A\generate
+    Descr. file:   C:\Users\gz324f\AppData\Local\Temp\DaVinci\Cfg-3675359\Generation\Cfg_Gen-1502832382579-0\AutosarFiles_ValGen-1502833986254-0\VrfyCtrlReg_ECUC_5993117711375209934.arxml
+    Include file:  C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A_Working\CM111A_VrfyCritReg_Impl\generate\..\..\TL105A_Artt\tools\include\Helper.tt
+    Include file:  C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A_Working\CM111A_VrfyCritReg_Impl\generate\..\..\TL105A_Artt\tools\include\Logger.tt
+    Include file:  C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A_Working\CM111A_VrfyCritReg_Impl\generate\CDD_VrfyCritReg_helper.tt
+    Template:      C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A_Working\CM111A_VrfyCritReg_Impl\generate\CDD_VrfyCritReg_Cfg.c.tt
+    Namespace:     http://autosar.org/schema/r4.0
+    Prefix:        ar
+    File:          C:/Users/gz324f/Desktop/working/_Ford_T3T6_Eps_Impl_A_Working/_Ford_T3T6_Eps_Impl_A/generate\CDD_VrfyCritReg_Cfg.c. written.
+    Duration:      00:00:00.8580055.
+AUTOSAR XML Text Transformation v2.0.2.0
+    Output folder: C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A_Working\_Ford_T3T6_Eps_Impl_A\generate
+    Descr. file:   C:\Users\gz324f\AppData\Local\Temp\DaVinci\Cfg-3675359\Generation\Cfg_Gen-1502832382579-0\AutosarFiles_ValGen-1502833986254-0\VrfyCtrlReg_ECUC_5993117711375209934.arxml
+    Include file:  C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A_Working\CM111A_VrfyCritReg_Impl\generate\..\..\TL105A_Artt\tools\include\Helper.tt
+    Include file:  C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A_Working\CM111A_VrfyCritReg_Impl\generate\..\..\TL105A_Artt\tools\include\Logger.tt
+    Include file:  C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A_Working\CM111A_VrfyCritReg_Impl\generate\CDD_VrfyCritReg_helper.tt
+    Template:      C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A_Working\CM111A_VrfyCritReg_Impl\generate\CDD_VrfyCritReg_Cfg_private.h.tt
+    Namespace:     http://autosar.org/schema/r4.0
+    Prefix:        ar
+    File:          C:/Users/gz324f/Desktop/working/_Ford_T3T6_Eps_Impl_A_Working/_Ford_T3T6_Eps_Impl_A/generate\CDD_VrfyCritReg_Cfg_private.h. written.
+    Duration:      00:00:00.8424054.

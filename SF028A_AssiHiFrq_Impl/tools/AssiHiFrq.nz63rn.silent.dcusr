@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Settings>
+    <Settings Name="com.vector.cfg.consistency.internal.executer.BackgroundValidationExecuter">
+        <Setting Value="rO0ABXNyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVz&#xA;aG9sZHhwP0AAAAAAAAx3CAAAABAAAAACdAA5Y29tLnZlY3Rvci5jZmcuZG9tLmJhc2UuZGV0LnZh&#xA;bGlkYXRpb24uRGV0QWN0aXZhdGlvbkNoZWNrc3IADmphdmEubGFuZy5Mb25nO4vkkMyPI98CAAFK&#xA;AAV2YWx1ZXhyABBqYXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAAAAACAAAAdABBY29tLnZl&#xA;Y3Rvci5jZmcuZG9tLnJ1bnRpbWVzeXMucnRlc2V0dXAuaW50ZXJuYWwuQXV0b21hdGljUnRlU2V0&#xA;dXBzcQB+AAMAAAAAWAAAAHg=" Name="ValidationRuleExecutionTimes"/>
+    </Settings>
+</Settings>

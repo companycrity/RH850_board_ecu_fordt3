@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1>
+<?dbhtml filename="CodeProver-010.html"?>
+<title>MISRA-C  Warnings</title>
+<table colsep="1" frame="all" pgwide="1" rowsep="1">
+    <title>C:\Users\nz3541\Documents\SynergyWorkingEA4\SF003A_Dampg_Impl\src\Dampg.c</title>
+    <tgroup align="left" cols="10">
+        <colspec colname="1" colnum="1" colwidth="360*"/>
+        <colspec colname="2" colnum="2" colwidth="2520*"/>
+        <colspec colname="3" colnum="3" colwidth="360*"/>
+        <colspec colname="4" colnum="4" colwidth="1200*"/>
+        <colspec colname="5" colnum="5" colwidth="360*"/>
+        <colspec colname="6" colnum="6" colwidth="360*"/>
+        <colspec colname="7" colnum="7" colwidth="360*"/>
+        <colspec colname="8" colnum="8" colwidth="600*"/>
+        <colspec colname="9" colnum="9" colwidth="720*"/>
+        <colspec colname="10" colnum="10" colwidth="900*"/>
+        <thead>
+            <row bgcolor="#6A80BF">
+                <entry>Rule</entry>
+                <entry>Message</entry>
+                <entry>ID</entry>
+                <entry>Function</entry>
+                <entry>Line</entry>
+                <entry>Col</entry>
+                <entry>Jus</entry>
+                <entry>Class</entry>
+                <entry>Status</entry>
+                <entry>Comment</entry><?dbfo bgcolor="#6A80BF"?>
+            </row>
+        </thead>
+        <tbody>
+            <row bgcolor="#F0F2F9">
+                <entry>11.5</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>A cast shall not be performed that removes any const or volatile qualification</member>
+                        <member>from the type addressed by a pointer. (required)</member>
+                    </simplelist>
+                </entry>
+                <entry>34</entry>
+                <entry>DampgPer1</entry>
+                <entry>399</entry>
+                <entry>56</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>11.5</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>A cast shall not be performed that removes any const or volatile qualification</member>
+                        <member>from the type addressed by a pointer. (required)</member>
+                    </simplelist>
+                </entry>
+                <entry>35</entry>
+                <entry>DampgPer1</entry>
+                <entry>400</entry>
+                <entry>56</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>11.5</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>A cast shall not be performed that removes any const or volatile qualification</member>
+                        <member>from the type addressed by a pointer. (required)</member>
+                    </simplelist>
+                </entry>
+                <entry>37</entry>
+                <entry>DampgPer1</entry>
+                <entry>401</entry>
+                <entry>137</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>11.5</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>A cast shall not be performed that removes any const or volatile qualification</member>
+                        <member>from the type addressed by a pointer. (required)</member>
+                    </simplelist>
+                </entry>
+                <entry>36</entry>
+                <entry>DampgPer1</entry>
+                <entry>401</entry>
+                <entry>72</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>11.5</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>A cast shall not be performed that removes any const or volatile qualification</member>
+                        <member>from the type addressed by a pointer. (required)</member>
+                    </simplelist>
+                </entry>
+                <entry>38</entry>
+                <entry>DampgPer1</entry>
+                <entry>407</entry>
+                <entry>59</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>11.5</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>A cast shall not be performed that removes any const or volatile qualification</member>
+                        <member>from the type addressed by a pointer. (required)</member>
+                    </simplelist>
+                </entry>
+                <entry>39</entry>
+                <entry>DampgPer1</entry>
+                <entry>408</entry>
+                <entry>59</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>11.5</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>A cast shall not be performed that removes any const or volatile qualification</member>
+                        <member>from the type addressed by a pointer. (required)</member>
+                    </simplelist>
+                </entry>
+                <entry>41</entry>
+                <entry>DampgPer1</entry>
+                <entry>409</entry>
+                <entry>139</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>11.5</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>A cast shall not be performed that removes any const or volatile qualification</member>
+                        <member>from the type addressed by a pointer. (required)</member>
+                    </simplelist>
+                </entry>
+                <entry>40</entry>
+                <entry>DampgPer1</entry>
+                <entry>409</entry>
+                <entry>75</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>11.5</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>A cast shall not be performed that removes any const or volatile qualification</member>
+                        <member>from the type addressed by a pointer. (required)</member>
+                    </simplelist>
+                </entry>
+                <entry>14</entry>
+                <entry>HydPwrSteerDampgCmd</entry>
+                <entry>619</entry>
+                <entry>63</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>11.5</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>A cast shall not be performed that removes any const or volatile qualification</member>
+                        <member>from the type addressed by a pointer. (required)</member>
+                    </simplelist>
+                </entry>
+                <entry>15</entry>
+                <entry>HydPwrSteerDampgCmd</entry>
+                <entry>620</entry>
+                <entry>63</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>11.5</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>A cast shall not be performed that removes any const or volatile qualification</member>
+                        <member>from the type addressed by a pointer. (required)</member>
+                    </simplelist>
+                </entry>
+                <entry>17</entry>
+                <entry>HydPwrSteerDampgCmd</entry>
+                <entry>621</entry>
+                <entry>158</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>11.5</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>A cast shall not be performed that removes any const or volatile qualification</member>
+                        <member>from the type addressed by a pointer. (required)</member>
+                    </simplelist>
+                </entry>
+                <entry>16</entry>
+                <entry>HydPwrSteerDampgCmd</entry>
+                <entry>621</entry>
+                <entry>79</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>11.5</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>A cast shall not be performed that removes any const or volatile qualification</member>
+                        <member>from the type addressed by a pointer. (required)</member>
+                    </simplelist>
+                </entry>
+                <entry>18</entry>
+                <entry>HydPwrSteerDampgCmd</entry>
+                <entry>631</entry>
+                <entry>63</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>11.5</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>A cast shall not be performed that removes any const or volatile qualification</member>
+                        <member>from the type addressed by a pointer. (required)</member>
+                    </simplelist>
+                </entry>
+                <entry>19</entry>
+                <entry>HydPwrSteerDampgCmd</entry>
+                <entry>632</entry>
+                <entry>63</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>11.5</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>A cast shall not be performed that removes any const or volatile qualification</member>
+                        <member>from the type addressed by a pointer. (required)</member>
+                    </simplelist>
+                </entry>
+                <entry>21</entry>
+                <entry>HydPwrSteerDampgCmd</entry>
+                <entry>633</entry>
+                <entry>158</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>11.5</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>A cast shall not be performed that removes any const or volatile qualification</member>
+                        <member>from the type addressed by a pointer. (required)</member>
+                    </simplelist>
+                </entry>
+                <entry>20</entry>
+                <entry>HydPwrSteerDampgCmd</entry>
+                <entry>633</entry>
+                <entry>79</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>11.5</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>A cast shall not be performed that removes any const or volatile qualification</member>
+                        <member>from the type addressed by a pointer. (required)</member>
+                    </simplelist>
+                </entry>
+                <entry>22</entry>
+                <entry>HydPwrSteerDampgCmd</entry>
+                <entry>643</entry>
+                <entry>63</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>11.5</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>A cast shall not be performed that removes any const or volatile qualification</member>
+                        <member>from the type addressed by a pointer. (required)</member>
+                    </simplelist>
+                </entry>
+                <entry>23</entry>
+                <entry>HydPwrSteerDampgCmd</entry>
+                <entry>644</entry>
+                <entry>63</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>11.5</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>A cast shall not be performed that removes any const or volatile qualification</member>
+                        <member>from the type addressed by a pointer. (required)</member>
+                    </simplelist>
+                </entry>
+                <entry>25</entry>
+                <entry>HydPwrSteerDampgCmd</entry>
+                <entry>645</entry>
+                <entry>158</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>11.5</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>A cast shall not be performed that removes any const or volatile qualification</member>
+                        <member>from the type addressed by a pointer. (required)</member>
+                    </simplelist>
+                </entry>
+                <entry>24</entry>
+                <entry>HydPwrSteerDampgCmd</entry>
+                <entry>645</entry>
+                <entry>79</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>11.5</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>A cast shall not be performed that removes any const or volatile qualification</member>
+                        <member>from the type addressed by a pointer. (required)</member>
+                    </simplelist>
+                </entry>
+                <entry>26</entry>
+                <entry>HydPwrSteerDampgCmd</entry>
+                <entry>654</entry>
+                <entry>63</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>11.5</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>A cast shall not be performed that removes any const or volatile qualification</member>
+                        <member>from the type addressed by a pointer. (required)</member>
+                    </simplelist>
+                </entry>
+                <entry>27</entry>
+                <entry>HydPwrSteerDampgCmd</entry>
+                <entry>655</entry>
+                <entry>63</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>11.5</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>A cast shall not be performed that removes any const or volatile qualification</member>
+                        <member>from the type addressed by a pointer. (required)</member>
+                    </simplelist>
+                </entry>
+                <entry>29</entry>
+                <entry>HydPwrSteerDampgCmd</entry>
+                <entry>656</entry>
+                <entry>158</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>11.5</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>A cast shall not be performed that removes any const or volatile qualification</member>
+                        <member>from the type addressed by a pointer. (required)</member>
+                    </simplelist>
+                </entry>
+                <entry>28</entry>
+                <entry>HydPwrSteerDampgCmd</entry>
+                <entry>656</entry>
+                <entry>79</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>11.5</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>A cast shall not be performed that removes any const or volatile qualification</member>
+                        <member>from the type addressed by a pointer. (required)</member>
+                    </simplelist>
+                </entry>
+                <entry>30</entry>
+                <entry>HydPwrSteerDampgCmd</entry>
+                <entry>668</entry>
+                <entry>68</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>11.5</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>A cast shall not be performed that removes any const or volatile qualification</member>
+                        <member>from the type addressed by a pointer. (required)</member>
+                    </simplelist>
+                </entry>
+                <entry>31</entry>
+                <entry>HydPwrSteerDampgCmd</entry>
+                <entry>669</entry>
+                <entry>68</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>11.5</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>A cast shall not be performed that removes any const or volatile qualification</member>
+                        <member>from the type addressed by a pointer. (required)</member>
+                    </simplelist>
+                </entry>
+                <entry>33</entry>
+                <entry>HydPwrSteerDampgCmd</entry>
+                <entry>670</entry>
+                <entry>163</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>11.5</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>A cast shall not be performed that removes any const or volatile qualification</member>
+                        <member>from the type addressed by a pointer. (required)</member>
+                    </simplelist>
+                </entry>
+                <entry>32</entry>
+                <entry>HydPwrSteerDampgCmd</entry>
+                <entry>670</entry>
+                <entry>84</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>11.5</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>A cast shall not be performed that removes any const or volatile qualification</member>
+                        <member>from the type addressed by a pointer. (required)</member>
+                    </simplelist>
+                </entry>
+                <entry>42</entry>
+                <entry>MotVelDampgCmd</entry>
+                <entry>563</entry>
+                <entry>82</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>11.5</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>A cast shall not be performed that removes any const or volatile qualification</member>
+                        <member>from the type addressed by a pointer. (required)</member>
+                    </simplelist>
+                </entry>
+                <entry>44</entry>
+                <entry>MotVelDampgCmd</entry>
+                <entry>564</entry>
+                <entry>177</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>11.5</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>A cast shall not be performed that removes any const or volatile qualification</member>
+                        <member>from the type addressed by a pointer. (required)</member>
+                    </simplelist>
+                </entry>
+                <entry>43</entry>
+                <entry>MotVelDampgCmd</entry>
+                <entry>564</entry>
+                <entry>98</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>11.5</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>A cast shall not be performed that removes any const or volatile qualification</member>
+                        <member>from the type addressed by a pointer. (required)</member>
+                    </simplelist>
+                </entry>
+                <entry>46</entry>
+                <entry>MotVelDampgCmd</entry>
+                <entry>567</entry>
+                <entry>175</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>11.5</entry>
+                <entry>
+                    <simplelist columns="1" type="vert">
+                        <member>A cast shall not be performed that removes any const or volatile qualification</member>
+                        <member>from the type addressed by a pointer. (required)</member>
+                    </simplelist>
+                </entry>
+                <entry>45</entry>
+                <entry>MotVelDampgCmd</entry>
+                <entry>567</entry>
+                <entry>98</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>19.1</entry>
+                <entry>#include statements in a file shall only be preceded by other preprocessor directives or comments. (advisory)</entry>
+                <entry>12</entry>
+                <entry/>
+                <entry>276</entry>
+                <entry>0</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>19.1</entry>
+                <entry>#include statements in a file shall only be preceded by other preprocessor directives or comments. (advisory)</entry>
+                <entry>13</entry>
+                <entry/>
+                <entry>461</entry>
+                <entry>0</entry>
+                <entry>No</entry>
+                <entry/>
+                <entry/>
+                <entry/><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+        </tbody>
+    </tgroup>
+</table>
+</sect1>

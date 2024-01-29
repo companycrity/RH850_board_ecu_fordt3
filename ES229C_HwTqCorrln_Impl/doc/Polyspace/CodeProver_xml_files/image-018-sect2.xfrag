@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect2>
+<?dbhtml filename="CodeProver-020.html"?>
+<title>DRS - Global Variables</title>
+<table colsep="1" frame="all" pgwide="1" rowsep="1">
+    <title>File: C:\Script_Work\ES229C_HwTqCorrln_Impl\tools\local\generate\Rte_Stubs.h</title>
+    <tgroup align="left" cols="9">
+        <colspec colname="1" colnum="1" colwidth="1200*"/>
+        <colspec colname="2" colnum="2" colwidth="600*"/>
+        <colspec colname="3" colnum="3" colwidth="600*"/>
+        <colspec colname="4" colnum="4" colwidth="600*"/>
+        <colspec colname="5" colnum="5" colwidth="600*"/>
+        <colspec colname="6" colnum="6" colwidth="600*"/>
+        <colspec colname="7" colnum="7" colwidth="600*"/>
+        <colspec colname="8" colnum="8" colwidth="600*"/>
+        <colspec colname="9" colnum="9" colwidth="600*"/>
+        <thead>
+            <row bgcolor="#6A80BF">
+                <entry>Name</entry>
+                <entry>Type</entry>
+                <entry>Init Mode</entry>
+                <entry>Init Range</entry>
+                <entry>Initialize Pointer</entry>
+                <entry># Allocated Objects</entry>
+                <entry>Init Allocated</entry>
+                <entry>Global Assert</entry>
+                <entry>Assert Range</entry><?dbfo bgcolor="#6A80BF"?>
+            </row>
+        </thead>
+        <tbody>
+            <row bgcolor="#F0F2F9">
+                <entry>HwTqCorrln_Cal_HwTqArbnHwTqMaxStallCnt</entry>
+                <entry>extern const uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>1..255</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>HwTqCorrln_Cal_HwTqCorrlnImdtCorrlnChkFailThd</entry>
+                <entry>extern const float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..20</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>HwTqCorrln_Cal_HwTqCorrlnNtcFailStep</entry>
+                <entry>extern const uint16</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..65535</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>HwTqCorrln_Cal_HwTqCorrlnNtcPassStep</entry>
+                <entry>extern const uint16</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..65535</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>HwTqCorrln_Ip_HwTqA</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>-10..10</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>HwTqCorrln_Ip_HwTqAQlfr</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..2</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>HwTqCorrln_Ip_HwTqARollgCntr</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..255</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>HwTqCorrln_Ip_HwTqB</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>-10..10</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>HwTqCorrln_Ip_HwTqBQlfr</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..2</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>HwTqCorrln_Ip_HwTqBRollgCntr</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..255</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>HwTqCorrln_Ip_HwTqC</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>-10..10</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>HwTqCorrln_Ip_HwTqCQlfr</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..2</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>HwTqCorrln_Ip_HwTqCRollgCntr</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..255</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>HwTqCorrln_Ip_HwTqD</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>-10..10</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>HwTqCorrln_Ip_HwTqDQlfr</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..2</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>HwTqCorrln_Ip_HwTqDRollgCntr</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..255</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>HwTqCorrln_Op_HwTqCorrlnSts</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..255</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>HwTqCorrln_Op_HwTqIdptSig</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..4</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>HwTqCorrln_Pim_dHwTqCorrlnAvl</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..15</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>HwTqCorrln_Pim_dHwTqCorrlnImdtCorrlnSts</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..63</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>HwTqCorrln_Pim_HwTqARollgCntrPrev</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..255</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>HwTqCorrln_Pim_HwTqAStallCntrPrev</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..255</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>HwTqCorrln_Pim_HwTqBRollgCntrPrev</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..255</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>HwTqCorrln_Pim_HwTqBStallCntrPrev</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..255</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>HwTqCorrln_Pim_HwTqCRollgCntrPrev</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..255</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>HwTqCorrln_Pim_HwTqCStallCntrPrev</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..255</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>HwTqCorrln_Pim_HwTqDRollgCntrPrev</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..255</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>HwTqCorrln_Pim_HwTqDStallCntrPrev</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..255</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>HwTqCorrln_Srv_GetNtcQlfrSts_NtcNr</entry>
+                <entry>extern uint16</entry>
+                <entry>PERMANENT</entry>
+                <entry>1..511</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>HwTqCorrln_Srv_GetNtcQlfrSts_NtcQlfr</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..2</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>HwTqCorrln_Srv_GetNtcQlfrSts_Return</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..1</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>HwTqCorrln_Srv_SetNtcSts_DebStep</entry>
+                <entry>extern uint16</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..65535</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>HwTqCorrln_Srv_SetNtcSts_NtcNr</entry>
+                <entry>extern uint16</entry>
+                <entry>PERMANENT</entry>
+                <entry>1..511</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>HwTqCorrln_Srv_SetNtcSts_NtcStInfo</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..255</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>HwTqCorrln_Srv_SetNtcSts_NtcSts</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..3</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>HwTqCorrln_Srv_SetNtcSts_Return</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..1</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+        </tbody>
+    </tgroup>
+</table>
+</sect2>

@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect2>
+<?dbhtml filename="CodeProver-020.html"?>
+<title>DRS - Global Variables</title>
+<table colsep="1" frame="all" pgwide="1" rowsep="1">
+    <title>File: C:\Users\nz2999\Documents\Synergy\ccm_wa\ses_dev_ea4\SF002A_Rtn_Impl-nz2999\SF002A_Rtn_Impl\tools\local\generate\Rte_Stubs.h</title>
+    <tgroup align="left" cols="9">
+        <colspec colname="1" colnum="1" colwidth="1200*"/>
+        <colspec colname="2" colnum="2" colwidth="600*"/>
+        <colspec colname="3" colnum="3" colwidth="600*"/>
+        <colspec colname="4" colnum="4" colwidth="600*"/>
+        <colspec colname="5" colnum="5" colwidth="600*"/>
+        <colspec colname="6" colnum="6" colwidth="600*"/>
+        <colspec colname="7" colnum="7" colwidth="600*"/>
+        <colspec colname="8" colnum="8" colwidth="600*"/>
+        <colspec colname="9" colnum="9" colwidth="600*"/>
+        <thead>
+            <row bgcolor="#6A80BF">
+                <entry>Name</entry>
+                <entry>Type</entry>
+                <entry>Init Mode</entry>
+                <entry>Init Range</entry>
+                <entry>Initialize Pointer</entry>
+                <entry># Allocated Objects</entry>
+                <entry>Init Allocated</entry>
+                <entry>Global Assert</entry>
+                <entry>Assert Range</entry><?dbfo bgcolor="#6A80BF"?>
+            </row>
+        </thead>
+        <tbody>
+            <row bgcolor="#F0F2F9">
+                <entry>Rtn_Cal_RtnHwAgOffsCalcdX[][]</entry>
+                <entry>extern const uint16</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..23040</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>Rtn_Cal_RtnHwAgOffsCalcdY[][]</entry>
+                <entry>extern const uint16</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..3072</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>Rtn_Cal_RtnHwAuthyScaX[]</entry>
+                <entry>extern const uint16</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..256</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>Rtn_Cal_RtnHwAuthyScaY[]</entry>
+                <entry>extern const uint16</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..128</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>Rtn_Cal_RtnHwAuthySlew</entry>
+                <entry>extern const float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0.1..10</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>Rtn_Cal_RtnOffsRng</entry>
+                <entry>extern const float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..20</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>Rtn_Cal_RtnOffsSlew</entry>
+                <entry>extern const float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..0.5</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>Rtn_Cal_RtnScaTqX[][]</entry>
+                <entry>extern const uint16</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..2560</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>Rtn_Cal_RtnScaTqY[][]</entry>
+                <entry>extern const uint16</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..256</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>Rtn_Cal_RtnScaVelX[][]</entry>
+                <entry>extern const uint16</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..21504</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>Rtn_Cal_RtnScaVelY[][]</entry>
+                <entry>extern const uint16</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..640</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>Rtn_Cal_RtnTScaX[]</entry>
+                <entry>extern const int16</entry>
+                <entry>PERMANENT</entry>
+                <entry>-800..2400</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>Rtn_Cal_RtnTScaY[]</entry>
+                <entry>extern const uint16</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..2560</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>Rtn_Cal_RtnVehSpdSeln[]</entry>
+                <entry>extern const uint16</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..65408</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>Rtn_Ip_AssiMechT</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>-50..150</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>Rtn_Ip_HwAg</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>-1440..1440</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>Rtn_Ip_HwAgAuthySca</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..1</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>Rtn_Ip_HwAgRtnOffs</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..20</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>Rtn_Ip_HwTq</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>-10..10</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>Rtn_Ip_HwVel</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>-42..42</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>Rtn_Ip_RtnCmdDi</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..1</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>Rtn_Ip_RtnCmdDiagcDi</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..1</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>Rtn_Ip_RtnCmdSca</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..1</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>Rtn_Ip_RtnCmdScaServo</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..1</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>Rtn_Ip_VehSpd</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..511</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>Rtn_Ip_VehSpdVld</entry>
+                <entry>extern uint8</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..1</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>Rtn_Op_RtnCmd</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>-8.8..8.8</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>Rtn_Pim_dRtnAbsltHwAg</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..1440</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>Rtn_Pim_dRtnAssiMechTRtnSca</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..1</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>Rtn_Pim_dRtnBascRtn</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>-8.8..8.8</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>Rtn_Pim_dRtnHwAgAuthySca</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..1</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>Rtn_Pim_dRtnHwAgRtnCmd</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>-8.8..8.8</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>Rtn_Pim_dRtnHwTqRtnSca</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..1</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>Rtn_Pim_dRtnHwVelRtnSca</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..1</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+            <row bgcolor="#F0F2F9">
+                <entry>Rtn_Pim_PrevHwAgAuthy</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..1</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#F0F2F9"?>
+            </row>
+            <row bgcolor="#FAFBFE">
+                <entry>Rtn_Pim_PrevHwAgOffsLimd</entry>
+                <entry>extern float32</entry>
+                <entry>PERMANENT</entry>
+                <entry>0..20</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>-</entry>
+                <entry>NO</entry>
+                <entry>-</entry><?dbfo bgcolor="#FAFBFE"?>
+            </row>
+        </tbody>
+    </tgroup>
+</table>
+</sect2>

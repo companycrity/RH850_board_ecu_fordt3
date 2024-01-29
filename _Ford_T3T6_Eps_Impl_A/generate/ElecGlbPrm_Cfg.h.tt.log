@@ -1,0 +1,40 @@
+AUTOSAR XML Text Transformation v2.0.2.0
+    Output folder: C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A_Working\_Ford_T3T6_Eps_Impl_A\generate
+    Descr. file:   C:\Users\gz324f\AppData\Local\Temp\DaVinci\Cfg-3599562\Generation\Cfg_Gen-1501265087967-0\AutosarFiles_ValGen-1501265529264-0\ElecGlbPrm_ECUC_8300507416249787900.arxml
+    Include file:  C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A_Working\ES999A_ElecGlbPrm_Impl\tools\template\..\..\..\TL105A_Artt\tools\include\Helper.tt
+    Template:      C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A_Working\ES999A_ElecGlbPrm_Impl\tools\template\ElecGlbPrm_Cfg.h.tt
+    Namespace:     http://autosar.org/schema/r4.0
+    Prefix:        ar
+The transformation produced the following errors and warnings:
+C:/Users/gz324f/Desktop/working/_Ford_T3T6_Eps_Impl_A_Working/ES999A_ElecGlbPrm_Impl/tools/template/ElecGlbPrm_Cfg.h.tt(0,0) : error : Running transformation: Microsoft.VisualStudio.TextTemplating.DirectiveProcessorException: XPATH expression without result node: .//ar:DEFINITION-REF[substring(text(), string-length() - 25) = "ElecGlbPrmCfg/PwmPerdNomX2"]/../ar:VALUE
+   at AutosarDirectiveProcessor.ArGtcBase.ValueOf(String xpathExpression)
+   at Microsoft.VisualStudio.TextTemplating75F6023577B01A2FC24F08B11238FA7B.GeneratedTextTransformation.TransformText() in c:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A_Working\ES999A_ElecGlbPrm_Impl\tools\template\ElecGlbPrm_Cfg.h.tt:line 53
+    File:          C:/Users/gz324f/Desktop/working/_Ford_T3T6_Eps_Impl_A_Working/_Ford_T3T6_Eps_Impl_A/generate\ElecGlbPrm_Cfg.h. written with errors.
+    Duration:      00:00:00.9204059.
+AUTOSAR XML Text Transformation v2.0.2.0
+    Output folder: C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A_Working\_Ford_T3T6_Eps_Impl_A\generate
+    Descr. file:   C:\Users\gz324f\AppData\Local\Temp\DaVinci\Cfg-3599562\Generation\Cfg_Gen-1501265087967-0\AutosarFiles_ValGen-1501266411597-0\ElecGlbPrm_ECUC_778985096936244797.arxml
+    Include file:  C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A_Working\ES999A_ElecGlbPrm_Impl\tools\template\..\..\..\TL105A_Artt\tools\include\Helper.tt
+    Template:      C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A_Working\ES999A_ElecGlbPrm_Impl\tools\template\ElecGlbPrm_Cfg.h.tt
+    Namespace:     http://autosar.org/schema/r4.0
+    Prefix:        ar
+    File:          C:/Users/gz324f/Desktop/working/_Ford_T3T6_Eps_Impl_A_Working/_Ford_T3T6_Eps_Impl_A/generate\ElecGlbPrm_Cfg.h. written.
+    Duration:      00:00:00.9048058.
+AUTOSAR XML Text Transformation v2.0.2.0
+    Output folder: C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A_Working\_Ford_T3T6_Eps_Impl_A\generate
+    Descr. file:   C:\Users\gz324f\AppData\Local\Temp\DaVinci\Cfg-7236433\Generation\Cfg_Gen-1501267246970-0\AutosarFiles_ValGen-1501267703986-0\ElecGlbPrm_ECUC_3826901708912955348.arxml
+    Include file:  C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A_Working\ES999A_ElecGlbPrm_Impl\tools\template\..\..\..\TL105A_Artt\tools\include\Helper.tt
+    Template:      C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A_Working\ES999A_ElecGlbPrm_Impl\tools\template\ElecGlbPrm_Cfg.h.tt
+    Namespace:     http://autosar.org/schema/r4.0
+    Prefix:        ar
+    File:          C:/Users/gz324f/Desktop/working/_Ford_T3T6_Eps_Impl_A_Working/_Ford_T3T6_Eps_Impl_A/generate\ElecGlbPrm_Cfg.h. written.
+    Duration:      00:00:00.9048058.
+AUTOSAR XML Text Transformation v2.0.2.0
+    Output folder: C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A_Working\_Ford_T3T6_Eps_Impl_A\generate
+    Descr. file:   C:\Users\gz324f\AppData\Local\Temp\DaVinci\Cfg-7236433\Generation\Cfg_Gen-1501269058466-0\AutosarFiles_ValGen-1501269156329-0\ElecGlbPrm_ECUC_5224771342846789035.arxml
+    Include file:  C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A_Working\ES999A_ElecGlbPrm_Impl\tools\template\..\..\..\TL105A_Artt\tools\include\Helper.tt
+    Template:      C:\Users\gz324f\Desktop\working\_Ford_T3T6_Eps_Impl_A_Working\ES999A_ElecGlbPrm_Impl\tools\template\ElecGlbPrm_Cfg.h.tt
+    Namespace:     http://autosar.org/schema/r4.0
+    Prefix:        ar
+    File:          C:/Users/gz324f/Desktop/working/_Ford_T3T6_Eps_Impl_A_Working/_Ford_T3T6_Eps_Impl_A/generate\ElecGlbPrm_Cfg.h. written.
+    Duration:      00:00:00.9204059.

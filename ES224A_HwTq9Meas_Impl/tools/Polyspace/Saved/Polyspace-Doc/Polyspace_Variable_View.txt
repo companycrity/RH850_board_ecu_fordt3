@@ -1,0 +1,143 @@
+Variables	W.T	R.T	Protection	Usage	Scal	Line	Col	File	Detailed Type	Value	Unreachable	Potential	Nb read	Nb write
+-Polyspace
+|  -HwTq9Meas_Cli_HwTq9MeasHwTq9ReadTrim_HwTqReadTrimData									float 32	V=full-range [-3.4029E^+38 .. 3.4029E^+38]			0	2
+|  |  < HwTq9Meas.HwTq9MeasHwTq9ReadTrim_Oper						880	8	HwTq9Meas.c			is unreachable		
+|  |  < pst_stubs_1._main_gen_init_sym_HwTq9Meas_Cli_HwTq9MeasHwTq9ReadTrim_HwTqReadTrimData						315	8	pst_stubs_1.c					
+|  -HwTq9Meas_Cli_HwTq9MeasHwTq9TrimPrfmdSts_HwTqOffsTrimPrfmdStsData									unsigned int 8	V=full-range [0 .. 255]			0	2
+|  |  < HwTq9Meas.HwTq9MeasHwTq9TrimPrfmdSts_Oper						920	8	HwTq9Meas.c			is unreachable		
+|  |  < pst_stubs_1._main_gen_init_sym_HwTq9Meas_Cli_HwTq9MeasHwTq9TrimPrfmdSts_HwTqOffsTrimPrfmdStsData						325	8	pst_stubs_1.c					
+|  -HwTq9Meas_Cli_HwTq9MeasHwTq9WrTrim_HwTqWrOffsTrimData									float 32	V=full-range [-3.4029E^+38 .. 3.4029E^+38]			1	1
+|  |  < pst_stubs_1._main_gen_init_sym_HwTq9Meas_Cli_HwTq9MeasHwTq9WrTrim_HwTqWrOffsTrimData						335	8	pst_stubs_1.c					
+|  |  > Rte_Stubs.Rte_Stub						84	30	Rte_Stubs.c			is unreachable		
+|  -HwTq9Meas_Ip_HwTq9Polarity									int 8	V=full-range [-128 .. 127]			1	1
+|  |  < pst_stubs_1._main_gen_init_sym_HwTq9Meas_Ip_HwTq9Polarity						99	8	pst_stubs_1.c					
+|  |  > HwTq9Meas.HwTq9MeasPer1						1153	45	HwTq9Meas.c					
+|  -HwTq9Meas_Op_HwTq9									float 32		is unreachable		0	1
+|  |  < HwTq9Meas.HwTq9MeasPer1						1318	16	HwTq9Meas.c			is unreachable		
+|  -HwTq9Meas_Op_HwTq9Qlfr									unsigned int 8		is unreachable		0	1
+|  |  < HwTq9Meas.HwTq9MeasPer1						1320	16	HwTq9Meas.c			is unreachable		
+|  -HwTq9Meas_Op_HwTq9RollgCntr									unsigned int 8		is unreachable		0	1
+|  |  < HwTq9Meas.HwTq9MeasPer1						1319	16	HwTq9Meas.c			is unreachable		
+|  -HwTq9Meas_Pim_HwTq9DataPlsHiLim									unsigned int 32	V=full-range [0 .. 2^32-1]			1	2
+|  |  < HwTq9Meas.HwTq9MeasInit1						1037	3	HwTq9Meas.c					
+|  |  < pst_stubs_1._main_gen_init_sym_HwTq9Meas_Pim_HwTq9DataPlsHiLim						119	8	pst_stubs_1.c					
+|  |  > HwTq9Meas.RngChk						1443	35	HwTq9Meas.c			is unreachable		
+|  -HwTq9Meas_Pim_HwTq9DataPlsLoLim									unsigned int 32	V=full-range [0 .. 2^32-1]			1	2
+|  |  < HwTq9Meas.HwTq9MeasInit1						1040	3	HwTq9Meas.c					
+|  |  < pst_stubs_1._main_gen_init_sym_HwTq9Meas_Pim_HwTq9DataPlsLoLim						129	8	pst_stubs_1.c					
+|  |  > HwTq9Meas.RngChk						1443	94	HwTq9Meas.c			is unreachable		
+|  -HwTq9Meas_Pim_HwTq9Offs									struct {OffsTrim: float 32, OffsTrimPrfmdSts: unsigned int 8, __pst_unused_field_2: array(0..2) of int 8}				4	9
+|  |  < pst_stubs_1._main_gen_init_sym_HwTq9Meas_Pim_HwTq9Offs						109	8	pst_stubs_1.c					
+|  |  -HwTq9Meas_Pim_HwTq9Offs!OffsTrim									float 32				2	4
+|  |  |  < HwTq9Meas.HwTq9MeasHwTq9AutTrim_Oper						786	36	HwTq9Meas.c			is unreachable		
+|  |  |  < HwTq9Meas.HwTq9MeasHwTq9ClrTrim_Oper						838	36	HwTq9Meas.c			is unreachable		
+|  |  |  < HwTq9Meas.HwTq9MeasHwTq9WrTrim_Oper						970	36	HwTq9Meas.c			is unreachable		
+|  |  |  < HwTq9Meas.HwTq9MeasInit1						1026	36	HwTq9Meas.c					
+|  |  |  > HwTq9Meas.HwTq9MeasHwTq9ReadTrim_Oper						880	60	HwTq9Meas.c			is unreachable		
+|  |  |  > HwTq9Meas.HwTq9MeasPer1						1258	93	HwTq9Meas.c			is unreachable		
+|  |  -HwTq9Meas_Pim_HwTq9Offs!OffsTrimPrfmdSts									unsigned int 8				2	4
+|  |  |  < HwTq9Meas.HwTq9MeasHwTq9AutTrim_Oper						787	36	HwTq9Meas.c			is unreachable		
+|  |  |  < HwTq9Meas.HwTq9MeasHwTq9ClrTrim_Oper						839	36	HwTq9Meas.c			is unreachable		
+|  |  |  < HwTq9Meas.HwTq9MeasHwTq9WrTrim_Oper						971	36	HwTq9Meas.c			is unreachable		
+|  |  |  < HwTq9Meas.HwTq9MeasInit1						1027	36	HwTq9Meas.c					
+|  |  |  > HwTq9Meas.HwTq9MeasHwTq9TrimPrfmdSts_Oper						920	68	HwTq9Meas.c			is unreachable		
+|  |  |  > HwTq9Meas.HwTq9MeasPer2						1364	40	HwTq9Meas.c			is unreachable		
+|  -HwTq9Meas_Pim_HwTq9PrevHwTq									float 32	V=full-range [-3.4029E^+38 .. 3.4029E^+38]			3	2
+|  |  < HwTq9Meas.HwTq9MeasPer1						1256	11	HwTq9Meas.c			is unreachable		
+|  |  < pst_stubs_1._main_gen_init_sym_HwTq9Meas_Pim_HwTq9PrevHwTq						139	8	pst_stubs_1.c					
+|  |  > HwTq9Meas.HwTq9MeasHwTq9AutTrim_Oper						786	50	HwTq9Meas.c			is unreachable		
+|  |  > HwTq9Meas.HwTq9MeasPer1						1254	46	HwTq9Meas.c			is unreachable		
+|  |  > HwTq9Meas.HwTq9MeasPer1						1258	31	HwTq9Meas.c			is unreachable		
+|  -HwTq9Meas_Pim_HwTq9RawDataBuf									array(0..4) of unsigned int 16	V=full-range [0 .. 65535]			5	6
+|  |  < HwTq9Meas.HwTq9MeasPer1						1190	77	HwTq9Meas.c			is unreachable		
+|  |  < HwTq9Meas.HwTq9MeasPer1						1191	77	HwTq9Meas.c			is unreachable		
+|  |  < HwTq9Meas.HwTq9MeasPer1						1192	77	HwTq9Meas.c			is unreachable		
+|  |  < HwTq9Meas.HwTq9MeasPer1						1193	77	HwTq9Meas.c			is unreachable		
+|  |  < HwTq9Meas.HwTq9MeasPer1						1194	77	HwTq9Meas.c			is unreachable		
+|  |  < pst_stubs_1._main_gen_init_sym_HwTq9Meas_Pim_HwTq9RawDataBuf						155	45	pst_stubs_1.c					
+|  |  > HwTq9Meas.HwTq9MeasPer1						1213	66	HwTq9Meas.c					
+|  |  > HwTq9Meas.HwTq9MeasPer1						1214	66	HwTq9Meas.c					
+|  |  > HwTq9Meas.HwTq9MeasPer1						1215	66	HwTq9Meas.c					
+|  |  > HwTq9Meas.HwTq9MeasPer1						1223	64	HwTq9Meas.c					
+|  |  > HwTq9Meas.HwTq9MeasPer1						1230	63	HwTq9Meas.c					
+|  -HwTq9Meas_Pim_HwTq9RollgCntrPrev									unsigned int 8	V=full-range [0 .. 255]			2	2
+|  |  < HwTq9Meas.HwTq9MeasPer1						1272	11	HwTq9Meas.c			is unreachable		
+|  |  < pst_stubs_1._main_gen_init_sym_HwTq9Meas_Pim_HwTq9RollgCntrPrev						167	8	pst_stubs_1.c					
+|  |  > HwTq9Meas.HwTq9MeasPer1						1266	46	HwTq9Meas.c			is unreachable		
+|  |  > HwTq9Meas.HwTq9MeasPer1						1270	46	HwTq9Meas.c			is unreachable		
+|  -HwTq9Meas_Pim_HwTq9SyncPlsHiLim									unsigned int 32	V=full-range [0 .. 2^32-1]			1	2
+|  |  < HwTq9Meas.HwTq9MeasInit1						1031	3	HwTq9Meas.c					
+|  |  < pst_stubs_1._main_gen_init_sym_HwTq9Meas_Pim_HwTq9SyncPlsHiLim						177	8	pst_stubs_1.c					
+|  |  > HwTq9Meas.HwTq9MeasPer1						1164	76	HwTq9Meas.c			is unreachable		
+|  -HwTq9Meas_Pim_HwTq9SyncPlsLoLim									unsigned int 32	V=full-range [0 .. 2^32-1]			1	2
+|  |  < HwTq9Meas.HwTq9MeasInit1						1034	3	HwTq9Meas.c					
+|  |  < pst_stubs_1._main_gen_init_sym_HwTq9Meas_Pim_HwTq9SyncPlsLoLim						187	8	pst_stubs_1.c					
+|  |  > HwTq9Meas.HwTq9MeasPer1						1164	161	HwTq9Meas.c			is unreachable		
+|  -HwTq9Meas_Pim_HwTq9TiStamp									unsigned int 32	V=full-range [0 .. 2^32-1]			4	2
+|  |  < HwTq9Meas.HwTq9MeasPer1						1196	43	HwTq9Meas.c			is unreachable		
+|  |  < pst_stubs_1._main_gen_init_sym_HwTq9Meas_Pim_HwTq9TiStamp						197	8	pst_stubs_1.c					
+|  |  > HwTq9Meas.StuckNoDataSeln						1400	16	HwTq9Meas.c			is unreachable		
+|  |  > HwTq9Meas.StuckNoDataSeln						1408	16	HwTq9Meas.c			is unreachable		
+|  |  > HwTq9Meas.StuckNoDataSeln						1416	107	HwTq9Meas.c			is unreachable		
+|  |  > HwTq9Meas.StuckNoDataSeln						1427	48	HwTq9Meas.c			is unreachable		
+|  -HwTq9Meas_Pim_HwTq9TiStampPrev									unsigned int 32	V=full-range [0 .. 2^32-1]			3	2
+|  |  < HwTq9Meas.StuckNoDataSeln						1427	11	HwTq9Meas.c			is unreachable		
+|  |  < pst_stubs_1._main_gen_init_sym_HwTq9Meas_Pim_HwTq9TiStampPrev						207	8	pst_stubs_1.c					
+|  |  > HwTq9Meas.StuckNoDataSeln						1400	49	HwTq9Meas.c			is unreachable		
+|  |  > HwTq9Meas.StuckNoDataSeln						1408	49	HwTq9Meas.c			is unreachable		
+|  |  > HwTq9Meas.StuckNoDataSeln						1416	62	HwTq9Meas.c			is unreachable		
+|  -HwTq9Meas_Srv_GetNtcQlfrSts_NtcNr									unsigned int 16		is unreachable		0	1
+|  |  < Rte_Stubs.Rte_Call_HwTq9Meas_GetNtcQlfrSts_Oper						20	4	Rte_Stubs.c			is unreachable		
+|  -HwTq9Meas_Srv_GetNtcQlfrSts_NtcQlfr									unsigned int 8	V=full-range [0 .. 255]			1	1
+|  |  < pst_stubs_1._main_gen_init_sym_HwTq9Meas_Srv_GetNtcQlfrSts_NtcQlfr						217	8	pst_stubs_1.c					
+|  |  > Rte_Stubs.Rte_Call_HwTq9Meas_GetNtcQlfrSts_Oper						21	19	Rte_Stubs.c			is unreachable		
+|  -HwTq9Meas_Srv_GetNtcQlfrSts_Return									unsigned int 8	V=full-range [0 .. 255]			1	1
+|  |  < pst_stubs_1._main_gen_init_sym_HwTq9Meas_Srv_GetNtcQlfrSts_Return						227	8	pst_stubs_1.c					
+|  |  > Rte_Stubs.Rte_Call_HwTq9Meas_GetNtcQlfrSts_Oper						22	11	Rte_Stubs.c			is unreachable		
+|  -HwTq9Meas_Srv_GtmGetSent0Data_BufStrtAdr									array(0..31) of unsigned int 32	V=full-range [0 .. 2^32-1]			1	2
+|  |  < Rte_Stubs.Rte_Call_HwTq9Meas_GtmGetSent0Data_Oper						30	48	Rte_Stubs.c			is unreachable		
+|  |  < pst_stubs_1._main_gen_init_sym_HwTq9Meas_Srv_GtmGetSent0Data_BufStrtAdr						243	56	pst_stubs_1.c					
+|  |  > Rte_Stubs.Rte_Call_HwTq9Meas_GtmGetSent0Data_Oper						34	72	Rte_Stubs.c			is unreachable		
+|  -HwTq9Meas_Srv_GtmGetSent0Data_Return									unsigned int 8	V=full-range [0 .. 255]			1	1
+|  |  < pst_stubs_1._main_gen_init_sym_HwTq9Meas_Srv_GtmGetSent0Data_Return						255	8	pst_stubs_1.c					
+|  |  > Rte_Stubs.Rte_Call_HwTq9Meas_GtmGetSent0Data_Oper						36	11	Rte_Stubs.c			is unreachable		
+|  -HwTq9Meas_Srv_HwTq9Offs_GetErrorStatus_RequestResultPtr									unsigned int 8	V=full-range [0 .. 255]			1	1
+|  |  < pst_stubs_1._main_gen_init_sym_HwTq9Meas_Srv_HwTq9Offs_GetErrorStatus_RequestResultPtr						295	8	pst_stubs_1.c					
+|  |  > Rte_Stubs.Rte_Call_HwTq9Meas_HwTq9Offs_GetErrorStatus						68	28	Rte_Stubs.c					
+|  -HwTq9Meas_Srv_HwTq9Offs_GetErrorStatus_Return									unsigned int 8	V=full-range [0 .. 255]			1	1
+|  |  < pst_stubs_1._main_gen_init_sym_HwTq9Meas_Srv_HwTq9Offs_GetErrorStatus_Return						305	8	pst_stubs_1.c					
+|  |  > Rte_Stubs.Rte_Call_HwTq9Meas_HwTq9Offs_GetErrorStatus						69	11	Rte_Stubs.c					
+|  -HwTq9Meas_Srv_HwTq9Offs_SetRamBlockStatus_BlockChanged									unsigned int 8		is unreachable		0	1
+|  |  < Rte_Stubs.Rte_Call_HwTq9Meas_HwTq9Offs_SetRamBlockStatus						41	4	Rte_Stubs.c			is unreachable		
+|  -HwTq9Meas_Srv_HwTq9Offs_SetRamBlockStatus_Return									unsigned int 8	V=full-range [0 .. 255]			1	1
+|  |  < pst_stubs_1._main_gen_init_sym_HwTq9Meas_Srv_HwTq9Offs_SetRamBlockStatus_Return						265	8	pst_stubs_1.c					
+|  |  > Rte_Stubs.Rte_Call_HwTq9Meas_HwTq9Offs_SetRamBlockStatus						42	11	Rte_Stubs.c			is unreachable		
+|  -HwTq9Meas_Srv_SetNtcStsAndSnpshtData_DebStep									unsigned int 16		is unreachable		0	1
+|  |  < Rte_Stubs.Rte_Call_HwTq9Meas_SetNtcStsAndSnpshtData_Oper						59	4	Rte_Stubs.c			is unreachable		
+|  -HwTq9Meas_Srv_SetNtcStsAndSnpshtData_NtcNr									unsigned int 16		is unreachable		0	1
+|  |  < Rte_Stubs.Rte_Call_HwTq9Meas_SetNtcStsAndSnpshtData_Oper						56	4	Rte_Stubs.c			is unreachable		
+|  -HwTq9Meas_Srv_SetNtcStsAndSnpshtData_NtcStInfo									unsigned int 8		is unreachable		0	1
+|  |  < Rte_Stubs.Rte_Call_HwTq9Meas_SetNtcStsAndSnpshtData_Oper						57	4	Rte_Stubs.c			is unreachable		
+|  -HwTq9Meas_Srv_SetNtcStsAndSnpshtData_NtcSts									unsigned int 8		is unreachable		0	1
+|  |  < Rte_Stubs.Rte_Call_HwTq9Meas_SetNtcStsAndSnpshtData_Oper						58	4	Rte_Stubs.c			is unreachable		
+|  -HwTq9Meas_Srv_SetNtcStsAndSnpshtData_Return									unsigned int 8	V=full-range [0 .. 255]			1	1
+|  |  < pst_stubs_1._main_gen_init_sym_HwTq9Meas_Srv_SetNtcStsAndSnpshtData_Return						285	8	pst_stubs_1.c					
+|  |  > Rte_Stubs.Rte_Call_HwTq9Meas_SetNtcStsAndSnpshtData_Oper						63	11	Rte_Stubs.c			is unreachable		
+|  -HwTq9Meas_Srv_SetNtcStsAndSnpshtData_SpclSnpshtData0									unsigned int 32		is unreachable		0	1
+|  |  < Rte_Stubs.Rte_Call_HwTq9Meas_SetNtcStsAndSnpshtData_Oper						60	4	Rte_Stubs.c			is unreachable		
+|  -HwTq9Meas_Srv_SetNtcStsAndSnpshtData_SpclSnpshtData1									unsigned int 32		is unreachable		0	1
+|  |  < Rte_Stubs.Rte_Call_HwTq9Meas_SetNtcStsAndSnpshtData_Oper						61	4	Rte_Stubs.c			is unreachable		
+|  -HwTq9Meas_Srv_SetNtcStsAndSnpshtData_SpclSnpshtData2									unsigned int 32		is unreachable		0	1
+|  |  < Rte_Stubs.Rte_Call_HwTq9Meas_SetNtcStsAndSnpshtData_Oper						62	4	Rte_Stubs.c			is unreachable		
+|  -HwTq9Meas_Srv_SetNtcSts_DebStep									unsigned int 16		is unreachable		0	1
+|  |  < Rte_Stubs.Rte_Call_HwTq9Meas_SetNtcSts_Oper						50	4	Rte_Stubs.c			is unreachable		
+|  -HwTq9Meas_Srv_SetNtcSts_NtcNr									unsigned int 16		is unreachable		0	1
+|  |  < Rte_Stubs.Rte_Call_HwTq9Meas_SetNtcSts_Oper						47	4	Rte_Stubs.c			is unreachable		
+|  -HwTq9Meas_Srv_SetNtcSts_NtcStInfo									unsigned int 8		is unreachable		0	1
+|  |  < Rte_Stubs.Rte_Call_HwTq9Meas_SetNtcSts_Oper						48	4	Rte_Stubs.c			is unreachable		
+|  -HwTq9Meas_Srv_SetNtcSts_NtcSts									unsigned int 8		is unreachable		0	1
+|  |  < Rte_Stubs.Rte_Call_HwTq9Meas_SetNtcSts_Oper						49	4	Rte_Stubs.c			is unreachable		
+|  -HwTq9Meas_Srv_SetNtcSts_Return									unsigned int 8	V=full-range [0 .. 255]			1	1
+|  |  < pst_stubs_1._main_gen_init_sym_HwTq9Meas_Srv_SetNtcSts_Return						275	8	pst_stubs_1.c					
+|  |  > Rte_Stubs.Rte_Call_HwTq9Meas_SetNtcSts_Oper						51	11	Rte_Stubs.c			is unreachable		
+|  -__polyspace__stdstubs.errno									int 32		is unreachable		0	0

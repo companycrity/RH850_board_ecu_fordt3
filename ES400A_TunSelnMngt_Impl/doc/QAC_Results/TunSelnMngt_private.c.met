@@ -1,0 +1,74 @@
+<RDEF> I Includes
+<R>I C:/Component/ES400A_TunSelnMngt_Impl/src/TunSelnMngt_private.c C:/Component/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.h 20
+<R>I C:/Component/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.h C:/Component/ES400A_TunSelnMngt_Impl/tools/contract/Rte_Type.h 26
+<R>I C:/Component/ES400A_TunSelnMngt_Impl/tools/contract/Rte_Type.h C:/Component/ES400A_TunSelnMngt_Impl/tools/contract/Rte.h 27
+<R>I C:/Component/ES400A_TunSelnMngt_Impl/tools/contract/Rte.h C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 39
+<R>I C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h C:/Component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Platform_Types.h 63
+<R>I C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h C:/Component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h 64
+<R>I C:/Component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h C:/Component/AR201A_ArCplrSuprt_Impl/tools/contract/Compiler_Cfg.h 56
+<R>I C:/Component/ES400A_TunSelnMngt_Impl/tools/contract/Rte.h C:/Component/ES400A_TunSelnMngt_Impl/tools/contract/Rte_UserTypes.h 41
+<R>I C:/Component/ES400A_TunSelnMngt_Impl/tools/contract/Rte_UserTypes.h C:/Component/ES400A_TunSelnMngt_Impl/tools/contract/ComStack_Types.h 40
+<R>I C:/Component/ES400A_TunSelnMngt_Impl/tools/contract/Rte_UserTypes.h C:/Component/ES400A_TunSelnMngt_Impl/include/TunSelnMngt.h 41
+<DEFINE> TUNSELNMNGT_H C:/Component/ES400A_TunSelnMngt_Impl/include/TunSelnMngt.h 21 I DF OM - - - O
+<R>I C:/Component/ES400A_TunSelnMngt_Impl/include/TunSelnMngt.h C:/Component/ES400A_TunSelnMngt_Impl/tools/contract/CDD_XcpIf.h 24
+<DEFINE> PageAcs C:/Component/ES400A_TunSelnMngt_Impl/include/TunSelnMngt.h 32 I DC MB F N uc -
+<DEFINE> OnlineCalPageInfoRec1 C:/Component/ES400A_TunSelnMngt_Impl/include/TunSelnMngt.h 33 I DC OT F N {s} -
+<LIT> 2 - P C:/Component/ES400A_TunSelnMngt_Impl/include/TunSelnMngt.h 35 61 I DN ni F D
+<DEFINE> Ary1D_OnlineCalPageInfoRec1_2 C:/Component/ES400A_TunSelnMngt_Impl/include/TunSelnMngt.h 35 I DC OT F N [2,{sOnlineCalPageInfoRec1}] -
+<DEFINE> Page C:/Component/ES400A_TunSelnMngt_Impl/include/TunSelnMngt.h 39 I DC MB F N [2,{sOnlineCalPageInfoRec1}] -
+<DEFINE> OnlineCalSegInfoRec1 C:/Component/ES400A_TunSelnMngt_Impl/include/TunSelnMngt.h 40 I DC OT F N {s} -
+<DEFINE> Ary1D_OnlineCalSegInfoRec1_TunSelnMngt1 C:/Component/ES400A_TunSelnMngt_Impl/include/TunSelnMngt.h 42 I DC OT F N [3,{sOnlineCalSegInfoRec1}] -
+<R>I C:/Component/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_Cfg_private.h C:/Component/ES400A_TunSelnMngt_Impl/tools/contract/CDD_XcpIf.h 27
+<DEFINE> TunSelnMngt_START_SEC_VAR_NOINIT_UNSPECIFIED C:/Component/ES400A_TunSelnMngt_Impl/src/TunSelnMngt_private.c 32 N DF OM - - - O
+<R>I C:/Component/ES400A_TunSelnMngt_Impl/src/TunSelnMngt_private.c C:/Component/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_MemMap.h 33
+<R>I C:/Component/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_MemMap.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 84
+<LIT> 2 - P C:/Component/ES400A_TunSelnMngt_Impl/src/TunSelnMngt_private.c 39 48 N DN ni F D
+<EXTT> MngtRamTbl_C C:/Component/ES400A_TunSelnMngt_Impl/src/TunSelnMngt_private.c 39
+<DEFINE> MngtRamTbl_C C:/Component/ES400A_TunSelnMngt_Impl/src/TunSelnMngt_private.c 39 N DR OV F X [2,{sTunSelnRamTblRec1}] S
+<EXTT> OnlineRamCalTbl_C C:/Component/ES400A_TunSelnMngt_Impl/src/TunSelnMngt_private.c 40
+<DEFINE> OnlineRamCalTbl_C C:/Component/ES400A_TunSelnMngt_Impl/src/TunSelnMngt_private.c 40 N DR OV F X {uOnlineCalTblRec1} S
+<DEFINE> TunSelnMngt_STOP_SEC_VAR_NOINIT_UNSPECIFIED C:/Component/ES400A_TunSelnMngt_Impl/src/TunSelnMngt_private.c 42 N DF OM - - - O
+<R>I C:/Component/ES400A_TunSelnMngt_Impl/src/TunSelnMngt_private.c C:/Component/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_MemMap.h 43
+<R>I C:/Component/ES400A_TunSelnMngt_Impl/tools/contract/TunSelnMngt_MemMap.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 156
+<EXTD> OnlineRamCalTbl_C C:/Component/ES400A_TunSelnMngt_Impl/src/TunSelnMngt_private.c 40
+<DEFINE> OnlineRamCalTbl_C C:/Component/ES400A_TunSelnMngt_Impl/src/TunSelnMngt_private.c 40 N DI OV F X {uOnlineCalTblRec1} S
+<EXTD> MngtRamTbl_C C:/Component/ES400A_TunSelnMngt_Impl/src/TunSelnMngt_private.c 39
+<DEFINE> MngtRamTbl_C C:/Component/ES400A_TunSelnMngt_Impl/src/TunSelnMngt_private.c 39 N DI OV F X [2,{sTunSelnRamTblRec1}] S
+<S>
+<S>STFIL  C:/Component/ES400A_TunSelnMngt_Impl/src/TunSelnMngt_private.c
+<S>STNAM  C:/Component/ES400A_TunSelnMngt_Impl/src/TunSelnMngt_private.c
+<S>STNTB  NON-TOKEN BASED STATISTICS...
+<S>STSCT  0
+<S>STECT  2
+<S>STFNC  0
+<S>STFCO  0
+<S>STTKB  TOKEN BASED STATISTICS...
+<S>STVAR  8
+<S>STOPT  11
+<S>STOPN  9
+<S>STTOT  46
+<S>STZIP  71
+<S>STHAL  67
+<S>STSHN  206
+<S>STDIF  5.98   
+<S>STEFF  1190
+<S>STVOL  199
+<S>STDEV  0.20   
+<S>STBUG  0
+<S>STTPP  47
+<S>STTLN  2
+<S>STM20  11
+<S>STM21  32
+<S>STM22  2
+<S>STM28  9
+<S>STM33  0
+<S>STBCS  BASIC COCOMO STATISTICS...
+<S>STBMO  0.097  
+<S>STBMS  0.098  
+<S>STBME  0.092  
+<S>STTDO  1.029  
+<S>STTDS  1.108  
+<S>STTDE  1.164  
+<S>STCOM  COMMENT BASED STATISTICS...
+<S>STCDN  7.539  
+

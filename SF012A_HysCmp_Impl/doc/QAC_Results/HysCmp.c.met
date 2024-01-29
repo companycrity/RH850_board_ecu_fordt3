@@ -1,0 +1,1145 @@
+<RDEF> I Includes
+<R>I C:/component/SF012A_HysCmp_Impl/src/HysCmp.c C:/component/SF012A_HysCmp_Impl/tools/contract/Rte_HysCmp.h 95
+<R>I C:/component/SF012A_HysCmp_Impl/tools/contract/Rte_HysCmp.h C:/component/SF012A_HysCmp_Impl/tools/contract/Rte_HysCmp_Type.h 40
+<R>I C:/component/SF012A_HysCmp_Impl/tools/contract/Rte_HysCmp_Type.h C:/component/SF012A_HysCmp_Impl/tools/contract/Rte_Type.h 32
+<R>I C:/component/SF012A_HysCmp_Impl/tools/contract/Rte_Type.h C:/component/SF012A_HysCmp_Impl/tools/contract/Rte.h 27
+<R>I C:/component/SF012A_HysCmp_Impl/tools/contract/Rte.h C:/component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 39
+<R>I C:/component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h C:/component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Platform_Types.h 63
+<R>I C:/component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h C:/component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h 64
+<R>I C:/component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h C:/component/AR201A_ArCplrSuprt_Impl/tools/contract/Compiler_Cfg.h 56
+<R>I C:/component/SF012A_HysCmp_Impl/tools/contract/Rte.h C:/component/SF012A_HysCmp_Impl/tools/contract/Rte_UserTypes.h 41
+<R>I C:/component/SF012A_HysCmp_Impl/tools/contract/Rte_UserTypes.h C:/component/AR104A_NxtrFil_Impl/include/NxtrFil.h 40
+<R>I C:/component/AR104A_NxtrFil_Impl/include/NxtrFil.h C:/component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 23
+<R>I C:/component/AR104A_NxtrFil_Impl/include/NxtrFil.h C:/component/AR999A_ArchGlbPrm_Impl/include/ArchGlbPrm.h 24
+<R>I C:/component/AR104A_NxtrFil_Impl/include/NxtrFil.h C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 25
+<R>I C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h C:/component/TL103A_CplrSuprt/include/2015.1.5/ansi/math.h 26
+<R>I C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h C:/component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 27
+<R>I C:/component/SF012A_HysCmp_Impl/tools/contract/Rte_HysCmp.h C:/component/SF012A_HysCmp_Impl/tools/contract/Rte_DataHandleType.h 41
+<R>I C:/component/SF012A_HysCmp_Impl/tools/contract/Rte_HysCmp.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 71
+<R>I C:/component/SF012A_HysCmp_Impl/tools/contract/Rte_HysCmp.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 76
+<R>I C:/component/SF012A_HysCmp_Impl/tools/contract/Rte_HysCmp.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 97
+<R>I C:/component/SF012A_HysCmp_Impl/tools/contract/Rte_HysCmp.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 211
+<R>I C:/component/SF012A_HysCmp_Impl/tools/contract/Rte_HysCmp.h C:/component/SF012A_HysCmp_Impl/tools/contract/HysCmp_MemMap.h 395
+<R>I C:/component/SF012A_HysCmp_Impl/tools/contract/HysCmp_MemMap.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 56
+<R>I C:/component/SF012A_HysCmp_Impl/tools/contract/Rte_HysCmp.h C:/component/SF012A_HysCmp_Impl/tools/contract/HysCmp_MemMap.h 454
+<R>I C:/component/SF012A_HysCmp_Impl/tools/contract/HysCmp_MemMap.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 128
+<R>I C:/component/SF012A_HysCmp_Impl/src/HysCmp.c C:/component/AR999A_ArchGlbPrm_Impl/include/ArchGlbPrm.h 101
+<R>I C:/component/SF012A_HysCmp_Impl/src/HysCmp.c C:/component/SF999A_SysGlbPrm_Impl/include/SysGlbPrm.h 102
+<R>I C:/component/SF012A_HysCmp_Impl/src/HysCmp.c C:/component/SF012A_HysCmp_Impl/tools/contract/FltInj.h 103
+<R>I C:/component/SF012A_HysCmp_Impl/src/HysCmp.c C:/component/AR104A_NxtrFil_Impl/include/NxtrFil.h 104
+<R>I C:/component/SF012A_HysCmp_Impl/src/HysCmp.c C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 105
+<R>I C:/component/SF012A_HysCmp_Impl/src/HysCmp.c C:/component/AR101A_NxtrIntrpn_Impl/include/NxtrIntrpn.h 106
+<R>I C:/component/AR101A_NxtrIntrpn_Impl/include/NxtrIntrpn.h C:/component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 23
+<R>I C:/component/SF012A_HysCmp_Impl/src/HysCmp.c C:/component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h 107
+<R>I C:/component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h C:/component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 24
+<DEFINE> EPSILON_ULS_F32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 113 N DF OM - - - O
+<LIT> 0.000000119209 F P C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 113 81 N FN - F M
+<DEFINE> HYSRISEYLIM_ULS_F32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 114 N DF OM - - - O
+<LIT> 1.0 F P C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 114 81 N FN - F M
+<DEFINE> HYSSATNLOWLIM_HWNWTMTR_F32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 115 N DF OM - - - O
+<LIT> 0.0 F P C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 115 73 N FN - F M
+<DEFINE> PrmHysCmpEffLossY_u4p12 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 116 N DF OM - - - O
+<DEFINE> PrmHysCmpEffOffsY_u9p7 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 117 N DF OM - - - O
+<DEFINE> PrmHysCmpFricTScaX_s14p1 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 118 N DF OM - - - O
+<DEFINE> PrmHysCmpFricTScaY_u9p7 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 119 N DF OM - - - O
+<DEFINE> PrmHysCmpFricWhlImbRejctnBlndX_u8p8 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 120 N DF OM - - - O
+<DEFINE> PrmHysCmpFricWhlImbRejctnBlndY_u2p14 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 121 N DF OM - - - O
+<DEFINE> PrmHysCmpFricWhlImbRejctnOffY_u9p7 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 122 N DF OM - - - O
+<DEFINE> PrmHysCmpFricWhlImbRejctnOnY_u9p7 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 123 N DF OM - - - O
+<DEFINE> PrmHysCmpHwTqScaX_u4p12 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 124 N DF OM - - - O
+<DEFINE> PrmHysCmpHwTqScaY_u4p12 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 125 N DF OM - - - O
+<DEFINE> PrmHysCmpHysSatnY_u9p7 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 126 N DF OM - - - O
+<DEFINE> PrmHysCmpNegHysCmpScaX_u9p7 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 127 N DF OM - - - O
+<DEFINE> PrmHysCmpNegHysCmpScaY_u2p14 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 128 N DF OM - - - O
+<DEFINE> PrmHysCmpNegHysCmpX_u8p8 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 129 N DF OM - - - O
+<DEFINE> PrmHysCmpNegHysCmpY_u9p7 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 130 N DF OM - - - O
+<DEFINE> PrmHysCmpRiseX_u2p14 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 131 N DF OM - - - O
+<DEFINE> PrmHysCmpRiseY_u2p14 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 132 N DF OM - - - O
+<DEFINE> PrmSysGlbPrmVehSpdBilnrSeln_u9p7 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 133 N DF OM - - - O
+<DEFINE> TqChg_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 135 N DC OV P N fs R
+<DEFINE> RiseXPtr_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 136 N DC OV P N =p=fs R
+<DEFINE> RiseXFac_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 137 N DC OV P N =pfs R
+<DEFINE> MoreCmp C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 135 N DC OF F I (fs,fs,=p=fs,=pfs) -
+<DEFINE> TqChg_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 138 N DC OV P N fs R
+<DEFINE> RiseYPtr_Uls_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 139 N DC OV P N =p=fs R
+<DEFINE> RiseXFac_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 140 N DC OV P N =pfs R
+<DEFINE> LessCmp C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 138 N DC OF F I (fs,fs,=p=fs,=pfs) -
+<DEFINE> HwTqFildVal_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 141 N DC OV P N fs R
+<DEFINE> AssiCmdFildVal_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 142 N DC OV P N fs R
+<DEFINE> CalcAvlCmp C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 141 N DC OF F I (fs,fs,fs) -
+<DEFINE> HysCmp_START_SEC_CODE C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 236 N DF OM - - - O
+<R>I C:/component/SF012A_HysCmp_Impl/src/HysCmp.c C:/component/SF012A_HysCmp_Impl/tools/contract/HysCmp_MemMap.h 237
+<R>I C:/component/SF012A_HysCmp_Impl/tools/contract/HysCmp_MemMap.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 56
+<EXTD> HysCmpInit1 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 249
+<DEFINE> HysCmpInit1 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 249 N DR OF F X (.,.) -
+<DEFINE> HysCmpInit1 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 249 N DF OF F X (.,.) -
+<RDEF> C Calls
+<R>C HysCmpInit1 FilLpInit 257
+<RDEF> X Refers-to
+<R>X HysCmpInit1 FilLpInit 257 R
+<R>C HysCmpInit1 Rte_Prm_HysCmp_HysCmpAssiCmdLpFilFrq_Val 257
+<R>X HysCmpInit1 Rte_Prm_HysCmp_HysCmpAssiCmdLpFilFrq_Val 257 R
+<R>X HysCmpInit1 Rte_Inst_HysCmp 257 R
+<LIT> 0.0 F P C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 257 20 N FN fs B X
+<R>C HysCmpInit1 FilLpInit 259
+<R>X HysCmpInit1 FilLpInit 259 R
+<R>C HysCmpInit1 Rte_Prm_HysCmp_HysCmpHwTqLpFilFrq_Val 259
+<R>X HysCmpInit1 Rte_Prm_HysCmp_HysCmpHwTqLpFilFrq_Val 259 R
+<R>X HysCmpInit1 Rte_Inst_HysCmp 259 R
+<LIT> 0.0 F P C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 259 20 N FN fs B X
+<R>C HysCmpInit1 FilLpInit 261
+<R>X HysCmpInit1 FilLpInit 261 R
+<R>C HysCmpInit1 Rte_Prm_HysCmp_HysCmpFinalOutpLpFilFrq_Val 261
+<R>X HysCmpInit1 Rte_Prm_HysCmp_HysCmpFinalOutpLpFilFrq_Val 261 R
+<R>X HysCmpInit1 Rte_Inst_HysCmp 261 R
+<LIT> 0.0 F P C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 261 20 N FN fs B X
+<CTLG> HysCmpInit1 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 250 266 266 266 
+<S>
+<S>STFIL  C:/component/SF012A_HysCmp_Impl/src/HysCmp.c
+<S>STNAM  HysCmpInit1
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  6
+<S>STAKI  7
+<S>STLIN  15
+<S>STXLN  3
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  0.33   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  15
+<S>STAV2  15
+<S>STAV3  15
+<S>STST1  3
+<S>STST2  3
+<S>STST3  3
+<S>STPAR  0
+<S>STCAL  4
+<S>STFN1  32
+<S>STFN2  15
+
+<EXTD> HysCmpPer1 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 307
+<DEFINE> HysCmpPer1 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 307 N DR OF F X (.,.) -
+<DEFINE> HysCmpPer1 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 307 N DF OF F X (.,.) -
+<DEFINE> AssiCmdBas_MotNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 314 N DC OV B N fs -
+<DEFINE> AssiCmdBas_MotNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 314 N DF OV B N fs -
+<DEFINE> HwTq_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 315 N DC OV B N fs -
+<DEFINE> HwTq_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 315 N DF OV B N fs -
+<DEFINE> AssiCmdFilInp_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 316 N DC OV B N fs -
+<DEFINE> AssiCmdFilInp_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 316 N DF OV B N fs -
+<DEFINE> AssiCmdFildVal_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 317 N DC OV B N fs -
+<DEFINE> AssiCmdFildVal_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 317 N DF OV B N fs -
+<DEFINE> HwTqFildVal_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 318 N DC OV B N fs -
+<DEFINE> HwTqFildVal_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 318 N DF OV B N fs -
+<DEFINE> TqChg_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 319 N DC OV B N fs -
+<DEFINE> TqChg_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 319 N DF OV B N fs -
+<DEFINE> RiseXFac_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 320 N DC OV B N fs -
+<DEFINE> RiseXFac_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 320 N DF OV B N fs -
+<DEFINE> RiseY_Uls_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 321 N DC OV B N fs -
+<DEFINE> RiseY_Uls_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 321 N DF OV B N fs -
+<DEFINE> HwTqOvrl_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 322 N DC OV B N fs -
+<DEFINE> HwTqOvrl_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 322 N DF OV B N fs -
+<DEFINE> RawHysCmp_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 324 N DC OV B N fs -
+<DEFINE> RawHysCmp_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 324 N DF OV B N fs -
+<DEFINE> HysCmp_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 325 N DC OV B N fs -
+<DEFINE> HysCmp_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 325 N DF OV B N fs -
+<DEFINE> CalcHysCmp_MotNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 326 N DC OV B N fs -
+<DEFINE> CalcHysCmp_MotNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 326 N DF OV B N fs -
+<DEFINE> HysCmpAvl_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 327 N DC OV B N fs -
+<DEFINE> HysCmpAvl_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 327 N DF OV B N fs -
+<DEFINE> HysCmpCmd_MotNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 329 N DC OV B N fs -
+<DEFINE> HysCmpCmd_MotNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 329 N DF OV B N fs -
+<DEFINE> HysCmpCmdDi_Cnt_T_lgc C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 330 N DC OV B N uc -
+<DEFINE> HysCmpCmdDi_Cnt_T_lgc C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 330 N DF OV B N uc -
+<R>C HysCmpPer1 Rte_Read_HysCmp_HwTq_Val 333
+<R>X HysCmpPer1 Rte_Read_HysCmp_HwTq_Val 333 R
+<R>C HysCmpPer1 Rte_Read_HysCmp_AssiCmdBas_Val 334
+<R>X HysCmpPer1 Rte_Read_HysCmp_AssiCmdBas_Val 334 R
+<R>C HysCmpPer1 Rte_Read_HysCmp_HysCmpCmdDi_Logl 335
+<R>X HysCmpPer1 Rte_Read_HysCmp_HysCmpCmdDi_Logl 335 R
+<R>C HysCmpPer1 Rte_Read_HysCmp_HwTqOvrl_Val 336
+<R>X HysCmpPer1 Rte_Read_HysCmp_HwTqOvrl_Val 336 R
+<R>C HysCmpPer1 Rte_Prm_HysCmp_SysGlbPrmSysTqRat_Val 340
+<R>X HysCmpPer1 Rte_Prm_HysCmp_SysGlbPrmSysTqRat_Val 340 R
+<R>C HysCmpPer1 FilLpUpdOutp_f32 341
+<R>X HysCmpPer1 FilLpUpdOutp_f32 341 R
+<R>X HysCmpPer1 Rte_Inst_HysCmp 341 R
+<R>C HysCmpPer1 FilLpUpdOutp_f32 342
+<R>X HysCmpPer1 FilLpUpdOutp_f32 342 R
+<R>X HysCmpPer1 Rte_Inst_HysCmp 342 R
+<R>C HysCmpPer1 Abslt_f32_f32 344
+<R>X HysCmpPer1 Abslt_f32_f32 344 R
+<R>C HysCmpPer1 FixdToFloat_f32_u16 344
+<R>X HysCmpPer1 FixdToFloat_f32_u16 344 R
+<R>C HysCmpPer1 Rte_Prm_HysCmp_HysCmpAssiInpLim_Val 344
+<R>X HysCmpPer1 Rte_Prm_HysCmp_HysCmpAssiInpLim_Val 344 R
+<R>X HysCmpPer1 Rte_Inst_HysCmp 346 R
+<R>X HysCmpPer1 Rte_Inst_HysCmp 347 R
+<R>X HysCmpPer1 Rte_Inst_HysCmp 350 R
+<R>C HysCmpPer1 Abslt_f32_f32 354
+<R>X HysCmpPer1 Abslt_f32_f32 354 R
+<R>X HysCmpPer1 Rte_Inst_HysCmp 356 R
+<R>X HysCmpPer1 Rte_Inst_HysCmp 357 R
+<R>C HysCmpPer1 Sign_s08_f32 360
+<R>X HysCmpPer1 Sign_s08_f32 360 R
+<R>C HysCmpPer1 Sign_s08_f32 360
+<R>X HysCmpPer1 Sign_s08_f32 360 R
+<R>X HysCmpPer1 Rte_Inst_HysCmp 360 R
+<R>C HysCmpPer1 MoreCmp 362
+<R>X HysCmpPer1 Rte_Inst_HysCmp 362 R
+<R>C HysCmpPer1 LessCmp 367
+<R>X HysCmpPer1 Rte_Inst_HysCmp 367 R
+<R>C HysCmpPer1 Lim_f32 372
+<R>X HysCmpPer1 Lim_f32 372 R
+<R>C HysCmpPer1 FixdToFloat_f32_u16 372
+<R>X HysCmpPer1 FixdToFloat_f32_u16 372 R
+<R>C HysCmpPer1 Rte_Prm_HysCmp_HysCmpRiseX_Ary1D 372
+<R>X HysCmpPer1 Rte_Prm_HysCmp_HysCmpRiseX_Ary1D 372 R
+<R>C HysCmpPer1 FixdToFloat_f32_u16 372
+<R>X HysCmpPer1 FixdToFloat_f32_u16 372 R
+<R>C HysCmpPer1 Rte_Prm_HysCmp_HysCmpRiseX_Ary1D 372
+<R>X HysCmpPer1 Rte_Prm_HysCmp_HysCmpRiseX_Ary1D 372 R
+<R>X HysCmpPer1 Rte_Inst_HysCmp 372 R
+<LIT> 1 U P C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 371 153 N DN ui B X
+<LIT> 1 U P C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 372 153 N DN ui B X
+<R>C HysCmpPer1 Lim_f32 373
+<R>X HysCmpPer1 Lim_f32 373 R
+<R>C HysCmpPer1 CalcAvlCmp 376
+<R>X HysCmpPer1 Rte_Inst_HysCmp 379 R
+<R>C HysCmpPer1 FilLpUpdOutp_f32 383
+<R>X HysCmpPer1 FilLpUpdOutp_f32 383 R
+<R>X HysCmpPer1 Rte_Inst_HysCmp 383 R
+<LIT> 0.0 F P C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 388 47 N FN fs B X
+<R>C HysCmpPer1 Lim_f32 393
+<R>X HysCmpPer1 Lim_f32 393 R
+<R>C HysCmpPer1 Rte_Prm_HysCmp_HysCmpOutpLim_Val 393
+<R>X HysCmpPer1 Rte_Prm_HysCmp_HysCmpOutpLim_Val 393 R
+<R>C HysCmpPer1 Rte_Prm_HysCmp_HysCmpOutpLim_Val 393
+<R>X HysCmpPer1 Rte_Prm_HysCmp_HysCmpOutpLim_Val 393 R
+<R>C HysCmpPer1 Rte_Prm_HysCmp_SysGlbPrmSysTqRat_Val 395
+<R>X HysCmpPer1 Rte_Prm_HysCmp_SysGlbPrmSysTqRat_Val 395 R
+<R>C HysCmpPer1 Lim_f32 399
+<R>X HysCmpPer1 Lim_f32 399 R
+<R>X HysCmpPer1 Rte_Inst_HysCmp 406 R
+<R>X HysCmpPer1 Rte_Inst_HysCmp 407 R
+<R>X HysCmpPer1 Rte_Inst_HysCmp 409 R
+<R>X HysCmpPer1 Rte_Inst_HysCmp 410 R
+<R>X HysCmpPer1 Rte_Inst_HysCmp 411 R
+<R>X HysCmpPer1 Rte_Inst_HysCmp 412 R
+<R>C HysCmpPer1 Rte_Write_HysCmp_HysCmpCmd_Val 415
+<R>X HysCmpPer1 Rte_Write_HysCmp_HysCmpCmd_Val 415 R
+<CTLG> HysCmpPer1 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 4
+<CTLG> 3 4
+<CTLG> 4 5
+<CTLG> 5 6
+<CTLG> 5 7
+<CTLG> 6 11
+<CTLG> 7 8
+<CTLG> 7 9
+<CTLG> 8 10
+<CTLG> 9 10
+<CTLG> 10 11
+<CTLG> 11 12
+<CTLG> 12 13
+<CTLG> 12 14
+<CTLG> 13 15
+<CTLG> 14 15
+<CTLG> 15 16
+<CTLG> 16 18
+<CTLGN> 308 344 344 344 354 354 354 360 360 365 360 386 386 386 390 420 420 420 
+<S>
+<S>STFIL  C:/component/SF012A_HysCmp_Impl/src/HysCmp.c
+<S>STNAM  HysCmpPer1
+<S>STCYC  5
+<S>STMCC  0 (5:5)
+<S>STMIF  2
+<S>STSUB  29
+<S>STAKI  34
+<S>STLIN  111
+<S>STXLN  39
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  15
+<S>STPTH  12
+<S>STPDN  0.31   
+<S>STPBG  1
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  9
+<S>STAV2  10
+<S>STAV3  14
+<S>STST1  56
+<S>STST2  50
+<S>STST3  35
+<S>STPAR  0
+<S>STCAL  17
+<S>STFN1  335
+<S>STFN2  181
+
+<DEFINE> HysCmp_STOP_SEC_CODE C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 423 N DF OM - - - O
+<R>I C:/component/SF012A_HysCmp_Impl/src/HysCmp.c C:/component/SF012A_HysCmp_Impl/tools/contract/HysCmp_MemMap.h 424
+<R>I C:/component/SF012A_HysCmp_Impl/tools/contract/HysCmp_MemMap.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 128
+<DEFINE> TqChg_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 436 N DC OV B N fs R
+<DEFINE> RiseXPtr_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 437 N DC OV B N =p=fs R
+<DEFINE> RiseXFac_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 438 N DC OV B N =pfs R
+<DEFINE> MoreCmp C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 436 N DR OF F I (fs,fs,=p=fs,=pfs) -
+<DEFINE> MoreCmp C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 436 N DF OF F I (fs,fs,=p=fs,=pfs) -
+<DEFINE> RiseX_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 440 N DC OV B N fs -
+<DEFINE> RiseX_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 440 N DF OV B N fs -
+<DEFINE> RiseY_Uls_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 441 N DC OV B N fs -
+<DEFINE> RiseY_Uls_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 441 N DF OV B N fs -
+<DEFINE> AbsltRiseX_HwNwtMtr_T_u2p14 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 442 N DC OV B N us -
+<DEFINE> AbsltRiseX_HwNwtMtr_T_u2p14 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 442 N DF OV B N us -
+<DEFINE> RiseY_Uls_T_u2p14 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 443 N DC OV B N us -
+<DEFINE> RiseY_Uls_T_u2p14 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 443 N DF OV B N us -
+<R>C MoreCmp Lim_f32 448
+<R>X MoreCmp Lim_f32 448 R
+<R>C MoreCmp FixdToFloat_f32_u16 448
+<R>X MoreCmp FixdToFloat_f32_u16 448 R
+<R>C MoreCmp Rte_Prm_HysCmp_HysCmpRiseX_Ary1D 448
+<R>X MoreCmp Rte_Prm_HysCmp_HysCmpRiseX_Ary1D 448 R
+<R>C MoreCmp FixdToFloat_f32_u16 448
+<R>X MoreCmp FixdToFloat_f32_u16 448 R
+<R>C MoreCmp Rte_Prm_HysCmp_HysCmpRiseX_Ary1D 448
+<R>X MoreCmp Rte_Prm_HysCmp_HysCmpRiseX_Ary1D 448 R
+<LIT> 1 U P C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 447 152 N DN ui B X
+<LIT> 1 U P C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 448 152 N DN ui B X
+<R>C MoreCmp FloatToFixd_u16_f32 449
+<R>X MoreCmp FloatToFixd_u16_f32 449 R
+<R>C MoreCmp Abslt_f32_f32 449
+<R>X MoreCmp Abslt_f32_f32 449 R
+<R>C MoreCmp LnrIntrpn_u16_u16VariXu16VariY 453
+<R>X MoreCmp LnrIntrpn_u16_u16VariXu16VariY 453 R
+<R>C MoreCmp Rte_Prm_HysCmp_HysCmpRiseX_Ary1D 453
+<R>X MoreCmp Rte_Prm_HysCmp_HysCmpRiseX_Ary1D 453 R
+<R>C MoreCmp Rte_Prm_HysCmp_HysCmpRiseY_Ary1D 453
+<R>X MoreCmp Rte_Prm_HysCmp_HysCmpRiseY_Ary1D 453 R
+<R>C MoreCmp FixdToFloat_f32_u16 454
+<R>X MoreCmp FixdToFloat_f32_u16 454 R
+<R>C MoreCmp Sign_s08_f32 455
+<R>X MoreCmp Sign_s08_f32 455 R
+<CTLG> MoreCmp 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 439 458 458 458 
+<S>
+<S>STFIL  C:/component/SF012A_HysCmp_Impl/src/HysCmp.c
+<S>STNAM  MoreCmp
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  12
+<S>STAKI  13
+<S>STLIN  19
+<S>STXLN  13
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  4
+<S>STPTH  1
+<S>STPDN  0.08   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  12
+<S>STAV2  12
+<S>STAV3  19
+<S>STST1  12
+<S>STST2  12
+<S>STST3  8
+<S>STPAR  3
+<S>STCAL  8
+<S>STFN1  94
+<S>STFN2  61
+
+<DEFINE> TqChg_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 469 N DC OV B N fs R
+<DEFINE> RiseYPtr_Uls_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 470 N DC OV B N =p=fs R
+<DEFINE> RiseXFac_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 471 N DC OV B N =pfs R
+<DEFINE> LessCmp C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 469 N DR OF F I (fs,fs,=p=fs,=pfs) -
+<DEFINE> LessCmp C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 469 N DF OF F I (fs,fs,=p=fs,=pfs) -
+<DEFINE> MdfTqChg_Uls_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 473 N DC OV B N fs -
+<DEFINE> MdfTqChg_Uls_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 473 N DF OV B N fs -
+<DEFINE> RiseY_Uls_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 474 N DC OV B N fs -
+<DEFINE> RiseY_Uls_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 474 N DF OV B N fs -
+<DEFINE> RiseX_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 475 N DC OV B N fs -
+<DEFINE> RiseX_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 475 N DF OV B N fs -
+<DEFINE> RiseY_Uls_T_u2p14 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 476 N DC OV B N us -
+<DEFINE> RiseY_Uls_T_u2p14 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 476 N DF OV B N us -
+<DEFINE> RiseX_HwNwtMtr_T_u2p14 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 477 N DC OV B N us -
+<DEFINE> RiseX_HwNwtMtr_T_u2p14 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 477 N DF OV B N us -
+<DEFINE> AbsltRiseY_Uls_T_u2p14 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 478 N DC OV B N us -
+<DEFINE> AbsltRiseY_Uls_T_u2p14 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 478 N DF OV B N us -
+<DEFINE> AbsltRiseX_HwNwtMtr_T_u2p14 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 479 N DC OV B N us -
+<DEFINE> AbsltRiseX_HwNwtMtr_T_u2p14 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 479 N DF OV B N us -
+<R>C LessCmp Rte_Prm_HysCmp_HysCmpRevGain_Val 481
+<R>X LessCmp Rte_Prm_HysCmp_HysCmpRevGain_Val 481 R
+<R>C LessCmp Abslt_f32_f32 483
+<R>X LessCmp Abslt_f32_f32 483 R
+<R>C LessCmp Abslt_f32_f32 483
+<R>X LessCmp Abslt_f32_f32 483 R
+<R>C LessCmp Lim_f32 489
+<R>X LessCmp Lim_f32 489 R
+<R>C LessCmp FixdToFloat_f32_u16 489
+<R>X LessCmp FixdToFloat_f32_u16 489 R
+<R>C LessCmp Rte_Prm_HysCmp_HysCmpRiseY_Ary1D 489
+<R>X LessCmp Rte_Prm_HysCmp_HysCmpRiseY_Ary1D 489 R
+<R>C LessCmp FixdToFloat_f32_u16 489
+<R>X LessCmp FixdToFloat_f32_u16 489 R
+<R>C LessCmp Rte_Prm_HysCmp_HysCmpRiseY_Ary1D 489
+<R>X LessCmp Rte_Prm_HysCmp_HysCmpRiseY_Ary1D 489 R
+<LIT> 1 U P C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 488 154 N DN ui B X
+<LIT> 1 U P C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 489 153 N DN ui B X
+<R>C LessCmp FloatToFixd_u16_f32 490
+<R>X LessCmp FloatToFixd_u16_f32 490 R
+<R>C LessCmp Abslt_f32_f32 490
+<R>X LessCmp Abslt_f32_f32 490 R
+<R>C LessCmp LnrIntrpn_u16_u16VariXu16VariY 497
+<R>X LessCmp LnrIntrpn_u16_u16VariXu16VariY 497 R
+<R>C LessCmp Rte_Prm_HysCmp_HysCmpRiseY_Ary1D 497
+<R>X LessCmp Rte_Prm_HysCmp_HysCmpRiseY_Ary1D 497 R
+<R>C LessCmp Rte_Prm_HysCmp_HysCmpRiseX_Ary1D 497
+<R>X LessCmp Rte_Prm_HysCmp_HysCmpRiseX_Ary1D 497 R
+<R>C LessCmp FixdToFloat_f32_u16 498
+<R>X LessCmp FixdToFloat_f32_u16 498 R
+<R>C LessCmp Sign_s08_f32 499
+<R>X LessCmp Sign_s08_f32 499 R
+<R>C LessCmp Rte_Prm_HysCmp_HysCmpRevGain_Val 504
+<R>X LessCmp Rte_Prm_HysCmp_HysCmpRevGain_Val 504 R
+<R>C LessCmp Lim_f32 507
+<R>X LessCmp Lim_f32 507 R
+<R>C LessCmp FixdToFloat_f32_u16 507
+<R>X LessCmp FixdToFloat_f32_u16 507 R
+<R>C LessCmp Rte_Prm_HysCmp_HysCmpRiseX_Ary1D 507
+<R>X LessCmp Rte_Prm_HysCmp_HysCmpRiseX_Ary1D 507 R
+<R>C LessCmp FixdToFloat_f32_u16 507
+<R>X LessCmp FixdToFloat_f32_u16 507 R
+<R>C LessCmp Rte_Prm_HysCmp_HysCmpRiseX_Ary1D 507
+<R>X LessCmp Rte_Prm_HysCmp_HysCmpRiseX_Ary1D 507 R
+<LIT> 1 U P C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 506 167 N DN ui B X
+<LIT> 1 U P C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 507 163 N DN ui B X
+<R>C LessCmp FloatToFixd_u16_f32 508
+<R>X LessCmp FloatToFixd_u16_f32 508 R
+<R>C LessCmp Abslt_f32_f32 508
+<R>X LessCmp Abslt_f32_f32 508 R
+<R>C LessCmp LnrIntrpn_u16_u16VariXu16VariY 512
+<R>X LessCmp LnrIntrpn_u16_u16VariXu16VariY 512 R
+<R>C LessCmp Rte_Prm_HysCmp_HysCmpRiseX_Ary1D 512
+<R>X LessCmp Rte_Prm_HysCmp_HysCmpRiseX_Ary1D 512 R
+<R>C LessCmp Rte_Prm_HysCmp_HysCmpRiseY_Ary1D 512
+<R>X LessCmp Rte_Prm_HysCmp_HysCmpRiseY_Ary1D 512 R
+<R>C LessCmp FixdToFloat_f32_u16 513
+<R>X LessCmp FixdToFloat_f32_u16 513 R
+<R>C LessCmp Sign_s08_f32 514
+<R>X LessCmp Sign_s08_f32 514 R
+<CTLG> LessCmp 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 4
+<CTLG> 3 5
+<CTLG> 4 5
+<CTLG> 5 6
+<CTLG> 6 8
+<CTLGN> 472 483 483 483 501 518 518 518 
+<S>
+<S>STFIL  C:/component/SF012A_HysCmp_Impl/src/HysCmp.c
+<S>STNAM  LessCmp
+<S>STCYC  2
+<S>STMCC  0 (2:2)
+<S>STMIF  1
+<S>STSUB  28
+<S>STAKI  30
+<S>STLIN  46
+<S>STXLN  27
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  7
+<S>STPTH  2
+<S>STPDN  0.07   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  12
+<S>STAV2  14
+<S>STAV3  20
+<S>STST1  25
+<S>STST2  23
+<S>STST3  16
+<S>STPAR  3
+<S>STCAL  9
+<S>STFN1  201
+<S>STFN2  123
+
+<DEFINE> HwTqFildVal_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 528 N DC OV B N fs R
+<DEFINE> AssiCmdFildVal_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 529 N DC OV B N fs R
+<DEFINE> CalcAvlCmp C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 528 N DR OF F I (fs,fs,fs) -
+<DEFINE> CalcAvlCmp C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 528 N DF OF F I (fs,fs,fs) -
+<DEFINE> AbsltCombdTq_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 531 N DC OV B N fs -
+<DEFINE> AbsltCombdTq_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 531 N DF OV B N fs -
+<DEFINE> VehSpd_Kph_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 532 N DC OV B N fs -
+<DEFINE> VehSpd_Kph_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 532 N DF OV B N fs -
+<DEFINE> EffOffs_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 533 N DC OV B N fs -
+<DEFINE> EffOffs_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 533 N DF OV B N fs -
+<DEFINE> HysTrq_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 534 N DC OV B N fs -
+<DEFINE> HysTrq_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 534 N DF OV B N fs -
+<DEFINE> EffLossCalc_Uls_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 535 N DC OV B N fs -
+<DEFINE> EffLossCalc_Uls_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 535 N DF OV B N fs -
+<DEFINE> HysCmpEffCmpTq_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 536 N DC OV B N fs -
+<DEFINE> HysCmpEffCmpTq_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 536 N DF OV B N fs -
+<DEFINE> WhlImbRejctnOffFric_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 537 N DC OV B N fs -
+<DEFINE> WhlImbRejctnOffFric_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 537 N DF OV B N fs -
+<DEFINE> WhlImbRejctnOnFric_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 538 N DC OV B N fs -
+<DEFINE> WhlImbRejctnOnFric_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 538 N DF OV B N fs -
+<DEFINE> WhlImbRejctnAmp_MotNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 539 N DC OV B N fs -
+<DEFINE> WhlImbRejctnAmp_MotNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 539 N DF OV B N fs -
+<DEFINE> WhlImbRejctnCmdBlndFac_Uls_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 540 N DC OV B N fs -
+<DEFINE> WhlImbRejctnCmdBlndFac_Uls_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 540 N DF OV B N fs -
+<DEFINE> WhlImbRejctnFric_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 541 N DC OV B N fs -
+<DEFINE> WhlImbRejctnFric_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 541 N DF OV B N fs -
+<DEFINE> AssiMechT_DegCgrd_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 542 N DC OV B N fs -
+<DEFINE> AssiMechT_DegCgrd_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 542 N DF OV B N fs -
+<DEFINE> TempScale_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 543 N DC OV B N fs -
+<DEFINE> TempScale_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 543 N DF OV B N fs -
+<DEFINE> CoulombFric_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 544 N DC OV B N fs -
+<DEFINE> CoulombFric_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 544 N DF OV B N fs -
+<DEFINE> SysFricOffs_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 545 N DC OV B N fs -
+<DEFINE> SysFricOffs_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 545 N DF OV B N fs -
+<DEFINE> HysTqNotLimd_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 546 N DC OV B N fs -
+<DEFINE> HysTqNotLimd_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 546 N DF OV B N fs -
+<DEFINE> HysSat_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 547 N DC OV B N fs -
+<DEFINE> HysSat_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 547 N DF OV B N fs -
+<DEFINE> HysTq_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 548 N DC OV B N fs -
+<DEFINE> HysTq_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 548 N DF OV B N fs -
+<DEFINE> HwTrqSca_Uls_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 549 N DC OV B N fs -
+<DEFINE> HwTrqSca_Uls_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 549 N DF OV B N fs -
+<DEFINE> HysCmpPosAvl_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 550 N DC OV B N fs -
+<DEFINE> HysCmpPosAvl_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 550 N DF OV B N fs -
+<DEFINE> NegHysCmpSca_Uls_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 551 N DC OV B N fs -
+<DEFINE> NegHysCmpSca_Uls_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 551 N DF OV B N fs -
+<DEFINE> NegHysCmp_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 552 N DC OV B N fs -
+<DEFINE> NegHysCmp_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 552 N DF OV B N fs -
+<DEFINE> HysNegBlndCmp_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 553 N DC OV B N fs -
+<DEFINE> HysNegBlndCmp_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 553 N DF OV B N fs -
+<DEFINE> HysCmpAvl_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 554 N DC OV B N fs -
+<DEFINE> HysCmpAvl_HwNwtMtr_T_f32 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 554 N DF OV B N fs -
+<DEFINE> EffOffs_Uls_T_u9p7 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 555 N DC OV B N us -
+<DEFINE> EffOffs_Uls_T_u9p7 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 555 N DF OV B N us -
+<DEFINE> EffLossCalc_Uls_T_u4p12 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 556 N DC OV B N us -
+<DEFINE> EffLossCalc_Uls_T_u4p12 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 556 N DF OV B N us -
+<DEFINE> WhlImbRejctnOffFric_HwNwtMtr_T_u9p7 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 557 N DC OV B N us -
+<DEFINE> WhlImbRejctnOffFric_HwNwtMtr_T_u9p7 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 557 N DF OV B N us -
+<DEFINE> WhlImbRejctnOnFric_HwNwtMtr_T_u9p7 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 558 N DC OV B N us -
+<DEFINE> WhlImbRejctnOnFric_HwNwtMtr_T_u9p7 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 558 N DF OV B N us -
+<DEFINE> WhlImbRejctnAmp_MotNwtMtr_T_u8p8 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 559 N DC OV B N us -
+<DEFINE> WhlImbRejctnAmp_MotNwtMtr_T_u8p8 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 559 N DF OV B N us -
+<DEFINE> WhlImbRejctnCmdBlndFac_Uls_T_u2p14 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 560 N DC OV B N us -
+<DEFINE> WhlImbRejctnCmdBlndFac_Uls_T_u2p14 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 560 N DF OV B N us -
+<DEFINE> TempScale_HwNwtMtr_T_u9p7 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 561 N DC OV B N us -
+<DEFINE> TempScale_HwNwtMtr_T_u9p7 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 561 N DF OV B N us -
+<DEFINE> HysSat_HwNwtMtr_T_u9p7 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 562 N DC OV B N us -
+<DEFINE> HysSat_HwNwtMtr_T_u9p7 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 562 N DF OV B N us -
+<DEFINE> AbsltHwTrqFilt_HwNm_T_u4p12 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 563 N DC OV B N us -
+<DEFINE> AbsltHwTrqFilt_HwNm_T_u4p12 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 563 N DF OV B N us -
+<DEFINE> HwTrqSca_Uls_T_u4p12 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 564 N DC OV B N us -
+<DEFINE> HwTrqSca_Uls_T_u4p12 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 564 N DF OV B N us -
+<DEFINE> AbsltAssiCmdFildVal_HwNwtMtr_T_u9p7 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 565 N DC OV B N us -
+<DEFINE> AbsltAssiCmdFildVal_HwNwtMtr_T_u9p7 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 565 N DF OV B N us -
+<DEFINE> NegHysCmpSca_Uls_T_u2p14 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 566 N DC OV B N us -
+<DEFINE> NegHysCmpSca_Uls_T_u2p14 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 566 N DF OV B N us -
+<DEFINE> NegHysCmp_HwNwtMtr_T_u9p7 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 567 N DC OV B N us -
+<DEFINE> NegHysCmp_HwNwtMtr_T_u9p7 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 567 N DF OV B N us -
+<DEFINE> VehSpd_Kph_T_u9p7 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 568 N DC OV B N us -
+<DEFINE> VehSpd_Kph_T_u9p7 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 568 N DF OV B N us -
+<DEFINE> AssistMechTempEst_DegC_T_s14p1 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 569 N DC OV B N ns -
+<DEFINE> AssistMechTempEst_DegC_T_s14p1 C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 569 N DF OV B N ns -
+<R>C CalcAvlCmp Rte_Read_HysCmp_WhlImbRejctnAmp_Val 572
+<R>X CalcAvlCmp Rte_Read_HysCmp_WhlImbRejctnAmp_Val 572 R
+<R>C CalcAvlCmp Rte_Read_HysCmp_AssiMechT_Val 573
+<R>X CalcAvlCmp Rte_Read_HysCmp_AssiMechT_Val 573 R
+<R>C CalcAvlCmp Rte_Read_HysCmp_SysFricOffs_Val 574
+<R>X CalcAvlCmp Rte_Read_HysCmp_SysFricOffs_Val 574 R
+<R>C CalcAvlCmp Rte_Read_HysCmp_VehSpd_Val 575
+<R>X CalcAvlCmp Rte_Read_HysCmp_VehSpd_Val 575 R
+<R>C CalcAvlCmp FloatToFixd_u16_f32 577
+<R>X CalcAvlCmp FloatToFixd_u16_f32 577 R
+<R>C CalcAvlCmp Abslt_f32_f32 578
+<R>X CalcAvlCmp Abslt_f32_f32 578 R
+<R>C CalcAvlCmp LnrIntrpn_u16_u16VariXu16VariY 583
+<R>X CalcAvlCmp LnrIntrpn_u16_u16VariXu16VariY 583 R
+<R>C CalcAvlCmp Rte_Prm_HysCmp_SysGlbPrmVehSpdBilnrSeln_Ary1D 583
+<R>X CalcAvlCmp Rte_Prm_HysCmp_SysGlbPrmVehSpdBilnrSeln_Ary1D 583 R
+<R>C CalcAvlCmp Rte_Prm_HysCmp_HysCmpEffOffsY_Ary1D 583
+<R>X CalcAvlCmp Rte_Prm_HysCmp_HysCmpEffOffsY_Ary1D 583 R
+<R>C CalcAvlCmp FixdToFloat_f32_u16 584
+<R>X CalcAvlCmp FixdToFloat_f32_u16 584 R
+<R>C CalcAvlCmp Max_f32 585
+<R>X CalcAvlCmp Max_f32 585 R
+<LIT> 0.0 F P C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 585 98 N FN fs B X
+<R>C CalcAvlCmp LnrIntrpn_u16_u16VariXu16VariY 590
+<R>X CalcAvlCmp LnrIntrpn_u16_u16VariXu16VariY 590 R
+<R>C CalcAvlCmp Rte_Prm_HysCmp_SysGlbPrmVehSpdBilnrSeln_Ary1D 590
+<R>X CalcAvlCmp Rte_Prm_HysCmp_SysGlbPrmVehSpdBilnrSeln_Ary1D 590 R
+<R>C CalcAvlCmp Rte_Prm_HysCmp_HysCmpEffLossY_Ary1D 590
+<R>X CalcAvlCmp Rte_Prm_HysCmp_HysCmpEffLossY_Ary1D 590 R
+<R>C CalcAvlCmp FixdToFloat_f32_u16 591
+<R>X CalcAvlCmp FixdToFloat_f32_u16 591 R
+<R>X CalcAvlCmp Rte_Inst_HysCmp 595 R
+<R>C CalcAvlCmp LnrIntrpn_u16_u16VariXu16VariY 601
+<R>X CalcAvlCmp LnrIntrpn_u16_u16VariXu16VariY 601 R
+<R>C CalcAvlCmp Rte_Prm_HysCmp_SysGlbPrmVehSpdBilnrSeln_Ary1D 601
+<R>X CalcAvlCmp Rte_Prm_HysCmp_SysGlbPrmVehSpdBilnrSeln_Ary1D 601 R
+<R>C CalcAvlCmp Rte_Prm_HysCmp_HysCmpFricWhlImbRejctnOffY_Ary1D 601
+<R>X CalcAvlCmp Rte_Prm_HysCmp_HysCmpFricWhlImbRejctnOffY_Ary1D 601 R
+<R>C CalcAvlCmp FixdToFloat_f32_u16 602
+<R>X CalcAvlCmp FixdToFloat_f32_u16 602 R
+<R>C CalcAvlCmp LnrIntrpn_u16_u16VariXu16VariY 606
+<R>X CalcAvlCmp LnrIntrpn_u16_u16VariXu16VariY 606 R
+<R>C CalcAvlCmp Rte_Prm_HysCmp_SysGlbPrmVehSpdBilnrSeln_Ary1D 606
+<R>X CalcAvlCmp Rte_Prm_HysCmp_SysGlbPrmVehSpdBilnrSeln_Ary1D 606 R
+<R>C CalcAvlCmp Rte_Prm_HysCmp_HysCmpFricWhlImbRejctnOnY_Ary1D 606
+<R>X CalcAvlCmp Rte_Prm_HysCmp_HysCmpFricWhlImbRejctnOnY_Ary1D 606 R
+<R>C CalcAvlCmp FixdToFloat_f32_u16 607
+<R>X CalcAvlCmp FixdToFloat_f32_u16 607 R
+<R>C CalcAvlCmp FloatToFixd_u16_f32 608
+<R>X CalcAvlCmp FloatToFixd_u16_f32 608 R
+<R>C CalcAvlCmp LnrIntrpn_u16_u16VariXu16VariY 612
+<R>X CalcAvlCmp LnrIntrpn_u16_u16VariXu16VariY 612 R
+<R>C CalcAvlCmp Rte_Prm_HysCmp_HysCmpFricWhlImbRejctnBlndX_Ary1D 612
+<R>X CalcAvlCmp Rte_Prm_HysCmp_HysCmpFricWhlImbRejctnBlndX_Ary1D 612 R
+<R>C CalcAvlCmp Rte_Prm_HysCmp_HysCmpFricWhlImbRejctnBlndY_Ary1D 612
+<R>X CalcAvlCmp Rte_Prm_HysCmp_HysCmpFricWhlImbRejctnBlndY_Ary1D 612 R
+<R>C CalcAvlCmp FixdToFloat_f32_u16 613
+<R>X CalcAvlCmp FixdToFloat_f32_u16 613 R
+<R>C CalcAvlCmp Blnd_f32 614
+<R>X CalcAvlCmp Blnd_f32 614 R
+<R>C CalcAvlCmp FloatToFixd_s16_f32 615
+<R>X CalcAvlCmp FloatToFixd_s16_f32 615 R
+<R>C CalcAvlCmp LnrIntrpn_u16_s16VariXu16VariY 619
+<R>X CalcAvlCmp LnrIntrpn_u16_s16VariXu16VariY 619 R
+<R>C CalcAvlCmp Rte_Prm_HysCmp_HysCmpFricTScaX_Ary1D 619
+<R>X CalcAvlCmp Rte_Prm_HysCmp_HysCmpFricTScaX_Ary1D 619 R
+<R>C CalcAvlCmp Rte_Prm_HysCmp_HysCmpFricTScaY_Ary1D 619
+<R>X CalcAvlCmp Rte_Prm_HysCmp_HysCmpFricTScaY_Ary1D 619 R
+<R>C CalcAvlCmp FixdToFloat_f32_u16 620
+<R>X CalcAvlCmp FixdToFloat_f32_u16 620 R
+<R>X CalcAvlCmp Rte_Inst_HysCmp 624 R
+<R>C CalcAvlCmp LnrIntrpn_u16_u16VariXu16VariY 630
+<R>X CalcAvlCmp LnrIntrpn_u16_u16VariXu16VariY 630 R
+<R>C CalcAvlCmp Rte_Prm_HysCmp_SysGlbPrmVehSpdBilnrSeln_Ary1D 630
+<R>X CalcAvlCmp Rte_Prm_HysCmp_SysGlbPrmVehSpdBilnrSeln_Ary1D 630 R
+<R>C CalcAvlCmp Rte_Prm_HysCmp_HysCmpHysSatnY_Ary1D 630
+<R>X CalcAvlCmp Rte_Prm_HysCmp_HysCmpHysSatnY_Ary1D 630 R
+<R>C CalcAvlCmp FixdToFloat_f32_u16 631
+<R>X CalcAvlCmp FixdToFloat_f32_u16 631 R
+<R>C CalcAvlCmp Lim_f32 633
+<R>X CalcAvlCmp Lim_f32 633 R
+<R>C CalcAvlCmp FloatToFixd_u16_f32 637
+<R>X CalcAvlCmp FloatToFixd_u16_f32 637 R
+<R>C CalcAvlCmp Abslt_f32_f32 637
+<R>X CalcAvlCmp Abslt_f32_f32 637 R
+<R>C CalcAvlCmp BilnrIntrpnWithRound_u16_u16MplXu16MplY 644
+<R>X CalcAvlCmp BilnrIntrpnWithRound_u16_u16MplXu16MplY 644 R
+<R>C CalcAvlCmp Rte_Prm_HysCmp_SysGlbPrmVehSpdBilnrSeln_Ary1D 644
+<R>X CalcAvlCmp Rte_Prm_HysCmp_SysGlbPrmVehSpdBilnrSeln_Ary1D 644 R
+<R>C CalcAvlCmp Rte_Prm_HysCmp_HysCmpHwTqScaX_Ary2D 644
+<R>X CalcAvlCmp Rte_Prm_HysCmp_HysCmpHwTqScaX_Ary2D 644 R
+<R>C CalcAvlCmp Rte_Prm_HysCmp_HysCmpHwTqScaY_Ary2D 644
+<R>X CalcAvlCmp Rte_Prm_HysCmp_HysCmpHwTqScaY_Ary2D 644 R
+<LIT> 0 - P C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 644 129 N ON ni B X
+<LIT> 0 - P C:/component/SF012A_HysCmp_Impl/src/HysCmp.c 644 129 N ON ni B X
+<R>C CalcAvlCmp FixdToFloat_f32_u16 645
+<R>X CalcAvlCmp FixdToFloat_f32_u16 645 R
+<R>X CalcAvlCmp Rte_Inst_HysCmp 648 R
+<R>C CalcAvlCmp FloatToFixd_u16_f32 649
+<R>X CalcAvlCmp FloatToFixd_u16_f32 649 R
+<R>C CalcAvlCmp Abslt_f32_f32 649
+<R>X CalcAvlCmp Abslt_f32_f32 649 R
+<R>C CalcAvlCmp LnrIntrpn_u16_u16VariXu16VariY 653
+<R>X CalcAvlCmp LnrIntrpn_u16_u16VariXu16VariY 653 R
+<R>C CalcAvlCmp Rte_Prm_HysCmp_HysCmpNegHysCmpScaX_Ary1D 653
+<R>X CalcAvlCmp Rte_Prm_HysCmp_HysCmpNegHysCmpScaX_Ary1D 653 R
+<R>C CalcAvlCmp Rte_Prm_HysCmp_HysCmpNegHysCmpScaY_Ary1D 653
+<R>X CalcAvlCmp Rte_Prm_HysCmp_HysCmpNegHysCmpScaY_Ary1D 653 R
+<R>C CalcAvlCmp FixdToFloat_f32_u16 654
+<R>X CalcAvlCmp FixdToFloat_f32_u16 654 R
+<R>C CalcAvlCmp LnrIntrpn_u16_u16VariXu16VariY 658
+<R>X CalcAvlCmp LnrIntrpn_u16_u16VariXu16VariY 658 R
+<R>C CalcAvlCmp Rte_Prm_HysCmp_HysCmpNegHysCmpX_Ary1D 658
+<R>X CalcAvlCmp Rte_Prm_HysCmp_HysCmpNegHysCmpX_Ary1D 658 R
+<R>C CalcAvlCmp Rte_Prm_HysCmp_HysCmpNegHysCmpY_Ary1D 658
+<R>X CalcAvlCmp Rte_Prm_HysCmp_HysCmpNegHysCmpY_Ary1D 658 R
+<R>C CalcAvlCmp FixdToFloat_f32_u16 659
+<R>X CalcAvlCmp FixdToFloat_f32_u16 659 R
+<R>X CalcAvlCmp Rte_Inst_HysCmp 662 R
+<R>X CalcAvlCmp Rte_Inst_HysCmp 666 R
+<CTLG> CalcAvlCmp 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 530 668 668 668 
+<S>
+<S>STFIL  C:/component/SF012A_HysCmp_Impl/src/HysCmp.c
+<S>STNAM  CalcAvlCmp
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  56
+<S>STAKI  57
+<S>STLIN  138
+<S>STXLN  79
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  39
+<S>STPTH  1
+<S>STPDN  0.01   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  9
+<S>STAV2  9
+<S>STAV3  17
+<S>STST1  85
+<S>STST2  85
+<S>STST3  46
+<S>STPAR  2
+<S>STCAL  30
+<S>STFN1  463
+<S>STFN2  363
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_f32_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_u08_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_u16_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_u32_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Arctan2_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Blnd_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixd_s16_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixd_u16_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FixdToFloat_f32_u16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/SF012A_HysCmp_Impl/src/HysCmp.c
+<S>STNAM  CalcAvlCmp
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Cos_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Exp_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR104A_NxtrFil_Impl/include/NxtrFil.h
+<S>STNAM  FilLpUpdGain
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR104A_NxtrFil_Impl/include/NxtrFil.h
+<S>STNAM  FilLpInit
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sqrt_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR104A_NxtrFil_Impl/include/NxtrFil.h
+<S>STNAM  FilHpUpdGain
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR104A_NxtrFil_Impl/include/NxtrFil.h
+<S>STNAM  FilHpInit
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR104A_NxtrFil_Impl/include/NxtrFil.h
+<S>STNAM  FilLpUpdOutp_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR104A_NxtrFil_Impl/include/NxtrFil.h
+<S>STNAM  FilHpUpdOutp_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FixdToFloat_f32_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FixdToFloat_f32_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FixdToFloat_f32_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixdWithRound_s16_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixdWithRound_s32_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixdWithRound_u16_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixdWithRound_u32_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixd_s32_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR103A_NxtrFixdPt_Impl/include/NxtrFixdPt.h
+<S>STNAM  FloatToFixd_u32_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/SF012A_HysCmp_Impl/src/HysCmp.c
+<S>STNAM  HysCmpInit1
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/SF012A_HysCmp_Impl/src/HysCmp.c
+<S>STNAM  MoreCmp
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/SF012A_HysCmp_Impl/src/HysCmp.c
+<S>STNAM  LessCmp
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/SF012A_HysCmp_Impl/src/HysCmp.c
+<S>STNAM  HysCmpPer1
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_u08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_u16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_u08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_u16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_u08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_u16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Mod_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  SinCos_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  SinLookup
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sin_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/SF012A_HysCmp_Impl/src/HysCmp.c
+<S>STNAM  C:/component/SF012A_HysCmp_Impl/src/HysCmp.c
+<S>STNTB  NON-TOKEN BASED STATISTICS...
+<S>STSCT  3
+<S>STECT  1
+<S>STFNC  5
+<S>STFCO  142
+<S>STTKB  TOKEN BASED STATISTICS...
+<S>STVAR  188
+<S>STOPT  28
+<S>STOPN  205
+<S>STTOT  2436
+<S>STZIP  1405
+<S>STHAL  1709
+<S>STSHN  6144
+<S>STDIF  13.32  
+<S>STEFF  255165
+<S>STVOL  19157
+<S>STDEV  42.53  
+<S>STBUG  4
+<S>STTPP  682
+<S>STTLN  270
+<S>STM20  891
+<S>STM21  1538
+<S>STM22  171
+<S>STM28  71
+<S>STM33  55
+<S>STBCS  BASIC COCOMO STATISTICS...
+<S>STBMO  1.606  
+<S>STBMS  1.954  
+<S>STBME  2.274  
+<S>STTDO  2.993  
+<S>STTDS  3.161  
+<S>STTDE  3.252  
+<S>STCOM  COMMENT BASED STATISTICS...
+<S>STCDN  0.912  
+

@@ -1,0 +1,713 @@
+<RDEF> I Includes
+<R>I C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c C:/Component/SF059A_SysPrfmncSts_Impl/tools/contract/Rte_SysPrfmncSts.h 100
+<R>I C:/Component/SF059A_SysPrfmncSts_Impl/tools/contract/Rte_SysPrfmncSts.h C:/Component/SF059A_SysPrfmncSts_Impl/tools/contract/Rte_SysPrfmncSts_Type.h 40
+<R>I C:/Component/SF059A_SysPrfmncSts_Impl/tools/contract/Rte_SysPrfmncSts_Type.h C:/Component/SF059A_SysPrfmncSts_Impl/tools/contract/Rte_Type.h 32
+<R>I C:/Component/SF059A_SysPrfmncSts_Impl/tools/contract/Rte_Type.h C:/Component/SF059A_SysPrfmncSts_Impl/tools/contract/Rte.h 27
+<R>I C:/Component/SF059A_SysPrfmncSts_Impl/tools/contract/Rte.h C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 39
+<R>I C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h C:/Component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Platform_Types.h 63
+<R>I C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h C:/Component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h 64
+<R>I C:/Component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h C:/Component/AR201A_ArCplrSuprt_Impl/tools/contract/Compiler_Cfg.h 52
+<R>I C:/Component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h C:/Component/AR201A_ArCplrSuprt_Impl/tools/contract/Renesas_Compiler.h 55
+<R>I C:/Component/SF059A_SysPrfmncSts_Impl/tools/contract/Rte.h C:/Component/SF059A_SysPrfmncSts_Impl/tools/contract/Rte_UserTypes.h 41
+<R>I C:/Component/SF059A_SysPrfmncSts_Impl/tools/contract/Rte_UserTypes.h C:/Component/AR104A_NxtrFil_Impl/include/NxtrFil.h 40
+<R>I C:/Component/AR104A_NxtrFil_Impl/include/NxtrFil.h C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 23
+<R>I C:/Component/AR104A_NxtrFil_Impl/include/NxtrFil.h C:/Component/AR999A_ArchGlbPrm_Impl/include/ArchGlbPrm.h 24
+<R>I C:/Component/AR104A_NxtrFil_Impl/include/NxtrFil.h C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h 25
+<R>I C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h C:/Component/TL103A_CplrSuprt/include/2015.1.5/ansi/math.h 26
+<R>I C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h C:/Component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 27
+<R>I C:/Component/SF059A_SysPrfmncSts_Impl/tools/contract/Rte_SysPrfmncSts.h C:/Component/SF059A_SysPrfmncSts_Impl/tools/contract/Rte_DataHandleType.h 41
+<R>I C:/Component/SF059A_SysPrfmncSts_Impl/tools/contract/Rte_SysPrfmncSts.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 56
+<R>I C:/Component/SF059A_SysPrfmncSts_Impl/tools/contract/Rte_SysPrfmncSts.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 61
+<R>I C:/Component/SF059A_SysPrfmncSts_Impl/tools/contract/Rte_SysPrfmncSts.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 84
+<R>I C:/Component/SF059A_SysPrfmncSts_Impl/tools/contract/Rte_SysPrfmncSts.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 113
+<R>I C:/Component/SF059A_SysPrfmncSts_Impl/tools/contract/Rte_SysPrfmncSts.h C:/Component/SF059A_SysPrfmncSts_Impl/tools/contract/SysPrfmncSts_MemMap.h 209
+<R>I C:/Component/SF059A_SysPrfmncSts_Impl/tools/contract/SysPrfmncSts_MemMap.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 56
+<R>I C:/Component/SF059A_SysPrfmncSts_Impl/tools/contract/Rte_SysPrfmncSts.h C:/Component/SF059A_SysPrfmncSts_Impl/tools/contract/SysPrfmncSts_MemMap.h 271
+<R>I C:/Component/SF059A_SysPrfmncSts_Impl/tools/contract/SysPrfmncSts_MemMap.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 128
+<R>I C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c C:/Component/AR999A_ArchGlbPrm_Impl/include/ArchGlbPrm.h 107
+<R>I C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c C:/Component/AR104A_NxtrFil_Impl/include/NxtrFil.h 108
+<DEFINE> SYSPRFMNCBIT1_ULS_U16 C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 116 N DF OM - - - O
+<LIT> 0x0002 U P C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 116 41 N HN - F M
+<DEFINE> SYSPRFMNCBIT2_ULS_U16 C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 117 N DF OM - - - O
+<LIT> 0x0004 U P C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 117 41 N HN - F M
+<DEFINE> SYSPRFMNCBIT3_ULS_U16 C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 118 N DF OM - - - O
+<LIT> 0x0008 U P C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 118 41 N HN - F M
+<DEFINE> SYSPRFMNCBIT4_ULS_U16 C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 119 N DF OM - - - O
+<LIT> 0x0010 U P C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 119 41 N HN - F M
+<DEFINE> SYSPRFMNCBIT6_ULS_U16 C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 120 N DF OM - - - O
+<LIT> 0x0040 U P C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 120 41 N HN - F M
+<DEFINE> SYSPRFMNCBIT8_ULS_U16 C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 121 N DF OM - - - O
+<LIT> 0x0100 U P C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 121 41 N HN - F M
+<DEFINE> SYSPRFMNCBIT9_ULS_U16 C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 122 N DF OM - - - O
+<LIT> 0x0200 U P C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 122 41 N HN - F M
+<DEFINE> SYSPRFMNCBIT10_ULS_U16 C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 123 N DF OM - - - O
+<LIT> 0x0400 U P C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 123 41 N HN - F M
+<DEFINE> SYSPRFMNCBIT11_ULS_U16 C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 124 N DF OM - - - O
+<LIT> 0x0800 U P C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 124 41 N HN - F M
+<DEFINE> SYSPRFMNCBIT15_ULS_U16 C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 125 N DF OM - - - O
+<LIT> 0x8000 U P C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 125 41 N HN - F M
+<DEFINE> SysSt_Val_Cnt_T_enum C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 127 N DC OV P N uc R
+<DEFINE> ThermDutyCycProtnTDptLim_MotNwtMtr_T_f32 C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 128 N DC OV P N fs R
+<DEFINE> ThermDutyCycProtnLoadDptLim_MotNwtMtr_T_f32 C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 129 N DC OV P N fs R
+<DEFINE> StallMotTqLim_MotNwtMtr_T_f32 C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 130 N DC OV P N fs R
+<DEFINE> SysPrfmncSt_Cnt_T_u16 C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 131 N DC OV P N pus R
+<DEFINE> PrfmncSysSt1 C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 127 N DC OF F I (.,uc,fs,fs,fs,pus) -
+<DEFINE> DutyCycThermProtnMaxOutp_Uls_T_u16 C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 133 N DC OV P N us R
+<DEFINE> EcuTFild_DegCgrd_T_f32 C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 134 N DC OV P N fs R
+<DEFINE> LoaSt_Val_Cnt_T_enum C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 135 N DC OV P N uc R
+<DEFINE> VehSpdVld_Cnt_T_logl C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 136 N DC OV P N uc R
+<DEFINE> SysPrfmncSt_Cnt_T_u16 C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 137 N DC OV P N pus R
+<DEFINE> PrfmncSysSt2 C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 133 N DC OF F I (.,us,fs,uc,uc,pus) -
+<DEFINE> SysPrfmncSts_START_SEC_CODE C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 723 N DF OM - - - O
+<R>I C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c C:/Component/SF059A_SysPrfmncSts_Impl/tools/contract/SysPrfmncSts_MemMap.h 724
+<R>I C:/Component/SF059A_SysPrfmncSts_Impl/tools/contract/SysPrfmncSts_MemMap.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 56
+<EXTD> SysPrfmncStsInit1 C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 736
+<DEFINE> SysPrfmncStsInit1 C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 736 N DR OF F X (.,.) -
+<DEFINE> SysPrfmncStsInit1 C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 736 N DF OF F X (.,.) -
+<RDEF> C Calls
+<R>C SysPrfmncStsInit1 FilLpInit 744
+<RDEF> X Refers-to
+<R>X SysPrfmncStsInit1 FilLpInit 744 R
+<R>C SysPrfmncStsInit1 Rte_Prm_SysPrfmncSts_SysPrfmncStsBattVltgFilFrq_Val 744
+<R>X SysPrfmncStsInit1 Rte_Prm_SysPrfmncSts_SysPrfmncStsBattVltgFilFrq_Val 744 R
+<R>X SysPrfmncStsInit1 Rte_Inst_SysPrfmncSts 744 R
+<LIT> 0.0 F P C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 744 20 N FN fs B X
+<CTLG> SysPrfmncStsInit1 1
+<CTLG> 1 2
+<CTLG> 2 4
+<CTLGN> 737 749 749 749 
+<S>
+<S>STFIL  C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c
+<S>STNAM  SysPrfmncStsInit1
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  2
+<S>STAKI  3
+<S>STLIN  11
+<S>STXLN  1
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  1.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  17
+<S>STAV2  17
+<S>STAV3  17
+<S>STST1  1
+<S>STST2  1
+<S>STST3  1
+<S>STPAR  0
+<S>STCAL  2
+<S>STFN1  12
+<S>STFN2  5
+
+<EXTD> SysPrfmncStsPer1 C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 793
+<DEFINE> SysPrfmncStsPer1 C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 793 N DR OF F X (.,.) -
+<DEFINE> SysPrfmncStsPer1 C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 793 N DF OF F X (.,.) -
+<DEFINE> BattVltg_Volt_T_f32 C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 800 N DC OV B N fs -
+<DEFINE> BattVltg_Volt_T_f32 C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 800 N DF OV B N fs -
+<DEFINE> BattVltgLpFild_Volt_T_f32 C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 801 N DC OV B N fs -
+<DEFINE> BattVltgLpFild_Volt_T_f32 C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 801 N DF OV B N fs -
+<DEFINE> EcuTFild_DegCgrd_T_f32 C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 802 N DC OV B N fs -
+<DEFINE> EcuTFild_DegCgrd_T_f32 C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 802 N DF OV B N fs -
+<DEFINE> StallMotTqLim_MotNwtMtr_T_f32 C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 803 N DC OV B N fs -
+<DEFINE> StallMotTqLim_MotNwtMtr_T_f32 C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 803 N DF OV B N fs -
+<DEFINE> ThermDutyCycProtnLoadDptLim_MotNwtMtr_T_f32 C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 804 N DC OV B N fs -
+<DEFINE> ThermDutyCycProtnLoadDptLim_MotNwtMtr_T_f32 C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 804 N DF OV B N fs -
+<DEFINE> ThermDutyCycProtnTDptLim_MotNwtMtr_T_f32 C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 805 N DC OV B N fs -
+<DEFINE> ThermDutyCycProtnTDptLim_MotNwtMtr_T_f32 C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 805 N DF OV B N fs -
+<DEFINE> DutyCycThermProtnMaxOutp_Uls_T_u16 C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 807 N DC OV B N us -
+<DEFINE> DutyCycThermProtnMaxOutp_Uls_T_u16 C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 807 N DF OV B N us -
+<DEFINE> SysPrfmncSt_Cnt_T_u16 C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 808 N DC OV B N us -
+<DEFINE> SysPrfmncSt_Cnt_T_u16 C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 808 N DF OV B N us -
+<LIT> 0 U P C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 808 57 N ON ui B O
+<DEFINE> LoaSt_Val_Cnt_T_enum C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 810 N DC OV B N uc -
+<DEFINE> LoaSt_Val_Cnt_T_enum C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 810 N DF OV B N uc -
+<DEFINE> SysSt_Val_Cnt_T_enum C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 811 N DC OV B N uc -
+<DEFINE> SysSt_Val_Cnt_T_enum C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 811 N DF OV B N uc -
+<DEFINE> BattVltgSt_Cnt_T_enum C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 812 N DC OV B N uc -
+<DEFINE> BattVltgSt_Cnt_T_enum C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 812 N DF OV B N uc -
+<DEFINE> OvrVltgNtcActv_Cnt_T_enum C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 814 N DC OV B N uc -
+<DEFINE> OvrVltgNtcActv_Cnt_T_enum C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 814 N DF OV B N uc -
+<DEFINE> OpVltgNtcActv_Cnt_T_enum C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 815 N DC OV B N uc -
+<DEFINE> OpVltgNtcActv_Cnt_T_enum C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 815 N DF OV B N uc -
+<DEFINE> VehSpdVld_Cnt_T_logl C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 817 N DC OV B N uc -
+<DEFINE> VehSpdVld_Cnt_T_logl C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 817 N DF OV B N uc -
+<R>C SysPrfmncStsPer1 Rte_Read_SysPrfmncSts_BattVltg_Val 821
+<R>X SysPrfmncStsPer1 Rte_Read_SysPrfmncSts_BattVltg_Val 821 R
+<R>C SysPrfmncStsPer1 Rte_Read_SysPrfmncSts_DutyCycThermProtnMaxOutp_Val 822
+<R>X SysPrfmncStsPer1 Rte_Read_SysPrfmncSts_DutyCycThermProtnMaxOutp_Val 822 R
+<R>C SysPrfmncStsPer1 Rte_Read_SysPrfmncSts_EcuTFild_Val 823
+<R>X SysPrfmncStsPer1 Rte_Read_SysPrfmncSts_EcuTFild_Val 823 R
+<R>C SysPrfmncStsPer1 Rte_Read_SysPrfmncSts_LoaSt_Val 824
+<R>X SysPrfmncStsPer1 Rte_Read_SysPrfmncSts_LoaSt_Val 824 R
+<R>C SysPrfmncStsPer1 Rte_Read_SysPrfmncSts_StallMotTqLim_Val 825
+<R>X SysPrfmncStsPer1 Rte_Read_SysPrfmncSts_StallMotTqLim_Val 825 R
+<R>C SysPrfmncStsPer1 Rte_Read_SysPrfmncSts_SysSt_Val 826
+<R>X SysPrfmncStsPer1 Rte_Read_SysPrfmncSts_SysSt_Val 826 R
+<R>C SysPrfmncStsPer1 Rte_Read_SysPrfmncSts_ThermDutyCycProtnLoadDptLim_Val 827
+<R>X SysPrfmncStsPer1 Rte_Read_SysPrfmncSts_ThermDutyCycProtnLoadDptLim_Val 827 R
+<R>C SysPrfmncStsPer1 Rte_Read_SysPrfmncSts_ThermDutyCycProtnTDptLim_Val 828
+<R>X SysPrfmncStsPer1 Rte_Read_SysPrfmncSts_ThermDutyCycProtnTDptLim_Val 828 R
+<R>C SysPrfmncStsPer1 Rte_Read_SysPrfmncSts_VehSpdVld_Logl 829
+<R>X SysPrfmncStsPer1 Rte_Read_SysPrfmncSts_VehSpdVld_Logl 829 R
+<R>C SysPrfmncStsPer1 Rte_Call_SysPrfmncSts_GetNtcQlfrSts_Oper 833
+<R>X SysPrfmncStsPer1 Rte_Call_SysPrfmncSts_GetNtcQlfrSts_Oper 833 R
+<R>C SysPrfmncStsPer1 Rte_Call_SysPrfmncSts_GetNtcQlfrSts_Oper 834
+<R>X SysPrfmncStsPer1 Rte_Call_SysPrfmncSts_GetNtcQlfrSts_Oper 834 R
+<R>C SysPrfmncStsPer1 FilLpUpdOutp_f32 835
+<R>X SysPrfmncStsPer1 FilLpUpdOutp_f32 835 R
+<R>X SysPrfmncStsPer1 Rte_Inst_SysPrfmncSts 835 R
+<R>C SysPrfmncStsPer1 Rte_Prm_SysPrfmncSts_SysPrfmncStsBattDiagcHiCrit_Val 850
+<R>X SysPrfmncStsPer1 Rte_Prm_SysPrfmncSts_SysPrfmncStsBattDiagcHiCrit_Val 850 R
+<R>C SysPrfmncStsPer1 Rte_Prm_SysPrfmncSts_SysPrfmncStsBattDiagcLoCrit_Val 856
+<R>X SysPrfmncStsPer1 Rte_Prm_SysPrfmncSts_SysPrfmncStsBattDiagcLoCrit_Val 856 R
+<R>C SysPrfmncStsPer1 Rte_Prm_SysPrfmncSts_SysPrfmncStsBattDiagcHiWarn_Val 862
+<R>X SysPrfmncStsPer1 Rte_Prm_SysPrfmncSts_SysPrfmncStsBattDiagcHiWarn_Val 862 R
+<R>C SysPrfmncStsPer1 Rte_Prm_SysPrfmncSts_SysPrfmncStsBattDiagcLoWarn_Val 868
+<R>X SysPrfmncStsPer1 Rte_Prm_SysPrfmncSts_SysPrfmncStsBattDiagcLoWarn_Val 868 R
+<R>C SysPrfmncStsPer1 PrfmncSysSt1 886
+<R>C SysPrfmncStsPer1 PrfmncSysSt2 892
+<R>C SysPrfmncStsPer1 Rte_Write_SysPrfmncSts_BattVltgSt_Val 896
+<R>X SysPrfmncStsPer1 Rte_Write_SysPrfmncSts_BattVltgSt_Val 896 R
+<R>C SysPrfmncStsPer1 Rte_Write_SysPrfmncSts_SysPrfmncSt_Val 897
+<R>X SysPrfmncStsPer1 Rte_Write_SysPrfmncSts_SysPrfmncSt_Val 897 R
+<CTLG> SysPrfmncStsPer1 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 4
+<CTLG> 3 20
+<CTLG> 4 5
+<CTLG> 4 6
+<CTLG> 5 19
+<CTLG> 6 7
+<CTLG> 6 8
+<CTLG> 7 18
+<CTLG> 8 9
+<CTLG> 8 10
+<CTLG> 9 17
+<CTLG> 10 11
+<CTLG> 10 12
+<CTLG> 11 16
+<CTLG> 12 13
+<CTLG> 12 14
+<CTLG> 13 15
+<CTLG> 14 15
+<CTLG> 15 16
+<CTLG> 16 17
+<CTLG> 17 18
+<CTLG> 18 19
+<CTLG> 19 20
+<CTLG> 20 21
+<CTLG> 21 23
+<CTLGN> 794 838 838 838 844 844 850 850 856 856 862 862 868 868 874 868 862 856 850 844 903 903 903 
+<S>
+<S>STFIL  C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c
+<S>STNAM  SysPrfmncStsPer1
+<S>STCYC  7
+<S>STMCC  0 (7:7)
+<S>STMIF  6
+<S>STSUB  20
+<S>STAKI  27
+<S>STLIN  108
+<S>STXLN  39
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  14
+<S>STPTH  7
+<S>STPDN  0.18   
+<S>STPBG  1
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  7
+<S>STAV2  8
+<S>STAV3  12
+<S>STST1  50
+<S>STST2  43
+<S>STST3  29
+<S>STPAR  0
+<S>STCAL  19
+<S>STFN1  239
+<S>STFN2  127
+
+<DEFINE> SysPrfmncSts_STOP_SEC_CODE C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 906 N DF OM - - - O
+<R>I C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c C:/Component/SF059A_SysPrfmncSts_Impl/tools/contract/SysPrfmncSts_MemMap.h 907
+<R>I C:/Component/SF059A_SysPrfmncSts_Impl/tools/contract/SysPrfmncSts_MemMap.h C:/Component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 128
+<DEFINE> SysSt_Val_Cnt_T_enum C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 923 N DC OV B N uc R
+<DEFINE> ThermDutyCycProtnTDptLim_MotNwtMtr_T_f32 C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 924 N DC OV B N fs R
+<DEFINE> ThermDutyCycProtnLoadDptLim_MotNwtMtr_T_f32 C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 925 N DC OV B N fs R
+<DEFINE> StallMotTqLim_MotNwtMtr_T_f32 C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 926 N DC OV B N fs R
+<DEFINE> SysPrfmncSt_Cnt_T_u16 C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 927 N DC OV B N pus R
+<DEFINE> PrfmncSysSt1 C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 923 N DR OF F I (.,uc,fs,fs,fs,pus) -
+<DEFINE> PrfmncSysSt1 C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 923 N DF OF F I (.,uc,fs,fs,fs,pus) -
+<DEFINE> KineIntegirtyFlt_Cnt_T_enum C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 929 N DC OV B N uc -
+<DEFINE> KineIntegirtyFlt_Cnt_T_enum C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 929 N DF OV B N uc -
+<R>C PrfmncSysSt1 Rte_Call_SysPrfmncSts_GetNtcQlfrSts_Oper 937
+<R>X PrfmncSysSt1 Rte_Call_SysPrfmncSts_GetNtcQlfrSts_Oper 937 R
+<R>C PrfmncSysSt1 Rte_Prm_SysPrfmncSts_SysPrfmncStsTDptLimThd_Val 943
+<R>X PrfmncSysSt1 Rte_Prm_SysPrfmncSts_SysPrfmncStsTDptLimThd_Val 943 R
+<R>C PrfmncSysSt1 Rte_Prm_SysPrfmncSts_SysPrfmncStsLoadDptLimDecThd_Val 948
+<R>X PrfmncSysSt1 Rte_Prm_SysPrfmncSts_SysPrfmncStsLoadDptLimDecThd_Val 948 R
+<R>C PrfmncSysSt1 Rte_Prm_SysPrfmncSts_SysPrfmncStsAssiStallLimDecThd_Val 953
+<R>X PrfmncSysSt1 Rte_Prm_SysPrfmncSts_SysPrfmncStsAssiStallLimDecThd_Val 953 R
+<CTLG> PrfmncSysSt1 1
+<CTLG> 1 2
+<CTLG> 1 3
+<CTLG> 2 3
+<CTLG> 3 4
+<CTLG> 4 5
+<CTLG> 4 6
+<CTLG> 5 6
+<CTLG> 6 7
+<CTLG> 6 8
+<CTLG> 7 8
+<CTLG> 8 9
+<CTLG> 8 10
+<CTLG> 9 10
+<CTLG> 10 11
+<CTLG> 10 12
+<CTLG> 11 12
+<CTLG> 12 14
+<CTLGN> 928 932 932 938 938 938 943 943 948 948 953 953 958 958 
+<S>
+<S>STFIL  C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c
+<S>STNAM  PrfmncSysSt1
+<S>STCYC  6
+<S>STMCC  0 (6:6)
+<S>STMIF  1
+<S>STSUB  4
+<S>STAKI  10
+<S>STLIN  29
+<S>STXLN  11
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  1
+<S>STPTH  32
+<S>STPDN  2.91   
+<S>STPBG  2
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  5
+<S>STAV2  7
+<S>STAV3  8
+<S>STST1  17
+<S>STST2  12
+<S>STST3  11
+<S>STPAR  5
+<S>STCAL  4
+<S>STFN1  65
+<S>STFN2  27
+
+<DEFINE> DutyCycThermProtnMaxOutp_Uls_T_u16 C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 969 N DC OV B N us R
+<DEFINE> EcuTFild_DegCgrd_T_f32 C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 970 N DC OV B N fs R
+<DEFINE> LoaSt_Val_Cnt_T_enum C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 971 N DC OV B N uc R
+<DEFINE> VehSpdVld_Cnt_T_logl C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 972 N DC OV B N uc R
+<DEFINE> SysPrfmncSt_Cnt_T_u16 C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 973 N DC OV B N pus R
+<DEFINE> PrfmncSysSt2 C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 969 N DR OF F I (.,us,fs,uc,uc,pus) -
+<DEFINE> PrfmncSysSt2 C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 969 N DF OF F I (.,us,fs,uc,uc,pus) -
+<DEFINE> HwTq1PrtclFlt_Cnt_T_enum C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 975 N DC OV B N uc -
+<DEFINE> HwTq1PrtclFlt_Cnt_T_enum C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c 975 N DF OV B N uc -
+<R>C PrfmncSysSt2 Rte_Call_SysPrfmncSts_GetNtcQlfrSts_Oper 978
+<R>X PrfmncSysSt2 Rte_Call_SysPrfmncSts_GetNtcQlfrSts_Oper 978 R
+<R>C PrfmncSysSt2 Rte_Prm_SysPrfmncSts_SysPrfmncStsDutyCycLvlFltThd_Val 984
+<R>X PrfmncSysSt2 Rte_Prm_SysPrfmncSts_SysPrfmncStsDutyCycLvlFltThd_Val 984 R
+<R>C PrfmncSysSt2 Rte_Prm_SysPrfmncSts_SysPrfmncStsAbsltCtrlTFltThd_Val 989
+<R>X PrfmncSysSt2 Rte_Prm_SysPrfmncSts_SysPrfmncStsAbsltCtrlTFltThd_Val 989 R
+<CTLG> PrfmncSysSt2 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 4
+<CTLG> 3 4
+<CTLG> 4 5
+<CTLG> 4 6
+<CTLG> 5 6
+<CTLG> 6 7
+<CTLG> 6 8
+<CTLG> 7 8
+<CTLG> 8 9
+<CTLG> 8 10
+<CTLG> 9 10
+<CTLG> 10 11
+<CTLG> 10 12
+<CTLG> 11 12
+<CTLG> 12 14
+<CTLGN> 974 979 979 979 984 984 989 989 994 994 999 999 1003 1003 
+<S>
+<S>STFIL  C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c
+<S>STNAM  PrfmncSysSt2
+<S>STCYC  6
+<S>STMCC  0 (6:6)
+<S>STMIF  1
+<S>STSUB  3
+<S>STAKI  9
+<S>STLIN  28
+<S>STXLN  11
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  1
+<S>STPTH  32
+<S>STPDN  2.91   
+<S>STPBG  2
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  5
+<S>STAV2  7
+<S>STAV3  8
+<S>STST1  17
+<S>STST2  12
+<S>STST3  11
+<S>STPAR  5
+<S>STCAL  3
+<S>STFN1  63
+<S>STFN2  27
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_f32_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_u08_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_u16_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_u32_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Arctan2_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Blnd_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Cos_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Exp_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR104A_NxtrFil_Impl/include/NxtrFil.h
+<S>STNAM  FilLpUpdGain
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR104A_NxtrFil_Impl/include/NxtrFil.h
+<S>STNAM  FilLpInit
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sqrt_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR104A_NxtrFil_Impl/include/NxtrFil.h
+<S>STNAM  FilHpUpdGain
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR104A_NxtrFil_Impl/include/NxtrFil.h
+<S>STNAM  FilHpInit
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR104A_NxtrFil_Impl/include/NxtrFil.h
+<S>STNAM  FilLpUpdOutp_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR104A_NxtrFil_Impl/include/NxtrFil.h
+<S>STNAM  FilHpUpdOutp_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_u08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_u16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_u08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_u16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_u08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_u16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Mod_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c
+<S>STNAM  PrfmncSysSt1
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c
+<S>STNAM  PrfmncSysSt2
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  SinCos_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  SinLookup
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sin_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c
+<S>STNAM  SysPrfmncStsInit1
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c
+<S>STNAM  SysPrfmncStsPer1
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c
+<S>STNAM  C:/Component/SF059A_SysPrfmncSts_Impl/src/SysPrfmncSts.c
+<S>STNTB  NON-TOKEN BASED STATISTICS...
+<S>STSCT  2
+<S>STECT  1
+<S>STFNC  4
+<S>STFCO  41
+<S>STTKB  TOKEN BASED STATISTICS...
+<S>STVAR  86
+<S>STOPT  20
+<S>STOPN  88
+<S>STTOT  838
+<S>STZIP  568
+<S>STHAL  655
+<S>STSHN  2223
+<S>STDIF  9.96   
+<S>STEFF  56370
+<S>STVOL  5661
+<S>STDEV  9.39   
+<S>STBUG  1
+<S>STTPP  1017
+<S>STTLN  141
+<S>STM20  290
+<S>STM21  544
+<S>STM22  54
+<S>STM28  61
+<S>STM33  46
+<S>STBCS  BASIC COCOMO STATISTICS...
+<S>STBMO  2.443  
+<S>STBMS  3.057  
+<S>STBME  3.674  
+<S>STTDO  3.510  
+<S>STTDS  3.697  
+<S>STTDE  3.791  
+<S>STCOM  COMMENT BASED STATISTICS...
+<S>STCDN  3.797  
+

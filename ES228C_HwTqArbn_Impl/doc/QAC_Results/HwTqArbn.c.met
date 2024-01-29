@@ -1,0 +1,658 @@
+<RDEF> I Includes
+<R>I C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c C:/component/ES228C_HwTqArbn_Impl/tools/contract/Rte_HwTqArbn.h 59
+<R>I C:/component/ES228C_HwTqArbn_Impl/tools/contract/Rte_HwTqArbn.h C:/component/ES228C_HwTqArbn_Impl/tools/contract/Rte_HwTqArbn_Type.h 40
+<R>I C:/component/ES228C_HwTqArbn_Impl/tools/contract/Rte_HwTqArbn_Type.h C:/component/ES228C_HwTqArbn_Impl/tools/contract/Rte_Type.h 32
+<R>I C:/component/ES228C_HwTqArbn_Impl/tools/contract/Rte_Type.h C:/component/ES228C_HwTqArbn_Impl/tools/contract/Rte.h 27
+<R>I C:/component/ES228C_HwTqArbn_Impl/tools/contract/Rte.h C:/component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 39
+<R>I C:/component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h C:/component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Platform_Types.h 63
+<R>I C:/component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h C:/component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h 64
+<R>I C:/component/AR201A_ArCplrSuprt_Impl/include/ASR4.0.3/Compiler.h C:/component/AR201A_ArCplrSuprt_Impl/tools/contract/Compiler_Cfg.h 56
+<R>I C:/component/ES228C_HwTqArbn_Impl/tools/contract/Rte_HwTqArbn.h C:/component/ES228C_HwTqArbn_Impl/tools/contract/Rte_DataHandleType.h 41
+<R>I C:/component/ES228C_HwTqArbn_Impl/tools/contract/Rte_HwTqArbn.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 70
+<R>I C:/component/ES228C_HwTqArbn_Impl/tools/contract/Rte_HwTqArbn.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 75
+<R>I C:/component/ES228C_HwTqArbn_Impl/tools/contract/Rte_HwTqArbn.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 101
+<R>I C:/component/ES228C_HwTqArbn_Impl/tools/contract/Rte_HwTqArbn.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 123
+<R>I C:/component/ES228C_HwTqArbn_Impl/tools/contract/Rte_HwTqArbn.h C:/component/ES228C_HwTqArbn_Impl/tools/contract/HwTqArbn_MemMap.h 231
+<R>I C:/component/ES228C_HwTqArbn_Impl/tools/contract/HwTqArbn_MemMap.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 56
+<R>I C:/component/ES228C_HwTqArbn_Impl/tools/contract/Rte_HwTqArbn.h C:/component/ES228C_HwTqArbn_Impl/tools/contract/HwTqArbn_MemMap.h 288
+<R>I C:/component/ES228C_HwTqArbn_Impl/tools/contract/HwTqArbn_MemMap.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 128
+<R>I C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h 66
+<R>I C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h C:/component/TL103A_CplrSuprt/include/2015.1.5/ansi/math.h 26
+<R>I C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h C:/component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 27
+<R>I C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c C:/component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h 67
+<R>I C:/component/ES999A_ElecGlbPrm_Impl/include/ElecGlbPrm.h C:/component/ES228C_HwTqArbn_Impl/tools/contract/ElecGlbPrm_Cfg.h 29
+<R>I C:/component/ES228C_HwTqArbn_Impl/tools/contract/ElecGlbPrm_Cfg.h C:/component/AR200A_ArSuprt_Impl/include/ASR4.0.3/Std_Types.h 25
+<DEFINE> MINHWTQDENOM_ULS_F32 C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 69 N DF OM - - - O
+<LIT> 1.5 F P C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 69 74 N FN - F M
+<DEFINE> BITMASKA_CNT_U08 C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 70 N DF OM - - - O
+<LIT> 0X01 U P C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 70 82 N HN - F M
+<DEFINE> BITMASKB_CNT_U08 C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 71 N DF OM - - - O
+<LIT> 0X02 U P C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 71 82 N HN - F M
+<DEFINE> BITMASKC_CNT_U08 C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 72 N DF OM - - - O
+<LIT> 0X04 U P C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 72 82 N HN - F M
+<DEFINE> BITMASKD_CNT_U08 C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 73 N DF OM - - - O
+<LIT> 0X08 U P C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 73 82 N HN - F M
+<DEFINE> HwTqRollgCntr_Cnt_T_u08 C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 77 N DC OV P N uc R
+<DEFINE> HwTqQlfr_Cnt_T_enum C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 78 N DC OV P N uc R
+<DEFINE> CorrlSig_Cnt_T_logl C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 79 N DC OV P N uc R
+<DEFINE> RollgCntrPrev_Cnt_T_u08 C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 80 N DC OV P N puc R
+<DEFINE> StallCntr_Cnt_T_u08 C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 81 N DC OV P N puc R
+<DEFINE> HwTqSigAvl C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 77 N DC OF F I (uc,uc,uc,uc,puc,puc) -
+<DEFINE> HwTqAvl_Cnt_T_logl C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 83 N DC OV P N uc R
+<DEFINE> HwTqContrbn_HwNwtMtr_T_f32 C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 84 N DC OV P N fs R
+<DEFINE> HwTqNumCntrbn_HwNwtMtr_T_f32 C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 85 N DC OV P N pfs R
+<DEFINE> HwTqDenomCntrbn_Uls_T_f32 C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 86 N DC OV P N pfs R
+<DEFINE> HwTqContrbn C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 83 N DC OF F I (.,uc,fs,pfs,pfs) -
+<DEFINE> HwTqArbn_START_SEC_CODE C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 141 N DF OM - - - O
+<R>I C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c C:/component/ES228C_HwTqArbn_Impl/tools/contract/HwTqArbn_MemMap.h 142
+<R>I C:/component/ES228C_HwTqArbn_Impl/tools/contract/HwTqArbn_MemMap.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 56
+<EXTD> HwTqArbnInit1 C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 154
+<DEFINE> HwTqArbnInit1 C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 154 N DR OF F X (.,.) -
+<DEFINE> HwTqArbnInit1 C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 154 N DF OF F X (.,.) -
+<CTLG> HwTqArbnInit1 1
+<CTLG> 1 3
+<CTLGN> 155 165 165 
+<S>
+<S>STFIL  C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c
+<S>STNAM  HwTqArbnInit1
+<S>STCYC  1
+<S>STMCC  0 (1:1)
+<S>STMIF  0
+<S>STSUB  0
+<S>STAKI  1
+<S>STLIN  9
+<S>STXLN  0
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  1
+<S>STPDN  0.00   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  0
+<S>STAV2  0
+<S>STAV3  0
+<S>STST1  0
+<S>STST2  0
+<S>STST3  0
+<S>STPAR  0
+<S>STCAL  0
+<S>STFN1  2
+<S>STFN2  0
+
+<EXTD> HwTqArbnPer1 C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 204
+<DEFINE> HwTqArbnPer1 C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 204 N DR OF F X (.,.) -
+<DEFINE> HwTqArbnPer1 C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 204 N DF OF F X (.,.) -
+<DEFINE> HwTqA_HwNwtMtr_T_f32 C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 211 N DC OV B N fs -
+<DEFINE> HwTqA_HwNwtMtr_T_f32 C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 211 N DF OV B N fs -
+<DEFINE> HwTqB_HwNwtMtr_T_f32 C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 212 N DC OV B N fs -
+<DEFINE> HwTqB_HwNwtMtr_T_f32 C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 212 N DF OV B N fs -
+<DEFINE> HwTqC_HwNwtMtr_T_f32 C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 213 N DC OV B N fs -
+<DEFINE> HwTqC_HwNwtMtr_T_f32 C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 213 N DF OV B N fs -
+<DEFINE> HwTqD_HwNwtMtr_T_f32 C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 214 N DC OV B N fs -
+<DEFINE> HwTqD_HwNwtMtr_T_f32 C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 214 N DF OV B N fs -
+<DEFINE> HwTq_HwNwtMtr_T_f32 C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 215 N DC OV B N fs -
+<DEFINE> HwTq_HwNwtMtr_T_f32 C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 215 N DF OV B N fs -
+<DEFINE> HwTqNum_HwNwtMtr_T_f32 C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 216 N DC OV B N fs -
+<DEFINE> HwTqNum_HwNwtMtr_T_f32 C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 216 N DF OV B N fs -
+<DEFINE> HwTqDenom_Uls_T_f32 C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 217 N DC OV B N fs -
+<DEFINE> HwTqDenom_Uls_T_f32 C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 217 N DF OV B N fs -
+<DEFINE> TmpHwTq_HwNwtMtr_T_f32 C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 218 N DC OV B N fs -
+<DEFINE> TmpHwTq_HwNwtMtr_T_f32 C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 218 N DF OV B N fs -
+<DEFINE> HwTqAQlfr_Cnt_T_enum C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 220 N DC OV B N uc -
+<DEFINE> HwTqAQlfr_Cnt_T_enum C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 220 N DF OV B N uc -
+<DEFINE> HwTqBQlfr_Cnt_T_enum C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 221 N DC OV B N uc -
+<DEFINE> HwTqBQlfr_Cnt_T_enum C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 221 N DF OV B N uc -
+<DEFINE> HwTqCQlfr_Cnt_T_enum C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 222 N DC OV B N uc -
+<DEFINE> HwTqCQlfr_Cnt_T_enum C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 222 N DF OV B N uc -
+<DEFINE> HwTqDQlfr_Cnt_T_enum C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 223 N DC OV B N uc -
+<DEFINE> HwTqDQlfr_Cnt_T_enum C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 223 N DF OV B N uc -
+<DEFINE> HwTqARollgCntr_Cnt_T_u08 C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 225 N DC OV B N uc -
+<DEFINE> HwTqARollgCntr_Cnt_T_u08 C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 225 N DF OV B N uc -
+<DEFINE> HwTqBRollgCntr_Cnt_T_u08 C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 226 N DC OV B N uc -
+<DEFINE> HwTqBRollgCntr_Cnt_T_u08 C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 226 N DF OV B N uc -
+<DEFINE> HwTqCRollgCntr_Cnt_T_u08 C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 227 N DC OV B N uc -
+<DEFINE> HwTqCRollgCntr_Cnt_T_u08 C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 227 N DF OV B N uc -
+<DEFINE> HwTqDRollgCntr_Cnt_T_u08 C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 228 N DC OV B N uc -
+<DEFINE> HwTqDRollgCntr_Cnt_T_u08 C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 228 N DF OV B N uc -
+<DEFINE> HwTqCorrlnSts_Cnt_T_u08 C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 229 N DC OV B N uc -
+<DEFINE> HwTqCorrlnSts_Cnt_T_u08 C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 229 N DF OV B N uc -
+<DEFINE> CorrlnSigA_Cnt_T_logl C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 231 N DC OV B N uc -
+<DEFINE> CorrlnSigA_Cnt_T_logl C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 231 N DF OV B N uc -
+<DEFINE> CorrlnSigB_Cnt_T_logl C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 232 N DC OV B N uc -
+<DEFINE> CorrlnSigB_Cnt_T_logl C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 232 N DF OV B N uc -
+<DEFINE> CorrlnSigC_Cnt_T_logl C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 233 N DC OV B N uc -
+<DEFINE> CorrlnSigC_Cnt_T_logl C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 233 N DF OV B N uc -
+<DEFINE> CorrlnSigD_Cnt_T_logl C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 234 N DC OV B N uc -
+<DEFINE> CorrlnSigD_Cnt_T_logl C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 234 N DF OV B N uc -
+<DEFINE> HwTqArbnAAvl_Cnt_T_logl C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 235 N DC OV B N uc -
+<DEFINE> HwTqArbnAAvl_Cnt_T_logl C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 235 N DF OV B N uc -
+<DEFINE> HwTqArbnBAvl_Cnt_T_logl C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 236 N DC OV B N uc -
+<DEFINE> HwTqArbnBAvl_Cnt_T_logl C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 236 N DF OV B N uc -
+<DEFINE> HwTqArbnCAvl_Cnt_T_logl C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 237 N DC OV B N uc -
+<DEFINE> HwTqArbnCAvl_Cnt_T_logl C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 237 N DF OV B N uc -
+<DEFINE> HwTqArbnDAvl_Cnt_T_logl C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 238 N DC OV B N uc -
+<DEFINE> HwTqArbnDAvl_Cnt_T_logl C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 238 N DF OV B N uc -
+<RDEF> C Calls
+<R>C HwTqArbnPer1 Rte_Read_HwTqArbn_HwTqA_Val 240
+<RDEF> X Refers-to
+<R>X HwTqArbnPer1 Rte_Read_HwTqArbn_HwTqA_Val 240 R
+<R>C HwTqArbnPer1 Rte_Read_HwTqArbn_HwTqB_Val 241
+<R>X HwTqArbnPer1 Rte_Read_HwTqArbn_HwTqB_Val 241 R
+<R>C HwTqArbnPer1 Rte_Read_HwTqArbn_HwTqC_Val 242
+<R>X HwTqArbnPer1 Rte_Read_HwTqArbn_HwTqC_Val 242 R
+<R>C HwTqArbnPer1 Rte_Read_HwTqArbn_HwTqD_Val 243
+<R>X HwTqArbnPer1 Rte_Read_HwTqArbn_HwTqD_Val 243 R
+<R>C HwTqArbnPer1 Rte_Read_HwTqArbn_HwTqAQlfr_Val 244
+<R>X HwTqArbnPer1 Rte_Read_HwTqArbn_HwTqAQlfr_Val 244 R
+<R>C HwTqArbnPer1 Rte_Read_HwTqArbn_HwTqBQlfr_Val 245
+<R>X HwTqArbnPer1 Rte_Read_HwTqArbn_HwTqBQlfr_Val 245 R
+<R>C HwTqArbnPer1 Rte_Read_HwTqArbn_HwTqCQlfr_Val 246
+<R>X HwTqArbnPer1 Rte_Read_HwTqArbn_HwTqCQlfr_Val 246 R
+<R>C HwTqArbnPer1 Rte_Read_HwTqArbn_HwTqDQlfr_Val 247
+<R>X HwTqArbnPer1 Rte_Read_HwTqArbn_HwTqDQlfr_Val 247 R
+<R>C HwTqArbnPer1 Rte_Read_HwTqArbn_HwTqARollgCntr_Val 248
+<R>X HwTqArbnPer1 Rte_Read_HwTqArbn_HwTqARollgCntr_Val 248 R
+<R>C HwTqArbnPer1 Rte_Read_HwTqArbn_HwTqBRollgCntr_Val 249
+<R>X HwTqArbnPer1 Rte_Read_HwTqArbn_HwTqBRollgCntr_Val 249 R
+<R>C HwTqArbnPer1 Rte_Read_HwTqArbn_HwTqCRollgCntr_Val 250
+<R>X HwTqArbnPer1 Rte_Read_HwTqArbn_HwTqCRollgCntr_Val 250 R
+<R>C HwTqArbnPer1 Rte_Read_HwTqArbn_HwTqDRollgCntr_Val 251
+<R>X HwTqArbnPer1 Rte_Read_HwTqArbn_HwTqDRollgCntr_Val 251 R
+<R>C HwTqArbnPer1 Rte_Read_HwTqArbn_HwTqCorrlnSts_Val 252
+<R>X HwTqArbnPer1 Rte_Read_HwTqArbn_HwTqCorrlnSts_Val 252 R
+<R>C HwTqArbnPer1 HwTqSigAvl 279
+<R>X HwTqArbnPer1 Rte_Inst_HwTqArbn 279 R
+<R>X HwTqArbnPer1 Rte_Inst_HwTqArbn 279 R
+<R>X HwTqArbnPer1 Rte_Inst_HwTqArbn 280 R
+<R>C HwTqArbnPer1 HwTqSigAvl 286
+<R>X HwTqArbnPer1 Rte_Inst_HwTqArbn 286 R
+<R>X HwTqArbnPer1 Rte_Inst_HwTqArbn 286 R
+<R>X HwTqArbnPer1 Rte_Inst_HwTqArbn 287 R
+<R>C HwTqArbnPer1 HwTqSigAvl 293
+<R>X HwTqArbnPer1 Rte_Inst_HwTqArbn 293 R
+<R>X HwTqArbnPer1 Rte_Inst_HwTqArbn 293 R
+<R>X HwTqArbnPer1 Rte_Inst_HwTqArbn 294 R
+<R>C HwTqArbnPer1 HwTqSigAvl 300
+<R>X HwTqArbnPer1 Rte_Inst_HwTqArbn 300 R
+<R>X HwTqArbnPer1 Rte_Inst_HwTqArbn 300 R
+<R>X HwTqArbnPer1 Rte_Inst_HwTqArbn 301 R
+<LIT> 0.0 F P C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 307 34 N FN fs B X
+<LIT> 0.0 F P C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 308 31 N FN fs B X
+<R>C HwTqArbnPer1 HwTqContrbn 313
+<R>C HwTqArbnPer1 HwTqContrbn 317
+<R>C HwTqArbnPer1 HwTqContrbn 321
+<R>C HwTqArbnPer1 HwTqContrbn 325
+<R>X HwTqArbnPer1 Rte_Inst_HwTqArbn 327 R
+<R>X HwTqArbnPer1 Rte_Inst_HwTqArbn 328 R
+<R>X HwTqArbnPer1 Rte_Inst_HwTqArbn 338 R
+<R>C HwTqArbnPer1 Lim_f32 341
+<R>X HwTqArbnPer1 Lim_f32 341 R
+<R>X HwTqArbnPer1 Rte_Inst_HwTqArbn 342 R
+<R>C HwTqArbnPer1 Rte_Write_HwTqArbn_HwTq_Val 344
+<R>X HwTqArbnPer1 Rte_Write_HwTqArbn_HwTq_Val 344 R
+<CTLG> HwTqArbnPer1 1
+<CTLG> 1 2
+<CTLG> 2 3
+<CTLG> 2 4
+<CTLG> 3 4
+<CTLG> 4 5
+<CTLG> 4 6
+<CTLG> 5 6
+<CTLG> 6 7
+<CTLG> 6 8
+<CTLG> 7 8
+<CTLG> 8 9
+<CTLG> 8 10
+<CTLG> 9 10
+<CTLG> 10 11
+<CTLG> 11 12
+<CTLG> 11 13
+<CTLG> 12 14
+<CTLG> 13 14
+<CTLG> 14 15
+<CTLG> 15 17
+<CTLGN> 205 258 258 258 262 262 266 266 270 270 332 332 332 336 349 349 349 
+<S>
+<S>STFIL  C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c
+<S>STNAM  HwTqArbnPer1
+<S>STCYC  6
+<S>STMCC  0 (6:6)
+<S>STMIF  1
+<S>STSUB  23
+<S>STAKI  29
+<S>STLIN  143
+<S>STXLN  76
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  25
+<S>STPTH  32
+<S>STPDN  0.42   
+<S>STPBG  2
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  8
+<S>STAV2  9
+<S>STAV3  14
+<S>STST1  74
+<S>STST2  68
+<S>STST3  43
+<S>STPAR  0
+<S>STCAL  17
+<S>STFN1  389
+<S>STFN2  230
+
+<DEFINE> HwTqArbn_STOP_SEC_CODE C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 352 N DF OM - - - O
+<R>I C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c C:/component/ES228C_HwTqArbn_Impl/tools/contract/HwTqArbn_MemMap.h 353
+<R>I C:/component/ES228C_HwTqArbn_Impl/tools/contract/HwTqArbn_MemMap.h C:/component/AR200A_ArSuprt_Impl/tools/contract/MemMap.h 128
+<DEFINE> HwTqRollgCntr_Cnt_T_u08 C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 367 N DC OV B N uc R
+<DEFINE> HwTqQlfr_Cnt_T_enum C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 368 N DC OV B N uc R
+<DEFINE> CorrlSig_Cnt_T_logl C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 369 N DC OV B N uc R
+<DEFINE> RollgCntrPrev_Cnt_T_u08 C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 370 N DC OV B N puc R
+<DEFINE> StallCntr_Cnt_T_u08 C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 371 N DC OV B N puc R
+<DEFINE> HwTqSigAvl C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 367 N DR OF F I (uc,uc,uc,uc,puc,puc) -
+<DEFINE> HwTqSigAvl C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 367 N DF OF F I (uc,uc,uc,uc,puc,puc) -
+<DEFINE> HwTqArbnAvl_Cnt_T_logl C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 374 N DC OV B N uc -
+<DEFINE> HwTqArbnAvl_Cnt_T_logl C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 374 N DF OV B N uc -
+<R>C HwTqSigAvl Rte_Prm_HwTqArbn_HwTqArbnHwTqMaxStallCnt_Val 378
+<R>X HwTqSigAvl Rte_Prm_HwTqArbn_HwTqArbnHwTqMaxStallCnt_Val 378 R
+<LIT> 1 U P C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 380 71 N DN ui B X
+<LIT> 0 U P C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 385 40 N ON ui B X
+<R>C HwTqSigAvl Rte_Prm_HwTqArbn_HwTqArbnHwTqMaxStallCnt_Val 392
+<R>X HwTqSigAvl Rte_Prm_HwTqArbn_HwTqArbnHwTqMaxStallCnt_Val 392 R
+<CTLG> HwTqSigAvl 1
+<CTLG> 1 2
+<CTLG> 1 5
+<CTLG> 2 3
+<CTLG> 2 4
+<CTLG> 3 4
+<CTLG> 4 6
+<CTLG> 5 6
+<CTLG> 6 7
+<CTLG> 7 8
+<CTLG> 7 9
+<CTLG> 8 9
+<CTLG> 9 11
+<CTLGN> 372 376 378 378 376 383 392 392 392 397 397 
+<S>
+<S>STFIL  C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c
+<S>STNAM  HwTqSigAvl
+<S>STCYC  4
+<S>STMCC  2 (4:6)
+<S>STMIF  2
+<S>STSUB  2
+<S>STAKI  6
+<S>STLIN  25
+<S>STXLN  12
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  1
+<S>STPTH  6
+<S>STPDN  0.50   
+<S>STPBG  1
+<S>STLOP  2
+<S>STM07  1
+<S>STM19  1
+<S>STAV1  7
+<S>STAV2  10
+<S>STAV3  11
+<S>STST1  13
+<S>STST2  9
+<S>STST3  8
+<S>STPAR  5
+<S>STCAL  1
+<S>STFN1  66
+<S>STFN2  25
+
+<DEFINE> HwTqAvl_Cnt_T_logl C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 409 N DC OV B N uc R
+<DEFINE> HwTqContrbn_HwNwtMtr_T_f32 C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 410 N DC OV B N fs R
+<DEFINE> HwTqNumCntrbn_HwNwtMtr_T_f32 C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 411 N DC OV B N pfs R
+<DEFINE> HwTqDenomCntrbn_Uls_T_f32 C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 412 N DC OV B N pfs R
+<DEFINE> HwTqContrbn C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 409 N DR OF F I (.,uc,fs,pfs,pfs) -
+<DEFINE> HwTqContrbn C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 409 N DF OF F I (.,uc,fs,pfs,pfs) -
+<LIT> 1.0 F P C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c 417 78 N FN fs B X
+<CTLG> HwTqContrbn 1
+<CTLG> 1 2
+<CTLG> 1 3
+<CTLG> 2 3
+<CTLG> 3 5
+<CTLGN> 413 414 414 419 419 
+<S>
+<S>STFIL  C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c
+<S>STNAM  HwTqContrbn
+<S>STCYC  2
+<S>STMCC  0 (2:2)
+<S>STMIF  1
+<S>STSUB  0
+<S>STAKI  2
+<S>STLIN  5
+<S>STXLN  3
+<S>STBAK  0
+<S>STELF  0
+<S>STGTO  0
+<S>STKNT  0
+<S>STKDN  0.00   
+<S>STUNV  0
+<S>STLCT  0
+<S>STPTH  2
+<S>STPDN  0.67   
+<S>STPBG  0
+<S>STLOP  0
+<S>STM07  1
+<S>STM19  0
+<S>STAV1  6
+<S>STAV2  8
+<S>STAV3  8
+<S>STST1  4
+<S>STST2  3
+<S>STST3  3
+<S>STPAR  4
+<S>STCAL  0
+<S>STFN1  18
+<S>STFN2  8
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_f32_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_u08_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_u16_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Abslt_u32_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Arctan2_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Blnd_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Cos_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Exp_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c
+<S>STNAM  HwTqArbnInit1
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c
+<S>STNAM  HwTqSigAvl
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c
+<S>STNAM  HwTqContrbn
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c
+<S>STNAM  HwTqArbnPer1
+<S>STRET  1
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_u08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_u16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Lim_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_u08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_u16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Max_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_u08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_u16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Min_u32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Mod_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_s08
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_s16
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sign_s08_s32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  SinCos_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  SinLookup
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sin_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/AR100A_NxtrMath_Impl/include/NxtrMath.h
+<S>STNAM  Sqrt_f32
+<S>STRET  0
+<S>STUNR  0
+
+<S>
+<S>STFIL  C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c
+<S>STNAM  C:/component/ES228C_HwTqArbn_Impl/src/HwTqArbn.c
+<S>STNTB  NON-TOKEN BASED STATISTICS...
+<S>STSCT  2
+<S>STECT  1
+<S>STFNC  4
+<S>STFCO  29
+<S>STTKB  TOKEN BASED STATISTICS...
+<S>STVAR  92
+<S>STOPT  23
+<S>STOPN  102
+<S>STTOT  995
+<S>STZIP  676
+<S>STHAL  785
+<S>STSHN  2705
+<S>STDIF  11.25  
+<S>STEFF  77967
+<S>STVOL  6931
+<S>STDEV  12.99  
+<S>STBUG  2
+<S>STTPP  435
+<S>STTLN  162
+<S>STM20  355
+<S>STM21  635
+<S>STM22  73
+<S>STM28  30
+<S>STM33  17
+<S>STBCS  BASIC COCOMO STATISTICS...
+<S>STBMO  1.001  
+<S>STBMS  1.181  
+<S>STBME  1.326  
+<S>STTDO  2.501  
+<S>STTDS  2.650  
+<S>STTDE  2.736  
+<S>STCOM  COMMENT BASED STATISTICS...
+<S>STCDN  1.817  
+
